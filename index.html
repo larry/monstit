@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Monstit</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/screens.css">
+  <link rel="stylesheet" href="css/monsters.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="css/battle.css">
+</head>
+<body>
+  <div id="app">
+    <button class="music-toggle" id="btn-music-toggle" title="Toggle Music">&#x1F50A;</button>
+
+    <!-- Main Menu -->
+    <section id="screen-menu" class="screen active">
+      <div class="menu-container">
+        <h1 class="game-title">M<span class="eyeball-o">O</span>nstit</h1>
+        <div class="player-info">
+          <span class="player-level">Lv. <span id="menu-player-level">1</span></span>
+          <div class="player-xp-bar">
+            <div class="xp-fill" id="menu-player-xp"></div>
+          </div>
+          <span class="gem-count"><span class="gem-icon"></span> <span id="menu-gems">0</span></span>
+          <span class="egg-count"><span class="egg-icon"></span> <span id="menu-eggs">0</span></span>
+        </div>
+        <nav class="menu-buttons">
+          <button class="btn btn-hatch" data-screen="hatch">Hatch Egg</button>
+          <button class="btn btn-collection" data-screen="collection">Collection</button>
+          <button class="btn btn-shop" data-screen="shop">Shop</button>
+          <button class="btn btn-challenges" data-screen="challenges">Daily Challenges</button>
+          <button class="btn btn-battlepass" data-screen="battle-pass">Battle Pass</button>
+          <button class="btn btn-battle" data-screen="battle-select">Battle!</button>
+          <button class="btn btn-pvp" data-screen="pvp">PvP Online</button>
+        </nav>
+      </div>
+    </section>
+
+    <!-- Hatch Screen -->
+    <section id="screen-hatch" class="screen">
+      <div class="hatch-container">
+        <h2>Hatch an Egg</h2>
+        <div class="egg-picker" id="egg-picker"></div>
+        <div class="egg-stage" id="egg-stage" hidden>
+          <div class="egg" id="hatch-egg">
+            <div class="egg-top"></div>
+            <div class="egg-bottom"></div>
+            <div class="egg-crack"></div>
+          </div>
+        </div>
+        <div class="hatch-reveal" id="hatch-reveal" hidden>
+          <div class="reveal-monster" id="reveal-monster-sprite"></div>
+          <h3 id="reveal-monster-name"></h3>
+          <p id="reveal-monster-type" class="type-badge"></p>
+          <p id="reveal-monster-rarity" class="rarity-badge"></p>
+          <div class="reveal-stats" id="reveal-stats"></div>
+        </div>
+        <button class="btn btn-back" id="btn-hatch-back" hidden>Continue</button>
+        <button class="btn btn-back" id="btn-hatch-no-eggs" hidden>No Eggs! Go Back</button>
+      </div>
+    </section>
+
+    <!-- Collection Screen -->
+    <section id="screen-collection" class="screen">
+      <div class="collection-container">
+        <h2>Your Monsters</h2>
+        <div class="collection-grid" id="collection-grid"></div>
+        <div class="collection-empty" id="collection-empty" hidden>
+          <p>No monsters yet! Hatch some eggs first.</p>
+        </div>
+        <button class="btn btn-back" data-screen="menu">Back</button>
+      </div>
+    </section>
+
+    <!-- Shop Screen -->
+    <section id="screen-shop" class="screen">
+      <div class="shop-container">
+        <h2>Shop</h2>
+        <div class="shop-balance">
+          <span class="gem-icon"></span> <span id="shop-gems">0</span> Gems
+        </div>
+        <div class="shop-grid" id="shop-grid"></div>
+        <div class="shop-inventory">
+          <h3>Your Items</h3>
+          <div id="inventory-grid" class="inventory-grid"></div>
+        </div>
+        <button class="btn btn-back" data-screen="menu">Back</button>
+      </div>
+    </section>
+
+    <!-- Challenges Screen -->
+    <section id="screen-challenges" class="screen">
+      <div class="challenges-container">
+        <div class="challenges-header">
+          <h2>Daily Challenges</h2>
+          <p class="challenges-subtitle">Resets every day</p>
+        </div>
+        <div class="challenges-list" id="challenges-list"></div>
+        <button class="btn btn-back" id="btn-challenges-back">Back</button>
+      </div>
+    </section>
+
+    <!-- Battle Pass Screen -->
+    <section id="screen-battle-pass" class="screen">
+      <div class="bp-container">
+        <div class="bp-header">
+          <h2>Battle Pass</h2>
+          <div class="bp-header-info">
+            <span>Day <span id="bp-current-day">1</span> / <span id="bp-total-days">30</span></span>
+            <span><span class="gem-icon"></span> <span id="bp-gems">0</span></span>
+          </div>
+        </div>
+        <button class="btn btn-premium" id="btn-buy-premium">Unlock Premium (10,000 Gems)</button>
+        <div class="bp-track" id="bp-track"></div>
+        <button class="btn btn-back" id="btn-bp-back">Back</button>
+      </div>
+    </section>
+
+    <!-- Battle Select Screen -->
+    <section id="screen-battle-select" class="screen">
+      <div class="battle-select-container">
+        <h2>Worlds</h2>
+        <div id="battle-select-content" class="battle-select-content"></div>
+        <button class="btn btn-back" data-screen="menu">Back to Menu</button>
+      </div>
+    </section>
+
+    <!-- Battle Screen -->
+    <section id="screen-battle" class="screen">
+      <div class="battle-container">
+        <div class="battle-field">
+          <div class="battle-opponent">
+            <div class="battle-info opponent-info">
+              <span class="battle-name" id="opponent-name"></span>
+              <span class="battle-level" id="opponent-level"></span>
+            </div>
+            <div class="hp-bar">
+              <div class="hp-fill" id="opponent-hp"></div>
+            </div>
+            <span class="hp-text" id="opponent-hp-text"></span>
+            <div class="monster-slot opponent-slot" id="opponent-sprite"></div>
+          </div>
+          <div class="battle-message" id="battle-message"></div>
+          <div class="battle-player">
+            <div class="monster-slot player-slot" id="player-sprite"></div>
+            <div class="battle-info player-info">
+              <span class="battle-name" id="player-name"></span>
+              <span class="battle-level" id="player-level"></span>
+            </div>
+            <div class="hp-bar">
+              <div class="hp-fill" id="player-hp"></div>
+            </div>
+            <span class="hp-text" id="player-hp-text"></span>
+          </div>
+        </div>
+        <div class="battle-actions" id="battle-actions">
+          <div class="quiz-panel" id="quiz-panel" hidden>
+            <p class="quiz-question" id="quiz-question"></p>
+            <div class="quiz-answers" id="quiz-answers"></div>
+          </div>
+          <div class="battle-items" id="battle-items" hidden>
+            <button class="btn btn-item" id="btn-use-potion" hidden>
+              Use Potion (<span id="potion-count">0</span>)
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PvP Lobby Screen -->
+    <section id="screen-pvp" class="screen">
+      <div class="pvp-container">
+        <h2 class="pvp-title">PvP Online</h2>
+        <p class="pvp-status" id="pvp-status"></p>
+
+        <div class="pvp-phase" id="pvp-phase-matchmaking">
+          <button class="btn btn-pvp-action" id="btn-quick-match">Quick Match</button>
+          <div class="pvp-divider">or</div>
+          <button class="btn btn-pvp-action" id="btn-create-room">Create Room</button>
+          <div class="pvp-join-row">
+            <input type="text" id="pvp-join-input" class="pvp-input" placeholder="ROOM CODE" maxlength="5">
+            <button class="btn btn-pvp-action btn-join" id="btn-join-room">Join</button>
+          </div>
+        </div>
+
+        <div class="pvp-phase" id="pvp-phase-waiting" hidden>
+          <div class="pvp-code-display">
+            <p>Room Code:</p>
+            <h3 id="pvp-room-code"></h3>
+          </div>
+          <p class="pvp-waiting-text">Waiting for opponent...</p>
+        </div>
+
+        <div class="pvp-phase" id="pvp-phase-select" hidden>
+          <p>Pick your monster:</p>
+          <div class="collection-grid" id="pvp-monster-select"></div>
+          <p id="pvp-opponent-status" class="pvp-opp-status"></p>
+        </div>
+
+        <button class="btn btn-back" id="btn-pvp-back">Back</button>
+      </div>
+    </section>
+
+    <!-- PvP Battle Screen -->
+    <section id="screen-pvp-battle" class="screen">
+      <div class="battle-container">
+        <div class="battle-field">
+          <div class="battle-opponent">
+            <div class="battle-info opponent-info">
+              <span class="battle-name" id="pvp-o-name"></span>
+              <span class="battle-level" id="pvp-o-level"></span>
+            </div>
+            <div class="hp-bar"><div class="hp-fill" id="pvp-o-hp"></div></div>
+            <span class="hp-text" id="pvp-o-hp-text"></span>
+            <div class="monster-slot opponent-slot" id="pvp-o-sprite"></div>
+          </div>
+          <div class="battle-message" id="pvp-battle-msg"></div>
+          <div class="battle-player">
+            <div class="monster-slot player-slot" id="pvp-p-sprite"></div>
+            <div class="battle-info player-info">
+              <span class="battle-name" id="pvp-p-name"></span>
+              <span class="battle-level" id="pvp-p-level"></span>
+            </div>
+            <div class="hp-bar"><div class="hp-fill" id="pvp-p-hp"></div></div>
+            <span class="hp-text" id="pvp-p-hp-text"></span>
+          </div>
+        </div>
+        <div class="battle-actions">
+          <div class="pvp-timer" id="pvp-timer"></div>
+          <div class="pvp-opp-answered" id="pvp-opp-answered" hidden>Opponent answered!</div>
+          <div class="quiz-panel" id="pvp-quiz" hidden>
+            <p class="quiz-question" id="pvp-question"></p>
+            <div class="quiz-answers" id="pvp-answers"></div>
+          </div>
+          <div class="pvp-result-panel" id="pvp-result-panel" hidden>
+            <h2 id="pvp-result-title"></h2>
+            <p>Gems earned: +<span id="pvp-result-gems">0</span></p>
+            <button class="btn btn-primary" id="btn-pvp-result-back">Continue</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Result Screen -->
+    <section id="screen-result" class="screen">
+      <div class="result-container">
+        <h2 id="result-title"></h2>
+        <div class="result-details">
+          <div class="result-xp">
+            <p>Monster XP: +<span id="result-monster-xp">0</span></p>
+            <p>Player XP: +<span id="result-player-xp">0</span></p>
+          </div>
+          <div class="result-gems" id="result-gems-section">
+            <p>Gems earned: +<span id="result-gems">0</span></p>
+          </div>
+          <div class="result-levelup" id="result-levelup" hidden>
+            <p id="result-levelup-text"></p>
+          </div>
+        </div>
+        <button class="btn btn-primary" data-screen="menu">Continue</button>
+      </div>
+    </section>
+
+  </div>
+
+  <!-- Monster Detail Modal (outside #app to avoid overflow:hidden) -->
+  <div class="modal-overlay" id="monster-modal" hidden>
+    <div class="modal-content">
+      <div class="modal-monster-sprite" id="modal-sprite"></div>
+      <h3 class="modal-monster-name" id="modal-name"></h3>
+      <div class="modal-monster-stats" id="modal-stats"></div>
+      <h4 class="modal-skins-title">Skins</h4>
+      <div class="skins-grid" id="skins-grid"></div>
+      <button class="btn modal-back-btn" id="modal-close">Close</button>
+    </div>
+  </div>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

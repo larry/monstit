@@ -1,0 +1,424 @@
+let ctx = null;
+let currentTrack = null;
+let masterGain = null;
+let trackGain = null;
+let isPlaying = false;
+let currentTrackName = null;
+
+function getCtx() {
+  if (!ctx) {
+    ctx = new (window.AudioContext || window.webkitAudioContext)();
+    masterGain = ctx.createGain();
+    masterGain.gain.value = 0.3;
+    masterGain.connect(ctx.destination);
+  }
+  return ctx;
+}
+
+function getTrackDest() {
+  return trackGain || masterGain;
+}
+
+function noteFreq(note) {
+  // note: MIDI number, 60 = middle C
+  return 440 * Math.pow(2, (note - 69) / 12);
+}
+
+function createOsc(type, freq, gain, time, duration, destination) {
+  const c = getCtx();
+  const osc = c.createOscillator();
+  const g = c.createGain();
+  osc.type = type;
+  osc.frequency.value = freq;
+  g.gain.setValueAtTime(0, time);
+  g.gain.linearRampToValueAtTime(gain, time + 0.02);
+  g.gain.linearRampToValueAtTime(gain * 0.6, time + duration * 0.5);
+  g.gain.linearRampToValueAtTime(0, time + duration - 0.02);
+  osc.connect(g);
+  g.connect(destination);
+  osc.start(time);
+  osc.stop(time + duration);
+  return osc;
+}
+
+function createPad(freq, gain, time, duration, destination) {
+  const c = getCtx();
+  const osc1 = c.createOscillator();
+  const osc2 = c.createOscillator();
+  const g = c.createGain();
+  osc1.type = 'sine';
+  osc2.type = 'triangle';
+  osc1.frequency.value = freq;
+  osc2.frequency.value = freq * 1.002; // slight detune for warmth
+  g.gain.setValueAtTime(0, time);
+  g.gain.linearRampToValueAtTime(gain, time + 0.3);
+  g.gain.setValueAtTime(gain, time + duration - 0.4);
+  g.gain.linearRampToValueAtTime(0, time + duration);
+  osc1.connect(g);
+  osc2.connect(g);
+  g.connect(destination);
+  osc1.start(time);
+  osc1.stop(time + duration);
+  osc2.start(time);
+  osc2.stop(time + duration);
+}
+
+// ============= TRACK DEFINITIONS =============
+
+function scheduleMenu(startTime) {
+  const c = getCtx();
+  const dest = getTrackDest();
+  const bpm = 100;
+  const beat = 60 / bpm;
+  const totalBeats = 16;
+  const loopDur = totalBeats * beat;
+
+  // Cheerful melody in C major
+  const melody = [60, 64, 67, 72, 71, 67, 64, 67, 65, 69, 72, 76, 74, 72, 69, 67];
+  melody.forEach((note, i) => {
+    createOsc('triangle', noteFreq(note), 0.15, startTime + i * beat, beat * 0.8, dest);
+  });
+
+  // Bass line
+  const bass = [48, 48, 45, 45, 43, 43, 48, 48, 48, 48, 45, 45, 43, 43, 48, 48];
+  bass.forEach((note, i) => {
+    createOsc('sine', noteFreq(note), 0.12, startTime + i * beat, beat * 0.9, dest);
+  });
+
+  // Chords (pads)
+  const chords = [
+    { notes: [60, 64, 67], start: 0, dur: 4 },
+    { notes: [57, 60, 64], start: 4, dur: 4 },
+    { notes: [55, 59, 62], start: 8, dur: 4 },
+    { notes: [55, 60, 64], start: 12, dur: 4 },
+  ];
+  chords.forEach(ch => {
+    ch.notes.forEach(n => {
+      createPad(noteFreq(n), 0.04, startTime + ch.start * beat, ch.dur * beat, dest);
+    });
+  });
+
+  return loopDur;
+}
+
+function scheduleEarth(startTime) {
+  const c = getCtx();
+  const dest = getTrackDest();
+  const bpm = 80;
+  const beat = 60 / bpm;
+  const totalBeats = 16;
+  const loopDur = totalBeats * beat;
+
+  // Deep, grounded melody in D minor pentatonic
+  const melody = [62, 65, 67, 69, 67, 65, 62, 60, 62, 65, 67, 69, 72, 69, 67, 65];
+  melody.forEach((note, i) => {
+    createOsc('triangle', noteFreq(note), 0.12, startTime + i * beat, beat * 0.7, dest);
+  });
+
+  // Heavy bass
+  const bass = [38, -1, 38, -1, 36, -1, 36, -1, 38, -1, 38, -1, 36, -1, 36, 38];
+  bass.forEach((note, i) => {
+    if (note < 0) return;
+    createOsc('sine', noteFreq(note), 0.15, startTime + i * beat, beat * 0.8, dest);
+  });
+
+  // Earthy pads
+  const chords = [
+    { notes: [50, 53, 57], start: 0, dur: 4 },
+    { notes: [48, 52, 55], start: 4, dur: 4 },
+    { notes: [50, 53, 57], start: 8, dur: 4 },
+    { notes: [48, 52, 55], start: 12, dur: 4 },
+  ];
+  chords.forEach(ch => {
+    ch.notes.forEach(n => {
+      createPad(noteFreq(n), 0.035, startTime + ch.start * beat, ch.dur * beat, dest);
+    });
+  });
+
+  return loopDur;
+}
+
+function scheduleWater(startTime) {
+  const c = getCtx();
+  const dest = getTrackDest();
+  const bpm = 90;
+  const beat = 60 / bpm;
+  const totalBeats = 16;
+  const loopDur = totalBeats * beat;
+
+  // Flowing melody in F major / lydian feel
+  const melody = [65, 69, 72, 77, 76, 72, 69, 65, 67, 72, 76, 77, 76, 72, 69, 65];
+  melody.forEach((note, i) => {
+    createOsc('sine', noteFreq(note), 0.12, startTime + i * beat, beat * 0.85, dest);
+  });
+
+  // Arpeggiated water drops
+  const arps = [72, -1, 77, -1, 76, -1, 72, -1, 74, -1, 77, -1, 76, -1, 72, -1];
+  arps.forEach((note, i) => {
+    if (note < 0) return;
+    createOsc('sine', noteFreq(note + 12), 0.05, startTime + i * beat + beat * 0.5, beat * 0.3, dest);
+  });
+
+  // Deep ocean bass
+  const bass = [41, -1, 41, -1, 43, -1, 43, -1, 41, -1, 41, -1, 43, -1, 41, -1];
+  bass.forEach((note, i) => {
+    if (note < 0) return;
+    createOsc('sine', noteFreq(note), 0.12, startTime + i * beat, beat * 0.9, dest);
+  });
+
+  // Watery pads
+  const chords = [
+    { notes: [53, 57, 60], start: 0, dur: 4 },
+    { notes: [55, 59, 62], start: 4, dur: 4 },
+    { notes: [53, 57, 60], start: 8, dur: 4 },
+    { notes: [55, 59, 62], start: 12, dur: 4 },
+  ];
+  chords.forEach(ch => {
+    ch.notes.forEach(n => {
+      createPad(noteFreq(n), 0.03, startTime + ch.start * beat, ch.dur * beat, dest);
+    });
+  });
+
+  return loopDur;
+}
+
+function scheduleCloud(startTime) {
+  const c = getCtx();
+  const dest = getTrackDest();
+  const bpm = 75;
+  const beat = 60 / bpm;
+  const totalBeats = 16;
+  const loopDur = totalBeats * beat;
+
+  // Ethereal melody, high and airy - Eb major
+  const melody = [75, 79, 82, 84, 82, 79, 75, 72, 70, 72, 75, 79, 82, 84, 82, 79];
+  melody.forEach((note, i) => {
+    createOsc('sine', noteFreq(note), 0.09, startTime + i * beat, beat * 0.9, dest);
+  });
+
+  // Twinkling high notes
+  const twinkle = [87, -1, -1, 91, -1, -1, 87, -1, 84, -1, -1, 91, -1, -1, 87, -1];
+  twinkle.forEach((note, i) => {
+    if (note < 0) return;
+    createOsc('sine', noteFreq(note), 0.04, startTime + i * beat, beat * 0.4, dest);
+  });
+
+  // Floating pads - lots of reverb-like layers
+  const chords = [
+    { notes: [58, 63, 67, 70], start: 0, dur: 8 },
+    { notes: [56, 60, 63, 68], start: 8, dur: 8 },
+  ];
+  chords.forEach(ch => {
+    ch.notes.forEach(n => {
+      createPad(noteFreq(n), 0.03, startTime + ch.start * beat, ch.dur * beat, dest);
+      // Extra octave up for shimmer
+      createPad(noteFreq(n + 12), 0.015, startTime + ch.start * beat + 0.2, ch.dur * beat - 0.2, dest);
+    });
+  });
+
+  return loopDur;
+}
+
+function scheduleSand(startTime) {
+  const c = getCtx();
+  const dest = getTrackDest();
+  const bpm = 85;
+  const beat = 60 / bpm;
+  const totalBeats = 16;
+  const loopDur = totalBeats * beat;
+
+  // Middle-eastern feel - D harmonic minor scale
+  const melody = [62, 65, 66, 69, 70, 69, 66, 65, 62, 61, 62, 65, 66, 69, 70, 69];
+  melody.forEach((note, i) => {
+    createOsc('sawtooth', noteFreq(note), 0.06, startTime + i * beat, beat * 0.6, dest);
+  });
+
+  // Rhythmic percussion-like hits
+  const perc = [1, 0, 1, 0, 1, 1, 0, 1, 1, 0, 1, 0, 1, 1, 0, 1];
+  perc.forEach((hit, i) => {
+    if (!hit) return;
+    // Use filtered noise-like sound
+    createOsc('square', noteFreq(90 + Math.random() * 5), 0.03, startTime + i * beat, beat * 0.1, dest);
+  });
+
+  // Droning bass
+  const bass = [38, -1, 38, 38, -1, 38, -1, 38, 37, -1, 37, 38, -1, 38, -1, 38];
+  bass.forEach((note, i) => {
+    if (note < 0) return;
+    createOsc('sine', noteFreq(note), 0.12, startTime + i * beat, beat * 0.7, dest);
+  });
+
+  // Desert pads
+  const chords = [
+    { notes: [50, 54, 57], start: 0, dur: 4 },
+    { notes: [49, 53, 57], start: 4, dur: 4 },
+    { notes: [50, 54, 57], start: 8, dur: 4 },
+    { notes: [49, 53, 57], start: 12, dur: 4 },
+  ];
+  chords.forEach(ch => {
+    ch.notes.forEach(n => {
+      createPad(noteFreq(n), 0.03, startTime + ch.start * beat, ch.dur * beat, dest);
+    });
+  });
+
+  return loopDur;
+}
+
+function scheduleFire(startTime) {
+  const c = getCtx();
+  const dest = getTrackDest();
+  const bpm = 120;
+  const beat = 60 / bpm;
+  const totalBeats = 16;
+  const loopDur = totalBeats * beat;
+
+  // Intense, driving melody - E minor
+  const melody = [64, 67, 71, 72, 71, 67, 64, 60, 64, 67, 71, 76, 75, 72, 71, 67];
+  melody.forEach((note, i) => {
+    createOsc('sawtooth', noteFreq(note), 0.07, startTime + i * beat, beat * 0.5, dest);
+  });
+
+  // Aggressive bass
+  const bass = [40, 40, -1, 40, 40, -1, 40, 40, 39, 39, -1, 39, 40, -1, 40, 40];
+  bass.forEach((note, i) => {
+    if (note < 0) return;
+    createOsc('square', noteFreq(note), 0.08, startTime + i * beat, beat * 0.4, dest);
+    createOsc('sine', noteFreq(note - 12), 0.1, startTime + i * beat, beat * 0.5, dest);
+  });
+
+  // Fast rhythmic hits
+  for (let i = 0; i < totalBeats; i++) {
+    createOsc('square', noteFreq(95), 0.04, startTime + i * beat, beat * 0.08, dest);
+    if (i % 2 === 0) {
+      createOsc('square', noteFreq(80), 0.05, startTime + i * beat, beat * 0.1, dest);
+    }
+  }
+
+  // Power chords
+  const chords = [
+    { notes: [52, 59, 64], start: 0, dur: 4 },
+    { notes: [51, 55, 59], start: 4, dur: 4 },
+    { notes: [52, 59, 64], start: 8, dur: 4 },
+    { notes: [51, 55, 59], start: 12, dur: 2 },
+    { notes: [52, 56, 59], start: 14, dur: 2 },
+  ];
+  chords.forEach(ch => {
+    ch.notes.forEach(n => {
+      createPad(noteFreq(n), 0.035, startTime + ch.start * beat, ch.dur * beat, dest);
+    });
+  });
+
+  return loopDur;
+}
+
+function scheduleBattle(startTime) {
+  const c = getCtx();
+  const dest = getTrackDest();
+  const bpm = 140;
+  const beat = 60 / bpm;
+  const totalBeats = 16;
+  const loopDur = totalBeats * beat;
+
+  // Tense battle melody - A minor
+  const melody = [69, 72, 76, 77, 76, 72, 69, 68, 69, 72, 76, 81, 80, 77, 76, 72];
+  melody.forEach((note, i) => {
+    createOsc('square', noteFreq(note), 0.06, startTime + i * beat, beat * 0.45, dest);
+  });
+
+  // Pumping bass
+  const bass = [45, -1, 45, 45, -1, 45, -1, 45, 44, -1, 44, 45, -1, 45, 45, -1];
+  bass.forEach((note, i) => {
+    if (note < 0) return;
+    createOsc('sine', noteFreq(note), 0.13, startTime + i * beat, beat * 0.4, dest);
+    createOsc('square', noteFreq(note), 0.04, startTime + i * beat, beat * 0.3, dest);
+  });
+
+  // Drum-like rhythm
+  for (let i = 0; i < totalBeats; i++) {
+    // Kick on every beat
+    createOsc('sine', 55, 0.1, startTime + i * beat, beat * 0.12, dest);
+    // Snare on 2 and 4
+    if (i % 4 === 2) {
+      createOsc('square', noteFreq(95), 0.06, startTime + i * beat, beat * 0.08, dest);
+    }
+    // Hi-hat
+    createOsc('square', noteFreq(100), 0.02, startTime + i * beat + beat * 0.5, beat * 0.06, dest);
+  }
+
+  return loopDur;
+}
+
+// ============= TRACK MAP =============
+
+const TRACKS = {
+  menu: scheduleMenu,
+  earth: scheduleEarth,
+  water: scheduleWater,
+  cloud: scheduleCloud,
+  sand: scheduleSand,
+  fire: scheduleFire,
+  battle: scheduleBattle,
+};
+
+// ============= PUBLIC API =============
+
+let loopTimer = null;
+
+export function playTrack(name) {
+  if (currentTrackName === name && isPlaying) return;
+
+  stopTrack();
+
+  const scheduler = TRACKS[name];
+  if (!scheduler) return;
+
+  const c = getCtx();
+  if (c.state === 'suspended') c.resume();
+
+  // Create a fresh gain node for this track so we can kill it instantly on stop
+  trackGain = c.createGain();
+  trackGain.gain.value = 1;
+  trackGain.connect(masterGain);
+
+  currentTrackName = name;
+  isPlaying = true;
+
+  function scheduleLoop() {
+    if (!isPlaying || currentTrackName !== name) return;
+    const now = getCtx().currentTime + 0.1;
+    const loopDur = scheduler(now);
+    loopTimer = setTimeout(() => scheduleLoop(), (loopDur - 0.5) * 1000);
+  }
+
+  scheduleLoop();
+}
+
+export function stopTrack() {
+  isPlaying = false;
+  currentTrackName = null;
+  if (loopTimer) {
+    clearTimeout(loopTimer);
+    loopTimer = null;
+  }
+  // Instantly silence and disconnect the old track's audio
+  if (trackGain) {
+    trackGain.gain.setValueAtTime(0, getCtx().currentTime);
+    trackGain.disconnect();
+    trackGain = null;
+  }
+}
+
+export function setVolume(vol) {
+  if (masterGain) {
+    masterGain.gain.value = vol;
+  }
+}
+
+export function getMusicEnabled() {
+  return localStorage.getItem('monstit_music') !== 'off';
+}
+
+export function setMusicEnabled(enabled) {
+  localStorage.setItem('monstit_music', enabled ? 'on' : 'off');
+  if (!enabled) stopTrack();
+}

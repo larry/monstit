@@ -1,0 +1,384 @@
+/* === Battle Layout === */
+.battle-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  gap: 8px;
+}
+
+.battle-field {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 10px 0;
+  position: relative;
+}
+
+.battle-opponent,
+.battle-player {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  flex: 1;
+  max-width: 200px;
+}
+
+.battle-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.battle-name {
+  font-family: var(--font-display);
+  font-size: 1rem;
+}
+
+.battle-level {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+}
+
+.hp-text {
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+  text-align: center;
+}
+
+.monster-slot {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.opponent-slot {
+  transition: all 0.3s ease;
+}
+
+.boss-slot {
+  width: 140px !important;
+  height: 140px !important;
+}
+
+.boss-monster {
+  transform: scale(1.6);
+  transform-origin: center bottom;
+  filter: drop-shadow(0 0 12px rgba(255, 50, 50, 0.4));
+}
+
+.battle-message {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  text-align: center;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.8);
+  z-index: 10;
+}
+
+.battle-message.visible {
+  opacity: 1;
+}
+
+/* === World Themes === */
+.battle-field--earth {
+  background: linear-gradient(180deg, #1a3a12 0%, #2d4a22 40%, #3b2a15 100%);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.battle-field--water {
+  background: linear-gradient(180deg, #012a4a 0%, #013a6b 40%, #01497c 100%);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.battle-field--cloud {
+  background: linear-gradient(180deg, #2a2a6e 0%, #3a3d98 40%, #5c5fb8 100%);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.battle-field--sand {
+  background: linear-gradient(180deg, #3d2b10 0%, #5c3d1a 40%, #7a5a30 100%);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.battle-field--fire {
+  background: linear-gradient(180deg, #1a0505 0%, #4a0e0e 40%, #6b1010 100%);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+/* Decoration container */
+.world-decor {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.battle-player, .battle-opponent {
+  z-index: 1;
+}
+
+/* --- Earth: Trees --- */
+.world-decor--earth::before,
+.world-decor--earth::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+}
+
+.world-decor--earth::before {
+  left: 5px;
+  width: 18px;
+  height: 60px;
+  background: linear-gradient(180deg, #2d5a1e 0%, #3b7a28 30%, #5a3420 30%, #5a3420 100%);
+  border-radius: 8px 8px 2px 2px;
+}
+
+.world-decor--earth::after {
+  right: 8px;
+  width: 14px;
+  height: 50px;
+  background: linear-gradient(180deg, #3a7a2e 0%, #4a8a38 35%, #5a3420 35%, #5a3420 100%);
+  border-radius: 6px 6px 2px 2px;
+}
+
+/* Extra trees via box-shadow */
+.world-decor--earth {
+  /* Ground line */
+  border-bottom: 4px solid #2a1a08;
+}
+
+/* --- Water: Bubbles --- */
+.world-decor--water::before {
+  content: '';
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: rgba(100, 200, 255, 0.2);
+  border: 1px solid rgba(100, 200, 255, 0.3);
+  bottom: 20px;
+  left: 15%;
+  animation: bubble-rise 4s ease-in infinite;
+}
+
+.world-decor--water::after {
+  content: '';
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: rgba(100, 200, 255, 0.15);
+  border: 1px solid rgba(100, 200, 255, 0.25);
+  bottom: 10px;
+  right: 20%;
+  animation: bubble-rise 5s ease-in 1.5s infinite;
+}
+
+.world-decor--water {
+  box-shadow:
+    inset 25px -30px 0 -26px rgba(100, 200, 255, 0.15),
+    inset -30px -50px 0 -26px rgba(100, 200, 255, 0.1),
+    inset 60px -15px 0 -26px rgba(100, 200, 255, 0.12);
+}
+
+@keyframes bubble-rise {
+  0% { transform: translateY(0) scale(1); opacity: 0.6; }
+  50% { opacity: 0.8; }
+  100% { transform: translateY(-120px) scale(0.4); opacity: 0; }
+}
+
+/* --- Cloud: Floating clouds --- */
+.world-decor--cloud::before {
+  content: '';
+  position: absolute;
+  width: 60px;
+  height: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  top: 15px;
+  left: -20px;
+  animation: cloud-drift 8s linear infinite;
+}
+
+.world-decor--cloud::after {
+  content: '';
+  position: absolute;
+  width: 45px;
+  height: 15px;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 15px;
+  top: 55px;
+  left: -15px;
+  animation: cloud-drift 12s linear 3s infinite;
+}
+
+@keyframes cloud-drift {
+  0% { transform: translateX(-80px); }
+  100% { transform: translateX(500px); }
+}
+
+/* --- Sand: Cactus & sand --- */
+.world-decor--sand::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 10px;
+  width: 8px;
+  height: 40px;
+  background: #3a6b30;
+  border-radius: 4px 4px 0 0;
+  box-shadow:
+    -10px 0 0 -3px #3a6b30,
+    10px -12px 0 -3px #3a6b30;
+}
+
+.world-decor--sand::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 12px;
+  width: 6px;
+  height: 30px;
+  background: #4a8040;
+  border-radius: 3px 3px 0 0;
+  box-shadow:
+    8px -8px 0 -2px #4a8040;
+}
+
+.world-decor--sand {
+  border-bottom: 4px solid #c4943a;
+  background: linear-gradient(0deg, rgba(196, 148, 58, 0.15) 0%, transparent 30%);
+}
+
+/* Drifting sand particles */
+@keyframes sand-drift {
+  0% { transform: translateX(0) translateY(0); opacity: 0; }
+  20% { opacity: 0.4; }
+  100% { transform: translateX(80px) translateY(-20px); opacity: 0; }
+}
+
+/* --- Fire: Smoke & embers --- */
+.world-decor--fire::before {
+  content: '';
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: rgba(100, 100, 100, 0.2);
+  bottom: 30px;
+  left: 10%;
+  animation: smoke-rise 5s ease-out infinite;
+  filter: blur(6px);
+}
+
+.world-decor--fire::after {
+  content: '';
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: rgba(80, 80, 80, 0.15);
+  bottom: 20px;
+  right: 12%;
+  animation: smoke-rise 7s ease-out 2s infinite;
+  filter: blur(5px);
+}
+
+.world-decor--fire {
+  box-shadow:
+    inset 0 -8px 20px -8px rgba(255, 100, 0, 0.3),
+    inset 0 -2px 8px -2px rgba(255, 50, 0, 0.2);
+}
+
+@keyframes smoke-rise {
+  0% { transform: translateY(0) scale(1); opacity: 0.4; }
+  50% { opacity: 0.2; }
+  100% { transform: translateY(-100px) scale(2); opacity: 0; }
+}
+
+/* === Quiz Panel === */
+.battle-actions {
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.quiz-panel {
+  background: var(--bg-secondary);
+  border-radius: var(--radius);
+  padding: 16px;
+}
+
+.quiz-question {
+  font-weight: 700;
+  font-size: 1.05rem;
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+.quiz-answers {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+
+.quiz-answer {
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  font-weight: 600;
+  padding: 12px;
+  border: 2px solid var(--bg-card);
+  border-radius: var(--radius-sm);
+  background: var(--bg-card);
+  color: var(--text-primary);
+  cursor: pointer;
+  transition: border-color 0.15s ease, background 0.15s ease;
+  text-align: center;
+}
+
+.quiz-answer:hover {
+  border-color: var(--accent);
+}
+
+.quiz-answer.correct {
+  border-color: #4caf50;
+  background: rgba(76, 175, 80, 0.2);
+}
+
+.quiz-answer.wrong {
+  border-color: #f44336;
+  background: rgba(244, 67, 54, 0.2);
+}
+
+.quiz-answer:disabled {
+  cursor: default;
+}
+
+/* === Battle Items === */
+.battle-items {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+}

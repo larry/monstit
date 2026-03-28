@@ -1,0 +1,164 @@
+/* === Monster Idle Animation === */
+@keyframes idle-bob {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-6px); }
+}
+
+.monster {
+  animation: idle-bob 2s ease-in-out infinite;
+}
+
+/* === Attack Animations === */
+@keyframes attack-right {
+  0% { transform: translateX(0); }
+  30% { transform: translateX(40px); }
+  100% { transform: translateX(0); }
+}
+
+@keyframes attack-left {
+  0% { transform: translateX(0); }
+  30% { transform: translateX(-40px); }
+  100% { transform: translateX(0); }
+}
+
+.attack-lunge-right {
+  animation: attack-right 0.4s ease-out !important;
+}
+
+.attack-lunge-left {
+  animation: attack-left 0.4s ease-out !important;
+}
+
+/* === Damage Animation === */
+@keyframes damage-shake {
+  0%, 100% { transform: translateX(0); filter: brightness(1); }
+  10% { transform: translateX(-8px); filter: brightness(2); }
+  20% { transform: translateX(8px); }
+  30% { transform: translateX(-6px); filter: brightness(1.5); }
+  40% { transform: translateX(6px); }
+  50% { transform: translateX(-4px); filter: brightness(1); }
+  60% { transform: translateX(4px); }
+}
+
+.damage-shake {
+  animation: damage-shake 0.5s ease-out !important;
+}
+
+/* === Faint Animation === */
+@keyframes faint {
+  0% { opacity: 1; transform: translateY(0); }
+  100% { opacity: 0; transform: translateY(20px); }
+}
+
+.faint {
+  animation: faint 0.8s ease-out forwards !important;
+}
+
+/* === Egg Animations === */
+@keyframes egg-wobble {
+  0%, 100% { transform: rotate(0deg); }
+  25% { transform: rotate(-8deg); }
+  75% { transform: rotate(8deg); }
+}
+
+@keyframes egg-crack-open {
+  0% { transform: rotate(0deg) translateY(0); opacity: 1; }
+  50% { transform: rotate(-15deg) translateY(-20px); opacity: 1; }
+  100% { transform: rotate(-30deg) translateY(-50px); opacity: 0; }
+}
+
+@keyframes egg-bottom-fall {
+  0% { transform: translateY(0); opacity: 1; }
+  100% { transform: translateY(30px); opacity: 0; }
+}
+
+.egg-wobbling .egg {
+  animation: egg-wobble 0.3s ease-in-out;
+}
+
+.egg-wobbling-fast .egg {
+  animation: egg-wobble 0.15s ease-in-out infinite;
+}
+
+.egg-cracking .egg-top {
+  animation: egg-crack-open 0.6s ease-out forwards;
+}
+
+.egg-cracking .egg-bottom {
+  animation: egg-bottom-fall 0.6s ease-out 0.2s forwards;
+}
+
+.egg-cracking .egg-crack {
+  opacity: 1;
+  background: linear-gradient(90deg, transparent 10%, #333 10%, #333 15%, transparent 15%, transparent 35%, #333 35%, #333 40%, transparent 40%, transparent 60%, #333 60%, #333 65%, transparent 65%, transparent 85%, #333 85%, #333 90%, transparent 90%);
+}
+
+/* === Reveal Animation === */
+@keyframes reveal-pop {
+  0% { transform: scale(0); opacity: 0; }
+  60% { transform: scale(1.2); opacity: 1; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+.hatch-reveal:not([hidden]) {
+  animation: reveal-pop 0.5s ease-out;
+}
+
+/* === Rarity Glow === */
+@keyframes epic-glow {
+  0%, 100% { box-shadow: 0 0 8px var(--rarity-epic); }
+  50% { box-shadow: 0 0 20px var(--rarity-epic); }
+}
+
+@keyframes legendary-glow {
+  0%, 100% { box-shadow: 0 0 10px var(--rarity-legendary); }
+  50% { box-shadow: 0 0 25px var(--rarity-legendary), 0 0 50px var(--rarity-legendary); }
+}
+
+@keyframes incredible-glow {
+  0%, 100% { box-shadow: 0 0 12px var(--rarity-incredible); filter: brightness(1); }
+  50% { box-shadow: 0 0 30px var(--rarity-incredible), 0 0 60px var(--rarity-incredible); filter: brightness(1.15); }
+}
+
+.glow-epic {
+  animation: epic-glow 2s ease-in-out infinite;
+}
+
+.glow-legendary {
+  animation: legendary-glow 2s ease-in-out infinite;
+}
+
+.glow-incredible {
+  animation: incredible-glow 1.5s ease-in-out infinite;
+}
+
+/* === Damage Number Float === */
+@keyframes damage-float {
+  0% { transform: translateY(0); opacity: 1; }
+  100% { transform: translateY(-40px); opacity: 0; }
+}
+
+.damage-number {
+  position: absolute;
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  color: var(--accent);
+  pointer-events: none;
+  animation: damage-float 1s ease-out forwards;
+  z-index: 20;
+}
+
+.damage-number.heal {
+  color: #4caf50;
+}
+
+/* === Miss Text === */
+.miss-text {
+  position: absolute;
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  color: var(--text-secondary);
+  pointer-events: none;
+  animation: damage-float 1s ease-out forwards;
+  z-index: 20;
+}

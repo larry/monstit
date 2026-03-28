@@ -1,0 +1,301 @@
+/* === Reset & Variables === */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  /* Colors */
+  --bg-primary: #1a1a2e;
+  --bg-secondary: #16213e;
+  --bg-card: #0f3460;
+  --text-primary: #e8e8e8;
+  --text-secondary: #a0a0b0;
+  --accent: #e94560;
+
+  /* Type colors */
+  --type-fire: #ff6b35;
+  --type-water: #00b4d8;
+  --type-earth: #8cb369;
+  --type-cloud: #b8c0ff;
+  --type-sand: #e0a458;
+
+  /* Rarity colors */
+  --rarity-common: #a0a0b0;
+  --rarity-rare: #4cc9f0;
+  --rarity-epic: #c44cff;
+  --rarity-legendary: #ffd60a;
+  --rarity-incredible: #ff3030;
+
+  /* UI */
+  --radius: 12px;
+  --radius-sm: 8px;
+  --shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  --transition: 0.3s ease;
+
+  /* Font */
+  --font-display: 'Fredoka One', cursive;
+  --font-body: 'Nunito', sans-serif;
+}
+
+html, body {
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  font-family: var(--font-body);
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#app {
+  width: 100%;
+  max-width: 480px;
+  height: 100vh;
+  max-height: 900px;
+  position: relative;
+  overflow: hidden;
+}
+
+/* === Screen Management === */
+.screen {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  opacity: 0;
+  transition: opacity var(--transition);
+}
+
+.screen.active {
+  display: flex;
+  opacity: 1;
+}
+
+/* === Buttons === */
+.btn {
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  padding: 14px 28px;
+  border: none;
+  border-radius: var(--radius);
+  cursor: pointer;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  min-width: 200px;
+  text-align: center;
+  color: white;
+  box-shadow: var(--shadow);
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
+}
+
+.btn:active {
+  transform: translateY(0);
+}
+
+.btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.btn-hatch {
+  background: linear-gradient(135deg, var(--type-fire), #ff8c42);
+}
+
+.btn-collection {
+  background: linear-gradient(135deg, var(--type-water), #48cae4);
+}
+
+.btn-shop {
+  background: linear-gradient(135deg, var(--type-cloud), #fce205);
+  color: #1a1a2e;
+}
+
+.btn-battle {
+  background: linear-gradient(135deg, var(--accent), #ff2e63);
+}
+
+.btn-back {
+  background: var(--bg-card);
+  margin-top: 16px;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, var(--accent), #ff2e63);
+}
+
+.btn-hatch-action {
+  background: linear-gradient(135deg, var(--type-fire), #ff8c42);
+  font-size: 1.3rem;
+  padding: 18px 36px;
+  animation: pulse 1.5s ease-in-out infinite;
+}
+
+.btn-item {
+  background: var(--bg-card);
+  font-size: 0.9rem;
+  min-width: auto;
+  padding: 10px 16px;
+}
+
+/* === Typography === */
+h1, h2, h3 {
+  font-family: var(--font-display);
+}
+
+.game-title {
+  font-size: 3rem;
+  color: #cc0000;
+  -webkit-text-fill-color: #cc0000;
+  text-align: center;
+  margin-bottom: 24px;
+  text-shadow: 0 0 10px rgba(204, 0, 0, 0.4);
+}
+
+.eyeball-o {
+  position: relative;
+  display: inline-block;
+  color: #ffdd00;
+  -webkit-text-fill-color: #ffdd00;
+  text-shadow: 0 0 8px rgba(255, 221, 0, 0.5);
+}
+
+.eyeball-o::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 10px;
+  height: 10px;
+  background: #111;
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+/* === Badges === */
+.type-badge {
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-weight: 700;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+}
+
+.type-fire { background: var(--type-fire); }
+.type-water { background: var(--type-water); }
+.type-earth { background: var(--type-earth); }
+.type-cloud { background: var(--type-cloud); color: #1a1a2e; }
+.type-sand { background: var(--type-sand); color: #1a1a2e; }
+
+.rarity-badge {
+  font-weight: 700;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+}
+
+.rarity-common { color: var(--rarity-common); }
+.rarity-rare { color: var(--rarity-rare); }
+.rarity-epic { color: var(--rarity-epic); text-shadow: 0 0 8px var(--rarity-epic); }
+.rarity-legendary { color: var(--rarity-legendary); text-shadow: 0 0 10px var(--rarity-legendary); }
+.rarity-incredible { color: var(--rarity-incredible); text-shadow: 0 0 14px var(--rarity-incredible), 0 0 28px var(--rarity-incredible); }
+
+/* === Icons === */
+.gem-icon::before {
+  content: '\u2666';
+  color: var(--type-water);
+  margin-right: 4px;
+}
+
+.egg-icon::before {
+  content: '\u{1F95A}';
+  margin-right: 4px;
+}
+
+/* === HP Bar === */
+.hp-bar {
+  width: 100%;
+  height: 12px;
+  background: #333;
+  border-radius: 6px;
+  overflow: hidden;
+  margin: 4px 0;
+}
+
+.hp-fill {
+  height: 100%;
+  border-radius: 6px;
+  transition: width 0.5s ease;
+  background: linear-gradient(90deg, #4caf50, #8bc34a);
+}
+
+.hp-fill.hp-medium {
+  background: linear-gradient(90deg, #ff9800, #ffc107);
+}
+
+.hp-fill.hp-low {
+  background: linear-gradient(90deg, #f44336, #ff5722);
+}
+
+/* === XP Bar === */
+.player-xp-bar {
+  width: 80px;
+  height: 8px;
+  background: #333;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.xp-fill {
+  height: 100%;
+  border-radius: 4px;
+  background: linear-gradient(90deg, var(--type-water), var(--type-cloud));
+  transition: width 0.5s ease;
+}
+
+/* === Music Toggle === */
+.music-toggle {
+  position: fixed;
+  top: 12px;
+  right: 12px;
+  z-index: 100;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  background: var(--bg-card);
+  color: white;
+  font-size: 1.2rem;
+  cursor: pointer;
+  box-shadow: var(--shadow);
+  transition: transform 0.15s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.music-toggle:hover {
+  transform: scale(1.1);
+}
+
+/* === Pulse animation === */
+@keyframes pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+}

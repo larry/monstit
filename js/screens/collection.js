@@ -109,6 +109,8 @@ function openModal(monsterIndex) {
   // Name & stats
   $('#modal-name').textContent = base.name;
   $('#modal-stats').innerHTML = `
+    <span class="type-badge type-${base.type}" style="font-size:0.8rem;padding:2px 10px">${base.type}</span>
+    <span class="rarity-badge rarity-${base.rarity}" style="font-size:0.8rem">${base.rarity}</span>
     <span>Lv.${owned.level}</span>
     <span>${stats.hp} HP</span>
     <span>${stats.attack} ATK</span>
@@ -156,7 +158,7 @@ function renderSkins(monsterIndex) {
     previewWrap.style.overflow = 'visible';
 
     const preview = createMonsterSprite(base.cssClass);
-    preview.style.transform = 'scale(0.6)';
+    preview.style.transform = 'scale(0.8)';
     preview.style.transformOrigin = 'center center';
     if (skin.id !== 'default') {
       preview.classList.add(`skin-${skin.id}`);

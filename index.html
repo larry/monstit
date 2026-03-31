@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="css/monsters.css">
   <link rel="stylesheet" href="css/animations.css">
   <link rel="stylesheet" href="css/battle.css">
+  <link rel="stylesheet" href="css/minigames.css">
 </head>
 <body>
   <div id="app">
@@ -21,6 +22,7 @@
     <section id="screen-menu" class="screen active">
       <div class="menu-container">
         <h1 class="game-title">M<span class="eyeball-o">O</span>nstit</h1>
+        <p class="season-label">Season 1</p>
         <div class="player-info">
           <span class="player-level">Lv. <span id="menu-player-level">1</span></span>
           <div class="player-xp-bar">
@@ -35,6 +37,7 @@
           <button class="btn btn-shop" data-screen="shop">Shop</button>
           <button class="btn btn-challenges" data-screen="challenges">Daily Challenges</button>
           <button class="btn btn-battlepass" data-screen="battle-pass">Battle Pass</button>
+          <button class="btn btn-minigames" data-screen="minigames">Minigames</button>
           <button class="btn btn-battle" data-screen="battle-select">Battle!</button>
           <button class="btn btn-pvp" data-screen="pvp">PvP Online</button>
         </nav>
@@ -243,6 +246,64 @@
             <button class="btn btn-primary" id="btn-pvp-result-back">Continue</button>
           </div>
         </div>
+      </div>
+    </section>
+
+    <!-- Minigames Hub -->
+    <section id="screen-minigames" class="screen">
+      <div class="minigames-container">
+        <h2>Minigames</h2>
+        <div class="minigames-grid">
+          <div class="mg-card" id="btn-mg-ctf">
+            <span class="mg-card-icon">&#x1F6A9;</span>
+            <div class="mg-card-info">
+              <h3>Capture the Flag</h3>
+              <p>Answer questions to race toward the enemy flag!</p>
+            </div>
+          </div>
+          <div class="mg-card" id="btn-mg-td">
+            <span class="mg-card-icon">&#x1F3F0;</span>
+            <div class="mg-card-info">
+              <h3>Tower Defense</h3>
+              <p>Place monsters as towers to stop enemy waves!</p>
+            </div>
+          </div>
+          <div class="mg-card" id="btn-mg-trade">
+            <span class="mg-card-icon">&#x1F91D;</span>
+            <div class="mg-card-info">
+              <h3>Trading Post</h3>
+              <p>Trade and sell monsters with NPC traders!</p>
+            </div>
+          </div>
+        </div>
+        <button class="btn btn-back" id="btn-minigames-back">Back</button>
+      </div>
+    </section>
+
+    <!-- Capture the Flag -->
+    <section id="screen-ctf" class="screen">
+      <div class="ctf-container">
+        <h2>Capture the Flag</h2>
+        <div id="ctf-game-area"></div>
+        <button class="btn btn-back" id="btn-ctf-back">Back</button>
+      </div>
+    </section>
+
+    <!-- Tower Defense -->
+    <section id="screen-tower-defense" class="screen">
+      <div class="td-container">
+        <h2>Tower Defense</h2>
+        <div id="td-game-area"></div>
+        <button class="btn btn-back" id="btn-td-back">Back</button>
+      </div>
+    </section>
+
+    <!-- Trading Post -->
+    <section id="screen-trading" class="screen">
+      <div class="trade-container">
+        <h2>Trading Post</h2>
+        <div id="trade-game-area"></div>
+        <button class="btn btn-back" id="btn-trade-back">Back</button>
       </div>
     </section>
 

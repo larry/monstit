@@ -1,0 +1,711 @@
+/* === Minigames Hub === */
+.minigames-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+}
+
+.minigames-container h2 {
+  background: linear-gradient(135deg, #ff6b35, #ffd700, #00b4d8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-size: 1.8rem;
+}
+
+.minigames-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+  max-width: 340px;
+}
+
+.mg-card {
+  background: var(--bg-card);
+  border-radius: var(--radius);
+  padding: 18px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  cursor: pointer;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  border: 2px solid transparent;
+}
+
+.mg-card:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow);
+}
+
+.mg-card-icon {
+  font-size: 2.2rem;
+  min-width: 48px;
+  text-align: center;
+}
+
+.mg-card-info h3 {
+  font-size: 1rem;
+  margin-bottom: 2px;
+}
+
+.mg-card-info p {
+  font-size: 0.78rem;
+  color: var(--text-secondary);
+}
+
+.btn-minigames {
+  background: linear-gradient(135deg, #ff6b35, #ffd700);
+  color: #1a1a2e;
+}
+
+/* === Capture the Flag === */
+.ctf-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  height: 100%;
+}
+
+.ctf-container h2 {
+  background: linear-gradient(135deg, #4caf50, #00b4d8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-size: 1.5rem;
+}
+
+#ctf-game-area {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  overflow-y: auto;
+}
+
+.ctf-scoreboard {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background: var(--bg-secondary);
+  border-radius: var(--radius);
+  padding: 10px 16px;
+  font-weight: 700;
+}
+
+.ctf-player-score { color: #4caf50; }
+.ctf-opp-score { color: #f44336; }
+.ctf-round { color: var(--text-secondary); font-size: 0.85rem; }
+
+.ctf-field {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  width: 100%;
+  background: var(--bg-secondary);
+  border-radius: var(--radius);
+  padding: 10px;
+}
+
+.ctf-flag {
+  font-size: 1.6rem;
+  min-width: 30px;
+  text-align: center;
+}
+
+.ctf-track {
+  display: flex;
+  flex: 1;
+  gap: 2px;
+}
+
+.ctf-cell {
+  flex: 1;
+  height: 28px;
+  background: #1a1a2e;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75rem;
+}
+
+.ctf-cell-mid {
+  background: #333;
+  border: 1px dashed #555;
+}
+
+.ctf-cell-player { background: rgba(76, 175, 80, 0.2); }
+.ctf-cell-opp { background: rgba(244, 67, 54, 0.2); }
+.ctf-cell-flag { background: rgba(255, 215, 0, 0.15); }
+
+.ctf-monster-display {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.ctf-sprite {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ctf-sprite .monster {
+  transform: scale(0.7);
+}
+
+.ctf-monster-name {
+  font-family: var(--font-display);
+  font-size: 0.9rem;
+}
+
+.ctf-message {
+  font-weight: 700;
+  font-size: 0.95rem;
+  min-height: 24px;
+  text-align: center;
+}
+
+.ctf-quiz {
+  width: 100%;
+}
+
+.ctf-question {
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 0.95rem;
+}
+
+.ctf-answers {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.ctf-answer {
+  background: var(--bg-card);
+  border: 2px solid transparent;
+  border-radius: var(--radius);
+  padding: 12px;
+  color: var(--text-primary);
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: border-color 0.15s ease, transform 0.15s ease;
+  text-align: left;
+  min-width: 0;
+}
+
+.ctf-answer:hover {
+  border-color: var(--accent);
+  transform: translateY(-1px);
+}
+
+.ctf-result {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+  background: var(--bg-secondary);
+  border-radius: var(--radius);
+  padding: 24px;
+  text-align: center;
+}
+
+.ctf-result h3 { font-size: 1.8rem; }
+
+.ctf-rewards {
+  font-weight: 700;
+  color: var(--type-cloud);
+}
+
+/* === Tower Defense === */
+.td-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  height: 100%;
+}
+
+.td-container h2 {
+  background: linear-gradient(135deg, #ff6b35, #e94560);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-size: 1.5rem;
+}
+
+#td-game-area {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  overflow-y: auto;
+}
+
+.td-setup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.td-instructions {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  max-width: 300px;
+}
+
+.td-difficulty {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  max-width: 260px;
+}
+
+.td-diff-btn {
+  min-width: 0;
+  width: 100%;
+}
+
+.td-hud {
+  display: flex;
+  justify-content: space-between;
+  background: var(--bg-secondary);
+  border-radius: var(--radius);
+  padding: 8px 14px;
+  font-weight: 700;
+  font-size: 0.85rem;
+}
+
+.td-lives { color: #f44336; }
+.td-wave { color: var(--text-secondary); }
+.td-score { color: #ffd700; }
+
+.td-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 3px;
+  background: var(--bg-secondary);
+  border-radius: var(--radius);
+  padding: 6px;
+  min-height: 180px;
+}
+
+.td-cell {
+  background: #1a1a2e;
+  border-radius: 4px;
+  min-height: 42px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background 0.15s ease;
+  position: relative;
+  padding: 2px;
+}
+
+.td-cell:hover:not(.td-cell-tower) {
+  background: rgba(233, 69, 96, 0.15);
+}
+
+.td-cell-tower {
+  background: rgba(15, 52, 96, 0.8);
+  cursor: default;
+}
+
+.td-cell-cooldown { opacity: 0.6; }
+
+.td-tower {
+  font-size: 1.4rem;
+  line-height: 1;
+}
+
+.td-enemy {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1px;
+  font-size: 1rem;
+}
+
+.td-enemy-hp {
+  width: 80%;
+  height: 3px;
+  background: #333;
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.td-enemy-hp-fill {
+  height: 100%;
+  background: #f44336;
+  border-radius: 2px;
+}
+
+.td-controls {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+}
+
+.td-monster-picker {
+  background: var(--bg-secondary);
+  border-radius: var(--radius);
+  padding: 8px 12px;
+}
+
+.td-pick-label {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  margin-bottom: 6px;
+}
+
+.td-pick-list {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.td-pick-btn {
+  background: var(--bg-card);
+  border: 2px solid transparent;
+  border-radius: var(--radius-sm);
+  padding: 6px 10px;
+  color: var(--text-primary);
+  font-family: var(--font-display);
+  font-size: 0.7rem;
+  cursor: pointer;
+  transition: border-color 0.15s ease;
+}
+
+.td-pick-btn:hover { border-color: var(--accent); }
+.td-pick-btn.td-pick-selected { border-color: #4caf50; background: rgba(76, 175, 80, 0.15); }
+
+.td-no-towers {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+}
+
+.td-quiz-area {
+  background: var(--bg-secondary);
+  border-radius: var(--radius);
+  padding: 10px;
+  min-height: 20px;
+}
+
+.td-quiz-prompt {
+  font-family: var(--font-display);
+  color: #ffd700;
+  text-align: center;
+  font-size: 0.85rem;
+}
+
+.td-quiz-q {
+  text-align: center;
+  font-weight: 700;
+  font-size: 0.85rem;
+  margin: 4px 0;
+}
+
+.td-quiz-answers {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6px;
+}
+
+.td-quiz-btn {
+  min-width: 0 !important;
+  padding: 8px !important;
+  font-size: 0.75rem !important;
+  background: var(--bg-card);
+  border: none;
+  border-radius: var(--radius-sm);
+  color: var(--text-primary);
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.td-quiz-btn:hover { background: rgba(233, 69, 96, 0.3); }
+
+.td-quiz-result {
+  text-align: center;
+  font-weight: 700;
+  font-size: 0.85rem;
+}
+
+.td-correct { color: #4caf50; }
+.td-wrong { color: #f44336; }
+
+.td-result {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+  background: var(--bg-secondary);
+  border-radius: var(--radius);
+  padding: 24px;
+  text-align: center;
+}
+
+.td-result h3 { font-size: 1.8rem; }
+
+.td-rewards {
+  font-weight: 700;
+  color: var(--type-cloud);
+}
+
+/* === Trading === */
+.trade-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  height: 100%;
+}
+
+.trade-container h2 {
+  background: linear-gradient(135deg, #ffd700, #ff6b35);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-size: 1.5rem;
+}
+
+#trade-game-area {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  overflow-y: auto;
+  padding-bottom: 4px;
+}
+
+.trade-header {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  background: var(--bg-secondary);
+  border-radius: var(--radius);
+  padding: 10px 16px;
+  font-weight: 700;
+}
+
+.trade-offers {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.trade-empty {
+  text-align: center;
+  color: var(--text-secondary);
+  padding: 30px;
+}
+
+.trade-card {
+  background: var(--bg-card);
+  border-radius: var(--radius);
+  padding: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.trade-card-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.trade-trader-icon {
+  font-size: 2rem;
+}
+
+.trade-trader-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.trade-trader-name {
+  font-family: var(--font-display);
+  font-size: 0.95rem;
+}
+
+.trade-trader-flavor {
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+  font-style: italic;
+}
+
+.trade-offer-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.trade-monster-preview {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.trade-offer-sprite {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.trade-offer-sprite .monster {
+  transform: scale(0.8);
+}
+
+.trade-monster-name {
+  font-family: var(--font-display);
+  font-size: 0.9rem;
+}
+
+.trade-cost {
+  font-weight: 700;
+  color: var(--type-water);
+}
+
+.trade-wants {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  font-weight: 600;
+}
+
+.trade-sell-info {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  text-align: center;
+}
+
+.trade-price-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 12px;
+  justify-content: center;
+  font-size: 0.75rem;
+  color: var(--type-cloud);
+  font-weight: 600;
+}
+
+.trade-btn {
+  min-width: 0 !important;
+  width: 100%;
+  padding: 10px !important;
+  font-size: 0.9rem !important;
+  background: linear-gradient(135deg, #ffd700, #ffaa00) !important;
+  color: #1a1a2e !important;
+}
+
+/* Trade picker overlay */
+.trade-overlay-wrap {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.85);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9998;
+  padding: 20px;
+}
+
+.trade-picker-overlay {
+  background: var(--bg-primary);
+  border-radius: var(--radius);
+  padding: 20px;
+  max-width: 380px;
+  width: 100%;
+  max-height: 80vh;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+}
+
+.trade-picker-overlay h3 {
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+.trade-picker-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  gap: 10px;
+  width: 100%;
+}
+
+.trade-picker-card {
+  background: var(--bg-card);
+  border-radius: var(--radius);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  cursor: pointer;
+  font-size: 0.8rem;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  border: 2px solid transparent;
+}
+
+.trade-picker-card:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent);
+  box-shadow: var(--shadow);
+}
+
+.trade-picker-sprite {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.trade-picker-sprite .monster {
+  transform: scale(0.65);
+}
+
+.trade-gem-reward {
+  color: #ffd700;
+  font-weight: 700;
+  font-size: 0.8rem;
+}
+
+.trade-picker-cancel {
+  width: 100%;
+}

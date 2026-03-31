@@ -175,6 +175,16 @@ h1, h2, h3 {
   text-shadow: 0 0 8px rgba(255, 221, 0, 0.5);
 }
 
+.season-label {
+  font-family: var(--font-display);
+  font-size: 1rem;
+  color: var(--type-cloud);
+  text-align: center;
+  margin-top: -18px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
 .eyeball-o::after {
   content: '';
   position: absolute;

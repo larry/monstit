@@ -60,6 +60,10 @@
   position: relative;
 }
 
+.monster-slot .monster {
+  transform: scale(1.33);
+}
+
 .opponent-slot {
   transition: all 0.3s ease;
 }
@@ -70,7 +74,7 @@
 }
 
 .boss-monster {
-  transform: scale(1.6);
+  transform: scale(2.13);
   transform-origin: center bottom;
   filter: drop-shadow(0 0 12px rgba(255, 50, 50, 0.4));
 }

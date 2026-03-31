@@ -8,6 +8,10 @@ import * as battleSelectScreen from './screens/battle-select.js';
 import * as battleScreen from './screens/battle.js';
 import * as pvpScreen from './screens/pvp.js';
 import * as pvpBattleScreen from './screens/pvp-battle.js';
+import * as minigamesScreen from './screens/minigames.js';
+import * as ctfScreen from './screens/ctf.js';
+import * as towerDefenseScreen from './screens/tower-defense.js';
+import * as tradingScreen from './screens/trading.js';
 import { playTrack, stopTrack, getMusicEnabled, setMusicEnabled } from './utils/music.js';
 import { QuestionBank } from './data/questions.js';
 
@@ -22,6 +26,10 @@ const screens = {
   battle: { el: null, module: battleScreen },
   pvp: { el: null, module: pvpScreen },
   'pvp-battle': { el: null, module: pvpBattleScreen },
+  minigames: { el: null, module: minigamesScreen },
+  ctf: { el: null, module: ctfScreen },
+  'tower-defense': { el: null, module: towerDefenseScreen },
+  trading: { el: null, module: tradingScreen },
   result: { el: null, module: null }
 };
 
@@ -37,6 +45,10 @@ const SCREEN_MUSIC = {
   battle: 'battle',
   pvp: 'menu',
   'pvp-battle': 'battle',
+  minigames: 'menu',
+  ctf: 'battle',
+  'tower-defense': 'battle',
+  trading: 'menu',
   result: null // keeps whatever was playing
 };
 
@@ -114,6 +126,10 @@ async function init() {
   battleScreen.init(navigateTo);
   pvpScreen.init(navigateTo, startPvpBattle);
   pvpBattleScreen.init(navigateTo);
+  minigamesScreen.init(navigateTo);
+  ctfScreen.init(navigateTo);
+  towerDefenseScreen.init(navigateTo);
+  tradingScreen.init(navigateTo);
 
   // Wire up all data-screen buttons
   document.querySelectorAll('[data-screen]').forEach(btn => {

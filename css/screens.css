@@ -319,6 +319,10 @@
   overflow: visible;
 }
 
+.modal-monster-sprite .monster {
+  transform: scale(1.33);
+}
+
 .modal-monster-name {
   font-size: 1.4rem;
   font-family: 'Fredoka One', cursive;

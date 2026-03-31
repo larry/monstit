@@ -1,0 +1,4082 @@
+[
+  {
+    "id": "s2_001",
+    "sub": "matter",
+    "question": "What is the chemical symbol for gold?",
+    "answers": [
+      "Au",
+      "Gd",
+      "Go",
+      "Ag"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s2_002",
+    "sub": "human_body",
+    "question": "How many bones are in the adult human body?",
+    "answers": [
+      "206",
+      "196",
+      "186",
+      "216"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s2_003",
+    "sub": "earth",
+    "question": "What type of rock is formed from cooled lava?",
+    "answers": [
+      "Sedimentary",
+      "Mineral",
+      "Metamorphic",
+      "Igneous"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s2_004",
+    "sub": "human_body",
+    "question": "What is the powerhouse of the cell?",
+    "answers": [
+      "Mitochondria",
+      "Nucleus",
+      "Ribosome",
+      "Golgi Body"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s2_005",
+    "sub": "space",
+    "question": "What planet is known as the Red Planet?",
+    "answers": [
+      "Mars",
+      "Venus",
+      "Jupiter",
+      "Saturn"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s2_006",
+    "sub": "animals",
+    "question": "What is the process of a caterpillar becoming a butterfly?",
+    "answers": [
+      "Hibernation",
+      "Metamorphosis",
+      "Migration",
+      "Adaptation"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s2_007",
+    "sub": "animals",
+    "question": "Which group of animals are cold-blooded?",
+    "answers": [
+      "Mammals",
+      "Birds",
+      "All of these",
+      "Reptiles"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s2_008",
+    "sub": "animals",
+    "question": "What is the purpose of a bird's hollow bones?",
+    "answers": [
+      "To store food",
+      "To keep them warm",
+      "To hold water",
+      "To make them lighter for flight"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s2_009",
+    "sub": "animals",
+    "question": "Why do some animals have stripes or spots?",
+    "answers": [
+      "For decoration",
+      "For camouflage",
+      "For warmth",
+      "For speed"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s2_010",
+    "sub": "animals",
+    "question": "What is the life cycle of a frog?",
+    "answers": [
+      "Egg, frog, tadpole",
+      "Frog, egg, tadpole",
+      "Tadpole, egg, frog",
+      "Egg, tadpole, froglet, frog"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s2_011",
+    "sub": "animals",
+    "question": "How do snakes smell their surroundings?",
+    "answers": [
+      "With their nose",
+      "With their skin",
+      "With their tongue",
+      "With their eyes"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s2_012",
+    "sub": "animals",
+    "question": "What is an animal that eats both plants and meat called?",
+    "answers": [
+      "Herbivore",
+      "Omnivore",
+      "Carnivore",
+      "Decomposer"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s2_013",
+    "sub": "animals",
+    "question": "Which animal can regrow its tail?",
+    "answers": [
+      "Lizard",
+      "Cat",
+      "Dog",
+      "Rabbit"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s2_014",
+    "sub": "animals",
+    "question": "What makes amphibians unique?",
+    "answers": [
+      "They can fly",
+      "They lay hard-shelled eggs",
+      "They have fur",
+      "They live on land and in water"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s2_015",
+    "sub": "animals",
+    "question": "What is the role of a queen bee in a hive?",
+    "answers": [
+      "To make honey",
+      "To lay eggs",
+      "To guard the hive",
+      "To find flowers"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s2_016",
+    "sub": "animals",
+    "question": "How do dolphins communicate?",
+    "answers": [
+      "By changing color",
+      "By releasing scent",
+      "Through clicks and whistles",
+      "Through body heat"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s2_017",
+    "sub": "animals",
+    "question": "What is an exoskeleton?",
+    "answers": [
+      "A hard outer covering",
+      "An inside skeleton",
+      "A type of shell",
+      "A thick skin"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s2_018",
+    "sub": "animals",
+    "question": "Why do geese fly in a V formation?",
+    "answers": [
+      "To look for food",
+      "To stay warm",
+      "To save energy by reducing wind drag",
+      "To avoid predators"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s2_019",
+    "sub": "animals",
+    "question": "What do gills allow fish to do?",
+    "answers": [
+      "See underwater",
+      "Swim faster",
+      "Breathe oxygen from water",
+      "Hear sounds"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s2_020",
+    "sub": "animals",
+    "question": "Which ocean animal has eight arms?",
+    "answers": [
+      "Squid",
+      "Octopus",
+      "Starfish",
+      "Jellyfish"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s2_021",
+    "sub": "animals",
+    "question": "What is a vertebrate?",
+    "answers": [
+      "An animal with a backbone",
+      "An animal without bones",
+      "A type of insect",
+      "A plant-eating animal"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s2_022",
+    "sub": "animals",
+    "question": "Why do owls have large eyes?",
+    "answers": [
+      "To scare predators",
+      "To find water",
+      "To see well in the dark",
+      "To attract mates"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s2_023",
+    "sub": "animals",
+    "question": "What is molting?",
+    "answers": [
+      "Sleeping for winter",
+      "Shedding skin, feathers, or fur",
+      "Changing color",
+      "Growing new teeth"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s2_024",
+    "sub": "animals",
+    "question": "Which animal has the best sense of smell?",
+    "answers": [
+      "Cat",
+      "Eagle",
+      "Owl",
+      "Dog"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s2_025",
+    "sub": "animals",
+    "question": "What type of animal is a whale?",
+    "answers": [
+      "Mammal",
+      "Reptile",
+      "Fish",
+      "Amphibian"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s2_026",
+    "sub": "animals",
+    "question": "What is a group of wolves called?",
+    "answers": [
+      "Herd",
+      "Pack",
+      "Flock",
+      "Colony"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s2_027",
+    "sub": "animals",
+    "question": "Why do some animals have thick fur in winter?",
+    "answers": [
+      "For insulation against cold",
+      "To look bigger",
+      "To attract mates",
+      "To swim better"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s2_028",
+    "sub": "animals",
+    "question": "What is an invertebrate?",
+    "answers": [
+      "An animal without a backbone",
+      "An animal with a backbone",
+      "A type of fish",
+      "A warm-blooded animal"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s2_029",
+    "sub": "animals",
+    "question": "How do electric eels defend themselves?",
+    "answers": [
+      "Producing electric shocks",
+      "Fast swimming",
+      "Sharp teeth",
+      "Releasing ink"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s2_030",
+    "sub": "animals",
+    "question": "What is nocturnal behavior?",
+    "answers": [
+      "Being active during the day",
+      "Traveling long distances",
+      "Sleeping all winter",
+      "Being active at night"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s2_031",
+    "sub": "animals",
+    "question": "Which insect goes through incomplete metamorphosis?",
+    "answers": [
+      "Grasshopper",
+      "Beetle",
+      "Butterfly",
+      "Fly"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s2_032",
+    "sub": "animals",
+    "question": "What special feature helps a woodpecker find food?",
+    "answers": [
+      "Long tail",
+      "Large wings",
+      "Sharp beak for drilling wood",
+      "Color vision"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s2_033",
+    "sub": "animals",
+    "question": "Why do some animals play dead?",
+    "answers": [
+      "To trick predators into leaving",
+      "They are tired",
+      "To sleep better",
+      "To find food"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s2_034",
+    "sub": "animals",
+    "question": "What is a marsupial?",
+    "answers": [
+      "A mammal that carries young in a pouch",
+      "An egg-laying mammal",
+      "A type of reptile",
+      "A cold-blooded animal"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s2_035",
+    "sub": "animals",
+    "question": "What is a group of lions called?",
+    "answers": [
+      "Pack",
+      "Pride",
+      "Herd",
+      "Colony"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s2_036",
+    "sub": "animals",
+    "question": "How does a porcupine protect itself?",
+    "answers": [
+      "With sharp quills",
+      "By running fast",
+      "By spraying liquid",
+      "By biting"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s2_037",
+    "sub": "animals",
+    "question": "What is migration?",
+    "answers": [
+      "Changing fur color",
+      "Sleeping through winter",
+      "Moving to a new area for the season",
+      "Growing larger in summer"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s2_038",
+    "sub": "animals",
+    "question": "Which sense is most important for bats finding food?",
+    "answers": [
+      "Hearing (echolocation)",
+      "Smell",
+      "Sight",
+      "Touch"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s2_039",
+    "sub": "animals",
+    "question": "Why do chameleons change color?",
+    "answers": [
+      "Only for camouflage",
+      "To attract food",
+      "Only when scared",
+      "For temperature control and communication"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s2_040",
+    "sub": "animals",
+    "question": "What makes a platypus unusual for a mammal?",
+    "answers": [
+      "It lays eggs",
+      "It can fly",
+      "It has scales",
+      "It lives in water only"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s2_041",
+    "sub": "animals",
+    "question": "Which animal is an arachnid?",
+    "answers": [
+      "Scorpion",
+      "Ant",
+      "Beetle",
+      "Dragonfly"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s2_042",
+    "sub": "animals",
+    "question": "What do monarch butterflies do each fall?",
+    "answers": [
+      "Hibernate underground",
+      "Lay eggs in trees",
+      "Build cocoons",
+      "Migrate to warmer areas"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s2_043",
+    "sub": "animals",
+    "question": "How do puffer fish defend themselves?",
+    "answers": [
+      "Camouflage",
+      "Inflating their body",
+      "Electric shock",
+      "Releasing poison clouds"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s2_044",
+    "sub": "plants",
+    "question": "Why do leaves change color in fall?",
+    "answers": [
+      "Cold air paints them",
+      "Chlorophyll breaks down revealing other pigments",
+      "They absorb different light",
+      "They are dying from disease"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s2_045",
+    "sub": "plants",
+    "question": "What is the role of the xylem in a plant?",
+    "answers": [
+      "To carry food down",
+      "To carry water up from roots",
+      "To make seeds",
+      "To absorb sunlight"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s2_046",
+    "sub": "plants",
+    "question": "What is pollination?",
+    "answers": [
+      "Seeds spreading",
+      "Pollen moving from stamen to pistil",
+      "Roots growing",
+      "Leaves falling"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s2_047",
+    "sub": "plants",
+    "question": "What is the phloem's job in a plant?",
+    "answers": [
+      "Absorb water",
+      "Support the stem",
+      "Transport food from leaves to other parts",
+      "Make flowers bloom"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s2_048",
+    "sub": "plants",
+    "question": "Why do some plants have thorns?",
+    "answers": [
+      "To protect against animals eating them",
+      "To attract insects",
+      "To absorb water",
+      "To catch sunlight"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s2_049",
+    "sub": "plants",
+    "question": "What is germination?",
+    "answers": [
+      "A seed beginning to grow",
+      "A plant dying",
+      "A flower blooming",
+      "A leaf falling"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s2_050",
+    "sub": "plants",
+    "question": "What type of plant traps insects?",
+    "answers": [
+      "Cactus",
+      "Venus flytrap",
+      "Oak tree",
+      "Fern"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s2_051",
+    "sub": "plants",
+    "question": "What is the stamen of a flower?",
+    "answers": [
+      "The female part",
+      "The petals",
+      "The stem",
+      "The male part that produces pollen"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s2_052",
+    "sub": "plants",
+    "question": "How do pine trees spread their seeds?",
+    "answers": [
+      "Through pinecones",
+      "Through fruits",
+      "Through flowers",
+      "Through roots"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s2_053",
+    "sub": "plants",
+    "question": "What is a tuber?",
+    "answers": [
+      "A type of leaf",
+      "A type of bark",
+      "A flower bud",
+      "An underground stem that stores food"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s2_054",
+    "sub": "plants",
+    "question": "Why do plants lean toward light?",
+    "answers": [
+      "They need light for photosynthesis",
+      "They want warmth",
+      "They avoid shade",
+      "They like the color"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s2_055",
+    "sub": "plants",
+    "question": "What is a spore?",
+    "answers": [
+      "A tiny cell used for reproduction by ferns",
+      "A type of seed",
+      "A type of flower",
+      "A root tip"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s2_056",
+    "sub": "plants",
+    "question": "What does a plant need carbon dioxide for?",
+    "answers": [
+      "To drink",
+      "To bloom flowers",
+      "To grow roots",
+      "To make food through photosynthesis"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s2_057",
+    "sub": "plants",
+    "question": "What is the pistil of a flower?",
+    "answers": [
+      "The male part",
+      "The stem below the flower",
+      "The female part that receives pollen",
+      "The colorful petals"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s2_058",
+    "sub": "plants",
+    "question": "How do ferns reproduce?",
+    "answers": [
+      "Seeds",
+      "Spores",
+      "Flowers",
+      "Bulbs"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s2_059",
+    "sub": "plants",
+    "question": "What is the function of a flower's nectar?",
+    "answers": [
+      "Feed the plant",
+      "Attract pollinators",
+      "Help roots grow",
+      "Store water"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s2_060",
+    "sub": "plants",
+    "question": "What is an annual plant?",
+    "answers": [
+      "A plant that lives many years",
+      "A plant that completes its life in one year",
+      "A plant with no flowers",
+      "A plant that only grows in summer"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s2_061",
+    "sub": "plants",
+    "question": "What is a bulb?",
+    "answers": [
+      "A type of leaf",
+      "A root hair",
+      "A flower bud",
+      "An underground storage organ"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s2_062",
+    "sub": "plants",
+    "question": "Why do some seeds have wings or parachutes?",
+    "answers": [
+      "To be carried by wind to new places",
+      "To attract birds",
+      "To float on water",
+      "To protect from cold"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s2_063",
+    "sub": "plants",
+    "question": "What happens during photosynthesis?",
+    "answers": [
+      "Plants use light to make sugar from CO2 and water",
+      "Plants breathe out CO2",
+      "Plants absorb minerals",
+      "Plants release water only"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s2_064",
+    "sub": "plants",
+    "question": "What is a perennial plant?",
+    "answers": [
+      "Lives for one season",
+      "Lives for many years",
+      "Grows only in water",
+      "Has no leaves"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s2_065",
+    "sub": "plants",
+    "question": "What is a taproot?",
+    "answers": [
+      "One main large root growing deep",
+      "A shallow root system",
+      "A root that floats",
+      "A root above ground"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s2_066",
+    "sub": "plants",
+    "question": "What is the sepal of a flower?",
+    "answers": [
+      "The petals",
+      "The stem",
+      "Green leaf-like parts protecting the bud",
+      "The pollen grains"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s2_067",
+    "sub": "plants",
+    "question": "How do strawberries spread to new areas?",
+    "answers": [
+      "Wind only",
+      "Animals only",
+      "Deep roots",
+      "Runners that grow along the ground"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s2_068",
+    "sub": "plants",
+    "question": "What is tropism?",
+    "answers": [
+      "A disease",
+      "A plant's growth response to a stimulus",
+      "A type of root",
+      "A fungal infection"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s2_069",
+    "sub": "plants",
+    "question": "Why are mushrooms not classified as plants?",
+    "answers": [
+      "They don't make their own food",
+      "They are too small",
+      "They grow in soil",
+      "They have roots"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s2_070",
+    "sub": "plants",
+    "question": "What is the main purpose of fruit on a plant?",
+    "answers": [
+      "To feed the plant",
+      "To attract rain",
+      "To protect and spread seeds",
+      "To store water"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s2_071",
+    "sub": "plants",
+    "question": "What is a rhizome?",
+    "answers": [
+      "A type of leaf",
+      "A flower part",
+      "An underground horizontal stem",
+      "A type of seed"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s2_072",
+    "sub": "plants",
+    "question": "Why do some flowers close at night?",
+    "answers": [
+      "They are sleeping",
+      "They don't like the dark",
+      "To protect pollen and save energy",
+      "To trap insects"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s2_073",
+    "sub": "plants",
+    "question": "What is sap?",
+    "answers": [
+      "Water on leaves",
+      "Fluid that carries nutrients in a plant",
+      "Plant sweat",
+      "Dew on bark"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s2_074",
+    "sub": "plants",
+    "question": "How do coconut palms spread to new islands?",
+    "answers": [
+      "Birds carry them",
+      "Wind blows seeds",
+      "Coconuts float on ocean water",
+      "Underground roots spread"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s2_075",
+    "sub": "plants",
+    "question": "What is a biennial plant?",
+    "answers": [
+      "Completes its life in one year",
+      "Takes two years to complete its life cycle",
+      "Lives forever",
+      "Grows only in spring"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s2_076",
+    "sub": "plants",
+    "question": "What is transpiration?",
+    "answers": [
+      "Roots absorbing water",
+      "Water evaporating from leaf surfaces",
+      "Seeds germinating",
+      "Pollen spreading"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s2_077",
+    "sub": "plants",
+    "question": "Why are leaves flat and thin?",
+    "answers": [
+      "To save water",
+      "To resist wind",
+      "To absorb more sunlight",
+      "To attract insects"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s2_078",
+    "sub": "plants",
+    "question": "What is a conifer?",
+    "answers": [
+      "A flowering tree",
+      "A fruit tree",
+      "A type of grass",
+      "A cone-bearing tree with needles"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s2_079",
+    "sub": "plants",
+    "question": "How do burr seeds travel?",
+    "answers": [
+      "Wind",
+      "Water",
+      "By sticking to animal fur",
+      "Underground"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s2_080",
+    "sub": "plants",
+    "question": "What role do worms play for plants?",
+    "answers": [
+      "They eat the roots",
+      "They aerate soil and add nutrients",
+      "They spread seeds",
+      "They block water"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s2_081",
+    "sub": "plants",
+    "question": "What is the difference between monocots and dicots?",
+    "answers": [
+      "Color of flowers",
+      "Number of seed leaves: one vs two",
+      "Size of plant",
+      "Type of roots only"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s2_082",
+    "sub": "plants",
+    "question": "What is bark's main function?",
+    "answers": [
+      "To make food",
+      "To protect the tree from damage and disease",
+      "To absorb water",
+      "To attract insects"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s2_083",
+    "sub": "plants",
+    "question": "How can you tell a tree's age?",
+    "answers": [
+      "By its height",
+      "By its leaf shape",
+      "By counting growth rings",
+      "By its bark color"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s2_084",
+    "sub": "plants",
+    "question": "What is a succulent?",
+    "answers": [
+      "A plant in deep water",
+      "A type of vine",
+      "A tall tree",
+      "A plant with thick water-storing leaves"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s2_085",
+    "sub": "plants",
+    "question": "What is the role of root hairs?",
+    "answers": [
+      "To anchor deeply",
+      "To protect from insects",
+      "To store food",
+      "To increase surface area for absorbing water"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s2_086",
+    "sub": "earth",
+    "question": "What causes earthquakes?",
+    "answers": [
+      "Heavy rain",
+      "Volcanic ash",
+      "Strong winds",
+      "Movement of tectonic plates"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s2_087",
+    "sub": "earth",
+    "question": "What is a tectonic plate?",
+    "answers": [
+      "A type of rock",
+      "An ocean floor",
+      "A mountain range",
+      "A large section of Earth's crust that moves"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s2_088",
+    "sub": "earth",
+    "question": "How is metamorphic rock formed?",
+    "answers": [
+      "From cooling lava",
+      "By heat and pressure changing existing rock",
+      "From layers of sediment",
+      "From volcanic eruptions"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s2_089",
+    "sub": "earth",
+    "question": "What is the Mohs scale used for?",
+    "answers": [
+      "Measuring earthquakes",
+      "Measuring soil depth",
+      "Weighing rocks",
+      "Rating mineral hardness"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s2_090",
+    "sub": "earth",
+    "question": "What is a fault line?",
+    "answers": [
+      "A river bed",
+      "A crack where tectonic plates meet",
+      "A volcano rim",
+      "A mountain ridge"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s2_091",
+    "sub": "earth",
+    "question": "What is the rock cycle?",
+    "answers": [
+      "The process of rocks changing from one type to another",
+      "Rocks rolling downhill",
+      "Rocks getting bigger",
+      "Rocks dissolving in water"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s2_092",
+    "sub": "earth",
+    "question": "What is weathering?",
+    "answers": [
+      "Weather forecasting",
+      "The breaking down of rocks by natural forces",
+      "Wind measurement",
+      "Rain formation"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s2_093",
+    "sub": "earth",
+    "question": "What is a natural resource that can be replaced?",
+    "answers": [
+      "Coal",
+      "Oil",
+      "Trees",
+      "Natural gas"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s2_094",
+    "sub": "earth",
+    "question": "What is magma?",
+    "answers": [
+      "Melted rock beneath Earth's surface",
+      "Cooled lava",
+      "A type of mineral",
+      "Volcanic ash"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s2_095",
+    "sub": "earth",
+    "question": "What is the difference between magma and lava?",
+    "answers": [
+      "Magma is underground, lava is on the surface",
+      "No difference",
+      "Magma is cooler",
+      "Lava is underground"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s2_096",
+    "sub": "earth",
+    "question": "What is a fossil fuel?",
+    "answers": [
+      "A modern energy source",
+      "Volcanic energy",
+      "A type of rock",
+      "Energy from ancient organisms"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s2_097",
+    "sub": "earth",
+    "question": "What causes a tsunami?",
+    "answers": [
+      "Underwater earthquakes",
+      "Strong winds",
+      "Heavy rain",
+      "Tornadoes"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s2_098",
+    "sub": "earth",
+    "question": "What are the three layers of the Earth?",
+    "answers": [
+      "Top, middle, bottom",
+      "Sand, rock, metal",
+      "Crust, mantle, core",
+      "Soil, stone, lava"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s2_099",
+    "sub": "earth",
+    "question": "What is deposition?",
+    "answers": [
+      "Rocks breaking apart",
+      "Sediment being dropped in a new place",
+      "Magma cooling",
+      "Wind blowing"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s2_100",
+    "sub": "earth",
+    "question": "What is a mineral's streak?",
+    "answers": [
+      "Its weight",
+      "Its shape",
+      "The color of its powder when rubbed on a surface",
+      "Its hardness"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s2_101",
+    "sub": "earth",
+    "question": "What is continental drift?",
+    "answers": [
+      "Ocean currents moving",
+      "Earthquakes shifting land",
+      "Continents slowly moving over time",
+      "Rivers changing course"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s2_102",
+    "sub": "earth",
+    "question": "What type of volcano has gentle slopes?",
+    "answers": [
+      "Stratovolcano",
+      "Cinder cone",
+      "Shield volcano",
+      "Composite volcano"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s2_103",
+    "sub": "earth",
+    "question": "What is sandstone?",
+    "answers": [
+      "An igneous rock",
+      "A metamorphic rock",
+      "A sedimentary rock made from sand",
+      "A mineral"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s2_104",
+    "sub": "earth",
+    "question": "What is chemical weathering?",
+    "answers": [
+      "Rocks splitting from cold",
+      "Rocks breaking down from chemical reactions",
+      "Wind blowing sand",
+      "Water washing rocks"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s2_105",
+    "sub": "earth",
+    "question": "What is the Ring of Fire?",
+    "answers": [
+      "A zone of volcanoes around the Pacific Ocean",
+      "A ring around the Sun",
+      "A hot desert region",
+      "A circle of mountains"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s2_106",
+    "sub": "earth",
+    "question": "How do stalagmites form?",
+    "answers": [
+      "They fall from ceilings",
+      "Wind carves them",
+      "Lava cools underground",
+      "Minerals build up from cave floors"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s2_107",
+    "sub": "earth",
+    "question": "What mineral is found in pencils?",
+    "answers": [
+      "Lead",
+      "Quartz",
+      "Diamond",
+      "Graphite"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s2_108",
+    "sub": "earth",
+    "question": "What is a sinkhole?",
+    "answers": [
+      "A volcanic crater",
+      "A deep river",
+      "Ground collapsing into underground space",
+      "An earthquake crack"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s2_109",
+    "sub": "earth",
+    "question": "What is slate formed from?",
+    "answers": [
+      "Shale",
+      "Limestone",
+      "Granite",
+      "Sandstone"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s2_110",
+    "sub": "earth",
+    "question": "What is a nonrenewable resource?",
+    "answers": [
+      "Wind",
+      "Solar energy",
+      "Coal",
+      "Water"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s2_111",
+    "sub": "earth",
+    "question": "What is physical weathering?",
+    "answers": [
+      "Chemical breakdown",
+      "Dissolving rocks in acid",
+      "Breaking rocks without changing composition",
+      "Rusting of minerals"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s2_112",
+    "sub": "earth",
+    "question": "What creates soil over time?",
+    "answers": [
+      "Only water",
+      "Volcanic eruptions",
+      "Only plants",
+      "Weathering of rock and decomposition of organisms"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s2_113",
+    "sub": "earth",
+    "question": "What is an aquifer?",
+    "answers": [
+      "Underground rock that holds water",
+      "An underground river",
+      "A well",
+      "A spring"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s2_114",
+    "sub": "earth",
+    "question": "What is limestone made from?",
+    "answers": [
+      "Volcanic lava",
+      "Shells and skeletons of marine organisms",
+      "Sand and clay",
+      "Melted minerals"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s2_115",
+    "sub": "earth",
+    "question": "What is a geyser?",
+    "answers": [
+      "A hot spring that erupts water and steam",
+      "A waterfall",
+      "A type of rock",
+      "An underground river"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s2_116",
+    "sub": "earth",
+    "question": "What is erosion by glaciers called?",
+    "answers": [
+      "River erosion",
+      "Chemical erosion",
+      "Wind erosion",
+      "Glacial erosion"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s2_117",
+    "sub": "earth",
+    "question": "What causes a river delta to form?",
+    "answers": [
+      "Sediment deposited where a river meets the sea",
+      "Fast water flow",
+      "Volcanic activity",
+      "Earthquakes"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s2_118",
+    "sub": "earth",
+    "question": "What is the Earth's outer core made of?",
+    "answers": [
+      "Liquid iron and nickel",
+      "Solid rock",
+      "Sand",
+      "Gas"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s2_119",
+    "sub": "earth",
+    "question": "What is a mesa?",
+    "answers": [
+      "A deep valley",
+      "A flat-topped hill with steep sides",
+      "A type of volcano",
+      "An ocean trench"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s2_120",
+    "sub": "earth",
+    "question": "What are sediments?",
+    "answers": [
+      "Volcanic rocks",
+      "Small pieces of rock, sand, and organic material",
+      "Underground rivers",
+      "Mineral crystals"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s2_121",
+    "sub": "earth",
+    "question": "What is luster in minerals?",
+    "answers": [
+      "How heavy it is",
+      "How hard it is",
+      "How it reflects light",
+      "What color it is"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s2_122",
+    "sub": "earth",
+    "question": "What is the inner core of Earth like?",
+    "answers": [
+      "Solid and very hot",
+      "Liquid",
+      "Gaseous",
+      "Cool and rocky"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s2_123",
+    "sub": "earth",
+    "question": "How do fossils form in sedimentary rock?",
+    "answers": [
+      "Lava covers organisms",
+      "Ice freezes them",
+      "Wind carves shapes",
+      "Layers of sediment bury and preserve remains"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s2_124",
+    "sub": "earth",
+    "question": "What is conglomerate rock?",
+    "answers": [
+      "A pure mineral",
+      "Sedimentary rock made of rounded pebbles",
+      "An igneous rock",
+      "A metamorphic rock"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s2_125",
+    "sub": "earth",
+    "question": "What is a hot spot in geology?",
+    "answers": [
+      "An area where magma rises through the crust",
+      "A desert area",
+      "A sunny location",
+      "A fault line"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s2_126",
+    "sub": "earth",
+    "question": "What mineral is table salt made from?",
+    "answers": [
+      "Quartz",
+      "Mica",
+      "Feldspar",
+      "Halite"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s2_127",
+    "sub": "earth",
+    "question": "What happens to rocks in a river over time?",
+    "answers": [
+      "They grow larger",
+      "They change color only",
+      "They become harder",
+      "They become smoother and rounder"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s2_128",
+    "sub": "weather",
+    "question": "What is the difference between weather and climate?",
+    "answers": [
+      "They are the same",
+      "Weather is day-to-day, climate is long-term patterns",
+      "Climate is daily, weather is yearly",
+      "Weather is indoors, climate is outdoors"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s2_129",
+    "sub": "weather",
+    "question": "What is a cold front?",
+    "answers": [
+      "Cold air pushing under warm air",
+      "A warm air mass moving in",
+      "Air staying still",
+      "Wind changing direction"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s2_130",
+    "sub": "weather",
+    "question": "What does a meteorologist study?",
+    "answers": [
+      "Meteors",
+      "Weather",
+      "Rocks",
+      "Oceans"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s2_131",
+    "sub": "weather",
+    "question": "What scale measures hurricane strength?",
+    "answers": [
+      "Saffir-Simpson scale",
+      "Richter scale",
+      "Mohs scale",
+      "Beaufort scale"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s2_132",
+    "sub": "weather",
+    "question": "What is a warm front?",
+    "answers": [
+      "Warm air sliding over cold air",
+      "Cold air pushing warm air",
+      "Two cold air masses meeting",
+      "Air not moving"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s2_133",
+    "sub": "weather",
+    "question": "How does altitude affect temperature?",
+    "answers": [
+      "Higher up is warmer",
+      "It only affects wind",
+      "It has no effect",
+      "Higher up is cooler"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s2_134",
+    "sub": "weather",
+    "question": "What is the eye of a hurricane?",
+    "answers": [
+      "The strongest part",
+      "The calm center of the storm",
+      "The outer rain bands",
+      "The highest winds"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s2_135",
+    "sub": "weather",
+    "question": "What causes seasons on Earth?",
+    "answers": [
+      "Distance from the Sun",
+      "Earth's tilted axis",
+      "The Moon's pull",
+      "Speed of rotation"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s2_136",
+    "sub": "weather",
+    "question": "What is air pressure?",
+    "answers": [
+      "Wind speed",
+      "Temperature of air",
+      "The weight of air pressing down",
+      "Humidity level"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s2_137",
+    "sub": "weather",
+    "question": "Where do hurricanes form?",
+    "answers": [
+      "Over cold land",
+      "Over warm ocean water",
+      "In mountains",
+      "In deserts"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s2_138",
+    "sub": "weather",
+    "question": "What is a weather satellite used for?",
+    "answers": [
+      "Measuring earthquakes",
+      "Observing weather patterns from space",
+      "Predicting tides",
+      "Studying rocks"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s2_139",
+    "sub": "weather",
+    "question": "What does low air pressure usually bring?",
+    "answers": [
+      "Clear skies",
+      "Very hot weather",
+      "Stormy or cloudy weather",
+      "Dry conditions"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s2_140",
+    "sub": "weather",
+    "question": "What is a sea breeze?",
+    "answers": [
+      "Wind from land to sea",
+      "A calm ocean surface",
+      "A strong ocean storm",
+      "Wind from sea to land during the day"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s2_141",
+    "sub": "weather",
+    "question": "What causes lightning?",
+    "answers": [
+      "Clouds hitting each other",
+      "Heavy rain",
+      "Strong wind",
+      "Electrical discharge between clouds or ground"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s2_142",
+    "sub": "weather",
+    "question": "What is a stationary front?",
+    "answers": [
+      "A fast-moving front",
+      "A tropical storm",
+      "A front that is not moving",
+      "A type of tornado"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s2_143",
+    "sub": "weather",
+    "question": "What weather does high pressure usually bring?",
+    "answers": [
+      "Rain and storms",
+      "Fog",
+      "Snow",
+      "Clear and calm weather"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s2_144",
+    "sub": "weather",
+    "question": "What is the Fujita scale used for?",
+    "answers": [
+      "Hurricanes",
+      "Earthquakes",
+      "Tornado strength",
+      "Flood levels"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s2_145",
+    "sub": "weather",
+    "question": "What is wind chill?",
+    "answers": [
+      "How cold it feels with wind",
+      "Actual temperature",
+      "Wind speed",
+      "Humidity level"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s2_146",
+    "sub": "weather",
+    "question": "What type of cloud is highest in the sky?",
+    "answers": [
+      "Stratus",
+      "Cumulus",
+      "Cirrus",
+      "Cumulonimbus"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s2_147",
+    "sub": "weather",
+    "question": "What is the dew point?",
+    "answers": [
+      "Temperature where air becomes saturated",
+      "When rain starts",
+      "Coldest time of day",
+      "Highest humidity"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s2_148",
+    "sub": "weather",
+    "question": "Why is weather different in different places?",
+    "answers": [
+      "Only because of altitude",
+      "Because of the Moon",
+      "Only because of oceans",
+      "Due to latitude, altitude, and distance from water"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s2_149",
+    "sub": "weather",
+    "question": "What is a land breeze?",
+    "answers": [
+      "Wind from land to sea at night",
+      "Wind from sea to land",
+      "A strong storm",
+      "A gentle rain"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s2_150",
+    "sub": "weather",
+    "question": "What is an isobar on a weather map?",
+    "answers": [
+      "A line of equal temperature",
+      "A line of equal wind speed",
+      "A line of equal rainfall",
+      "A line of equal air pressure"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s2_151",
+    "sub": "weather",
+    "question": "What is a monsoon?",
+    "answers": [
+      "A type of tornado",
+      "A seasonal wind that brings heavy rain",
+      "A cold front",
+      "A dry desert wind"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s2_152",
+    "sub": "weather",
+    "question": "What makes thunderstorms form?",
+    "answers": [
+      "Cold dry air only",
+      "Clear skies",
+      "Warm moist air rising quickly",
+      "Light winds"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s2_153",
+    "sub": "weather",
+    "question": "What is a weather radar used for?",
+    "answers": [
+      "Measuring temperature",
+      "Detecting precipitation",
+      "Measuring wind speed",
+      "Tracking satellites"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s2_154",
+    "sub": "weather",
+    "question": "What is the jet stream?",
+    "answers": [
+      "An ocean current",
+      "A type of rain",
+      "A fast-moving band of air high in the atmosphere",
+      "A river of lava"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s2_155",
+    "sub": "weather",
+    "question": "What is a Nor'easter?",
+    "answers": [
+      "A warm tropical storm",
+      "A Pacific typhoon",
+      "A western hurricane",
+      "A strong storm along the East Coast of North America"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s2_156",
+    "sub": "weather",
+    "question": "What happens as warm air rises?",
+    "answers": [
+      "It gets warmer",
+      "It stays the same",
+      "It cools and may form clouds",
+      "It becomes heavier"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s2_157",
+    "sub": "weather",
+    "question": "What is an occluded front?",
+    "answers": [
+      "A warm front only",
+      "When a cold front overtakes a warm front",
+      "A stationary front",
+      "A clear weather front"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s2_158",
+    "sub": "weather",
+    "question": "Why does it rain more on one side of a mountain?",
+    "answers": [
+      "The Sun heats one side",
+      "Rivers flow from one side",
+      "Wind is blocked",
+      "Air rises and cools on one side, dropping rain"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s2_159",
+    "sub": "weather",
+    "question": "What is a heat island?",
+    "answers": [
+      "A tropical island",
+      "A city area that is warmer than surroundings",
+      "A hot spring",
+      "A desert oasis"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s2_160",
+    "sub": "weather",
+    "question": "What is a waterspout?",
+    "answers": [
+      "A fountain",
+      "A waterfall",
+      "A tornado over water",
+      "An ocean wave"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s2_161",
+    "sub": "weather",
+    "question": "What is El Nino?",
+    "answers": [
+      "A hurricane name",
+      "Warming of Pacific Ocean waters that affects weather",
+      "A type of cloud",
+      "A cold ocean current"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s2_162",
+    "sub": "weather",
+    "question": "Why are deserts dry?",
+    "answers": [
+      "Air masses lose moisture before reaching them",
+      "No water exists nearby",
+      "They are too hot for rain",
+      "They are too far from the equator"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s2_163",
+    "sub": "weather",
+    "question": "What is a hygrometer used for?",
+    "answers": [
+      "Measuring temperature",
+      "Measuring humidity",
+      "Measuring wind",
+      "Measuring rainfall"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s2_164",
+    "sub": "weather",
+    "question": "What forms when water droplets freeze around dust?",
+    "answers": [
+      "Snow",
+      "Sleet",
+      "Frost",
+      "Hail"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s2_165",
+    "sub": "weather",
+    "question": "What causes a rain shadow?",
+    "answers": [
+      "Tall buildings",
+      "Dense forests",
+      "Mountains blocking moist air",
+      "Large lakes"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s2_166",
+    "sub": "weather",
+    "question": "How do ocean currents affect coastal weather?",
+    "answers": [
+      "They have no effect",
+      "They only affect fish",
+      "They only cause waves",
+      "They warm or cool nearby air"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s2_167",
+    "sub": "weather",
+    "question": "What is a tornado watch vs. warning?",
+    "answers": [
+      "Same thing",
+      "Watch means possible, warning means one is occurring",
+      "Warning means possible, watch means happening",
+      "Watch is stronger"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s2_168",
+    "sub": "weather",
+    "question": "What creates lake-effect snow?",
+    "answers": [
+      "Mountains near lakes",
+      "Cold air passing over warmer lake water",
+      "Warm rain hitting cold ground",
+      "Ocean currents"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s2_169",
+    "sub": "weather",
+    "question": "What is a derecho?",
+    "answers": [
+      "A slow rainstorm",
+      "A tropical storm",
+      "A widespread long-lived windstorm",
+      "A winter blizzard"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s2_170",
+    "sub": "weather",
+    "question": "What does a sling psychrometer measure?",
+    "answers": [
+      "Wind speed",
+      "Temperature only",
+      "Air pressure",
+      "Relative humidity"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s2_171",
+    "sub": "space",
+    "question": "Which planet has the most moons?",
+    "answers": [
+      "Jupiter",
+      "Uranus",
+      "Saturn",
+      "Neptune"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s2_172",
+    "sub": "space",
+    "question": "What is a light-year?",
+    "answers": [
+      "One year of sunlight",
+      "The time light takes to reach Earth",
+      "The distance light travels in one year",
+      "A year on a distant planet"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s2_173",
+    "sub": "space",
+    "question": "What are Saturn's rings made of?",
+    "answers": [
+      "Ice and rock particles",
+      "Gas",
+      "Dust only",
+      "Metal"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s2_174",
+    "sub": "space",
+    "question": "What is a solar eclipse?",
+    "answers": [
+      "Moon passing behind Earth",
+      "Earth blocking the Sun",
+      "Sun blocking the Moon",
+      "Moon blocking the Sun"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s2_175",
+    "sub": "space",
+    "question": "What is a lunar eclipse?",
+    "answers": [
+      "Moon blocking the Sun",
+      "Sun blocking the Moon",
+      "Earth's shadow falling on the Moon",
+      "Moon blocking a star"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s2_176",
+    "sub": "space",
+    "question": "What is a dwarf planet?",
+    "answers": [
+      "A very small star",
+      "A moon of Jupiter",
+      "A baby planet forming",
+      "A body orbiting the Sun but too small for planet status"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s2_177",
+    "sub": "space",
+    "question": "What is the asteroid belt?",
+    "answers": [
+      "A region of asteroids between Mars and Jupiter",
+      "Rings around Saturn",
+      "Comets near the Sun",
+      "Debris near Neptune"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s2_178",
+    "sub": "space",
+    "question": "Why does the Moon appear to change shape?",
+    "answers": [
+      "It actually changes",
+      "We see different sunlit portions as it orbits",
+      "Earth's shadow changes it",
+      "Clouds cover parts of it"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s2_179",
+    "sub": "space",
+    "question": "What is a nebula?",
+    "answers": [
+      "A type of planet",
+      "A cloud of gas and dust in space",
+      "A dying star",
+      "A black hole"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s2_180",
+    "sub": "space",
+    "question": "How long does it take light from the Sun to reach Earth?",
+    "answers": [
+      "1 second",
+      "1 day",
+      "1 hour",
+      "8 minutes"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s2_181",
+    "sub": "space",
+    "question": "What is the International Space Station?",
+    "answers": [
+      "A base on the Moon",
+      "A rocket to Mars",
+      "A satellite for TV",
+      "A laboratory orbiting Earth"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s2_182",
+    "sub": "space",
+    "question": "What is Mars's largest volcano called?",
+    "answers": [
+      "Mount Everest",
+      "Mauna Kea",
+      "Olympus Mons",
+      "Mount Mars"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s2_183",
+    "sub": "space",
+    "question": "What are gas giants?",
+    "answers": [
+      "Rocky planets near the Sun",
+      "Large planets made mostly of gas",
+      "Asteroids made of gas",
+      "Stars that look like planets"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s2_184",
+    "sub": "space",
+    "question": "What is the name of the first satellite launched into space?",
+    "answers": [
+      "Apollo",
+      "Sputnik",
+      "Voyager",
+      "Hubble"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s2_185",
+    "sub": "space",
+    "question": "What is a meteor shower?",
+    "answers": [
+      "Rain from space",
+      "Many meteors entering the atmosphere at once",
+      "A storm on another planet",
+      "Sunlight reflecting off dust"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s2_186",
+    "sub": "space",
+    "question": "Which planet rotates on its side?",
+    "answers": [
+      "Mars",
+      "Neptune",
+      "Saturn",
+      "Uranus"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s2_187",
+    "sub": "space",
+    "question": "What is a space probe?",
+    "answers": [
+      "An astronaut's tool",
+      "An unmanned spacecraft sent to explore",
+      "A type of telescope",
+      "A rocket booster"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s2_188",
+    "sub": "space",
+    "question": "What is the Kuiper Belt?",
+    "answers": [
+      "A region of icy bodies beyond Neptune",
+      "Asteroids near Mars",
+      "Saturn's rings",
+      "A nearby galaxy"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s2_189",
+    "sub": "space",
+    "question": "What is gravity?",
+    "answers": [
+      "A force that attracts objects with mass",
+      "A type of energy",
+      "A magnetic field",
+      "Air pressure"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s2_190",
+    "sub": "space",
+    "question": "Why do we only see one side of the Moon?",
+    "answers": [
+      "It doesn't rotate",
+      "Earth blocks our view",
+      "The other side is invisible",
+      "It rotates at the same rate it orbits Earth"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s2_191",
+    "sub": "space",
+    "question": "What was the first space telescope?",
+    "answers": [
+      "James Webb",
+      "Kepler",
+      "Spitzer",
+      "Hubble Space Telescope"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s2_192",
+    "sub": "space",
+    "question": "What is a meteorite?",
+    "answers": [
+      "A meteor in space",
+      "A shooting star",
+      "A meteor that lands on Earth",
+      "A small comet"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s2_193",
+    "sub": "space",
+    "question": "Which planet has the shortest day?",
+    "answers": [
+      "Jupiter",
+      "Mars",
+      "Earth",
+      "Venus"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s2_194",
+    "sub": "space",
+    "question": "What fuel does the Sun use?",
+    "answers": [
+      "Oxygen",
+      "Coal",
+      "Hydrogen",
+      "Helium"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s2_195",
+    "sub": "space",
+    "question": "What is a waxing moon?",
+    "answers": [
+      "Getting larger",
+      "Getting smaller",
+      "A full moon",
+      "A new moon"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s2_196",
+    "sub": "space",
+    "question": "What is a waning moon?",
+    "answers": [
+      "Getting larger",
+      "Half lit",
+      "Getting smaller",
+      "Completely dark"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s2_197",
+    "sub": "space",
+    "question": "What are the ice giants in our solar system?",
+    "answers": [
+      "Jupiter and Saturn",
+      "Uranus and Neptune",
+      "Mars and Venus",
+      "Mercury and Pluto"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s2_198",
+    "sub": "space",
+    "question": "What spacecraft first landed on the Moon?",
+    "answers": [
+      "Gemini 7",
+      "Apollo 13",
+      "Apollo 11",
+      "Mercury 1"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s2_199",
+    "sub": "space",
+    "question": "What is a satellite?",
+    "answers": [
+      "Only man-made objects in orbit",
+      "Any object orbiting another object",
+      "A type of star",
+      "A space station"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s2_200",
+    "sub": "space",
+    "question": "What is a supernova?",
+    "answers": [
+      "A massive star explosion",
+      "A new star forming",
+      "A black hole",
+      "A big comet"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s2_201",
+    "sub": "space",
+    "question": "What planet has the longest year?",
+    "answers": [
+      "Jupiter",
+      "Saturn",
+      "Neptune",
+      "Uranus"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s2_202",
+    "sub": "space",
+    "question": "What are sunspots?",
+    "answers": [
+      "Holes in the Sun",
+      "Dust on telescopes",
+      "Solar flares",
+      "Cooler darker areas on the Sun's surface"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s2_203",
+    "sub": "space",
+    "question": "What is the Oort Cloud?",
+    "answers": [
+      "A nebula near Earth",
+      "A cloud on Jupiter",
+      "A distant region of icy objects around the solar system",
+      "A dust ring near Mars"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s2_204",
+    "sub": "space",
+    "question": "What makes Neptune blue?",
+    "answers": [
+      "Water on its surface",
+      "Reflection from oceans",
+      "Methane in its atmosphere",
+      "Blue rocks"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s2_205",
+    "sub": "space",
+    "question": "What is a quarter moon?",
+    "answers": [
+      "Half the Moon's face lit",
+      "One-fourth of the Moon visible",
+      "Three-quarters lit",
+      "A very small moon"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s2_206",
+    "sub": "space",
+    "question": "How do astronauts float in space?",
+    "answers": [
+      "No gravity exists",
+      "Space suits make them float",
+      "They are in free fall (microgravity)",
+      "Air pushes them up"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s2_207",
+    "sub": "space",
+    "question": "What is the difference between a meteor and a meteoroid?",
+    "answers": [
+      "Meteoroid is in space, meteor is in atmosphere",
+      "Same thing",
+      "Meteor is bigger",
+      "Meteoroid glows brighter"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s2_208",
+    "sub": "space",
+    "question": "Which planet spins backward?",
+    "answers": [
+      "Mars",
+      "Jupiter",
+      "Venus",
+      "Neptune"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s2_209",
+    "sub": "space",
+    "question": "What is a gibbous moon?",
+    "answers": [
+      "Less than half lit",
+      "Fully dark",
+      "More than half but not fully lit",
+      "Fully lit"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s2_210",
+    "sub": "space",
+    "question": "What is Halley's Comet?",
+    "answers": [
+      "An asteroid",
+      "A planet in another galaxy",
+      "A star near Earth",
+      "A famous comet visible every 75-76 years"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s2_211",
+    "sub": "space",
+    "question": "What rover explored Mars starting in 2021?",
+    "answers": [
+      "Curiosity",
+      "Spirit",
+      "Opportunity",
+      "Perseverance"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s2_212",
+    "sub": "space",
+    "question": "What is a red giant star?",
+    "answers": [
+      "An old star that has expanded and cooled",
+      "A small hot star",
+      "A star being born",
+      "A star near a black hole"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s2_213",
+    "sub": "space",
+    "question": "What is the largest moon in our solar system?",
+    "answers": [
+      "Ganymede",
+      "Titan",
+      "Europa",
+      "Io"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s2_214",
+    "sub": "human_body",
+    "question": "What system fights off diseases in your body?",
+    "answers": [
+      "Immune system",
+      "Digestive system",
+      "Skeletal system",
+      "Muscular system"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s2_215",
+    "sub": "human_body",
+    "question": "What is the smallest bone in the human body?",
+    "answers": [
+      "Toe bone",
+      "Stapes (ear bone)",
+      "Finger bone",
+      "Wrist bone"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s2_216",
+    "sub": "human_body",
+    "question": "What does the small intestine do?",
+    "answers": [
+      "Stores waste",
+      "Filters air",
+      "Pumps blood",
+      "Absorbs nutrients from food"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s2_217",
+    "sub": "human_body",
+    "question": "What is the function of white blood cells?",
+    "answers": [
+      "Carry oxygen",
+      "Fight infections",
+      "Clot blood",
+      "Carry nutrients"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s2_218",
+    "sub": "human_body",
+    "question": "What is the largest bone in the body?",
+    "answers": [
+      "Femur",
+      "Tibia",
+      "Humerus",
+      "Spine"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s2_219",
+    "sub": "human_body",
+    "question": "What is the diaphragm?",
+    "answers": [
+      "A muscle that helps you breathe",
+      "A bone in the chest",
+      "A valve in the heart",
+      "A layer of skin"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s2_220",
+    "sub": "human_body",
+    "question": "What are taste buds?",
+    "answers": [
+      "Sensors on the tongue that detect flavors",
+      "Parts of the nose",
+      "Parts of the brain",
+      "Types of saliva glands"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s2_221",
+    "sub": "human_body",
+    "question": "How many chambers does the heart have?",
+    "answers": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s2_222",
+    "sub": "human_body",
+    "question": "What does the liver do?",
+    "answers": [
+      "Pumps blood",
+      "Digests food directly",
+      "Produces insulin",
+      "Filters toxins and makes bile"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s2_223",
+    "sub": "human_body",
+    "question": "What are platelets?",
+    "answers": [
+      "Red blood cells",
+      "White blood cells",
+      "Cells that help blood clot",
+      "Nerve cells"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s2_224",
+    "sub": "human_body",
+    "question": "What is the esophagus?",
+    "answers": [
+      "Part of the lungs",
+      "Part of the brain",
+      "A bone in the neck",
+      "The tube from mouth to stomach"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s2_225",
+    "sub": "human_body",
+    "question": "What does the pancreas produce?",
+    "answers": [
+      "Blood cells",
+      "Saliva",
+      "Stomach acid",
+      "Insulin to control blood sugar"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s2_226",
+    "sub": "human_body",
+    "question": "What are voluntary muscles?",
+    "answers": [
+      "Muscles you can control",
+      "Muscles you cannot control",
+      "Heart muscles",
+      "Stomach muscles"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s2_227",
+    "sub": "human_body",
+    "question": "What is cartilage?",
+    "answers": [
+      "Flexible tissue at joints and in ears/nose",
+      "A type of bone",
+      "A type of muscle",
+      "A blood vessel"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s2_228",
+    "sub": "human_body",
+    "question": "What does the large intestine do?",
+    "answers": [
+      "Digests food",
+      "Filters blood",
+      "Produces enzymes",
+      "Absorbs water and forms waste"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s2_229",
+    "sub": "human_body",
+    "question": "What is the retina?",
+    "answers": [
+      "The colored part of the eye",
+      "The lens of the eye",
+      "The light-sensitive layer at the back of the eye",
+      "The clear front of the eye"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s2_230",
+    "sub": "human_body",
+    "question": "What are the two types of blood vessels?",
+    "answers": [
+      "Big and small",
+      "Arteries and veins",
+      "Tubes and pipes",
+      "Red and blue"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s2_231",
+    "sub": "human_body",
+    "question": "What does the cerebellum control?",
+    "answers": [
+      "Breathing",
+      "Balance and coordination",
+      "Memory",
+      "Digestion"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s2_232",
+    "sub": "human_body",
+    "question": "How many pairs of ribs do humans have?",
+    "answers": [
+      "10",
+      "11",
+      "13",
+      "12"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s2_233",
+    "sub": "human_body",
+    "question": "What nutrient helps build and repair muscles?",
+    "answers": [
+      "Carbohydrates",
+      "Protein",
+      "Fats",
+      "Vitamins"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s2_234",
+    "sub": "human_body",
+    "question": "What is the iris?",
+    "answers": [
+      "The black part of the eye",
+      "The white of the eye",
+      "The colored part that controls pupil size",
+      "The lens"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s2_235",
+    "sub": "human_body",
+    "question": "What is the spinal cord's function?",
+    "answers": [
+      "To support the skull",
+      "To produce blood cells",
+      "To carry messages between brain and body",
+      "To digest food"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s2_236",
+    "sub": "human_body",
+    "question": "What are involuntary muscles?",
+    "answers": [
+      "Arm muscles",
+      "Face muscles",
+      "Leg muscles",
+      "Muscles that work without you thinking"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s2_237",
+    "sub": "human_body",
+    "question": "What does saliva do?",
+    "answers": [
+      "Cleans teeth only",
+      "Adds flavor to food",
+      "Fights germs only",
+      "Begins breaking down food in the mouth"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s2_238",
+    "sub": "human_body",
+    "question": "What are the three types of muscles?",
+    "answers": [
+      "Skeletal, smooth, cardiac",
+      "Big, medium, small",
+      "Arm, leg, core",
+      "Fast, slow, medium"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s2_239",
+    "sub": "human_body",
+    "question": "What is the trachea?",
+    "answers": [
+      "Part of the stomach",
+      "A bone in the neck",
+      "The windpipe carrying air to the lungs",
+      "A blood vessel"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s2_240",
+    "sub": "human_body",
+    "question": "What does calcium help build?",
+    "answers": [
+      "Muscles",
+      "Strong bones and teeth",
+      "Red blood cells",
+      "Brain cells"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s2_241",
+    "sub": "human_body",
+    "question": "What is the cochlea?",
+    "answers": [
+      "A snail-shaped part of the ear for hearing",
+      "Part of the eye",
+      "A tongue sensor",
+      "A nose bone"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s2_242",
+    "sub": "human_body",
+    "question": "What does the gallbladder store?",
+    "answers": [
+      "Blood",
+      "Urine",
+      "Bile",
+      "Insulin"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s2_243",
+    "sub": "human_body",
+    "question": "What is the eardrum?",
+    "answers": [
+      "A bone in the ear",
+      "The outer ear",
+      "A thin membrane that vibrates from sound",
+      "A fluid in the ear"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s2_244",
+    "sub": "human_body",
+    "question": "What is the role of hemoglobin?",
+    "answers": [
+      "Carry oxygen in red blood cells",
+      "Fight disease",
+      "Clot wounds",
+      "Break down food"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s2_245",
+    "sub": "human_body",
+    "question": "What are ligaments?",
+    "answers": [
+      "Muscle fibers",
+      "Tissues connecting bones to bones at joints",
+      "Blood vessels",
+      "Nerve endings"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s2_246",
+    "sub": "human_body",
+    "question": "What part of the brain controls thinking?",
+    "answers": [
+      "Cerebellum",
+      "Brain stem",
+      "Spinal cord",
+      "Cerebrum"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s2_247",
+    "sub": "human_body",
+    "question": "Why do we need fiber in our diet?",
+    "answers": [
+      "To build muscle",
+      "To produce energy",
+      "To strengthen bones",
+      "To help digestion and move food through intestines"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s2_248",
+    "sub": "human_body",
+    "question": "What is the bronchi?",
+    "answers": [
+      "Part of the heart",
+      "Stomach lining",
+      "Airways that branch into each lung",
+      "Throat muscles"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s2_249",
+    "sub": "human_body",
+    "question": "What carries blood back to the heart?",
+    "answers": [
+      "Arteries",
+      "Capillaries",
+      "Veins",
+      "Nerves"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s2_250",
+    "sub": "human_body",
+    "question": "What do carbohydrates give the body?",
+    "answers": [
+      "Protein",
+      "Bone strength",
+      "Fat storage",
+      "Energy"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s2_251",
+    "sub": "human_body",
+    "question": "What is the dermis?",
+    "answers": [
+      "The outer layer of skin",
+      "The inner layer of skin",
+      "A type of cell",
+      "A layer of fat"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s2_252",
+    "sub": "human_body",
+    "question": "What are alveoli?",
+    "answers": [
+      "Heart chambers",
+      "Bone marrow cells",
+      "Stomach acids",
+      "Tiny air sacs in the lungs for gas exchange"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s2_253",
+    "sub": "human_body",
+    "question": "What is the function of the epiglottis?",
+    "answers": [
+      "Prevent food from entering the windpipe",
+      "Help taste food",
+      "Aid in breathing",
+      "Filter blood"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s2_254",
+    "sub": "human_body",
+    "question": "What vitamin helps with eyesight?",
+    "answers": [
+      "Vitamin B",
+      "Vitamin A",
+      "Vitamin C",
+      "Vitamin K"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s2_255",
+    "sub": "human_body",
+    "question": "What does the brain stem control?",
+    "answers": [
+      "Thinking",
+      "Movement",
+      "Automatic functions like breathing and heartbeat",
+      "Memory"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s2_256",
+    "sub": "human_body",
+    "question": "What is bone marrow?",
+    "answers": [
+      "The hard outer layer of bone",
+      "Cartilage between bones",
+      "A type of joint",
+      "Soft tissue inside bones that makes blood cells"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s2_257",
+    "sub": "matter",
+    "question": "What is density?",
+    "answers": [
+      "How big something is",
+      "How heavy something feels",
+      "How much mass is in a given volume",
+      "How fast something moves"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s2_258",
+    "sub": "matter",
+    "question": "What is the difference between mass and weight?",
+    "answers": [
+      "They are the same",
+      "Mass is amount of matter, weight is force of gravity on it",
+      "Weight is more than mass",
+      "Mass changes with location"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s2_259",
+    "sub": "matter",
+    "question": "What is a chemical change?",
+    "answers": [
+      "A change that creates a new substance",
+      "Changing shape",
+      "Melting ice",
+      "Cutting paper"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s2_260",
+    "sub": "matter",
+    "question": "What is a physical change?",
+    "answers": [
+      "Burning wood",
+      "Cooking an egg",
+      "A change in form but not substance",
+      "Rusting iron"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s2_261",
+    "sub": "matter",
+    "question": "What type of energy does a stretched rubber band have?",
+    "answers": [
+      "Kinetic",
+      "Thermal",
+      "Elastic potential",
+      "Chemical"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s2_262",
+    "sub": "matter",
+    "question": "What is Newton's first law of motion about?",
+    "answers": [
+      "Acceleration",
+      "Gravity",
+      "Action and reaction",
+      "Inertia: objects stay at rest or in motion"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s2_263",
+    "sub": "matter",
+    "question": "What is an electrical circuit?",
+    "answers": [
+      "A battery only",
+      "A light bulb",
+      "A complete path for electricity to flow",
+      "A wire"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s2_264",
+    "sub": "matter",
+    "question": "What is static electricity?",
+    "answers": [
+      "Electricity flowing in a wire",
+      "Battery power",
+      "Lightning only",
+      "Buildup of electric charge on a surface"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s2_265",
+    "sub": "matter",
+    "question": "What happens when you dissolve sugar in water?",
+    "answers": [
+      "A chemical change occurs",
+      "Sugar disappears",
+      "A solution is formed (physical change)",
+      "Water turns sweet permanently"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s2_266",
+    "sub": "matter",
+    "question": "What is conduction?",
+    "answers": [
+      "Heat moving through liquids",
+      "Heat moving through air",
+      "Heat transfer through direct contact",
+      "Heat from the Sun"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s2_267",
+    "sub": "matter",
+    "question": "What is convection?",
+    "answers": [
+      "Heat through touching",
+      "Heat transfer through moving fluids",
+      "Heat from light",
+      "Heat from friction"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s2_268",
+    "sub": "matter",
+    "question": "What is radiation?",
+    "answers": [
+      "Heat through contact",
+      "Heat through water",
+      "Heat transfer through electromagnetic waves",
+      "Sound energy"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s2_269",
+    "sub": "matter",
+    "question": "What is a mixture?",
+    "answers": [
+      "A new substance",
+      "A chemical reaction",
+      "Two or more substances combined but not chemically joined",
+      "A single element"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s2_270",
+    "sub": "matter",
+    "question": "What is an electromagnet?",
+    "answers": [
+      "A permanent magnet",
+      "A magnet created by electric current",
+      "A compass needle",
+      "A natural magnetic rock"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s2_271",
+    "sub": "matter",
+    "question": "What is a complete circuit?",
+    "answers": [
+      "An unbroken path for electricity",
+      "A broken wire",
+      "A battery",
+      "A switch in off position"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s2_272",
+    "sub": "matter",
+    "question": "What is the law of conservation of energy?",
+    "answers": [
+      "Energy can be created",
+      "Energy always decreases",
+      "Energy cannot be created or destroyed, only changed",
+      "Energy only comes from the Sun"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s2_273",
+    "sub": "matter",
+    "question": "What happens when light hits a mirror?",
+    "answers": [
+      "It is reflected",
+      "It passes through",
+      "It is absorbed",
+      "It disappears"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s2_274",
+    "sub": "matter",
+    "question": "What is the speed of an object and its direction called?",
+    "answers": [
+      "Speed",
+      "Acceleration",
+      "Velocity",
+      "Force"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s2_275",
+    "sub": "matter",
+    "question": "What is refraction?",
+    "answers": [
+      "Light bending when passing through different materials",
+      "Light bouncing off a surface",
+      "Light being absorbed",
+      "Light disappearing"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s2_276",
+    "sub": "matter",
+    "question": "What does a switch do in a circuit?",
+    "answers": [
+      "Provides power",
+      "Stores energy",
+      "Creates resistance",
+      "Opens or closes the circuit path"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s2_277",
+    "sub": "matter",
+    "question": "What is thermal energy?",
+    "answers": [
+      "Light energy",
+      "Heat energy from moving particles",
+      "Sound energy",
+      "Electrical energy"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s2_278",
+    "sub": "matter",
+    "question": "What is a solution?",
+    "answers": [
+      "A mixture where one substance dissolves in another",
+      "A solid mixture",
+      "An answer to a problem",
+      "A chemical reaction"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s2_279",
+    "sub": "matter",
+    "question": "Which material is magnetic?",
+    "answers": [
+      "Aluminum foil",
+      "Copper penny",
+      "Glass marble",
+      "Iron nail"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s2_280",
+    "sub": "matter",
+    "question": "What is acceleration?",
+    "answers": [
+      "Constant speed",
+      "Moving backward",
+      "Staying still",
+      "A change in velocity"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s2_281",
+    "sub": "matter",
+    "question": "What happens to particles when matter is heated?",
+    "answers": [
+      "They slow down",
+      "They get smaller",
+      "They stop moving",
+      "They move faster and spread apart"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s2_282",
+    "sub": "matter",
+    "question": "What is a parallel circuit?",
+    "answers": [
+      "One path for current",
+      "Multiple paths for current to flow",
+      "A broken circuit",
+      "A circuit with no power"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s2_283",
+    "sub": "matter",
+    "question": "What is a series circuit?",
+    "answers": [
+      "Multiple paths for current",
+      "A wireless circuit",
+      "A very large circuit",
+      "One single path for current to flow"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s2_284",
+    "sub": "matter",
+    "question": "What is potential energy?",
+    "answers": [
+      "Stored energy due to position or condition",
+      "Energy of motion",
+      "Heat energy",
+      "Sound energy"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s2_285",
+    "sub": "matter",
+    "question": "What is a compound?",
+    "answers": [
+      "A single element",
+      "A type of mixture",
+      "Two or more elements chemically combined",
+      "A physical change"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s2_286",
+    "sub": "matter",
+    "question": "What happens to a ball rolling on carpet vs. tile?",
+    "answers": [
+      "It goes faster on carpet",
+      "It slows down more on carpet due to friction",
+      "No difference",
+      "It stops on tile first"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s2_287",
+    "sub": "matter",
+    "question": "What is an element?",
+    "answers": [
+      "A pure substance made of one type of atom",
+      "A mixture of substances",
+      "A type of energy",
+      "A force of nature"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s2_288",
+    "sub": "matter",
+    "question": "What is the unit of force?",
+    "answers": [
+      "Newton",
+      "Joule",
+      "Watt",
+      "Meter"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s2_289",
+    "sub": "matter",
+    "question": "What is a conductor?",
+    "answers": [
+      "A material that blocks electricity",
+      "An insulator",
+      "A type of magnet",
+      "A material that allows electricity to pass through"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s2_290",
+    "sub": "matter",
+    "question": "What energy transformation happens in a toaster?",
+    "answers": [
+      "Thermal to electrical",
+      "Chemical to light",
+      "Electrical to thermal (heat)",
+      "Sound to heat"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s2_291",
+    "sub": "matter",
+    "question": "What is evaporation a type of?",
+    "answers": [
+      "Chemical change",
+      "Physical change",
+      "Nuclear change",
+      "Magnetic change"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s2_292",
+    "sub": "matter",
+    "question": "What is an atom?",
+    "answers": [
+      "The largest unit of matter",
+      "A charged particle",
+      "A type of molecule",
+      "The smallest unit of an element"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s2_293",
+    "sub": "matter",
+    "question": "What is buoyancy?",
+    "answers": [
+      "The upward force of a fluid on an object",
+      "The weight of an object",
+      "Gravity pulling down",
+      "Air resistance"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s2_294",
+    "sub": "matter",
+    "question": "What makes a chemical change different from physical?",
+    "answers": [
+      "Temperature changes",
+      "Size changes",
+      "Shape changes",
+      "A new substance is formed"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s2_295",
+    "sub": "matter",
+    "question": "What is the fourth state of matter?",
+    "answers": [
+      "Crystal",
+      "Gel",
+      "Foam",
+      "Plasma"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s2_296",
+    "sub": "matter",
+    "question": "What is gravitational potential energy?",
+    "answers": [
+      "Energy from motion",
+      "Energy from heat",
+      "Energy from chemicals",
+      "Energy from height above ground"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s2_297",
+    "sub": "matter",
+    "question": "What is air resistance?",
+    "answers": [
+      "Gravity pulling objects",
+      "Wind pushing objects",
+      "A force that opposes motion through air",
+      "Static electricity"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s2_298",
+    "sub": "matter",
+    "question": "What is an insulator of electricity?",
+    "answers": [
+      "Copper",
+      "Silver",
+      "Iron",
+      "Rubber"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s2_299",
+    "sub": "matter",
+    "question": "What is the freezing point of water in Fahrenheit?",
+    "answers": [
+      "0°F",
+      "100°F",
+      "32°F",
+      "212°F"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s2_300",
+    "sub": "ecosystems",
+    "question": "How does energy flow through a food web?",
+    "answers": [
+      "From consumers to producers",
+      "From producers to consumers to decomposers",
+      "In circles with no direction",
+      "Only from predators to prey"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s2_301",
+    "sub": "ecosystems",
+    "question": "What is a keystone species?",
+    "answers": [
+      "The biggest animal",
+      "A species that many others depend on",
+      "A type of plant",
+      "An endangered species"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s2_302",
+    "sub": "ecosystems",
+    "question": "What is biodiversity?",
+    "answers": [
+      "Only plant variety",
+      "The variety of all living things in an area",
+      "The number of habitats",
+      "Only animal variety"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s2_303",
+    "sub": "ecosystems",
+    "question": "What is the role of a decomposer in an ecosystem?",
+    "answers": [
+      "To hunt prey",
+      "To make food from sunlight",
+      "To break down dead matter and recycle nutrients",
+      "To eat only plants"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s2_304",
+    "sub": "ecosystems",
+    "question": "What is an invasive species?",
+    "answers": [
+      "A native animal",
+      "An extinct species",
+      "A helpful introduced plant",
+      "A non-native species that harms an ecosystem"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s2_305",
+    "sub": "ecosystems",
+    "question": "What is mutualism?",
+    "answers": [
+      "One organism is harmed",
+      "Both are harmed",
+      "One benefits, other unaffected",
+      "Both organisms benefit"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s2_306",
+    "sub": "ecosystems",
+    "question": "What is commensalism?",
+    "answers": [
+      "Both species benefit",
+      "One benefits and the other is unaffected",
+      "One is harmed",
+      "Both are harmed"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s2_307",
+    "sub": "ecosystems",
+    "question": "What is parasitism?",
+    "answers": [
+      "One benefits while harming the other",
+      "Both organisms benefit",
+      "Neither is affected",
+      "Both are helped"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s2_308",
+    "sub": "ecosystems",
+    "question": "What is the carbon cycle?",
+    "answers": [
+      "Carbon being created",
+      "The movement of carbon through living and nonliving things",
+      "Carbon staying in one place",
+      "Carbon only in the air"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s2_309",
+    "sub": "ecosystems",
+    "question": "What is a biome?",
+    "answers": [
+      "A single plant",
+      "An animal group",
+      "A small pond",
+      "A large region with similar climate and organisms"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s2_310",
+    "sub": "ecosystems",
+    "question": "What is the nitrogen cycle?",
+    "answers": [
+      "Nitrogen disappearing",
+      "Nitrogen moving through air, soil, and organisms",
+      "Nitrogen only in plants",
+      "Nitrogen only in water"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s2_311",
+    "sub": "ecosystems",
+    "question": "What is a tertiary consumer?",
+    "answers": [
+      "An animal that eats secondary consumers",
+      "A plant",
+      "A decomposer",
+      "A producer"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s2_312",
+    "sub": "ecosystems",
+    "question": "Why are coral reefs important?",
+    "answers": [
+      "They provide habitat for many marine species",
+      "They produce oxygen only",
+      "They block waves only",
+      "They are just pretty"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s2_313",
+    "sub": "ecosystems",
+    "question": "What is deforestation?",
+    "answers": [
+      "Planting new trees",
+      "Clearing large areas of forest",
+      "A natural forest fire",
+      "Trees falling in a storm"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s2_314",
+    "sub": "ecosystems",
+    "question": "What is an energy pyramid?",
+    "answers": [
+      "A food chain",
+      "A diagram showing energy decreasing at each level",
+      "A mountain ecosystem",
+      "A type of volcano"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s2_315",
+    "sub": "ecosystems",
+    "question": "What is an ecological niche?",
+    "answers": [
+      "An animal's home",
+      "A hiding place",
+      "An organism's role in its ecosystem",
+      "A food source"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s2_316",
+    "sub": "ecosystems",
+    "question": "What is the greenhouse effect?",
+    "answers": [
+      "Heat trapped by gases in the atmosphere",
+      "Plants growing in greenhouses",
+      "Green plants making oxygen",
+      "Glass reflecting light"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s2_317",
+    "sub": "ecosystems",
+    "question": "What is succession?",
+    "answers": [
+      "The gradual change of an ecosystem over time",
+      "Animals migrating",
+      "A food chain",
+      "A seasonal change"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s2_318",
+    "sub": "ecosystems",
+    "question": "What is a primary consumer?",
+    "answers": [
+      "A meat-eater",
+      "A decomposer",
+      "An herbivore that eats producers",
+      "A top predator"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s2_319",
+    "sub": "ecosystems",
+    "question": "What is a secondary consumer?",
+    "answers": [
+      "An animal that eats primary consumers",
+      "A plant",
+      "A decomposer",
+      "An herbivore"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s2_320",
+    "sub": "ecosystems",
+    "question": "Why are wetlands important?",
+    "answers": [
+      "Only for fishing",
+      "They produce oxygen only",
+      "Only for birds",
+      "They filter water and prevent floods"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s2_321",
+    "sub": "ecosystems",
+    "question": "What is an apex predator?",
+    "answers": [
+      "A small animal",
+      "A herbivore",
+      "A top predator with no natural predators",
+      "A decomposer"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s2_322",
+    "sub": "ecosystems",
+    "question": "What does 'habitat loss' mean?",
+    "answers": [
+      "Animals moving away",
+      "An animal adapting",
+      "A new species arriving",
+      "Destruction of a natural environment"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s2_323",
+    "sub": "ecosystems",
+    "question": "How do mangroves help coastlines?",
+    "answers": [
+      "They attract fish only",
+      "They provide shade only",
+      "They protect against erosion and storms",
+      "They clean the air only"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s2_324",
+    "sub": "ecosystems",
+    "question": "What is a limiting factor?",
+    "answers": [
+      "Unlimited resources",
+      "Something that restricts population growth",
+      "A predator only",
+      "A food source only"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s2_325",
+    "sub": "ecosystems",
+    "question": "What is carrying capacity?",
+    "answers": [
+      "Maximum population an environment can support",
+      "How much an animal can lift",
+      "Distance an animal can travel",
+      "Size of a habitat"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s2_326",
+    "sub": "ecosystems",
+    "question": "What is competition in an ecosystem?",
+    "answers": [
+      "Animals working together",
+      "Animals migrating",
+      "Plants growing tall",
+      "Organisms competing for the same resources"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s2_327",
+    "sub": "ecosystems",
+    "question": "What is a trophic level?",
+    "answers": [
+      "A tropical region",
+      "A type of biome",
+      "A water temperature zone",
+      "A feeding level in an energy pyramid"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s2_328",
+    "sub": "ecosystems",
+    "question": "What is a population?",
+    "answers": [
+      "All organisms in an area",
+      "All members of one species in an area",
+      "An entire ecosystem",
+      "A biome"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s2_329",
+    "sub": "ecosystems",
+    "question": "What is a community in ecology?",
+    "answers": [
+      "A human neighborhood",
+      "A single species",
+      "All populations of different species in an area",
+      "An entire biome"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s2_330",
+    "sub": "ecosystems",
+    "question": "Why is the ozone layer important?",
+    "answers": [
+      "It creates oxygen",
+      "It protects life from harmful UV radiation",
+      "It makes clouds",
+      "It holds in heat only"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s2_331",
+    "sub": "ecosystems",
+    "question": "What is biomass?",
+    "answers": [
+      "A type of energy",
+      "The total mass of living organisms in an area",
+      "A fossil fuel",
+      "A measure of biodiversity"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s2_332",
+    "sub": "ecosystems",
+    "question": "What is an indicator species?",
+    "answers": [
+      "The most common species",
+      "A keystone species",
+      "An endangered species",
+      "A species that shows the health of an ecosystem"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s2_333",
+    "sub": "ecosystems",
+    "question": "What is a scavenger?",
+    "answers": [
+      "A hunter",
+      "A decomposer",
+      "A plant",
+      "An animal that eats dead organisms"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s2_334",
+    "sub": "ecosystems",
+    "question": "Why is soil important to an ecosystem?",
+    "answers": [
+      "It provides nutrients for plants and homes for organisms",
+      "Just for animals to walk on",
+      "Only for growing crops",
+      "It has no role in ecosystems"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s2_335",
+    "sub": "ecosystems",
+    "question": "What is overfishing?",
+    "answers": [
+      "Fishing for fun",
+      "Fishing in deep water",
+      "Catching only big fish",
+      "Catching fish faster than they can reproduce"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s2_336",
+    "sub": "ecosystems",
+    "question": "What is a watershed?",
+    "answers": [
+      "An area of land that drains into a body of water",
+      "A shed near water",
+      "A type of dam",
+      "A water treatment plant"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s2_337",
+    "sub": "ecosystems",
+    "question": "What is bioaccumulation?",
+    "answers": [
+      "Plants growing fast",
+      "Animals gaining weight",
+      "Toxins building up in organisms over time",
+      "Ecosystems expanding"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s2_338",
+    "sub": "ecosystems",
+    "question": "What role do bees play in ecosystems?",
+    "answers": [
+      "They eat pests",
+      "They make soil fertile",
+      "They pollinate plants and support food production",
+      "They clean water"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s2_339",
+    "sub": "ecosystems",
+    "question": "What is sustainable use of resources?",
+    "answers": [
+      "Using all resources quickly",
+      "Using resources at a rate they can be renewed",
+      "Stopping all resource use",
+      "Using only fossil fuels"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s2_340",
+    "sub": "ecosystems",
+    "question": "What is a prairie?",
+    "answers": [
+      "A type of forest",
+      "A temperate grassland ecosystem",
+      "A desert",
+      "A swamp"
+    ],
+    "correctIndex": 1
+  }
+]

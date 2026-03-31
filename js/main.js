@@ -9,6 +9,7 @@ import * as battleScreen from './screens/battle.js';
 import * as pvpScreen from './screens/pvp.js';
 import * as pvpBattleScreen from './screens/pvp-battle.js';
 import { playTrack, stopTrack, getMusicEnabled, setMusicEnabled } from './utils/music.js';
+import { QuestionBank } from './data/questions.js';
 
 const screens = {
   menu: { el: null, module: menuScreen },
@@ -95,7 +96,10 @@ function startBattle(worldId, level, topic) {
   battleScreen.startBattle(worldId, level, topic);
 }
 
-function init() {
+async function init() {
+  // Load question banks before anything else
+  await QuestionBank.init();
+
   // Cache screen elements
   for (const key of Object.keys(screens)) {
     screens[key].el = document.getElementById(`screen-${key}`);

@@ -1,0 +1,4082 @@
+[
+  {
+    "id": "e3_001",
+    "sub": "reading",
+    "question": "What point of view uses \"I\" and \"me\"?",
+    "answers": [
+      "First person",
+      "Second person",
+      "Third person",
+      "Omniscient"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "e3_002",
+    "sub": "reading",
+    "question": "What is the main idea of a paragraph called?",
+    "answers": [
+      "Topic sentence",
+      "Detail",
+      "Conclusion",
+      "Summary"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "e3_003",
+    "sub": "reading",
+    "question": "Which is an example of irony?",
+    "answers": [
+      "A fire station burns down",
+      "A dog barks loudly",
+      "Rain falls in spring",
+      "A student reads a book"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "e3_004",
+    "sub": "grammar",
+    "question": "Which sentence uses the subjunctive mood?",
+    "answers": [
+      "If I were you, I'd go.",
+      "She is happy.",
+      "He runs fast.",
+      "They are here."
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "e3_005",
+    "sub": "grammar",
+    "question": "Which sentence uses a dangling modifier?",
+    "answers": [
+      "Running quickly, the bus was caught.",
+      "Running quickly, she caught the bus.",
+      "She caught the bus by running.",
+      "She ran quickly to catch the bus."
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "e3_006",
+    "sub": "grammar",
+    "question": "Which sentence has a misplaced modifier?",
+    "answers": [
+      "She almost drove for two hours.",
+      "She drove for almost two hours.",
+      "She drove quickly.",
+      "She drove her car."
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "e3_007",
+    "sub": "grammar",
+    "question": "What is a gerund?",
+    "answers": [
+      "A verb used as a noun",
+      "A noun used as a verb",
+      "An adjective",
+      "An adverb"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "e3_008",
+    "sub": "grammar",
+    "question": "In \"Swimming is fun,\" what is \"swimming\"?",
+    "answers": [
+      "A gerund",
+      "A verb",
+      "An adjective",
+      "An adverb"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "e3_009",
+    "sub": "grammar",
+    "question": "What is a participle?",
+    "answers": [
+      "A verb form used as an adjective",
+      "A noun form",
+      "A type of pronoun",
+      "A conjunction"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "e3_010",
+    "sub": "grammar",
+    "question": "In \"The running water,\" what is \"running\"?",
+    "answers": [
+      "A participle",
+      "A gerund",
+      "A noun",
+      "An adverb"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "e3_011",
+    "sub": "grammar",
+    "question": "Which is in the passive voice?",
+    "answers": [
+      "The letter was written by her.",
+      "She wrote the letter.",
+      "She writes letters.",
+      "She will write a letter."
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "e3_012",
+    "sub": "grammar",
+    "question": "Which is in the active voice?",
+    "answers": [
+      "The cake was eaten.",
+      "The ball was kicked.",
+      "The dog chased the cat.",
+      "The song was sung."
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "e3_013",
+    "sub": "grammar",
+    "question": "What is parallel structure?",
+    "answers": [
+      "Using similar forms in a list",
+      "Writing very long sentences",
+      "Using only nouns",
+      "Writing only short sentences"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "e3_014",
+    "sub": "grammar",
+    "question": "Which has correct parallel structure?",
+    "answers": [
+      "She likes reading, swimming, and running.",
+      "She likes reading, to swim, and running.",
+      "She likes to read, swimming, and runs.",
+      "She likes to read, swim, and running."
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "e3_015",
+    "sub": "grammar",
+    "question": "What is an appositive?",
+    "answers": [
+      "A noun that renames another noun",
+      "A type of verb",
+      "An adjective",
+      "A conjunction"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "e3_016",
+    "sub": "grammar",
+    "question": "In \"My dog, a beagle, is cute,\" what is the appositive?",
+    "answers": [
+      "a beagle",
+      "My dog",
+      "is cute",
+      "My"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "e3_017",
+    "sub": "grammar",
+    "question": "Which sentence uses \"who\" correctly?",
+    "answers": [
+      "Who is at the door?",
+      "Who did you call?",
+      "The boy who I saw.",
+      "Give it to who?"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "e3_018",
+    "sub": "grammar",
+    "question": "Which sentence uses \"whom\" correctly?",
+    "answers": [
+      "Whom is there?",
+      "Whom are you?",
+      "To whom should I give this?",
+      "Whom went home?"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "e3_019",
+    "sub": "grammar",
+    "question": "What is the present perfect tense?",
+    "answers": [
+      "I walk.",
+      "I walked.",
+      "I have walked.",
+      "I will walk."
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "e3_020",
+    "sub": "grammar",
+    "question": "Which is in the past perfect tense?",
+    "answers": [
+      "She had finished before noon.",
+      "She finished before noon.",
+      "She finishes before noon.",
+      "She will finish before noon."
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "e3_021",
+    "sub": "grammar",
+    "question": "What is a correlative conjunction pair?",
+    "answers": [
+      "Either...or",
+      "And, but",
+      "The, an",
+      "Very, much"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "e3_022",
+    "sub": "grammar",
+    "question": "Which uses correlative conjunctions correctly?",
+    "answers": [
+      "Neither the cat nor the dog.",
+      "Both the cat or dog.",
+      "Either the cat nor the dog.",
+      "Both the cat but the dog."
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "e3_023",
+    "sub": "grammar",
+    "question": "What does \"transitive verb\" mean?",
+    "answers": [
+      "A verb that takes a direct object",
+      "A verb with no object",
+      "A linking verb",
+      "A helping verb"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "e3_024",
+    "sub": "grammar",
+    "question": "In \"She gave him the book,\" what is the indirect object?",
+    "answers": [
+      "She",
+      "gave",
+      "him",
+      "book"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "e3_025",
+    "sub": "grammar",
+    "question": "Which sentence uses a reflexive pronoun?",
+    "answers": [
+      "She likes herself.",
+      "She likes her.",
+      "She likes them.",
+      "She likes hers."
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "e3_026",
+    "sub": "grammar",
+    "question": "What is a predicate nominative?",
+    "answers": [
+      "A noun that renames the subject after a linking verb",
+      "A verb after the subject",
+      "An adjective before a noun",
+      "An adverb that modifies a verb"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "e3_027",
+    "sub": "grammar",
+    "question": "In \"He is a doctor,\" what is the predicate nominative?",
+    "answers": [
+      "He",
+      "is",
+      "a",
+      "doctor"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "e3_028",
+    "sub": "grammar",
+    "question": "Which shows correct pronoun-antecedent agreement?",
+    "answers": [
+      "Each student brought his or her lunch.",
+      "Everyone brought their lunch.",
+      "The students brought his lunch.",
+      "A person should try their best."
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "e3_029",
+    "sub": "grammar",
+    "question": "What is an infinitive?",
+    "answers": [
+      "\"To\" plus a verb",
+      "A past tense verb",
+      "A verb ending in -ing",
+      "A verb ending in -ed"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "e3_030",
+    "sub": "grammar",
+    "question": "In \"I want to run,\" what is the infinitive?",
+    "answers": [
+      "I",
+      "want",
+      "to run",
+      "run"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "e3_031",
+    "sub": "grammar",
+    "question": "What is a split infinitive?",
+    "answers": [
+      "A word placed between \"to\" and the verb",
+      "An infinitive at the end",
+      "Two infinitives together",
+      "An infinitive without \"to\""
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "e3_032",
+    "sub": "grammar",
+    "question": "Which has a split infinitive?",
+    "answers": [
+      "To quickly run",
+      "To run quickly",
+      "Running quickly",
+      "Quick running"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "e3_033",
+    "sub": "grammar",
+    "question": "Which is in the future perfect tense?",
+    "answers": [
+      "I will have eaten.",
+      "I will eat.",
+      "I have eaten.",
+      "I ate."
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "e3_034",
+    "sub": "grammar",
+    "question": "What is an antecedent?",
+    "answers": [
+      "The word a pronoun replaces",
+      "A type of verb",
+      "A type of adjective",
+      "A conjunction"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "e3_035",
+    "sub": "grammar",
+    "question": "In \"Lisa lost her keys,\" what is the antecedent of \"her\"?",
+    "answers": [
+      "lost",
+      "keys",
+      "Lisa",
+      "her"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "e3_036",
+    "sub": "grammar",
+    "question": "Which is a demonstrative pronoun?",
+    "answers": [
+      "She",
+      "Who",
+      "This",
+      "Myself"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "e3_037",
+    "sub": "grammar",
+    "question": "Which sentence has correct subject-verb agreement?",
+    "answers": [
+      "The team is winning.",
+      "The team are winning.",
+      "The team were winning.",
+      "The team have won."
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "e3_038",
+    "sub": "grammar",
+    "question": "What is a clause?",
+    "answers": [
+      "A group of words with a subject and verb",
+      "A single word",
+      "A type of punctuation",
+      "A phrase without a verb"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "e3_039",
+    "sub": "grammar",
+    "question": "What is the difference between a phrase and a clause?",
+    "answers": [
+      "A clause has a subject and verb; a phrase does not",
+      "A phrase has a verb; a clause does not",
+      "They are the same thing",
+      "A phrase is longer"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "e3_040",
+    "sub": "grammar",
+    "question": "Which is a relative clause?",
+    "answers": [
+      "Who lives next door",
+      "Running fast",
+      "In the morning",
+      "Very quickly"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "e3_041",
+    "sub": "grammar",
+    "question": "What is a restrictive clause?",
+    "answers": [
+      "A clause essential to the meaning",
+      "A clause that can be removed",
+      "A type of fragment",
+      "A clause that is always first"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "e3_042",
+    "sub": "grammar",
+    "question": "What is a nonrestrictive clause?",
+    "answers": [
+      "A clause that adds extra info and can be removed",
+      "A clause essential to meaning",
+      "A type of run-on",
+      "A clause without a verb"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "e3_043",
+    "sub": "grammar",
+    "question": "Which sentence has a nonrestrictive clause?",
+    "answers": [
+      "My dog, who is old, sleeps a lot.",
+      "The dog that bit me ran away.",
+      "Students who study do well.",
+      "People that exercise are healthy."
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "e3_044",
+    "sub": "grammar",
+    "question": "Which uses \"affect\" correctly?",
+    "answers": [
+      "The weather will affect our plans.",
+      "The affect was positive.",
+      "What affect did it have?",
+      "The affect of the storm was bad."
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "e3_045",
+    "sub": "grammar",
+    "question": "Which uses \"effect\" correctly?",
+    "answers": [
+      "The rain effect our picnic.",
+      "She will effect the outcome.",
+      "The effect of the storm was severe.",
+      "Loud music effects me."
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "e3_046",
+    "sub": "vocabulary",
+    "question": "What does \"benevolent\" mean?",
+    "answers": [
+      "Kind and generous",
+      "Cruel",
+      "Lazy",
+      "Angry"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "e3_047",
+    "sub": "vocabulary",
+    "question": "What does \"meticulous\" mean?",
+    "answers": [
+      "Very careful and precise",
+      "Careless",
+      "Fast",
+      "Loud"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "e3_048",
+    "sub": "vocabulary",
+    "question": "What is a synonym for \"diligent\"?",
+    "answers": [
+      "Hardworking",
+      "Lazy",
+      "Slow",
+      "Careless"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "e3_049",
+    "sub": "vocabulary",
+    "question": "What is an antonym for \"abundant\"?",
+    "answers": [
+      "Plentiful",
+      "Ample",
+      "Scarce",
+      "Rich"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "e3_050",
+    "sub": "vocabulary",
+    "question": "What does \"ominous\" mean?",
+    "answers": [
+      "Threatening or warning of danger",
+      "Cheerful",
+      "Colorful",
+      "Friendly"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "e3_051",
+    "sub": "vocabulary",
+    "question": "What does \"elaborate\" mean as an adjective?",
+    "answers": [
+      "Detailed and complex",
+      "Simple",
+      "Quick",
+      "Boring"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "e3_052",
+    "sub": "vocabulary",
+    "question": "What is a synonym for \"resilient\"?",
+    "answers": [
+      "Fragile",
+      "Weak",
+      "Able to recover quickly",
+      "Stiff"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "e3_053",
+    "sub": "vocabulary",
+    "question": "What is an antonym for \"subtle\"?",
+    "answers": [
+      "Obvious",
+      "Gentle",
+      "Quiet",
+      "Hidden"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "e3_054",
+    "sub": "vocabulary",
+    "question": "\"The boy was elated after winning.\" What does elated mean?",
+    "answers": [
+      "Exhausted",
+      "Disappointed",
+      "Extremely happy",
+      "Nervous"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "e3_055",
+    "sub": "vocabulary",
+    "question": "What does \"inevitable\" mean?",
+    "answers": [
+      "Certain to happen",
+      "Avoidable",
+      "Unlikely",
+      "Optional"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "e3_056",
+    "sub": "vocabulary",
+    "question": "What does \"compassion\" mean?",
+    "answers": [
+      "Concern for others' suffering",
+      "Anger toward others",
+      "Jealousy",
+      "Indifference"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "e3_057",
+    "sub": "vocabulary",
+    "question": "What is a synonym for \"astute\"?",
+    "answers": [
+      "Shrewd",
+      "Dull",
+      "Clumsy",
+      "Loud"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "e3_058",
+    "sub": "vocabulary",
+    "question": "What is an antonym for \"frivolous\"?",
+    "answers": [
+      "Silly",
+      "Playful",
+      "Serious",
+      "Funny"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "e3_059",
+    "sub": "vocabulary",
+    "question": "\"Her demeanor was calm and composed.\" What does demeanor mean?",
+    "answers": [
+      "Outward behavior or manner",
+      "Voice",
+      "Clothing",
+      "Height"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "e3_060",
+    "sub": "vocabulary",
+    "question": "What does \"persevere\" mean?",
+    "answers": [
+      "Continue despite difficulty",
+      "Give up quickly",
+      "Run away",
+      "Forget about it"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "e3_061",
+    "sub": "vocabulary",
+    "question": "What does \"ambiguous\" mean?",
+    "answers": [
+      "Open to more than one meaning",
+      "Clear",
+      "Simple",
+      "Direct"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "e3_062",
+    "sub": "vocabulary",
+    "question": "What is a synonym for \"reluctant\"?",
+    "answers": [
+      "Hesitant",
+      "Eager",
+      "Excited",
+      "Willing"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "e3_063",
+    "sub": "vocabulary",
+    "question": "What is an antonym for \"malicious\"?",
+    "answers": [
+      "Evil",
+      "Harmful",
+      "Kind",
+      "Cruel"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "e3_064",
+    "sub": "vocabulary",
+    "question": "\"The teacher commended her for her effort.\" What does commended mean?",
+    "answers": [
+      "Scolded",
+      "Ignored",
+      "Praised",
+      "Punished"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "e3_065",
+    "sub": "vocabulary",
+    "question": "What does \"eloquent\" mean?",
+    "answers": [
+      "Fluent and persuasive in speaking",
+      "Clumsy with words",
+      "Very quiet",
+      "Unable to speak"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "e3_066",
+    "sub": "vocabulary",
+    "question": "What does \"connotation\" mean?",
+    "answers": [
+      "The feeling or idea a word suggests",
+      "The dictionary definition of a word",
+      "The spelling of a word",
+      "The sound of a word"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "e3_067",
+    "sub": "vocabulary",
+    "question": "What does \"denotation\" mean?",
+    "answers": [
+      "The literal dictionary meaning",
+      "The feeling a word suggests",
+      "The origin of a word",
+      "A word's pronunciation"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "e3_068",
+    "sub": "vocabulary",
+    "question": "\"Cheap\" and \"affordable\" have different ___.",
+    "answers": [
+      "Denotations",
+      "Spellings",
+      "Connotations",
+      "Pronunciations"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "e3_069",
+    "sub": "vocabulary",
+    "question": "What does \"vindicate\" mean?",
+    "answers": [
+      "To clear of blame",
+      "To blame",
+      "To punish",
+      "To ignore"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "e3_070",
+    "sub": "vocabulary",
+    "question": "What is a synonym for \"prevalent\"?",
+    "answers": [
+      "Widespread",
+      "Rare",
+      "Hidden",
+      "Small"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "e3_071",
+    "sub": "vocabulary",
+    "question": "What is an antonym for \"conceal\"?",
+    "answers": [
+      "Hide",
+      "Cover",
+      "Reveal",
+      "Mask"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "e3_072",
+    "sub": "vocabulary",
+    "question": "\"The arid desert stretched for miles.\" What does arid mean?",
+    "answers": [
+      "Very dry",
+      "Wet",
+      "Cold",
+      "Green"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "e3_073",
+    "sub": "vocabulary",
+    "question": "What does \"obsolete\" mean?",
+    "answers": [
+      "Brand new",
+      "Very popular",
+      "No longer used",
+      "Expensive"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "e3_074",
+    "sub": "vocabulary",
+    "question": "What does \"candid\" mean?",
+    "answers": [
+      "Dishonest",
+      "Secretive",
+      "Open and honest",
+      "Shy"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "e3_075",
+    "sub": "vocabulary",
+    "question": "What is a synonym for \"mundane\"?",
+    "answers": [
+      "Exciting",
+      "Rare",
+      "Ordinary",
+      "Beautiful"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "e3_076",
+    "sub": "vocabulary",
+    "question": "What is an antonym for \"somber\"?",
+    "answers": [
+      "Dark",
+      "Gloomy",
+      "Cheerful",
+      "Serious"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "e3_077",
+    "sub": "vocabulary",
+    "question": "\"She scrutinized the document carefully.\" What does scrutinized mean?",
+    "answers": [
+      "Glanced at",
+      "Threw away",
+      "Examined closely",
+      "Copied"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "e3_078",
+    "sub": "vocabulary",
+    "question": "What does \"tenacious\" mean?",
+    "answers": [
+      "Giving up easily",
+      "Very quiet",
+      "Holding firmly or persistent",
+      "Extremely fast"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "e3_079",
+    "sub": "vocabulary",
+    "question": "What does \"empathy\" mean?",
+    "answers": [
+      "Anger at others",
+      "Fear of others",
+      "Understanding others' feelings",
+      "Ignoring others"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "e3_080",
+    "sub": "vocabulary",
+    "question": "What is a synonym for \"absurd\"?",
+    "answers": [
+      "Logical",
+      "Serious",
+      "Ridiculous",
+      "Normal"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "e3_081",
+    "sub": "vocabulary",
+    "question": "What is an antonym for \"vivid\"?",
+    "answers": [
+      "Bright",
+      "Colorful",
+      "Dull",
+      "Lively"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "e3_082",
+    "sub": "vocabulary",
+    "question": "\"The novel had a riveting plot.\" What does riveting mean?",
+    "answers": [
+      "Boring",
+      "Confusing",
+      "Extremely interesting",
+      "Short"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "e3_083",
+    "sub": "vocabulary",
+    "question": "What does \"plausible\" mean?",
+    "answers": [
+      "Impossible",
+      "Silly",
+      "Seeming reasonable or believable",
+      "Proven false"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "e3_084",
+    "sub": "vocabulary",
+    "question": "What does \"impartial\" mean?",
+    "answers": [
+      "Biased",
+      "Angry",
+      "Fair and unbiased",
+      "Confused"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "e3_085",
+    "sub": "vocabulary",
+    "question": "What is a synonym for \"novel\" (adjective)?",
+    "answers": [
+      "Old",
+      "Boring",
+      "New and unusual",
+      "Common"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "e3_086",
+    "sub": "vocabulary",
+    "question": "What is an antonym for \"arrogant\"?",
+    "answers": [
+      "Proud",
+      "Boastful",
+      "Humble",
+      "Vain"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "e3_087",
+    "sub": "vocabulary",
+    "question": "\"The dog's incessant barking woke us.\" What does incessant mean?",
+    "answers": [
+      "Quiet",
+      "Occasional",
+      "Never stopping",
+      "Soft"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "e3_088",
+    "sub": "vocabulary",
+    "question": "What does \"pragmatic\" mean?",
+    "answers": [
+      "Dreamy",
+      "Idealistic",
+      "Practical and realistic",
+      "Emotional"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "e3_089",
+    "sub": "spelling",
+    "question": "Which word is spelled correctly?",
+    "answers": [
+      "Millenium",
+      "Milennium",
+      "Millennium",
+      "Millinnium"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "e3_090",
+    "sub": "spelling",
+    "question": "Which word is spelled correctly?",
+    "answers": [
+      "Concensus",
+      "Consencus",
+      "Consensus",
+      "Concensous"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "e3_091",
+    "sub": "spelling",
+    "question": "Which word is spelled correctly?",
+    "answers": [
+      "Aquaintance",
+      "Acquaintence",
+      "Acquaintance",
+      "Aquaintence"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "e3_092",
+    "sub": "spelling",
+    "question": "Which word is spelled correctly?",
+    "answers": [
+      "Perseverance",
+      "Perserverance",
+      "Perseverence",
+      "Perserverence"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "e3_093",
+    "sub": "spelling",
+    "question": "Which word is spelled correctly?",
+    "answers": [
+      "Concientious",
+      "Conscentious",
+      "Conscientious",
+      "Concientoius"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "e3_094",
+    "sub": "spelling",
+    "question": "Which word is spelled correctly?",
+    "answers": [
+      "Bureacracy",
+      "Beauracracy",
+      "Bureaucracy",
+      "Bueracracy"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "e3_095",
+    "sub": "spelling",
+    "question": "Which word is spelled correctly?",
+    "answers": [
+      "Heirarchy",
+      "Hierarcy",
+      "Hierarchy",
+      "Hiearchy"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "e3_096",
+    "sub": "spelling",
+    "question": "Which word is spelled correctly?",
+    "answers": [
+      "Manuever",
+      "Manuver",
+      "Maneuver",
+      "Manoover"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "e3_097",
+    "sub": "spelling",
+    "question": "Which word is spelled correctly?",
+    "answers": [
+      "Supercede",
+      "Superceed",
+      "Supersede",
+      "Superseed"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "e3_098",
+    "sub": "spelling",
+    "question": "Which word is spelled correctly?",
+    "answers": [
+      "Liason",
+      "Liasion",
+      "Liaison",
+      "Liasone"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "e3_099",
+    "sub": "spelling",
+    "question": "Which word is spelled correctly?",
+    "answers": [
+      "Mischievous",
+      "Mischevious",
+      "Mischievious",
+      "Mischevous"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "e3_100",
+    "sub": "spelling",
+    "question": "Which word is spelled correctly?",
+    "answers": [
+      "Sacrilegious",
+      "Sacreligious",
+      "Sacreligous",
+      "Sacrilegous"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "e3_101",
+    "sub": "spelling",
+    "question": "Which word is spelled correctly?",
+    "answers": [
+      "Inadvertant",
+      "Inadvertunt",
+      "Inadvertint",
+      "Inadvertent"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "e3_102",
+    "sub": "spelling",
+    "question": "Which word is spelled correctly?",
+    "answers": [
+      "Restaraunt",
+      "Restarant",
+      "Restaurant",
+      "Resteraunt"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "e3_103",
+    "sub": "spelling",
+    "question": "Which word is spelled correctly?",
+    "answers": [
+      "Mischief",
+      "Mischef",
+      "Mischief",
+      "Mischif"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "e3_104",
+    "sub": "spelling",
+    "question": "Which word is spelled correctly?",
+    "answers": [
+      "Camoflage",
+      "Camofloge",
+      "Camoflague",
+      "Camouflage"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "e3_105",
+    "sub": "spelling",
+    "question": "Which word is spelled correctly?",
+    "answers": [
+      "Souvenier",
+      "Souvener",
+      "Souvenir",
+      "Souvanir"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "e3_106",
+    "sub": "spelling",
+    "question": "Which word is spelled correctly?",
+    "answers": [
+      "Liesure",
+      "Leasure",
+      "Liesure",
+      "Leisure"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "e3_107",
+    "sub": "spelling",
+    "question": "Which word is spelled correctly?",
+    "answers": [
+      "Gaurantee",
+      "Garentee",
+      "Guarantee",
+      "Guarentee"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "e3_108",
+    "sub": "spelling",
+    "question": "Which word is spelled correctly?",
+    "answers": [
+      "Exhilirate",
+      "Exhilirite",
+      "Exhilerate",
+      "Exhilarate"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "e3_109",
+    "sub": "spelling",
+    "question": "Which word is spelled correctly?",
+    "answers": [
+      "Correspondance",
+      "Correspondense",
+      "Correspondince",
+      "Correspondence"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "e3_110",
+    "sub": "spelling",
+    "question": "Which word is spelled correctly?",
+    "answers": [
+      "Miscellaneous",
+      "Miscellanious",
+      "Miscellanous",
+      "Miscelaneous"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "e3_111",
+    "sub": "spelling",
+    "question": "Which word is spelled correctly?",
+    "answers": [
+      "Inoculate",
+      "Innoculate",
+      "Inoculatte",
+      "Innocullate"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "e3_112",
+    "sub": "spelling",
+    "question": "Which word is spelled correctly?",
+    "answers": [
+      "Extrordinary",
+      "Extroardinary",
+      "Extraodinary",
+      "Extraordinary"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "e3_113",
+    "sub": "spelling",
+    "question": "Which word is spelled correctly?",
+    "answers": [
+      "Indispensible",
+      "Indispensble",
+      "Indispenseable",
+      "Indispensable"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "e3_114",
+    "sub": "spelling",
+    "question": "Which word is spelled correctly?",
+    "answers": [
+      "Irresistable",
+      "Irresistable",
+      "Iresistible",
+      "Irresistible"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "e3_115",
+    "sub": "spelling",
+    "question": "Which word is spelled correctly?",
+    "answers": [
+      "Harrass",
+      "Haras",
+      "Harass",
+      "Harriss"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "e3_116",
+    "sub": "spelling",
+    "question": "Which word is spelled correctly?",
+    "answers": [
+      "Excede",
+      "Exseed",
+      "Exceed",
+      "Excead"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "e3_117",
+    "sub": "spelling",
+    "question": "Which word is spelled correctly?",
+    "answers": [
+      "Sieze",
+      "Sease",
+      "Seeze",
+      "Seize"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "e3_118",
+    "sub": "spelling",
+    "question": "Which word is spelled correctly?",
+    "answers": [
+      "Paralell",
+      "Parrallel",
+      "Paralel",
+      "Parallel"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "e3_119",
+    "sub": "spelling",
+    "question": "Which word is spelled correctly?",
+    "answers": [
+      "Hygeine",
+      "Hygene",
+      "Hygiene",
+      "Hygeene"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "e3_120",
+    "sub": "spelling",
+    "question": "Which word is spelled correctly?",
+    "answers": [
+      "Privalege",
+      "Privelege",
+      "Privilige",
+      "Privilege"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "e3_121",
+    "sub": "spelling",
+    "question": "Which word is spelled correctly?",
+    "answers": [
+      "Pronunciation",
+      "Pronounciation",
+      "Pronuciation",
+      "Pronouncation"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "e3_122",
+    "sub": "spelling",
+    "question": "Which word is spelled correctly?",
+    "answers": [
+      "Colum",
+      "Collumn",
+      "Column",
+      "Colume"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "e3_123",
+    "sub": "spelling",
+    "question": "Which word is spelled correctly?",
+    "answers": [
+      "Auxillary",
+      "Auxilliary",
+      "Auxilary",
+      "Auxiliary"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "e3_124",
+    "sub": "spelling",
+    "question": "Which word is spelled correctly?",
+    "answers": [
+      "Concience",
+      "Concsience",
+      "Consience",
+      "Conscience"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "e3_125",
+    "sub": "spelling",
+    "question": "Which word is spelled correctly?",
+    "answers": [
+      "Manuascript",
+      "Mannuscript",
+      "Manuscript",
+      "Mannascript"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "e3_126",
+    "sub": "spelling",
+    "question": "Which word is spelled correctly?",
+    "answers": [
+      "Synonyme",
+      "Synonim",
+      "Synonym",
+      "Sinonim"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "e3_127",
+    "sub": "spelling",
+    "question": "Which word is spelled correctly?",
+    "answers": [
+      "Recieve",
+      "Receave",
+      "Receive",
+      "Receve"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "e3_128",
+    "sub": "spelling",
+    "question": "Which word is spelled correctly?",
+    "answers": [
+      "Opossite",
+      "Oppisite",
+      "Oposite",
+      "Opposite"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "e3_129",
+    "sub": "spelling",
+    "question": "Which word is spelled correctly?",
+    "answers": [
+      "Neccessity",
+      "Necesity",
+      "Necessity",
+      "Necesitty"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "e3_130",
+    "sub": "spelling",
+    "question": "Which word is spelled correctly?",
+    "answers": [
+      "Exaggeration",
+      "Exageration",
+      "Exaggaration",
+      "Exagerration"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "e3_131",
+    "sub": "punctuation",
+    "question": "Which sentence uses a semicolon correctly?",
+    "answers": [
+      "I love reading; she loves writing.",
+      "I love; reading she loves writing.",
+      "I love reading she; loves writing.",
+      "I; love reading she loves writing."
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "e3_132",
+    "sub": "punctuation",
+    "question": "When should you use a colon?",
+    "answers": [
+      "To separate two sentences",
+      "Before every verb",
+      "After every noun",
+      "Before a list or explanation"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "e3_133",
+    "sub": "punctuation",
+    "question": "Which sentence uses a colon correctly?",
+    "answers": [
+      "She needs: eggs.",
+      "She needs the: following items.",
+      "She: needs eggs, milk, and bread.",
+      "She needs the following items: eggs, milk, and bread."
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "e3_134",
+    "sub": "punctuation",
+    "question": "Which uses a dash correctly?",
+    "answers": [
+      "The answer-was obvious.",
+      "The answer--was obvious.",
+      "The answer--if you can believe it--was obvious.",
+      "The--answer was obvious."
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "e3_135",
+    "sub": "punctuation",
+    "question": "What is the purpose of parentheses?",
+    "answers": [
+      "To end a sentence",
+      "To show ownership",
+      "To start a new paragraph",
+      "To add extra information"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "e3_136",
+    "sub": "punctuation",
+    "question": "Which uses parentheses correctly?",
+    "answers": [
+      "The dog (a poodle) barked.",
+      "The (dog a poodle) barked.",
+      "The dog a (poodle) barked.",
+      "(The dog a poodle barked.)"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "e3_137",
+    "sub": "punctuation",
+    "question": "Which uses an ellipsis correctly?",
+    "answers": [
+      "The story goes.on",
+      "The. story goes on",
+      "The story. goes on. and on",
+      "The story goes... on and on."
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "e3_138",
+    "sub": "punctuation",
+    "question": "What does an ellipsis indicate?",
+    "answers": [
+      "Excitement",
+      "A question",
+      "Omitted words or a trailing thought",
+      "Ownership"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "e3_139",
+    "sub": "punctuation",
+    "question": "Which uses a hyphen correctly in a compound adjective?",
+    "answers": [
+      "The well known author",
+      "The well known-author",
+      "The-well known author",
+      "The well-known author"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "e3_140",
+    "sub": "punctuation",
+    "question": "Which sentence uses a semicolon before a conjunctive adverb?",
+    "answers": [
+      "I was tired, however, I kept going.",
+      "I was; tired however I kept going.",
+      "I was tired however; I kept going.",
+      "I was tired; however, I kept going."
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "e3_141",
+    "sub": "punctuation",
+    "question": "Which uses commas with a nonrestrictive clause correctly?",
+    "answers": [
+      "My brother who lives in Texas is a teacher.",
+      "My, brother who lives in Texas is a teacher.",
+      "My brother who lives, in Texas is a teacher.",
+      "My brother, who lives in Texas, is a teacher."
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "e3_142",
+    "sub": "punctuation",
+    "question": "Which uses quotation marks within quotation marks?",
+    "answers": [
+      "She said, \"He told me 'hello.'\"",
+      "She said, He told me \"hello.\"",
+      "\"She said, He told me hello.\"",
+      "She \"said, He told me hello.\""
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "e3_143",
+    "sub": "punctuation",
+    "question": "Which sentence has correct punctuation with dialogue?",
+    "answers": [
+      "\"Where are you going\"? she asked.",
+      "Where are you going? \"she asked.\"",
+      "\"Where are you going,\" she asked?",
+      "\"Where are you going?\" she asked."
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "e3_144",
+    "sub": "punctuation",
+    "question": "Which sentence uses an apostrophe correctly with a plural possessive?",
+    "answers": [
+      "The childrens' toys",
+      "The children toy's",
+      "The childrens toys",
+      "The children's toys"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "e3_145",
+    "sub": "punctuation",
+    "question": "Which sentence correctly punctuates a title within a sentence?",
+    "answers": [
+      "I read the poem Hope.",
+      "I read the poem Hope,.",
+      "I read the poem, Hope.",
+      "I read the poem \"Hope.\""
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "e3_146",
+    "sub": "punctuation",
+    "question": "Which uses a comma to set off an introductory clause?",
+    "answers": [
+      "After the game ended we celebrated.",
+      "After the game, ended we celebrated.",
+      "After, the game ended we celebrated.",
+      "After the game ended, we celebrated."
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "e3_147",
+    "sub": "punctuation",
+    "question": "Which uses commas correctly with a series of adjectives?",
+    "answers": [
+      "The tall dark handsome man.",
+      "The tall dark, handsome man.",
+      "The, tall dark handsome, man.",
+      "The tall, dark, handsome man."
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "e3_148",
+    "sub": "punctuation",
+    "question": "Which sentence uses a colon before a quotation correctly?",
+    "answers": [
+      "The coach said: \"Give it your all!\"",
+      "The coach: said \"Give it your all!\"",
+      "The coach said \"Give: it your all!\"",
+      "The: coach said \"Give it your all!\""
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "e3_149",
+    "sub": "punctuation",
+    "question": "Which correctly punctuates a compound-complex sentence?",
+    "answers": [
+      "When it rained we stayed inside, and we played games.",
+      "When it rained we stayed, inside and we played games.",
+      "When, it rained we stayed inside and we played games.",
+      "When it rained, we stayed inside, and we played games."
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "e3_150",
+    "sub": "punctuation",
+    "question": "Which uses brackets correctly?",
+    "answers": [
+      "She said [he] was right.",
+      "She [said he] was right.",
+      "[She] said he was right.",
+      "She said he [was] right."
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "e3_151",
+    "sub": "punctuation",
+    "question": "Which uses a comma with a participial phrase?",
+    "answers": [
+      "Running down the street she tripped.",
+      "Running down, the street she tripped.",
+      "Running, down the street she tripped.",
+      "Running down the street, she tripped."
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "e3_152",
+    "sub": "punctuation",
+    "question": "Which uses a semicolon correctly in a complex list?",
+    "answers": [
+      "I visited Paris France; London England; and Rome Italy.",
+      "I visited; Paris France, London England, and Rome Italy.",
+      "I visited Paris France, London England, and Rome Italy.",
+      "I visited Paris, France; London, England; and Rome, Italy."
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "e3_153",
+    "sub": "punctuation",
+    "question": "Which uses an apostrophe correctly with \"its\"?",
+    "answers": [
+      "It's fur is soft.",
+      "It is' fur is soft.",
+      "Its' fur is soft.",
+      "Its fur is soft."
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "e3_154",
+    "sub": "punctuation",
+    "question": "Which uses a comma correctly after an adverbial clause?",
+    "answers": [
+      "Because she studied she passed.",
+      "Because she, studied she passed.",
+      "Because, she studied she passed.",
+      "Because she studied, she passed."
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "e3_155",
+    "sub": "punctuation",
+    "question": "Which correctly uses commas with a transitional phrase?",
+    "answers": [
+      "On the other hand she was right.",
+      "On the other, hand she was right.",
+      "On, the other hand she was right.",
+      "On the other hand, she was right."
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "e3_156",
+    "sub": "punctuation",
+    "question": "Which uses a hyphen correctly in a compound number?",
+    "answers": [
+      "Twentyone",
+      "Twenty one",
+      "Twenty-one",
+      "Twenty--one"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "e3_157",
+    "sub": "punctuation",
+    "question": "Which correctly punctuates a question within a statement?",
+    "answers": [
+      "She asked if I was coming.",
+      "She asked if I was coming?",
+      "She asked, if I was coming.",
+      "She asked? if I was coming."
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "e3_158",
+    "sub": "punctuation",
+    "question": "Which uses a comma before a direct quotation?",
+    "answers": [
+      "She said \"hello.\"",
+      "She said \"Hello\".",
+      "She, said \"hello.\"",
+      "She said, \"Hello.\""
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "e3_159",
+    "sub": "punctuation",
+    "question": "Which uses a dash to show an interruption?",
+    "answers": [
+      "\"I was going to--\" she started.",
+      "\"I was going to\" -- she started.",
+      "\"I was going to\"-- she started.",
+      "\"I was-- going to\" she started."
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "e3_160",
+    "sub": "punctuation",
+    "question": "Which uses a comma correctly in a complex sentence?",
+    "answers": [
+      "Although tired she kept working.",
+      "Although tired she, kept working.",
+      "Although, tired she kept working.",
+      "Although tired, she kept working."
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "e3_161",
+    "sub": "punctuation",
+    "question": "Which sentence uses italics (or underline) for emphasis correctly?",
+    "answers": [
+      "Do not run in the hall.",
+      "Do not run in the hall.",
+      "Do NOT run in the hall.",
+      "Do not run in the hall."
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "e3_162",
+    "sub": "punctuation",
+    "question": "Which correctly punctuates a title of a short story?",
+    "answers": [
+      "The Lottery",
+      "'The Lottery'",
+      "the lottery",
+      "\"The Lottery\""
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "e3_163",
+    "sub": "punctuation",
+    "question": "Which uses a comma before \"which\" correctly?",
+    "answers": [
+      "The book which I read was great.",
+      "The book which I, read was great.",
+      "The book which, I read was great.",
+      "The book, which I read, was great."
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "e3_164",
+    "sub": "punctuation",
+    "question": "Which uses parentheses correctly with a full sentence inside?",
+    "answers": [
+      "(She was right.)",
+      "(She was right)",
+      "(she was right.)",
+      "(She was right)."
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "e3_165",
+    "sub": "punctuation",
+    "question": "Which uses a comma correctly in dialogue with action?",
+    "answers": [
+      "\"Let's go\" he said.",
+      "Let's go, \"he said.\"",
+      "\"Let's go\", he said.",
+      "\"Let's go,\" he said."
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "e3_166",
+    "sub": "punctuation",
+    "question": "Which uses a semicolon correctly?",
+    "answers": [
+      "She loves hiking; and he loves swimming.",
+      "She loves hiking he; loves swimming.",
+      "She; loves hiking he loves swimming.",
+      "She loves hiking; he loves swimming."
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "e3_167",
+    "sub": "punctuation",
+    "question": "Which uses commas correctly around an appositive?",
+    "answers": [
+      "Einstein a physicist changed science.",
+      "Einstein, a physicist changed science.",
+      "Einstein a physicist, changed science.",
+      "Einstein, a physicist, changed science."
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "e3_168",
+    "sub": "punctuation",
+    "question": "Which sentence correctly uses a comma with \"too\"?",
+    "answers": [
+      "I like chocolate too.",
+      "I like, chocolate too.",
+      "I, too like chocolate.",
+      "I like chocolate, too."
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "e3_169",
+    "sub": "punctuation",
+    "question": "Which uses a colon correctly in a business letter?",
+    "answers": [
+      "Dear Mr. Smith,",
+      "Dear, Mr. Smith",
+      "Dear Mr. Smith;",
+      "Dear Mr. Smith:"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "e3_170",
+    "sub": "punctuation",
+    "question": "Which uses hyphens correctly in a compound modifier?",
+    "answers": [
+      "A well written essay",
+      "A well written-essay",
+      "A-well written essay",
+      "A well-written essay"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "e3_171",
+    "sub": "punctuation",
+    "question": "Which uses commas correctly in a compound sentence?",
+    "answers": [
+      "She sang and, he danced.",
+      "She sang and he, danced.",
+      "She, sang and he danced.",
+      "She sang, and he danced."
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "e3_172",
+    "sub": "punctuation",
+    "question": "Which uses a comma correctly before a conjunction?",
+    "answers": [
+      "I walked to the store, but it was closed.",
+      "I walked to the store but, it was closed.",
+      "I, walked to the store but it was closed.",
+      "I walked to, the store but it was closed."
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "e3_173",
+    "sub": "reading",
+    "question": "What is second person point of view?",
+    "answers": [
+      "Uses \"I\" and \"me\"",
+      "Uses \"they\" and \"them\"",
+      "Uses \"he\" and \"she\"",
+      "Uses \"you\" and \"your\""
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "e3_174",
+    "sub": "reading",
+    "question": "What is third person omniscient?",
+    "answers": [
+      "Narrator knows only one character's thoughts",
+      "Narrator uses \"you\"",
+      "Narrator is a character in the story",
+      "Narrator knows all characters' thoughts"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "e3_175",
+    "sub": "reading",
+    "question": "What is third person limited?",
+    "answers": [
+      "Narrator knows all characters' thoughts",
+      "Narrator uses \"I\"",
+      "Narrator is the main character",
+      "Narrator knows one character's thoughts"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "e3_176",
+    "sub": "reading",
+    "question": "What is dramatic irony?",
+    "answers": [
+      "When the reader knows something a character doesn't",
+      "When the opposite of what's expected happens",
+      "When words mean the opposite of what's said",
+      "When two characters argue"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "e3_177",
+    "sub": "reading",
+    "question": "What is situational irony?",
+    "answers": [
+      "When the reader knows more than characters",
+      "When the author is sarcastic",
+      "When words mean the opposite",
+      "When the opposite of what's expected happens"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "e3_178",
+    "sub": "reading",
+    "question": "What is verbal irony?",
+    "answers": [
+      "When the opposite of what's expected happens",
+      "When the reader knows more than characters",
+      "When someone says the opposite of what they mean",
+      "When two events happen at the same time"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "e3_179",
+    "sub": "reading",
+    "question": "What is an unreliable narrator?",
+    "answers": [
+      "A narrator who tells the truth",
+      "A narrator who is omniscient",
+      "A narrator in third person",
+      "A narrator whose account may not be trustworthy"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "e3_180",
+    "sub": "reading",
+    "question": "What is a flashback?",
+    "answers": [
+      "A scene set in the future",
+      "The resolution",
+      "The climax of a story",
+      "A scene that shows earlier events"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "e3_181",
+    "sub": "reading",
+    "question": "What is foreshadowing?",
+    "answers": [
+      "Looking back at past events",
+      "The resolution",
+      "The main conflict",
+      "Clues that hint at future events"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "e3_182",
+    "sub": "reading",
+    "question": "What is the difference between a theme and a topic?",
+    "answers": [
+      "They are the same thing",
+      "A topic has characters; a theme does not",
+      "A theme is shorter than a topic",
+      "A topic is one word; a theme is a message"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "e3_183",
+    "sub": "reading",
+    "question": "What is an allegory?",
+    "answers": [
+      "A short poem",
+      "A dictionary entry",
+      "A type of essay",
+      "A story with a hidden moral or political meaning"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "e3_184",
+    "sub": "reading",
+    "question": "What is the rising action in a plot?",
+    "answers": [
+      "The ending",
+      "The resolution",
+      "The introduction",
+      "Events that build tension toward the climax"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "e3_185",
+    "sub": "reading",
+    "question": "What is the falling action?",
+    "answers": [
+      "Events before the climax",
+      "The first chapter",
+      "The introduction",
+      "Events after the climax leading to resolution"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "e3_186",
+    "sub": "reading",
+    "question": "What is the exposition of a story?",
+    "answers": [
+      "The climax",
+      "The falling action",
+      "The resolution",
+      "The introduction of characters and setting"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "e3_187",
+    "sub": "reading",
+    "question": "What is an internal conflict?",
+    "answers": [
+      "A fight between two characters",
+      "A problem with the weather",
+      "A war between countries",
+      "A struggle within a character's mind"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "e3_188",
+    "sub": "reading",
+    "question": "What is an external conflict?",
+    "answers": [
+      "A character's inner struggle",
+      "A character's feelings",
+      "A character's thoughts",
+      "A struggle between a character and an outside force"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "e3_189",
+    "sub": "reading",
+    "question": "\"Character vs. nature\" is a type of ___.",
+    "answers": [
+      "Internal conflict",
+      "Setting",
+      "Theme",
+      "External conflict"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "e3_190",
+    "sub": "reading",
+    "question": "\"Character vs. self\" is a type of ___.",
+    "answers": [
+      "External conflict",
+      "Setting",
+      "Plot",
+      "Internal conflict"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "e3_191",
+    "sub": "reading",
+    "question": "What is a static character?",
+    "answers": [
+      "A character who changes throughout the story",
+      "The villain",
+      "The main character",
+      "A character who stays the same"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "e3_192",
+    "sub": "reading",
+    "question": "What is a dynamic character?",
+    "answers": [
+      "A character who stays the same",
+      "A flat character",
+      "A minor character",
+      "A character who changes throughout the story"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "e3_193",
+    "sub": "reading",
+    "question": "What is a flat character?",
+    "answers": [
+      "A character with many traits",
+      "A changing character",
+      "The main character",
+      "A character with few traits"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "e3_194",
+    "sub": "reading",
+    "question": "What is a round character?",
+    "answers": [
+      "A character with few traits",
+      "A minor character",
+      "A character who doesn't change",
+      "A complex character with many traits"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "e3_195",
+    "sub": "reading",
+    "question": "What is the protagonist?",
+    "answers": [
+      "The villain",
+      "The narrator always",
+      "A minor character",
+      "The main character"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "e3_196",
+    "sub": "reading",
+    "question": "What is the antagonist?",
+    "answers": [
+      "The main character",
+      "The author",
+      "The narrator",
+      "The character who opposes the protagonist"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "e3_197",
+    "sub": "reading",
+    "question": "What is a foil character?",
+    "answers": [
+      "A character who is the hero",
+      "A character who narrates",
+      "A character who tells jokes",
+      "A character who contrasts with another to highlight traits"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "e3_198",
+    "sub": "reading",
+    "question": "What is characterization?",
+    "answers": [
+      "The setting of a story",
+      "The theme of a story",
+      "The plot of a story",
+      "How an author reveals a character's traits"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "e3_199",
+    "sub": "reading",
+    "question": "What is direct characterization?",
+    "answers": [
+      "When the author tells you about a character",
+      "When you infer traits from actions",
+      "When a character describes themselves",
+      "When the setting reveals character"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "e3_200",
+    "sub": "reading",
+    "question": "What is indirect characterization?",
+    "answers": [
+      "The author tells you about a character",
+      "Characters describe themselves",
+      "The title reveals the character",
+      "Character traits are shown through actions and dialogue"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "e3_201",
+    "sub": "reading",
+    "question": "What does \"analyze\" mean in reading?",
+    "answers": [
+      "Read quickly",
+      "Skip difficult parts",
+      "Memorize every word",
+      "Break down and examine closely"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "e3_202",
+    "sub": "reading",
+    "question": "What is a claim in argumentative writing?",
+    "answers": [
+      "A question",
+      "A summary of the text",
+      "A fact that everyone agrees on",
+      "A statement the author argues is true"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "e3_203",
+    "sub": "reading",
+    "question": "What is evidence in writing?",
+    "answers": [
+      "An opinion",
+      "A guess about the topic",
+      "The title of a book",
+      "Facts or details that support a claim"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "e3_204",
+    "sub": "reading",
+    "question": "What is author's bias?",
+    "answers": [
+      "The author's factual reporting",
+      "The author's vocabulary",
+      "The author's writing style",
+      "The author's unfair favoritism toward one side"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "e3_205",
+    "sub": "reading",
+    "question": "What is a thesis statement?",
+    "answers": [
+      "The last sentence of an essay",
+      "The title of an essay",
+      "A list of sources",
+      "The main argument of an essay"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "e3_206",
+    "sub": "reading",
+    "question": "What is a counterclaim?",
+    "answers": [
+      "A claim that supports the author's argument",
+      "A question for the reader",
+      "A summary of the text",
+      "An opposing argument"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "e3_207",
+    "sub": "reading",
+    "question": "What does \"synthesize\" mean in reading?",
+    "answers": [
+      "Copy information exactly",
+      "Summarize one source",
+      "Ignore difficult texts",
+      "Combine information from multiple sources"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "e3_208",
+    "sub": "reading",
+    "question": "What is a reliable source?",
+    "answers": [
+      "Any website",
+      "A social media post",
+      "An opinion blog",
+      "A trustworthy and accurate source of information"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "e3_209",
+    "sub": "reading",
+    "question": "What is satire?",
+    "answers": [
+      "A serious news report",
+      "A biography of a famous person",
+      "A type of poem that rhymes",
+      "Using humor to criticize or expose flaws"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "e3_210",
+    "sub": "reading",
+    "question": "What is the purpose of a bibliography?",
+    "answers": [
+      "To start a new chapter",
+      "To list sources used in research",
+      "To end a story",
+      "To introduce characters"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "e3_211",
+    "sub": "reading",
+    "question": "What is an inference?",
+    "answers": [
+      "A fact stated directly in the text",
+      "A conclusion drawn from evidence and reasoning",
+      "A summary of the plot",
+      "A question about the text"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "e3_212",
+    "sub": "reading",
+    "question": "What is propaganda?",
+    "answers": [
+      "Fair reporting",
+      "Information used to promote a particular viewpoint",
+      "A type of poem",
+      "A dictionary entry"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "e3_213",
+    "sub": "reading",
+    "question": "What is a text's central argument?",
+    "answers": [
+      "The title",
+      "The main point the author is making",
+      "The conclusion only",
+      "The first paragraph"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "e3_214",
+    "sub": "reading",
+    "question": "What does \"credible\" mean regarding sources?",
+    "answers": [
+      "Untrustworthy",
+      "Believable and reliable",
+      "Funny",
+      "Long"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "e3_215",
+    "sub": "reading",
+    "question": "What is a motif in literature?",
+    "answers": [
+      "The main character",
+      "A recurring element with symbolic meaning",
+      "The ending",
+      "A type of conflict"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "e3_216",
+    "sub": "literary",
+    "question": "What is a symbol in literature?",
+    "answers": [
+      "A punctuation mark",
+      "Something that represents something else",
+      "A type of poem",
+      "A character's name"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "e3_217",
+    "sub": "literary",
+    "question": "A dove often symbolizes ___.",
+    "answers": [
+      "Anger",
+      "Death",
+      "Peace",
+      "Danger"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "e3_218",
+    "sub": "literary",
+    "question": "What is an oxymoron?",
+    "answers": [
+      "A comparison using like",
+      "Two contradictory words together",
+      "A repeated sound",
+      "A big exaggeration"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "e3_219",
+    "sub": "literary",
+    "question": "Which is an oxymoron?",
+    "answers": [
+      "Pretty flower",
+      "Jumbo shrimp",
+      "Fast runner",
+      "Blue sky"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "e3_220",
+    "sub": "literary",
+    "question": "What is a paradox?",
+    "answers": [
+      "A simple statement",
+      "A seemingly contradictory statement that reveals truth",
+      "A type of rhyme",
+      "A character's name"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "e3_221",
+    "sub": "literary",
+    "question": "\"Less is more\" is an example of ___.",
+    "answers": [
+      "Simile",
+      "Metaphor",
+      "Paradox",
+      "Onomatopoeia"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "e3_222",
+    "sub": "literary",
+    "question": "What is an analogy?",
+    "answers": [
+      "A type of poem",
+      "A comparison to explain an idea",
+      "A big exaggeration",
+      "A repeated sound"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "e3_223",
+    "sub": "literary",
+    "question": "What is an idiom?",
+    "answers": [
+      "A phrase meaning exactly what it says",
+      "A phrase with a meaning different from the literal words",
+      "A type of poem",
+      "A grammar rule"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "e3_224",
+    "sub": "literary",
+    "question": "\"Break a leg\" is an example of ___.",
+    "answers": [
+      "A simile",
+      "An idiom",
+      "Onomatopoeia",
+      "A paradox"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "e3_225",
+    "sub": "literary",
+    "question": "\"It's raining cats and dogs\" is an example of ___.",
+    "answers": [
+      "A simile",
+      "Hyperbole",
+      "An idiom",
+      "A metaphor"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "e3_226",
+    "sub": "literary",
+    "question": "What is a pun?",
+    "answers": [
+      "A type of poem",
+      "A play on words with double meaning",
+      "A comparison using like",
+      "A sad ending"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "e3_227",
+    "sub": "literary",
+    "question": "What is an allusion?",
+    "answers": [
+      "An illusion",
+      "A reference to something well-known",
+      "A type of rhyme",
+      "A plot twist"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "e3_228",
+    "sub": "literary",
+    "question": "\"He has the Midas touch\" is an example of ___.",
+    "answers": [
+      "Onomatopoeia",
+      "Hyperbole",
+      "Allusion",
+      "Simile"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "e3_229",
+    "sub": "literary",
+    "question": "What is the tone of a piece of writing?",
+    "answers": [
+      "The loudness of reading",
+      "The author's attitude toward the subject",
+      "The number of pages",
+      "The genre of the book"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "e3_230",
+    "sub": "literary",
+    "question": "What is the mood of a story?",
+    "answers": [
+      "The author's attitude",
+      "The feeling the reader gets",
+      "The main character's name",
+      "The title of the book"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "e3_231",
+    "sub": "literary",
+    "question": "Which word best describes a suspenseful mood?",
+    "answers": [
+      "Joyful",
+      "Relaxed",
+      "Tense",
+      "Silly"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "e3_232",
+    "sub": "literary",
+    "question": "What is free verse poetry?",
+    "answers": [
+      "Poetry that always rhymes",
+      "Poetry without a regular meter or rhyme",
+      "Poetry with exactly 14 lines",
+      "Poetry that tells a story"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "e3_233",
+    "sub": "literary",
+    "question": "What is a sonnet?",
+    "answers": [
+      "A 10-line poem",
+      "A 14-line poem",
+      "A 20-line poem",
+      "A poem with no rules"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "e3_234",
+    "sub": "literary",
+    "question": "What is a haiku?",
+    "answers": [
+      "A 14-line poem",
+      "A 3-line poem with 5-7-5 syllables",
+      "A poem that always rhymes",
+      "A very long poem"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "e3_235",
+    "sub": "literary",
+    "question": "What is a narrative poem?",
+    "answers": [
+      "A poem with no story",
+      "A poem that tells a story",
+      "A poem about nature only",
+      "A poem with exactly 14 lines"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "e3_236",
+    "sub": "literary",
+    "question": "What is meter in poetry?",
+    "answers": [
+      "The length of the poem",
+      "The pattern of stressed and unstressed syllables",
+      "The rhyme scheme",
+      "The number of stanzas"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "e3_237",
+    "sub": "literary",
+    "question": "What is a rhyme scheme?",
+    "answers": [
+      "The rhythm of a poem",
+      "The pattern of rhyming words at the end of lines",
+      "The number of syllables",
+      "The title of a poem"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "e3_238",
+    "sub": "literary",
+    "question": "In ABAB rhyme scheme, which lines rhyme?",
+    "answers": [
+      "1 and 2, 3 and 4",
+      "1 and 3, 2 and 4",
+      "1 and 4, 2 and 3",
+      "All lines rhyme"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "e3_239",
+    "sub": "literary",
+    "question": "What is a soliloquy?",
+    "answers": [
+      "A conversation between two characters",
+      "A speech given by a character alone on stage",
+      "A poem about nature",
+      "A type of essay"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "e3_240",
+    "sub": "literary",
+    "question": "What is dramatic monologue?",
+    "answers": [
+      "A poem spoken by a fictional character",
+      "A conversation between characters",
+      "A type of essay",
+      "A news report"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "e3_241",
+    "sub": "literary",
+    "question": "What is verbal irony in literature?",
+    "answers": [
+      "Saying the opposite of what you mean",
+      "When events turn out differently than expected",
+      "When the audience knows more than characters",
+      "When a character talks to themselves"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "e3_242",
+    "sub": "literary",
+    "question": "\"Deafening silence\" is an example of ___.",
+    "answers": [
+      "Simile",
+      "Metaphor",
+      "Oxymoron",
+      "Alliteration"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "e3_243",
+    "sub": "literary",
+    "question": "\"Clearly confused\" is an example of ___.",
+    "answers": [
+      "Simile",
+      "Oxymoron",
+      "Alliteration",
+      "Onomatopoeia"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "e3_244",
+    "sub": "literary",
+    "question": "What is assonance?",
+    "answers": [
+      "Repetition of consonant sounds",
+      "Repetition of vowel sounds",
+      "Repetition of whole words",
+      "Repetition of sentences"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "e3_245",
+    "sub": "literary",
+    "question": "What is consonance?",
+    "answers": [
+      "Repetition of vowel sounds",
+      "Repetition of consonant sounds",
+      "Repetition of whole words",
+      "Repetition of phrases"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "e3_246",
+    "sub": "literary",
+    "question": "\"The rain in Spain\" shows ___.",
+    "answers": [
+      "Consonance",
+      "Assonance",
+      "Alliteration",
+      "Onomatopoeia"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "e3_247",
+    "sub": "literary",
+    "question": "\"Pitter-patter\" is an example of ___.",
+    "answers": [
+      "Simile",
+      "Metaphor",
+      "Onomatopoeia",
+      "Hyperbole"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "e3_248",
+    "sub": "literary",
+    "question": "What is understatement?",
+    "answers": [
+      "An exaggeration",
+      "Saying something is less than it really is",
+      "A comparison using like",
+      "Repeating a sound"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "e3_249",
+    "sub": "literary",
+    "question": "Saying \"It's just a scratch\" about a large wound is ___.",
+    "answers": [
+      "Hyperbole",
+      "Understatement",
+      "Simile",
+      "Alliteration"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "e3_250",
+    "sub": "literary",
+    "question": "What is juxtaposition?",
+    "answers": [
+      "Placing two things side by side for comparison",
+      "A type of rhyme",
+      "A big exaggeration",
+      "A repeated sound"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "e3_251",
+    "sub": "literary",
+    "question": "What does \"imagery\" appeal to?",
+    "answers": [
+      "Only sight",
+      "The five senses",
+      "Only hearing",
+      "Only touch"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "e3_252",
+    "sub": "literary",
+    "question": "\"Bittersweet\" is an example of ___.",
+    "answers": [
+      "Simile",
+      "Oxymoron",
+      "Alliteration",
+      "Hyperbole"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "e3_253",
+    "sub": "literary",
+    "question": "What is a ballad?",
+    "answers": [
+      "A 14-line poem",
+      "A poem or song that tells a story",
+      "A poem with no rhyme",
+      "A three-line poem"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "e3_254",
+    "sub": "literary",
+    "question": "What is an epic?",
+    "answers": [
+      "A short poem about nature",
+      "A long narrative poem about heroic deeds",
+      "A limerick",
+      "A haiku"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "e3_255",
+    "sub": "literary",
+    "question": "What is a limerick?",
+    "answers": [
+      "A five-line humorous poem",
+      "A 14-line poem",
+      "A poem with no rhyme",
+      "A poem about nature"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "e3_256",
+    "sub": "literary",
+    "question": "What does \"symbolism\" mean in literature?",
+    "answers": [
+      "Using symbols like punctuation",
+      "Using objects to represent deeper ideas",
+      "Using numbers in a story",
+      "Using letters as characters"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "e3_257",
+    "sub": "literary",
+    "question": "Darkness often symbolizes ___.",
+    "answers": [
+      "Happiness",
+      "Fear or the unknown",
+      "Summer",
+      "Laughter"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "e3_258",
+    "sub": "literary",
+    "question": "Water often symbolizes ___.",
+    "answers": [
+      "Anger",
+      "Purification or renewal",
+      "Sadness only",
+      "Nothing"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "e3_259",
+    "sub": "word_parts",
+    "question": "What is the root word in \"unhappiness\"?",
+    "answers": [
+      "Un",
+      "Happy",
+      "Ness",
+      "Unhappy"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "e3_260",
+    "sub": "word_parts",
+    "question": "What does the Latin root \"scrib\" or \"script\" mean?",
+    "answers": [
+      "Run",
+      "Write",
+      "See",
+      "Hear"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "e3_261",
+    "sub": "word_parts",
+    "question": "What does the Latin root \"port\" mean?",
+    "answers": [
+      "Write",
+      "Carry",
+      "See",
+      "Hear"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "e3_262",
+    "sub": "word_parts",
+    "question": "What does the Latin root \"dict\" mean?",
+    "answers": [
+      "Write",
+      "Carry",
+      "Say or speak",
+      "Run"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "e3_263",
+    "sub": "word_parts",
+    "question": "What does the Greek root \"graph\" mean?",
+    "answers": [
+      "Hear",
+      "Write",
+      "Run",
+      "See"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "e3_264",
+    "sub": "word_parts",
+    "question": "What does the Greek root \"tele\" mean?",
+    "answers": [
+      "Near",
+      "Under",
+      "Far",
+      "Above"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "e3_265",
+    "sub": "word_parts",
+    "question": "What does the Latin root \"aud\" mean?",
+    "answers": [
+      "See",
+      "Speak",
+      "Hear",
+      "Write"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "e3_266",
+    "sub": "word_parts",
+    "question": "What does the Latin root \"vis\" or \"vid\" mean?",
+    "answers": [
+      "Hear",
+      "See",
+      "Speak",
+      "Touch"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "e3_267",
+    "sub": "word_parts",
+    "question": "What does the Greek root \"bio\" mean?",
+    "answers": [
+      "Water",
+      "Earth",
+      "Life",
+      "Air"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "e3_268",
+    "sub": "word_parts",
+    "question": "What does the Greek root \"geo\" mean?",
+    "answers": [
+      "Water",
+      "Earth",
+      "Fire",
+      "Air"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "e3_269",
+    "sub": "word_parts",
+    "question": "What does the prefix \"anti-\" mean?",
+    "answers": [
+      "For",
+      "With",
+      "Against",
+      "Under"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "e3_270",
+    "sub": "word_parts",
+    "question": "What does the prefix \"trans-\" mean?",
+    "answers": [
+      "Under",
+      "Above",
+      "Across",
+      "Below"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "e3_271",
+    "sub": "word_parts",
+    "question": "What does \"transcontinental\" mean?",
+    "answers": [
+      "Under a continent",
+      "Across continents",
+      "Above a continent",
+      "Around a continent"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "e3_272",
+    "sub": "word_parts",
+    "question": "What does the suffix \"-ology\" mean?",
+    "answers": [
+      "Fear of",
+      "Study of",
+      "Full of",
+      "Without"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "e3_273",
+    "sub": "word_parts",
+    "question": "What does \"biology\" mean?",
+    "answers": [
+      "Study of earth",
+      "Study of life",
+      "Study of stars",
+      "Study of water"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "e3_274",
+    "sub": "word_parts",
+    "question": "What does the Latin root \"cred\" mean?",
+    "answers": [
+      "Run",
+      "Believe",
+      "See",
+      "Write"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "e3_275",
+    "sub": "word_parts",
+    "question": "What does \"incredible\" mean?",
+    "answers": [
+      "Very believable",
+      "Hard to believe",
+      "Easy to write",
+      "Hard to see"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "e3_276",
+    "sub": "word_parts",
+    "question": "What does the Greek root \"phon\" mean?",
+    "answers": [
+      "Light",
+      "Sound",
+      "Water",
+      "Earth"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "e3_277",
+    "sub": "word_parts",
+    "question": "What does the Greek root \"photo\" mean?",
+    "answers": [
+      "Sound",
+      "Light",
+      "Water",
+      "Earth"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "e3_278",
+    "sub": "word_parts",
+    "question": "What does the Latin root \"rupt\" mean?",
+    "answers": [
+      "Build",
+      "Break",
+      "Carry",
+      "Write"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "e3_279",
+    "sub": "word_parts",
+    "question": "What does \"interrupt\" mean?",
+    "answers": [
+      "Build together",
+      "Break into",
+      "Carry away",
+      "Write again"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "e3_280",
+    "sub": "word_parts",
+    "question": "What does the prefix \"circum-\" mean?",
+    "answers": [
+      "Through",
+      "Under",
+      "Around",
+      "Above"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "e3_281",
+    "sub": "word_parts",
+    "question": "What does \"circumnavigate\" mean?",
+    "answers": [
+      "Sail under",
+      "Sail around",
+      "Sail through",
+      "Sail above"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "e3_282",
+    "sub": "word_parts",
+    "question": "What does the Greek root \"chron\" mean?",
+    "answers": [
+      "Color",
+      "Time",
+      "Sound",
+      "Light"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "e3_283",
+    "sub": "word_parts",
+    "question": "What does \"chronological\" mean?",
+    "answers": [
+      "In color order",
+      "In time order",
+      "In size order",
+      "In sound order"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "e3_284",
+    "sub": "word_parts",
+    "question": "What does the suffix \"-phobia\" mean?",
+    "answers": [
+      "Love of",
+      "Fear of",
+      "Study of",
+      "Full of"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "e3_285",
+    "sub": "word_parts",
+    "question": "What does \"claustrophobia\" mean?",
+    "answers": [
+      "Fear of heights",
+      "Fear of enclosed spaces",
+      "Fear of water",
+      "Fear of spiders"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "e3_286",
+    "sub": "word_parts",
+    "question": "What does the Latin root \"bene\" mean?",
+    "answers": [
+      "Bad",
+      "Good",
+      "Big",
+      "Small"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "e3_287",
+    "sub": "word_parts",
+    "question": "What does the Latin root \"mal\" mean?",
+    "answers": [
+      "Good",
+      "Bad",
+      "Big",
+      "Small"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "e3_288",
+    "sub": "word_parts",
+    "question": "What does \"malfunction\" mean?",
+    "answers": [
+      "Works well",
+      "Works badly or fails",
+      "Works fast",
+      "Works slowly"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "e3_289",
+    "sub": "word_parts",
+    "question": "What does the prefix \"mono-\" mean?",
+    "answers": [
+      "Many",
+      "Two",
+      "One",
+      "None"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "e3_290",
+    "sub": "word_parts",
+    "question": "What does the prefix \"poly-\" mean?",
+    "answers": [
+      "One",
+      "Two",
+      "Few",
+      "Many"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "e3_291",
+    "sub": "word_parts",
+    "question": "What does \"polygon\" mean?",
+    "answers": [
+      "One angle",
+      "Two angles",
+      "Many angles",
+      "No angles"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "e3_292",
+    "sub": "word_parts",
+    "question": "What does the Greek root \"path\" mean?",
+    "answers": [
+      "Walk",
+      "Feeling or suffering",
+      "Sound",
+      "Light"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "e3_293",
+    "sub": "word_parts",
+    "question": "What does \"sympathetic\" mean?",
+    "answers": [
+      "Without feeling",
+      "Sharing the feelings of another",
+      "Full of anger",
+      "Having no interest"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "e3_294",
+    "sub": "word_parts",
+    "question": "What does the Latin root \"struct\" mean?",
+    "answers": [
+      "Break",
+      "Build",
+      "Carry",
+      "Write"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "e3_295",
+    "sub": "word_parts",
+    "question": "What does \"reconstruct\" mean?",
+    "answers": [
+      "Break apart",
+      "Build again",
+      "Carry away",
+      "Write over"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "e3_296",
+    "sub": "word_parts",
+    "question": "What does the prefix \"counter-\" mean?",
+    "answers": [
+      "With",
+      "For",
+      "Against or opposite",
+      "Under"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "e3_297",
+    "sub": "word_parts",
+    "question": "What does \"counterargument\" mean?",
+    "answers": [
+      "A supporting argument",
+      "An opposing argument",
+      "A weak argument",
+      "No argument"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "e3_298",
+    "sub": "word_parts",
+    "question": "What does the Latin root \"ject\" mean?",
+    "answers": [
+      "Carry",
+      "Throw",
+      "See",
+      "Hear"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "e3_299",
+    "sub": "word_parts",
+    "question": "What does \"project\" literally mean?",
+    "answers": [
+      "Carry back",
+      "Throw forward",
+      "See again",
+      "Hear from far"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "e3_300",
+    "sub": "word_parts",
+    "question": "What does the Greek root \"scope\" mean?",
+    "answers": [
+      "Hear",
+      "Watch or see",
+      "Write",
+      "Carry"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "e3_301",
+    "sub": "word_parts",
+    "question": "What does \"microscope\" mean?",
+    "answers": [
+      "See far away",
+      "See small things",
+      "Hear small sounds",
+      "Write small letters"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "e3_302",
+    "sub": "sentences",
+    "question": "Which sentence uses parallel structure correctly?",
+    "answers": [
+      "She likes to swim, running, and bike.",
+      "She likes to swim, to run, and to bike.",
+      "She likes swimming, to run, and bikes.",
+      "She likes to swim, runs, and biking."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "e3_303",
+    "sub": "sentences",
+    "question": "Which sentence has a dangling modifier?",
+    "answers": [
+      "While eating lunch, the fire alarm rang.",
+      "While I ate lunch, the fire alarm rang.",
+      "The fire alarm rang while we ate.",
+      "We heard the fire alarm during lunch."
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "e3_304",
+    "sub": "sentences",
+    "question": "What is a compound-complex sentence?",
+    "answers": [
+      "A simple sentence with one clause",
+      "A sentence with two independent and one dependent clause",
+      "A sentence with only one clause",
+      "A sentence fragment"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "e3_305",
+    "sub": "sentences",
+    "question": "Which is a compound-complex sentence?",
+    "answers": [
+      "She ran.",
+      "He ate, and she drank.",
+      "When it rained, I stayed inside, and he left.",
+      "After lunch."
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "e3_306",
+    "sub": "sentences",
+    "question": "What is a noun clause?",
+    "answers": [
+      "A clause that acts as an adjective",
+      "A clause that acts as a noun",
+      "A clause that acts as an adverb",
+      "A type of fragment"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "e3_307",
+    "sub": "sentences",
+    "question": "In \"I know what you did,\" what is the noun clause?",
+    "answers": [
+      "I know",
+      "what you",
+      "what you did",
+      "you did"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "e3_308",
+    "sub": "sentences",
+    "question": "What is an adverbial clause?",
+    "answers": [
+      "A clause that modifies a noun",
+      "A clause that modifies a verb, adjective, or adverb",
+      "A clause that acts as a noun",
+      "A type of run-on"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "e3_309",
+    "sub": "sentences",
+    "question": "What is an adjective clause?",
+    "answers": [
+      "A clause that modifies a noun",
+      "A clause that modifies a verb",
+      "A clause that acts as a noun",
+      "A clause that stands alone"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "e3_310",
+    "sub": "sentences",
+    "question": "In \"The book that I read was great,\" what is the adjective clause?",
+    "answers": [
+      "The book",
+      "that I read",
+      "was great",
+      "The book that"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "e3_311",
+    "sub": "sentences",
+    "question": "Which has correct parallel structure in a list?",
+    "answers": [
+      "Reading, to write, and drawing.",
+      "Reading, writing, and drawing.",
+      "To read, writing, and draw.",
+      "Read, to write, and drawing."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "e3_312",
+    "sub": "sentences",
+    "question": "Which sentence avoids a comma splice?",
+    "answers": [
+      "I ran fast, I won the race.",
+      "I ran fast; I won the race.",
+      "I ran fast I won the race.",
+      "I ran fast, won the race."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "e3_313",
+    "sub": "sentences",
+    "question": "What is a comma splice?",
+    "answers": [
+      "Using too many commas",
+      "Joining two sentences with only a comma",
+      "Forgetting a comma",
+      "Using a comma after a period"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "e3_314",
+    "sub": "sentences",
+    "question": "How do you fix a comma splice?",
+    "answers": [
+      "Remove the comma entirely",
+      "Add a conjunction or use a semicolon",
+      "Add more commas",
+      "Remove the second sentence"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "e3_315",
+    "sub": "sentences",
+    "question": "Which sentence is in the passive voice?",
+    "answers": [
+      "The teacher graded the papers.",
+      "The papers were graded by the teacher.",
+      "She graded all the papers.",
+      "He will grade the papers."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "e3_316",
+    "sub": "sentences",
+    "question": "Convert to active: \"The ball was thrown by Tom.\"",
+    "answers": [
+      "The ball threw Tom.",
+      "Tom was thrown the ball.",
+      "Tom threw the ball.",
+      "Tom was throwing the ball."
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "e3_317",
+    "sub": "sentences",
+    "question": "What is a periodic sentence?",
+    "answers": [
+      "A sentence with the main idea at the end",
+      "A sentence with the main idea first",
+      "A very short sentence",
+      "A question"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "e3_318",
+    "sub": "sentences",
+    "question": "What is a loose (cumulative) sentence?",
+    "answers": [
+      "A sentence with the main idea at the end",
+      "A sentence with the main idea first, followed by details",
+      "A fragment",
+      "A run-on"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "e3_319",
+    "sub": "sentences",
+    "question": "Which is a correctly punctuated compound-complex sentence?",
+    "answers": [
+      "Although tired she ran, and she won.",
+      "Although she was tired, she ran, and she won.",
+      "Although, she was tired she ran and she won.",
+      "Although she was tired she ran, and, she won."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "e3_320",
+    "sub": "sentences",
+    "question": "What is a rhetorical question?",
+    "answers": [
+      "A question that expects an answer",
+      "A question asked for effect, not a real answer",
+      "A grammar error",
+      "A type of fragment"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "e3_321",
+    "sub": "sentences",
+    "question": "What is an imperative sentence?",
+    "answers": [
+      "A sentence that asks a question",
+      "A sentence that gives a command",
+      "A sentence that shows excitement",
+      "A sentence that states a fact"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "e3_322",
+    "sub": "sentences",
+    "question": "Which sentence has a misplaced modifier?",
+    "answers": [
+      "She nearly drove for three hours.",
+      "She drove for nearly three hours.",
+      "She drove quickly.",
+      "She drove her car home."
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "e3_323",
+    "sub": "sentences",
+    "question": "Which sentence uses an appositive phrase correctly?",
+    "answers": [
+      "My teacher Ms. Lee is kind.",
+      "My teacher, Ms. Lee, is kind.",
+      "My, teacher Ms. Lee is kind.",
+      "My teacher Ms. Lee, is kind."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "e3_324",
+    "sub": "sentences",
+    "question": "What is a complex sentence?",
+    "answers": [
+      "A sentence with one independent and one dependent clause",
+      "A sentence with two independent clauses",
+      "A very long sentence",
+      "A fragment"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "e3_325",
+    "sub": "sentences",
+    "question": "Which subordinating conjunction shows time?",
+    "answers": [
+      "Because",
+      "Although",
+      "After",
+      "Unless"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "e3_326",
+    "sub": "sentences",
+    "question": "Which subordinating conjunction shows condition?",
+    "answers": [
+      "After",
+      "Because",
+      "If",
+      "When"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "e3_327",
+    "sub": "sentences",
+    "question": "Which subordinating conjunction shows reason?",
+    "answers": [
+      "If",
+      "When",
+      "Because",
+      "Although"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "e3_328",
+    "sub": "sentences",
+    "question": "Which subordinating conjunction shows contrast?",
+    "answers": [
+      "Because",
+      "If",
+      "When",
+      "Although"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "e3_329",
+    "sub": "sentences",
+    "question": "What is a participial phrase?",
+    "answers": [
+      "A phrase starting with a participle that modifies a noun",
+      "A phrase with a conjunction",
+      "A prepositional phrase",
+      "A noun phrase"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "e3_330",
+    "sub": "sentences",
+    "question": "In \"Running fast, she won the race,\" what is the participial phrase?",
+    "answers": [
+      "she won",
+      "the race",
+      "Running fast",
+      "she won the race"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "e3_331",
+    "sub": "sentences",
+    "question": "What is a prepositional phrase?",
+    "answers": [
+      "A phrase starting with a verb",
+      "A phrase starting with a preposition",
+      "A phrase with no nouns",
+      "A complete sentence"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "e3_332",
+    "sub": "sentences",
+    "question": "In \"The cat on the mat slept,\" what is the prepositional phrase?",
+    "answers": [
+      "The cat",
+      "on the mat",
+      "slept",
+      "The cat slept"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "e3_333",
+    "sub": "sentences",
+    "question": "Which sentence has correct subject-verb agreement with a compound subject?",
+    "answers": [
+      "Tom and Sue is here.",
+      "Tom and Sue are here.",
+      "Tom and Sue was here.",
+      "Tom and Sue am here."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "e3_334",
+    "sub": "sentences",
+    "question": "Which has correct agreement with \"either...or\"?",
+    "answers": [
+      "Either the boys or the girl are going.",
+      "Either the boys or the girl is going.",
+      "Either the boys or the girl were going.",
+      "Either the boys or the girl am going."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "e3_335",
+    "sub": "sentences",
+    "question": "What is an absolute phrase?",
+    "answers": [
+      "A phrase that modifies the entire sentence",
+      "A complete sentence",
+      "A type of run-on",
+      "A dependent clause"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "e3_336",
+    "sub": "sentences",
+    "question": "In \"Weather permitting, we'll go outside,\" what is the absolute phrase?",
+    "answers": [
+      "we'll go outside",
+      "go outside",
+      "Weather permitting",
+      "we'll go"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "e3_337",
+    "sub": "sentences",
+    "question": "Which sentence uses a gerund phrase as the subject?",
+    "answers": [
+      "She enjoys running.",
+      "Running every day keeps you healthy.",
+      "I saw her running.",
+      "He went running."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "e3_338",
+    "sub": "sentences",
+    "question": "Which sentence has correct pronoun case?",
+    "answers": [
+      "Me and him went to the store.",
+      "Him and I went to the store.",
+      "He and I went to the store.",
+      "Him and me went to the store."
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "e3_339",
+    "sub": "sentences",
+    "question": "Which uses \"who\" vs \"whom\" correctly?",
+    "answers": [
+      "Who did you give it to?",
+      "Whom is calling?",
+      "The person whom I called was busy.",
+      "Whom likes pizza?"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "e3_340",
+    "sub": "sentences",
+    "question": "What makes a sentence effective?",
+    "answers": [
+      "Being as long as possible",
+      "Using every punctuation mark",
+      "Being clear, concise, and correct",
+      "Having no adjectives"
+    ],
+    "correctIndex": 2
+  }
+]

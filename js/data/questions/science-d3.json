@@ -1,0 +1,4082 @@
+[
+  {
+    "id": "s3_001",
+    "sub": "space",
+    "question": "What is the speed of light in km/s (approx)?",
+    "answers": [
+      "300,000",
+      "250,000",
+      "200,000",
+      "350,000"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s3_002",
+    "sub": "matter",
+    "question": "What element has the atomic number 6?",
+    "answers": [
+      "Carbon",
+      "Nitrogen",
+      "Oxygen",
+      "Boron"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s3_003",
+    "sub": "animals",
+    "question": "What is the function of a fish's swim bladder?",
+    "answers": [
+      "To breathe",
+      "To sense vibrations",
+      "To store food",
+      "To control buoyancy"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s3_004",
+    "sub": "animals",
+    "question": "What is bioluminescence?",
+    "answers": [
+      "Producing light through chemical reactions in the body",
+      "Absorbing heat",
+      "Reflecting moonlight",
+      "Glowing from radiation"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s3_005",
+    "sub": "animals",
+    "question": "How do animals pass traits to their offspring?",
+    "answers": [
+      "Through DNA and genes",
+      "Through food",
+      "Through training",
+      "Through the environment"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s3_006",
+    "sub": "animals",
+    "question": "What is the difference between a venom and a poison?",
+    "answers": [
+      "They are the same",
+      "Venom is injected, poison is ingested or absorbed",
+      "Poison is stronger",
+      "Venom comes from plants"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s3_007",
+    "sub": "animals",
+    "question": "What is symbiosis between a clownfish and an anemone?",
+    "answers": [
+      "Parasitism",
+      "Competition",
+      "Commensalism",
+      "Mutualism"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s3_008",
+    "sub": "animals",
+    "question": "Why are coral considered animals, not plants?",
+    "answers": [
+      "They move quickly",
+      "They breathe air",
+      "They have bones",
+      "They eat food rather than making it"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s3_009",
+    "sub": "animals",
+    "question": "What is selective breeding?",
+    "answers": [
+      "Random mating",
+      "Choosing organisms with desired traits to breed",
+      "Cloning animals",
+      "Genetic engineering"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s3_010",
+    "sub": "animals",
+    "question": "What is convergent evolution?",
+    "answers": [
+      "Species becoming more different",
+      "One species splitting into two",
+      "Species losing all traits",
+      "Unrelated species developing similar traits"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s3_011",
+    "sub": "animals",
+    "question": "How do cephalopods like octopuses escape predators?",
+    "answers": [
+      "Speed only",
+      "Hard shells",
+      "Releasing ink and changing color",
+      "Loud sounds"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s3_012",
+    "sub": "animals",
+    "question": "What is an endoskeleton?",
+    "answers": [
+      "A shell on the outside",
+      "An internal skeleton",
+      "Cartilage only",
+      "No skeleton at all"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s3_013",
+    "sub": "animals",
+    "question": "What is the role of a cell membrane?",
+    "answers": [
+      "To control what enters and leaves the cell",
+      "To store DNA",
+      "To produce energy",
+      "To make proteins"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s3_014",
+    "sub": "animals",
+    "question": "What is natural selection?",
+    "answers": [
+      "Animals choosing where to live",
+      "Humans choosing which animals survive",
+      "Random changes in a population",
+      "Survival of organisms best suited to their environment"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s3_015",
+    "sub": "animals",
+    "question": "What is the difference between instinct and learned behavior?",
+    "answers": [
+      "They are the same",
+      "Instinct is inborn, learned behavior is acquired",
+      "Learned behavior is stronger",
+      "Instincts can be forgotten"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s3_016",
+    "sub": "animals",
+    "question": "Why do deep-sea fish have large eyes?",
+    "answers": [
+      "To scare predators",
+      "To see colors better",
+      "To capture more light in darkness",
+      "To look for food on the surface"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s3_017",
+    "sub": "animals",
+    "question": "What is an organism's phenotype?",
+    "answers": [
+      "Its observable traits",
+      "Its genetic code",
+      "Its DNA sequence",
+      "Its chromosomes"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s3_018",
+    "sub": "animals",
+    "question": "What is an organism's genotype?",
+    "answers": [
+      "Its appearance",
+      "Its behavior",
+      "Its genetic makeup",
+      "Its environment"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s3_019",
+    "sub": "animals",
+    "question": "What is mimicry in animals?",
+    "answers": [
+      "Hiding underground",
+      "Making loud noises",
+      "Resembling another species for protection",
+      "Changing size"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s3_020",
+    "sub": "animals",
+    "question": "What is the function of the nucleus in a cell?",
+    "answers": [
+      "Energy production",
+      "Contains DNA and controls cell activities",
+      "Digests waste",
+      "Moves the cell"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s3_021",
+    "sub": "animals",
+    "question": "What is a mutation?",
+    "answers": [
+      "A change in DNA sequence",
+      "Normal cell division",
+      "A type of disease",
+      "Cell death"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s3_022",
+    "sub": "animals",
+    "question": "Why are some animals nocturnal?",
+    "answers": [
+      "They fear light",
+      "They cannot see in daylight",
+      "To avoid daytime predators and heat",
+      "They need moonlight"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s3_023",
+    "sub": "animals",
+    "question": "What is a food vacuole in a single-celled organism?",
+    "answers": [
+      "A storage for DNA",
+      "A compartment that digests food",
+      "A type of nucleus",
+      "A reproductive structure"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s3_024",
+    "sub": "animals",
+    "question": "What is the difference between mitosis and meiosis?",
+    "answers": [
+      "They are the same",
+      "Mitosis only occurs in plants",
+      "Meiosis makes identical cells",
+      "Mitosis makes identical cells, meiosis makes sex cells"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s3_025",
+    "sub": "animals",
+    "question": "How do salmon find their birth river to spawn?",
+    "answers": [
+      "They use their sense of smell",
+      "They follow other fish",
+      "They see landmarks",
+      "They feel water temperature"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s3_026",
+    "sub": "animals",
+    "question": "What is an adaptation advantage of a giraffe's long neck?",
+    "answers": [
+      "Better hearing",
+      "Reaching food in tall trees",
+      "Faster running",
+      "Better swimming"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s3_027",
+    "sub": "animals",
+    "question": "What is the function of the cell wall in plant cells?",
+    "answers": [
+      "To provide structure and support",
+      "To produce energy",
+      "To store water",
+      "To carry out photosynthesis"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s3_028",
+    "sub": "animals",
+    "question": "What is a dominant trait?",
+    "answers": [
+      "A trait that is expressed when at least one allele is present",
+      "A hidden trait",
+      "A very common trait",
+      "A rare mutation"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s3_029",
+    "sub": "animals",
+    "question": "What is a recessive trait?",
+    "answers": [
+      "A trait only expressed when two copies of the allele are present",
+      "A trait always visible",
+      "A dominant trait",
+      "A learned trait"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s3_030",
+    "sub": "animals",
+    "question": "Why do Arctic animals often have white fur?",
+    "answers": [
+      "To absorb more heat",
+      "White repels cold",
+      "It grows thicker in cold",
+      "For camouflage in snow"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s3_031",
+    "sub": "animals",
+    "question": "What are chromosomes?",
+    "answers": [
+      "Structures in cells that carry DNA",
+      "Types of cells",
+      "Parts of the skeleton",
+      "Types of blood cells"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s3_032",
+    "sub": "animals",
+    "question": "What is commensalism between barnacles and whales?",
+    "answers": [
+      "Both benefit",
+      "Whale benefits, barnacles are harmed",
+      "Barnacles benefit, whale is unaffected",
+      "Both are harmed"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s3_033",
+    "sub": "animals",
+    "question": "What is a stimulus in animal behavior?",
+    "answers": [
+      "Something that causes a response",
+      "A type of food",
+      "A habitat feature",
+      "A predator only"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s3_034",
+    "sub": "animals",
+    "question": "What is homeostasis?",
+    "answers": [
+      "Maintaining stable internal conditions",
+      "Growing larger",
+      "Reproducing",
+      "Moving to new habitats"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s3_035",
+    "sub": "animals",
+    "question": "What is the difference between sexual and asexual reproduction?",
+    "answers": [
+      "No difference",
+      "Sexual needs two parents, asexual needs one",
+      "Asexual is only in animals",
+      "Sexual is only in plants"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s3_036",
+    "sub": "animals",
+    "question": "Why do birds have different beak shapes?",
+    "answers": [
+      "Adapted to their specific food source",
+      "For decoration",
+      "To make different songs",
+      "For defense only"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s3_037",
+    "sub": "animals",
+    "question": "What is the function of vacuoles in plant cells?",
+    "answers": [
+      "Produce energy",
+      "Make proteins",
+      "Store water, nutrients, and waste",
+      "Contain DNA"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s3_038",
+    "sub": "animals",
+    "question": "What is an allele?",
+    "answers": [
+      "A version of a gene",
+      "A type of cell",
+      "A chromosome",
+      "A protein"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s3_039",
+    "sub": "animals",
+    "question": "How do tardigrades survive extreme conditions?",
+    "answers": [
+      "They grow armor",
+      "They burrow deep underground",
+      "They produce heat",
+      "They enter a dried-out dormant state"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s3_040",
+    "sub": "animals",
+    "question": "What is taxonomy?",
+    "answers": [
+      "The science of classifying organisms",
+      "The study of taxes",
+      "The study of animal behavior",
+      "The study of fossils"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s3_041",
+    "sub": "animals",
+    "question": "What is aposematism?",
+    "answers": [
+      "Bright warning coloration to signal danger",
+      "Camouflage coloring",
+      "Color change ability",
+      "Dull coloring for hiding"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s3_042",
+    "sub": "animals",
+    "question": "What is a Punnett square used for?",
+    "answers": [
+      "Mapping habitats",
+      "Drawing food webs",
+      "Measuring populations",
+      "Predicting genetic trait outcomes"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s3_043",
+    "sub": "animals",
+    "question": "What is the largest group in animal classification?",
+    "answers": [
+      "Species",
+      "Kingdom",
+      "Family",
+      "Genus"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s3_044",
+    "sub": "plants",
+    "question": "What is the equation for photosynthesis?",
+    "answers": [
+      "Oxygen + glucose = CO2 + water",
+      "CO2 + water + light = glucose + oxygen",
+      "Glucose = CO2 + light",
+      "Water + oxygen = glucose + CO2"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s3_045",
+    "sub": "plants",
+    "question": "What is the difference between xylem and phloem?",
+    "answers": [
+      "They are the same",
+      "Xylem carries water up, phloem carries food down",
+      "Phloem carries water, xylem carries food",
+      "Both carry only water"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s3_046",
+    "sub": "plants",
+    "question": "What is cellular respiration in plants?",
+    "answers": [
+      "Photosynthesis",
+      "Breaking down glucose to release energy",
+      "Absorbing water",
+      "Growing new leaves"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s3_047",
+    "sub": "plants",
+    "question": "What is the role of auxin in plants?",
+    "answers": [
+      "Attracting insects",
+      "Making chlorophyll",
+      "Controlling growth direction toward light",
+      "Storing water"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s3_048",
+    "sub": "plants",
+    "question": "What is the difference between gymnosperms and angiosperms?",
+    "answers": [
+      "Gymnosperms have naked seeds, angiosperms have seeds in fruit",
+      "No difference",
+      "Angiosperms are older",
+      "Gymnosperms have flowers"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s3_049",
+    "sub": "plants",
+    "question": "What is nitrogen fixation?",
+    "answers": [
+      "Bacteria converting nitrogen gas into usable form",
+      "Plants absorbing nitrogen from air",
+      "Nitrogen evaporating",
+      "Plants releasing nitrogen"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s3_050",
+    "sub": "plants",
+    "question": "What is phototropism?",
+    "answers": [
+      "Growth toward water",
+      "Growth toward light",
+      "Growth toward gravity",
+      "Growth away from touch"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s3_051",
+    "sub": "plants",
+    "question": "What is gravitropism?",
+    "answers": [
+      "Growth toward light",
+      "Growth away from wind",
+      "Growth toward water",
+      "Growth in response to gravity"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s3_052",
+    "sub": "plants",
+    "question": "What is the Calvin cycle?",
+    "answers": [
+      "The light-independent reactions of photosynthesis",
+      "Water absorption by roots",
+      "The breakdown of chlorophyll",
+      "The water cycle in plants"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s3_053",
+    "sub": "plants",
+    "question": "What is a cotyledon?",
+    "answers": [
+      "A flower petal",
+      "A type of bark",
+      "A root tip",
+      "A seed leaf that provides nutrients to the embryo"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s3_054",
+    "sub": "plants",
+    "question": "How do epiphytes get their nutrients?",
+    "answers": [
+      "From air, rain, and debris on their host plant",
+      "From soil",
+      "From the host plant's roots",
+      "From underground water"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s3_055",
+    "sub": "plants",
+    "question": "What is the role of guard cells in a leaf?",
+    "answers": [
+      "Opening and closing stomata to control gas exchange",
+      "Photosynthesis",
+      "Carrying water",
+      "Storing food"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s3_056",
+    "sub": "plants",
+    "question": "What is cross-pollination?",
+    "answers": [
+      "Pollen going to the same flower",
+      "Roots connecting underground",
+      "Seeds falling to the ground",
+      "Pollen transferring between different plants"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s3_057",
+    "sub": "plants",
+    "question": "What is the cambium layer in a tree?",
+    "answers": [
+      "The outer bark",
+      "The heartwood",
+      "A thin layer of cells that produces new wood and bark",
+      "The root system"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s3_058",
+    "sub": "plants",
+    "question": "What role do mycorrhizae play with plants?",
+    "answers": [
+      "They eat the roots",
+      "Fungi that help roots absorb more nutrients",
+      "They produce seeds",
+      "They block sunlight"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s3_059",
+    "sub": "plants",
+    "question": "What is the endosperm in a seed?",
+    "answers": [
+      "The baby plant",
+      "Nutritive tissue that feeds the embryo",
+      "The seed coat",
+      "The root tip"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s3_060",
+    "sub": "plants",
+    "question": "What are the light reactions in photosynthesis?",
+    "answers": [
+      "They happen in the dark",
+      "Reactions that capture light energy to make ATP and NADPH",
+      "They break down glucose",
+      "They release CO2"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s3_061",
+    "sub": "plants",
+    "question": "What is allelopathy?",
+    "answers": [
+      "Plants helping each other grow",
+      "Plant reproduction",
+      "A disease in plants",
+      "Plants releasing chemicals that inhibit other plants"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s3_062",
+    "sub": "plants",
+    "question": "What is the function of the root cap?",
+    "answers": [
+      "Protect the growing root tip as it pushes through soil",
+      "Absorb water",
+      "Store food",
+      "Produce new roots"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s3_063",
+    "sub": "plants",
+    "question": "What is a hybrid plant?",
+    "answers": [
+      "Offspring from two different varieties",
+      "A cloned plant",
+      "A genetically identical plant",
+      "A wild plant"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s3_064",
+    "sub": "plants",
+    "question": "What wavelength of light do plants absorb least?",
+    "answers": [
+      "Red",
+      "Green",
+      "Blue",
+      "Violet"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s3_065",
+    "sub": "plants",
+    "question": "What is thigmotropism?",
+    "answers": [
+      "Growth response to touch",
+      "Growth toward light",
+      "Growth toward water",
+      "Growth toward gravity"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s3_066",
+    "sub": "plants",
+    "question": "What is the function of lenticels on bark?",
+    "answers": [
+      "Absorb water",
+      "Support branches",
+      "Allow gas exchange",
+      "Prevent disease"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s3_067",
+    "sub": "plants",
+    "question": "What is vegetative propagation?",
+    "answers": [
+      "Seed dispersal",
+      "Fruit formation",
+      "Pollination",
+      "New plants growing from parts like stems or leaves"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s3_068",
+    "sub": "plants",
+    "question": "What is the vascular bundle in a plant?",
+    "answers": [
+      "The flower system",
+      "A group of xylem and phloem tissues",
+      "The root system",
+      "The leaf veins only"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s3_069",
+    "sub": "plants",
+    "question": "What is a chloroplast?",
+    "answers": [
+      "The organelle where photosynthesis occurs",
+      "A cell wall",
+      "A type of root",
+      "A mineral in soil"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s3_070",
+    "sub": "plants",
+    "question": "What is ethylene's role in fruit?",
+    "answers": [
+      "It prevents growth",
+      "It adds color only",
+      "It promotes ripening",
+      "It hardens the skin"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s3_071",
+    "sub": "plants",
+    "question": "How does a Venus flytrap digest insects?",
+    "answers": [
+      "With teeth",
+      "It absorbs them whole",
+      "With digestive enzymes in its leaves",
+      "With bacteria only"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s3_072",
+    "sub": "plants",
+    "question": "What is a fibrous root system?",
+    "answers": [
+      "One main deep root",
+      "Roots that float",
+      "Many thin branching roots spread wide",
+      "Roots above ground"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s3_073",
+    "sub": "plants",
+    "question": "What is the role of abscisic acid in plants?",
+    "answers": [
+      "Promotes growth",
+      "Inhibits growth and closes stomata during drought",
+      "Produces flowers",
+      "Makes roots grow"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s3_074",
+    "sub": "plants",
+    "question": "What are trichomes on plants?",
+    "answers": [
+      "Root hairs",
+      "Leaf veins",
+      "Small hair-like structures on surfaces for protection",
+      "Flower parts"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s3_075",
+    "sub": "plants",
+    "question": "What is double fertilization in angiosperms?",
+    "answers": [
+      "Two plants merge",
+      "Sperm fertilizes both the egg and central cell",
+      "Two seeds form",
+      "Two flowers pollinate each other"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s3_076",
+    "sub": "plants",
+    "question": "What causes wilting in plants?",
+    "answers": [
+      "Too much light",
+      "Loss of water pressure (turgor) in cells",
+      "Excess nutrients",
+      "Too much oxygen"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s3_077",
+    "sub": "plants",
+    "question": "What is phytoplankton's role in the ocean?",
+    "answers": [
+      "They eat fish",
+      "They create waves",
+      "They produce much of Earth's oxygen through photosynthesis",
+      "They clean water"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s3_078",
+    "sub": "plants",
+    "question": "What is the cuticle on a leaf?",
+    "answers": [
+      "The vein system",
+      "The guard cells",
+      "The green pigment",
+      "A waxy coating that prevents water loss"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s3_079",
+    "sub": "plants",
+    "question": "What is grafting in plants?",
+    "answers": [
+      "Planting seeds together",
+      "Splitting a plant into pieces",
+      "Joining tissues of two plants so they grow as one",
+      "Growing plants in water"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s3_080",
+    "sub": "plants",
+    "question": "How does the parasitic plant dodder get its nutrients?",
+    "answers": [
+      "From soil",
+      "By tapping into a host plant's vascular system",
+      "From photosynthesis",
+      "From decaying matter"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s3_081",
+    "sub": "plants",
+    "question": "What is the meristem?",
+    "answers": [
+      "A type of flower",
+      "The region of active cell division in plants",
+      "A leaf structure",
+      "A root disease"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s3_082",
+    "sub": "plants",
+    "question": "What determines whether a plant flowers based on day length?",
+    "answers": [
+      "Temperature only",
+      "Photoperiodism",
+      "Soil nutrients",
+      "Rainfall amount"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s3_083",
+    "sub": "plants",
+    "question": "What is the palisade layer in a leaf?",
+    "answers": [
+      "The bottom surface",
+      "The waxy coating",
+      "Tightly packed cells for photosynthesis near the top",
+      "The vein network"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s3_084",
+    "sub": "plants",
+    "question": "What is the spongy mesophyll in a leaf?",
+    "answers": [
+      "The outer covering",
+      "The stomata",
+      "The green pigment layer",
+      "Loosely packed cells that allow gas exchange"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s3_085",
+    "sub": "plants",
+    "question": "What is capillary action in plants?",
+    "answers": [
+      "Photosynthesis",
+      "Seed dispersal",
+      "Root growth",
+      "Water moving up through narrow tubes against gravity"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s3_086",
+    "sub": "earth",
+    "question": "Which type of rock forms from layers of sediment?",
+    "answers": [
+      "Igneous",
+      "Metamorphic",
+      "Volcanic",
+      "Sedimentary"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s3_087",
+    "sub": "earth",
+    "question": "What is Pangaea?",
+    "answers": [
+      "An ancient ocean",
+      "A tectonic plate",
+      "A type of fossil",
+      "The supercontinent that existed millions of years ago"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s3_088",
+    "sub": "earth",
+    "question": "What type of plate boundary creates mountains?",
+    "answers": [
+      "Divergent",
+      "Convergent",
+      "Transform",
+      "Subduction only"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s3_089",
+    "sub": "earth",
+    "question": "What is subduction?",
+    "answers": [
+      "Two plates sliding past each other",
+      "A volcanic eruption",
+      "Two plates pulling apart",
+      "One plate being pushed under another"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s3_090",
+    "sub": "earth",
+    "question": "What is the Richter scale used for?",
+    "answers": [
+      "Measuring tornado strength",
+      "Measuring earthquake magnitude",
+      "Measuring volcanic eruptions",
+      "Measuring tsunami height"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s3_091",
+    "sub": "earth",
+    "question": "What type of plate boundary is the Mid-Atlantic Ridge?",
+    "answers": [
+      "Divergent",
+      "Transform",
+      "Convergent",
+      "Subduction"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s3_092",
+    "sub": "earth",
+    "question": "What is the asthenosphere?",
+    "answers": [
+      "The solid crust",
+      "A partially molten layer below the lithosphere",
+      "The inner core",
+      "The atmosphere"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s3_093",
+    "sub": "earth",
+    "question": "What is a seismograph?",
+    "answers": [
+      "A volcano monitor",
+      "A weather tool",
+      "An instrument that detects earthquake waves",
+      "A mineral tester"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s3_094",
+    "sub": "earth",
+    "question": "How do P-waves differ from S-waves?",
+    "answers": [
+      "P-waves are faster and travel through solids and liquids",
+      "They are the same",
+      "S-waves are faster",
+      "P-waves only travel through liquids"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s3_095",
+    "sub": "earth",
+    "question": "What is a transform boundary?",
+    "answers": [
+      "Plates sliding past each other",
+      "Plates moving apart",
+      "Plates colliding",
+      "Plates overlapping"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s3_096",
+    "sub": "earth",
+    "question": "What evidence supports continental drift?",
+    "answers": [
+      "Identical weather patterns",
+      "Identical ocean currents",
+      "Same animal species everywhere",
+      "Matching fossils and rock layers on different continents"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s3_097",
+    "sub": "earth",
+    "question": "What is the lithosphere?",
+    "answers": [
+      "The rigid outer layer including crust and upper mantle",
+      "The atmosphere",
+      "The ocean floor only",
+      "The inner core"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s3_098",
+    "sub": "earth",
+    "question": "What causes volcanic island chains like Hawaii?",
+    "answers": [
+      "Converging plates",
+      "Transform boundaries",
+      "A hot spot in the mantle",
+      "Sea level changes"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s3_099",
+    "sub": "earth",
+    "question": "What is a stratovolcano?",
+    "answers": [
+      "A flat shield volcano",
+      "A steep composite volcano with explosive eruptions",
+      "A underwater volcano",
+      "A dormant volcano"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s3_100",
+    "sub": "earth",
+    "question": "What mineral forms the most common rock on Earth's surface?",
+    "answers": [
+      "Diamond",
+      "Quartz",
+      "Feldspar",
+      "Gold"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s3_101",
+    "sub": "earth",
+    "question": "What is the difference between a mineral and a rock?",
+    "answers": [
+      "They are the same",
+      "Rocks are softer",
+      "A mineral is a single substance; a rock is made of minerals",
+      "Minerals are always shiny"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s3_102",
+    "sub": "earth",
+    "question": "What is foliation in metamorphic rock?",
+    "answers": [
+      "Random crystal arrangement",
+      "Holes from gas bubbles",
+      "Layered or banded appearance from pressure",
+      "Smooth glassy texture"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s3_103",
+    "sub": "earth",
+    "question": "What is a mid-ocean ridge?",
+    "answers": [
+      "A deep ocean trench",
+      "A coral reef",
+      "An underwater mountain range where plates diverge",
+      "An island chain"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s3_104",
+    "sub": "earth",
+    "question": "What is an epicenter?",
+    "answers": [
+      "The deepest point of an earthquake",
+      "The point on the surface directly above the focus",
+      "The fault line",
+      "The magnitude measurement"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s3_105",
+    "sub": "earth",
+    "question": "How are diamonds formed?",
+    "answers": [
+      "Under extreme heat and pressure deep in the mantle",
+      "By volcanoes only",
+      "By water erosion",
+      "From meteorite impacts"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s3_106",
+    "sub": "earth",
+    "question": "What is a seismic wave?",
+    "answers": [
+      "An ocean wave",
+      "A radio wave",
+      "A sound wave",
+      "Energy wave traveling through Earth from an earthquake"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s3_107",
+    "sub": "earth",
+    "question": "What is the theory of plate tectonics?",
+    "answers": [
+      "Earth is expanding",
+      "Continents don't move",
+      "Earth's core is solid",
+      "Earth's surface is divided into moving plates"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s3_108",
+    "sub": "earth",
+    "question": "What is a volcanic caldera?",
+    "answers": [
+      "A lava flow",
+      "A volcanic island",
+      "A large crater formed when a volcano collapses",
+      "An eruption cloud"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s3_109",
+    "sub": "earth",
+    "question": "What type of rock is quartzite?",
+    "answers": [
+      "Metamorphic",
+      "Sedimentary",
+      "Igneous",
+      "Organic"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s3_110",
+    "sub": "earth",
+    "question": "What drives the movement of tectonic plates?",
+    "answers": [
+      "Wind",
+      "The Moon's gravity",
+      "Convection currents in the mantle",
+      "Ocean tides"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s3_111",
+    "sub": "earth",
+    "question": "What is an ocean trench?",
+    "answers": [
+      "A shallow reef",
+      "An underwater river",
+      "A deep valley on the ocean floor at subduction zones",
+      "A volcanic island"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s3_112",
+    "sub": "earth",
+    "question": "What is the focus of an earthquake?",
+    "answers": [
+      "The surface point",
+      "The area of most damage",
+      "The edge of a fault",
+      "The underground point where the rupture begins"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s3_113",
+    "sub": "earth",
+    "question": "What is an extrusive igneous rock?",
+    "answers": [
+      "Formed from lava cooling quickly on the surface",
+      "Formed deep underground",
+      "A metamorphic rock",
+      "A sedimentary layer"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s3_114",
+    "sub": "earth",
+    "question": "What is an intrusive igneous rock?",
+    "answers": [
+      "Formed on the surface",
+      "Formed from magma cooling slowly underground",
+      "A sedimentary rock",
+      "A mineral crystal only"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s3_115",
+    "sub": "earth",
+    "question": "What is a lahar?",
+    "answers": [
+      "A volcanic mudflow",
+      "A lava flow",
+      "An earthquake type",
+      "A type of mineral"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s3_116",
+    "sub": "earth",
+    "question": "What creates a rift valley?",
+    "answers": [
+      "Convergent boundary",
+      "Volcanic eruption",
+      "Transform boundary",
+      "Divergent boundary pulling apart"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s3_117",
+    "sub": "earth",
+    "question": "What is the Mariana Trench?",
+    "answers": [
+      "The deepest part of the ocean",
+      "The largest mountain",
+      "A volcanic chain",
+      "A river canyon"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s3_118",
+    "sub": "earth",
+    "question": "What is cleavage in minerals?",
+    "answers": [
+      "The tendency to break along flat planes",
+      "Irregular breaking",
+      "Dissolving in water",
+      "Hardness measurement"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s3_119",
+    "sub": "earth",
+    "question": "What is the San Andreas Fault an example of?",
+    "answers": [
+      "Convergent boundary",
+      "Transform boundary",
+      "Divergent boundary",
+      "Hot spot"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s3_120",
+    "sub": "earth",
+    "question": "What type of rock is basalt?",
+    "answers": [
+      "Sedimentary",
+      "Extrusive igneous",
+      "Metamorphic",
+      "Crystal"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s3_121",
+    "sub": "earth",
+    "question": "What is a moraine?",
+    "answers": [
+      "A river delta",
+      "A volcanic crater",
+      "Rock and debris deposited by a glacier",
+      "An earthquake zone"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s3_122",
+    "sub": "earth",
+    "question": "What is isostasy?",
+    "answers": [
+      "The balance between Earth's crust and mantle",
+      "Rock melting",
+      "A type of erosion",
+      "Mineral hardness"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s3_123",
+    "sub": "earth",
+    "question": "How do scientists study Earth's interior?",
+    "answers": [
+      "By digging to the core",
+      "By looking at volcanoes only",
+      "By using telescopes",
+      "By analyzing seismic wave behavior"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s3_124",
+    "sub": "earth",
+    "question": "What is pumice formed from?",
+    "answers": [
+      "Slow-cooling magma",
+      "Lava with trapped gas bubbles cooling rapidly",
+      "Sedimentary layers",
+      "Underground pressure"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s3_125",
+    "sub": "earth",
+    "question": "What is a composite volcano?",
+    "answers": [
+      "Built from alternating layers of lava and ash",
+      "Only made of lava",
+      "A flat volcano",
+      "An underwater volcano"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s3_126",
+    "sub": "earth",
+    "question": "What is soil horizons?",
+    "answers": [
+      "Soil color changes",
+      "Soil temperature zones",
+      "Types of soil organisms",
+      "Distinct layers of soil from surface to bedrock"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s3_127",
+    "sub": "earth",
+    "question": "What is a batholith?",
+    "answers": [
+      "A small rock formation",
+      "A volcanic eruption",
+      "A type of fossil",
+      "A large mass of intrusive igneous rock"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s3_128",
+    "sub": "weather",
+    "question": "What causes ocean currents?",
+    "answers": [
+      "Only the Moon",
+      "Wind, temperature differences, and Earth's rotation",
+      "Only rain",
+      "Only earthquakes"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s3_129",
+    "sub": "weather",
+    "question": "What is the Coriolis effect?",
+    "answers": [
+      "The deflection of wind and water due to Earth's rotation",
+      "Wind stopping at the equator",
+      "Air pressure increasing",
+      "The Sun heating the poles"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s3_130",
+    "sub": "weather",
+    "question": "What is the difference between a cyclone and anticyclone?",
+    "answers": [
+      "They are the same",
+      "Cyclone has low pressure and rising air; anticyclone has high pressure",
+      "Cyclone has high pressure",
+      "Anticyclone causes storms"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s3_131",
+    "sub": "weather",
+    "question": "What is a microclimate?",
+    "answers": [
+      "A small area with different climate than surrounding area",
+      "Global climate patterns",
+      "Climate in space",
+      "Climate underground"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s3_132",
+    "sub": "weather",
+    "question": "What is orographic lift?",
+    "answers": [
+      "Air forced upward by terrain like mountains",
+      "Wind at sea level",
+      "Sinking air",
+      "Tropical wind patterns"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s3_133",
+    "sub": "weather",
+    "question": "What are trade winds?",
+    "answers": [
+      "Winds caused by storms",
+      "Seasonal winds only",
+      "Winds in the jet stream",
+      "Prevailing easterly winds near the equator"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s3_134",
+    "sub": "weather",
+    "question": "What is La Nina?",
+    "answers": [
+      "Warming of Pacific water",
+      "Cooling of Pacific water that affects global weather",
+      "A type of hurricane",
+      "A tropical storm name"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s3_135",
+    "sub": "weather",
+    "question": "What is the tropopause?",
+    "answers": [
+      "The ground level",
+      "The boundary between troposphere and stratosphere",
+      "The top of the atmosphere",
+      "The ozone layer"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s3_136",
+    "sub": "weather",
+    "question": "What is a mesoscale convective system?",
+    "answers": [
+      "A small rain cloud",
+      "A single tornado",
+      "A large organized complex of thunderstorms",
+      "A sea breeze"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s3_137",
+    "sub": "weather",
+    "question": "What is an inversion layer?",
+    "answers": [
+      "Cold air above warm air trapping pollutants",
+      "Warm air above cold air preventing mixing",
+      "A cloud formation",
+      "A rain band"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s3_138",
+    "sub": "weather",
+    "question": "How does the Gulf Stream affect Europe's climate?",
+    "answers": [
+      "Makes it colder",
+      "Carries warm water that keeps it milder",
+      "Has no effect",
+      "Creates more storms"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s3_139",
+    "sub": "weather",
+    "question": "What is adiabatic cooling?",
+    "answers": [
+      "Cooling from radiation",
+      "Cooling from contact with ice",
+      "Air cooling as it rises and expands",
+      "Wind chill"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s3_140",
+    "sub": "weather",
+    "question": "What causes a supercell thunderstorm?",
+    "answers": [
+      "Light winds",
+      "Clear skies",
+      "Fog conditions",
+      "A rotating updraft with strong wind shear"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s3_141",
+    "sub": "weather",
+    "question": "What is a thermal?",
+    "answers": [
+      "A type of jacket",
+      "A rain cloud",
+      "A cold wind",
+      "A column of rising warm air"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s3_142",
+    "sub": "weather",
+    "question": "What is the ITCZ?",
+    "answers": [
+      "A storm type",
+      "An ocean current",
+      "The Intertropical Convergence Zone where trade winds meet",
+      "A pressure system"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s3_143",
+    "sub": "weather",
+    "question": "What is Doppler radar used for?",
+    "answers": [
+      "Measuring temperature",
+      "Tracking satellites",
+      "Measuring humidity",
+      "Detecting precipitation movement and speed"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s3_144",
+    "sub": "weather",
+    "question": "How does the albedo effect work?",
+    "answers": [
+      "Dark surfaces reflect more",
+      "All surfaces absorb equally",
+      "Light surfaces reflect more sunlight back to space",
+      "Only water reflects light"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s3_145",
+    "sub": "weather",
+    "question": "What is a squall line?",
+    "answers": [
+      "A line of severe thunderstorms along a cold front",
+      "A calm weather front",
+      "A row of clouds",
+      "A series of tornadoes"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s3_146",
+    "sub": "weather",
+    "question": "What are westerlies?",
+    "answers": [
+      "Winds from the east",
+      "Tropical winds",
+      "Prevailing winds from west to east in mid-latitudes",
+      "Polar winds"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s3_147",
+    "sub": "weather",
+    "question": "What is the polar vortex?",
+    "answers": [
+      "A large area of cold rotating air over the poles",
+      "A tornado at the poles",
+      "A polar hurricane",
+      "An ice storm"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s3_148",
+    "sub": "weather",
+    "question": "What is a haboob?",
+    "answers": [
+      "A type of hurricane",
+      "A tropical rain",
+      "A thunder cloud",
+      "An intense dust storm"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s3_149",
+    "sub": "weather",
+    "question": "How do weather balloons collect data?",
+    "answers": [
+      "They carry instruments that measure temperature, humidity, and pressure",
+      "They take photographs only",
+      "They collect rain samples",
+      "They track winds visually"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s3_150",
+    "sub": "weather",
+    "question": "What is the difference between sleet and freezing rain?",
+    "answers": [
+      "They are the same",
+      "Sleet is larger",
+      "Freezing rain is colder",
+      "Sleet freezes before hitting ground, freezing rain after"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s3_151",
+    "sub": "weather",
+    "question": "What are Hadley cells?",
+    "answers": [
+      "Thunderstorm cells",
+      "Large-scale atmospheric circulation patterns near the equator",
+      "Small weather fronts",
+      "Ocean current patterns"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s3_152",
+    "sub": "weather",
+    "question": "What is a downburst?",
+    "answers": [
+      "An updraft",
+      "A tornado",
+      "A strong downward air current from a thunderstorm",
+      "A gentle breeze"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s3_153",
+    "sub": "weather",
+    "question": "What creates a chinook wind?",
+    "answers": [
+      "Ocean currents",
+      "Warm dry air descending on the leeward side of mountains",
+      "Tropical storms",
+      "Polar ice melting"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s3_154",
+    "sub": "weather",
+    "question": "What is atmospheric pressure measured in?",
+    "answers": [
+      "Degrees",
+      "Meters per second",
+      "Millibars or hectopascals",
+      "Millimeters"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s3_155",
+    "sub": "weather",
+    "question": "What is wind shear?",
+    "answers": [
+      "Steady wind",
+      "Ocean wind",
+      "Wind stopping completely",
+      "A change in wind speed or direction over a short distance"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s3_156",
+    "sub": "weather",
+    "question": "What is a virga?",
+    "answers": [
+      "A type of cloud",
+      "A lightning bolt",
+      "Precipitation that evaporates before reaching the ground",
+      "A fog bank"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s3_157",
+    "sub": "weather",
+    "question": "What causes a temperature inversion?",
+    "answers": [
+      "The Sun getting hotter",
+      "Warm air sitting on top of cooler air near the surface",
+      "Wind mixing all layers",
+      "Heavy rainfall"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s3_158",
+    "sub": "weather",
+    "question": "What is a convective cell?",
+    "answers": [
+      "A battery",
+      "A tropical storm",
+      "A type of cloud",
+      "A circulation pattern of rising warm and sinking cool air"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s3_159",
+    "sub": "weather",
+    "question": "What is the Beaufort scale?",
+    "answers": [
+      "Earthquake measurement",
+      "A scale measuring wind speed by its effects",
+      "Temperature scale",
+      "Rainfall scale"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s3_160",
+    "sub": "weather",
+    "question": "How does El Nino affect weather in North America?",
+    "answers": [
+      "No effect",
+      "Only affects Asia",
+      "Warmer winters in the north, wetter conditions in the south",
+      "Creates more tornadoes everywhere"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s3_161",
+    "sub": "weather",
+    "question": "What is a wall cloud?",
+    "answers": [
+      "A tall cumulus cloud",
+      "A lowering cloud formation that may produce a tornado",
+      "A flat cloud layer",
+      "A storm cloud over water"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s3_162",
+    "sub": "weather",
+    "question": "What is relative humidity?",
+    "answers": [
+      "The percentage of moisture air holds compared to its capacity",
+      "The actual amount of water in air",
+      "Temperature of the air",
+      "Dew point"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s3_163",
+    "sub": "weather",
+    "question": "What is a nor'easter's main energy source?",
+    "answers": [
+      "Cold land surface",
+      "Temperature contrast between cold land and warm ocean",
+      "Mountain winds",
+      "Polar ice"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s3_164",
+    "sub": "weather",
+    "question": "What is a lenticular cloud?",
+    "answers": [
+      "A rain cloud",
+      "A flat fog layer",
+      "A very tall cloud",
+      "A lens-shaped cloud formed by waves in the air over mountains"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s3_165",
+    "sub": "weather",
+    "question": "What is the heat index?",
+    "answers": [
+      "Air temperature alone",
+      "Wind chill measure",
+      "How hot it feels with humidity factored in",
+      "Ground temperature"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s3_166",
+    "sub": "weather",
+    "question": "What causes a bow echo on radar?",
+    "answers": [
+      "A gentle rain",
+      "A tropical cyclone",
+      "A single tornado",
+      "A line of storms with strong straight-line winds"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s3_167",
+    "sub": "weather",
+    "question": "What is atmospheric stability?",
+    "answers": [
+      "Wind staying constant",
+      "Air's resistance to vertical movement",
+      "Air pressure never changing",
+      "Constant temperature"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s3_168",
+    "sub": "weather",
+    "question": "What is a gust front?",
+    "answers": [
+      "A warm breeze",
+      "The leading edge of cool air from a thunderstorm",
+      "A cold front",
+      "A sea breeze"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s3_169",
+    "sub": "weather",
+    "question": "What role do aerosols play in weather?",
+    "answers": [
+      "No role",
+      "They block rain",
+      "They serve as nuclei for cloud droplet formation",
+      "They create wind"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s3_170",
+    "sub": "weather",
+    "question": "What is the difference between a typhoon and a hurricane?",
+    "answers": [
+      "Typhoons are stronger",
+      "Typhoons have no eye",
+      "Hurricanes spin differently",
+      "They are the same storm type in different ocean regions"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s3_171",
+    "sub": "space",
+    "question": "What causes tides?",
+    "answers": [
+      "Wind over the ocean",
+      "Earth's rotation only",
+      "Gravitational pull of the Moon and Sun",
+      "Ocean currents"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s3_172",
+    "sub": "space",
+    "question": "What is a black hole?",
+    "answers": [
+      "A dark star",
+      "An empty part of space",
+      "A region where gravity is so strong nothing escapes",
+      "A dying planet"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s3_173",
+    "sub": "space",
+    "question": "What is a white dwarf?",
+    "answers": [
+      "The hot dense remnant of a medium-mass star",
+      "A very bright star",
+      "A baby star",
+      "A cold star"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s3_174",
+    "sub": "space",
+    "question": "What is the main sequence on the H-R diagram?",
+    "answers": [
+      "A list of planets",
+      "A measurement of distance",
+      "A list of galaxies",
+      "The band where most stars spend most of their lives"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s3_175",
+    "sub": "space",
+    "question": "What is a neutron star?",
+    "answers": [
+      "A star made of hydrogen",
+      "A cold dark star",
+      "An extremely dense remnant of a massive star's supernova",
+      "A star made of helium"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s3_176",
+    "sub": "space",
+    "question": "What is redshift?",
+    "answers": [
+      "A star turning red",
+      "The color of Mars",
+      "A red filter on telescopes",
+      "Light stretching to longer wavelengths as an object moves away"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s3_177",
+    "sub": "space",
+    "question": "What is the Big Bang theory?",
+    "answers": [
+      "The theory that the universe began from a single point",
+      "A TV show only",
+      "A theory about star formation",
+      "A type of supernova"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s3_178",
+    "sub": "space",
+    "question": "What is a pulsar?",
+    "answers": [
+      "A type of planet",
+      "A rapidly rotating neutron star that emits beams of radiation",
+      "A new star",
+      "A comet"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s3_179",
+    "sub": "space",
+    "question": "What is the Doppler effect in astronomy?",
+    "answers": [
+      "Stars changing size",
+      "Change in wavelength of light from moving objects",
+      "Telescopes bending light",
+      "Gravity bending light"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s3_180",
+    "sub": "space",
+    "question": "What is the Hertzsprung-Russell diagram?",
+    "answers": [
+      "A map of the solar system",
+      "A map of constellations",
+      "A timeline of the universe",
+      "A chart plotting star brightness against temperature"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s3_181",
+    "sub": "space",
+    "question": "What is a protostar?",
+    "answers": [
+      "A dead star",
+      "A black hole forming",
+      "A very old star",
+      "A young star still gathering mass from its nebula"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s3_182",
+    "sub": "space",
+    "question": "What determines a star's color?",
+    "answers": [
+      "Its size only",
+      "Its distance from Earth",
+      "Its surface temperature",
+      "Its age only"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s3_183",
+    "sub": "space",
+    "question": "What is dark matter?",
+    "answers": [
+      "Black rocks in space",
+      "Invisible matter that affects gravity but doesn't emit light",
+      "Burned-out stars",
+      "Cosmic dust"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s3_184",
+    "sub": "space",
+    "question": "What is the Chandrasekhar limit?",
+    "answers": [
+      "The edge of the universe",
+      "The maximum mass of a white dwarf (about 1.4 solar masses)",
+      "The speed of light limit",
+      "The size of the Sun"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s3_185",
+    "sub": "space",
+    "question": "What is a quasar?",
+    "answers": [
+      "A quiet star",
+      "An extremely bright nucleus of a distant galaxy",
+      "A type of planet",
+      "A nearby star"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s3_186",
+    "sub": "space",
+    "question": "What is the cosmic microwave background?",
+    "answers": [
+      "Radiation from the Sun",
+      "Light from the Milky Way",
+      "Radio waves from stars",
+      "Residual radiation from the early universe"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s3_187",
+    "sub": "space",
+    "question": "What is parallax in astronomy?",
+    "answers": [
+      "Star brightness",
+      "The apparent shift of a star's position due to Earth's orbit",
+      "A telescope lens",
+      "Light refraction"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s3_188",
+    "sub": "space",
+    "question": "What is the habitable zone?",
+    "answers": [
+      "The region around a star where liquid water could exist",
+      "Inside a spacecraft",
+      "The center of a galaxy",
+      "Earth's atmosphere"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s3_189",
+    "sub": "space",
+    "question": "What is an exoplanet?",
+    "answers": [
+      "A planet orbiting a star other than our Sun",
+      "A planet in our solar system",
+      "A moon of Jupiter",
+      "A large asteroid"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s3_190",
+    "sub": "space",
+    "question": "What is a solar flare?",
+    "answers": [
+      "A sunspot",
+      "An eclipse",
+      "A comet near the Sun",
+      "A sudden burst of energy and radiation from the Sun"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s3_191",
+    "sub": "space",
+    "question": "What is the event horizon of a black hole?",
+    "answers": [
+      "Its center",
+      "The ring around it",
+      "Its edge of visibility",
+      "The boundary beyond which nothing can escape"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s3_192",
+    "sub": "space",
+    "question": "What is nuclear fusion?",
+    "answers": [
+      "Atoms splitting apart",
+      "Radioactive decay",
+      "Atoms combining to form heavier atoms and release energy",
+      "Chemical bonding"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s3_193",
+    "sub": "space",
+    "question": "What is a galaxy?",
+    "answers": [
+      "A massive system of stars, gas, and dust held by gravity",
+      "A single star system",
+      "A cluster of planets",
+      "A group of moons"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s3_194",
+    "sub": "space",
+    "question": "What type of galaxy is the Milky Way?",
+    "answers": [
+      "Elliptical",
+      "Irregular",
+      "Spiral",
+      "Ring"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s3_195",
+    "sub": "space",
+    "question": "What is a planetary nebula?",
+    "answers": [
+      "Gas shed by a dying low-mass star",
+      "A planet forming",
+      "A cloud that creates planets",
+      "A dark nebula"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s3_196",
+    "sub": "space",
+    "question": "What is the Hubble constant?",
+    "answers": [
+      "The size of the universe",
+      "The speed of the Hubble telescope",
+      "The rate at which the universe is expanding",
+      "A lens measurement"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s3_197",
+    "sub": "space",
+    "question": "What is gravitational lensing?",
+    "answers": [
+      "A telescope design",
+      "Light bending around massive objects due to gravity",
+      "A camera effect",
+      "Star twinkling"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s3_198",
+    "sub": "space",
+    "question": "What is a binary star system?",
+    "answers": [
+      "A single star",
+      "A star and a planet",
+      "Two stars orbiting each other",
+      "A star cluster"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s3_199",
+    "sub": "space",
+    "question": "What is the Roche limit?",
+    "answers": [
+      "The farthest orbit possible",
+      "The closest distance a moon can orbit without breaking apart",
+      "The size of a black hole",
+      "The edge of the solar system"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s3_200",
+    "sub": "space",
+    "question": "What is the Oort Cloud believed to contain?",
+    "answers": [
+      "Trillions of icy bodies that may become comets",
+      "Planets",
+      "Dark matter",
+      "Stars"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s3_201",
+    "sub": "space",
+    "question": "What was Kepler's first law of planetary motion?",
+    "answers": [
+      "Planets move in circles",
+      "Planets move at constant speed",
+      "Planets orbit in ellipses with the Sun at one focus",
+      "All orbits are equal"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s3_202",
+    "sub": "space",
+    "question": "What is a spectrometer used for in astronomy?",
+    "answers": [
+      "Measuring distance",
+      "Taking photographs",
+      "Counting stars",
+      "Analyzing light to determine composition of stars"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s3_203",
+    "sub": "space",
+    "question": "What is dark energy?",
+    "answers": [
+      "Energy from black holes",
+      "Energy from dark matter",
+      "A mysterious force accelerating the universe's expansion",
+      "Absence of energy"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s3_204",
+    "sub": "space",
+    "question": "What is a transit method in exoplanet detection?",
+    "answers": [
+      "Measuring star wobble",
+      "Looking for reflected light",
+      "Detecting a dip in star brightness as a planet passes in front",
+      "Measuring gravity"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s3_205",
+    "sub": "space",
+    "question": "What determines whether a star ends as a white dwarf or black hole?",
+    "answers": [
+      "Its mass",
+      "Its color",
+      "Its temperature",
+      "Its distance from Earth"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s3_206",
+    "sub": "space",
+    "question": "What is the solar wind?",
+    "answers": [
+      "Wind on the Sun",
+      "A breeze on Mars",
+      "A stream of charged particles from the Sun",
+      "Light from the Sun"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s3_207",
+    "sub": "space",
+    "question": "What is an astronomical unit (AU)?",
+    "answers": [
+      "The average distance from Earth to the Sun",
+      "The diameter of Earth",
+      "The distance to the nearest star",
+      "The size of the Moon's orbit"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s3_208",
+    "sub": "space",
+    "question": "What protects Earth from solar wind?",
+    "answers": [
+      "The atmosphere only",
+      "The Moon",
+      "Earth's magnetic field (magnetosphere)",
+      "The ozone layer only"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s3_209",
+    "sub": "space",
+    "question": "What is the Andromeda Galaxy's relationship to the Milky Way?",
+    "answers": [
+      "It orbits the Milky Way",
+      "It is moving away",
+      "It is approaching and will merge with it",
+      "They are not related"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s3_210",
+    "sub": "space",
+    "question": "What is a coronal mass ejection?",
+    "answers": [
+      "A small solar flare",
+      "A comet breaking apart",
+      "A moonrise",
+      "A large burst of plasma and magnetic field from the Sun"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s3_211",
+    "sub": "space",
+    "question": "What is the Fermi paradox?",
+    "answers": [
+      "A math equation",
+      "A law of physics",
+      "A type of telescope",
+      "The question of why we haven't found alien life despite probability"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s3_212",
+    "sub": "space",
+    "question": "What are Lagrange points?",
+    "answers": [
+      "Stable points where gravitational forces balance in orbit",
+      "Points on a planet",
+      "Stars in a constellation",
+      "Edges of the solar system"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s3_213",
+    "sub": "space",
+    "question": "What is a parsec?",
+    "answers": [
+      "A unit of distance equal to about 3.26 light-years",
+      "A unit of time",
+      "A unit of speed",
+      "A unit of mass"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s3_214",
+    "sub": "human_body",
+    "question": "What are phagocytes?",
+    "answers": [
+      "White blood cells that engulf and destroy pathogens",
+      "Red blood cells",
+      "Platelets",
+      "Plasma proteins"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s3_215",
+    "sub": "human_body",
+    "question": "What is the role of the hypothalamus?",
+    "answers": [
+      "Controls movement",
+      "Regulates body temperature, hunger, and hormones",
+      "Processes vision",
+      "Controls breathing"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s3_216",
+    "sub": "human_body",
+    "question": "What is the endocrine system?",
+    "answers": [
+      "The digestive system",
+      "The immune system",
+      "The skeletal system",
+      "The system of glands that produce hormones"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s3_217",
+    "sub": "human_body",
+    "question": "What is the difference between arteries and veins?",
+    "answers": [
+      "No difference",
+      "Arteries carry blood from heart; veins carry blood to heart",
+      "Veins carry blood from heart",
+      "Arteries are blue"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s3_218",
+    "sub": "human_body",
+    "question": "What is the function of the cerebral cortex?",
+    "answers": [
+      "Handles higher thinking, memory, and senses",
+      "Controls breathing",
+      "Regulates heartbeat",
+      "Produces hormones"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s3_219",
+    "sub": "human_body",
+    "question": "What are neurons?",
+    "answers": [
+      "Nerve cells that transmit electrical signals",
+      "Blood cells",
+      "Bone cells",
+      "Muscle cells"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s3_220",
+    "sub": "human_body",
+    "question": "What is the function of the thyroid gland?",
+    "answers": [
+      "Regulates metabolism through hormones",
+      "Produces insulin",
+      "Filters blood",
+      "Controls movement"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s3_221",
+    "sub": "human_body",
+    "question": "What is the lymphatic system?",
+    "answers": [
+      "Part of the digestive system",
+      "The respiratory system",
+      "A network that helps fight infection and drain fluid",
+      "The skeletal system"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s3_222",
+    "sub": "human_body",
+    "question": "What is a synapse?",
+    "answers": [
+      "A type of bone",
+      "A blood cell",
+      "A muscle fiber",
+      "The gap between neurons where signals are transmitted"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s3_223",
+    "sub": "human_body",
+    "question": "What is the difference between red and white blood cells?",
+    "answers": [
+      "No difference",
+      "White carry oxygen",
+      "Red carry oxygen, white fight infection",
+      "Red fight infection"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s3_224",
+    "sub": "human_body",
+    "question": "What are enzymes?",
+    "answers": [
+      "Types of hormones",
+      "White blood cells",
+      "Types of vitamins",
+      "Proteins that speed up chemical reactions in the body"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s3_225",
+    "sub": "human_body",
+    "question": "What is the function of the adrenal glands?",
+    "answers": [
+      "Produce insulin",
+      "Control digestion",
+      "Filter blood",
+      "Release adrenaline and cortisol for stress response"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s3_226",
+    "sub": "human_body",
+    "question": "What is the medulla oblongata?",
+    "answers": [
+      "Part of the brainstem controlling vital functions",
+      "A bone in the skull",
+      "A type of muscle",
+      "Part of the liver"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s3_227",
+    "sub": "human_body",
+    "question": "What is the autonomic nervous system?",
+    "answers": [
+      "Controls involuntary body functions like heartbeat",
+      "Voluntary movement control",
+      "The brain only",
+      "The spinal cord only"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s3_228",
+    "sub": "human_body",
+    "question": "How do vaccines work?",
+    "answers": [
+      "They kill all germs",
+      "They increase blood cells",
+      "They add vitamins",
+      "They train the immune system to recognize pathogens"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s3_229",
+    "sub": "human_body",
+    "question": "What is the periosteum?",
+    "answers": [
+      "Inside of a bone",
+      "A type of cartilage",
+      "The membrane covering the outside of bones",
+      "Bone marrow"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s3_230",
+    "sub": "human_body",
+    "question": "What is peristalsis?",
+    "answers": [
+      "Blood flowing",
+      "Muscle contractions that move food through the digestive tract",
+      "Breathing in",
+      "Nerve signals"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s3_231",
+    "sub": "human_body",
+    "question": "What is the function of antibodies?",
+    "answers": [
+      "Carry oxygen",
+      "Bind to and neutralize harmful pathogens",
+      "Clot blood",
+      "Produce energy"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s3_232",
+    "sub": "human_body",
+    "question": "What is the function of the pituitary gland?",
+    "answers": [
+      "Digests food",
+      "Moves muscles",
+      "Filters blood",
+      "Controls many other glands as the 'master gland'"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s3_233",
+    "sub": "human_body",
+    "question": "What is the difference between the sympathetic and parasympathetic nervous systems?",
+    "answers": [
+      "They do the same thing",
+      "Sympathetic activates fight-or-flight; parasympathetic calms",
+      "Parasympathetic is for emergencies",
+      "They control different organs only"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s3_234",
+    "sub": "human_body",
+    "question": "What is the role of the cornea?",
+    "answers": [
+      "Detects color",
+      "Controls pupil size",
+      "Focuses light entering the eye",
+      "Sends signals to the brain"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s3_235",
+    "sub": "human_body",
+    "question": "What is hemostasis?",
+    "answers": [
+      "Blood flowing freely",
+      "Blood pressure regulation",
+      "The process of stopping bleeding",
+      "Red blood cell production"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s3_236",
+    "sub": "human_body",
+    "question": "What is the role of insulin?",
+    "answers": [
+      "Breaks down fat",
+      "Controls heart rate",
+      "Produces red blood cells",
+      "Regulates blood sugar by signaling cells to absorb glucose"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s3_237",
+    "sub": "human_body",
+    "question": "What is the function of the spleen?",
+    "answers": [
+      "Produces hormones",
+      "Produces insulin",
+      "Stores bile",
+      "Filters blood and recycles old red blood cells"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s3_238",
+    "sub": "human_body",
+    "question": "What is the somatic nervous system?",
+    "answers": [
+      "Controls voluntary movements of skeletal muscles",
+      "Controls involuntary actions",
+      "Only works during sleep",
+      "Controls hormone release"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s3_239",
+    "sub": "human_body",
+    "question": "What is the corpus callosum?",
+    "answers": [
+      "A bone in the skull",
+      "A muscle in the heart",
+      "The band of nerve fibers connecting the brain's hemispheres",
+      "Part of the stomach"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s3_240",
+    "sub": "human_body",
+    "question": "What is the role of bile in digestion?",
+    "answers": [
+      "Breaks down proteins",
+      "Emulsifies fats to aid digestion",
+      "Absorbs water",
+      "Neutralizes acid"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s3_241",
+    "sub": "human_body",
+    "question": "What are stem cells?",
+    "answers": [
+      "Unspecialized cells that can become different cell types",
+      "Dead cells",
+      "Only blood cells",
+      "Only bone cells"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s3_242",
+    "sub": "human_body",
+    "question": "What is the role of capillaries?",
+    "answers": [
+      "Carry blood to the heart",
+      "Store blood",
+      "Enable exchange of gases and nutrients between blood and tissues",
+      "Produce blood cells"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s3_243",
+    "sub": "human_body",
+    "question": "What is the glomerulus in the kidney?",
+    "answers": [
+      "A storage area",
+      "A hormone producer",
+      "A cluster of capillaries that filters blood",
+      "A muscle"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s3_244",
+    "sub": "human_body",
+    "question": "What are T cells and B cells?",
+    "answers": [
+      "Types of white blood cells in the immune system",
+      "Bone cells",
+      "Red blood cells",
+      "Skin cells"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s3_245",
+    "sub": "human_body",
+    "question": "What is the role of the semicircular canals?",
+    "answers": [
+      "Hearing",
+      "Detecting balance and rotational movement",
+      "Filtering sound",
+      "Producing earwax"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s3_246",
+    "sub": "human_body",
+    "question": "What is the pH of blood normally?",
+    "answers": [
+      "About 6.0",
+      "About 5.0",
+      "About 8.5",
+      "About 7.4"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s3_247",
+    "sub": "human_body",
+    "question": "What does the appendix do?",
+    "answers": [
+      "Essential for digestion",
+      "Filters blood",
+      "Produces bile",
+      "May play a role in immune function and gut bacteria"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s3_248",
+    "sub": "human_body",
+    "question": "What is the difference between tendons and ligaments?",
+    "answers": [
+      "They are the same",
+      "Ligaments connect muscle to bone",
+      "Tendons connect muscle to bone; ligaments connect bone to bone",
+      "Tendons connect bone to bone"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s3_249",
+    "sub": "human_body",
+    "question": "What is the meninges?",
+    "answers": [
+      "Part of the heart",
+      "A type of nerve",
+      "Protective membranes surrounding the brain and spinal cord",
+      "Bone marrow"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s3_250",
+    "sub": "human_body",
+    "question": "What causes a reflex action?",
+    "answers": [
+      "Conscious thought",
+      "Hormones",
+      "Muscle memory",
+      "A nerve signal that bypasses the brain via the spinal cord"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s3_251",
+    "sub": "human_body",
+    "question": "What is the thalamus?",
+    "answers": [
+      "Part of the stomach",
+      "A relay center in the brain for sensory information",
+      "A lung structure",
+      "A type of blood cell"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s3_252",
+    "sub": "human_body",
+    "question": "What is the difference between aerobic and anaerobic respiration?",
+    "answers": [
+      "No difference",
+      "Both require oxygen",
+      "Anaerobic uses oxygen",
+      "Aerobic uses oxygen, anaerobic does not"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s3_253",
+    "sub": "human_body",
+    "question": "What is a neurotransmitter?",
+    "answers": [
+      "A chemical that transmits signals between neurons",
+      "A type of bone cell",
+      "A hormone",
+      "A blood protein"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s3_254",
+    "sub": "human_body",
+    "question": "What is the function of the uvula?",
+    "answers": [
+      "Digests food",
+      "Helps with swallowing and preventing food from entering the nasal cavity",
+      "Produces saliva",
+      "Controls taste"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s3_255",
+    "sub": "human_body",
+    "question": "What is the function of the gallbladder?",
+    "answers": [
+      "Produces bile",
+      "Filters blood",
+      "Stores and concentrates bile for fat digestion",
+      "Produces insulin"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s3_256",
+    "sub": "human_body",
+    "question": "What is the sinoatrial node?",
+    "answers": [
+      "A brain structure",
+      "A lung structure",
+      "A valve in the heart",
+      "The heart's natural pacemaker"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s3_257",
+    "sub": "matter",
+    "question": "What is the periodic table organized by?",
+    "answers": [
+      "Alphabetical order",
+      "Discovery date",
+      "Increasing atomic number",
+      "Color"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s3_258",
+    "sub": "matter",
+    "question": "What are the three subatomic particles?",
+    "answers": [
+      "Atoms, molecules, elements",
+      "Protons, neutrons, electrons",
+      "Quarks, leptons, bosons",
+      "Ions, isotopes, molecules"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s3_259",
+    "sub": "matter",
+    "question": "What is an isotope?",
+    "answers": [
+      "An atom with different number of neutrons",
+      "A charged atom",
+      "A type of molecule",
+      "An element in a different state"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s3_260",
+    "sub": "matter",
+    "question": "What is the difference between an atom and a molecule?",
+    "answers": [
+      "They are the same",
+      "A molecule is smaller",
+      "An atom is a single unit; a molecule is two or more atoms bonded",
+      "Atoms are larger"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s3_261",
+    "sub": "matter",
+    "question": "What is an ion?",
+    "answers": [
+      "A neutral atom",
+      "A type of element",
+      "An atom with a net electrical charge",
+      "A molecule"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s3_262",
+    "sub": "matter",
+    "question": "What is the law of conservation of mass?",
+    "answers": [
+      "Mass can be created",
+      "Mass disappears in reactions",
+      "Mass always increases",
+      "Mass is neither created nor destroyed in a reaction"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s3_263",
+    "sub": "matter",
+    "question": "What is pH a measure of?",
+    "answers": [
+      "Temperature",
+      "Density",
+      "How acidic or basic a solution is",
+      "Salinity"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s3_264",
+    "sub": "matter",
+    "question": "What is Newton's third law?",
+    "answers": [
+      "Objects at rest stay at rest",
+      "Force equals mass times acceleration",
+      "Gravity pulls everything down",
+      "Every action has an equal and opposite reaction"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s3_265",
+    "sub": "matter",
+    "question": "What is Newton's second law?",
+    "answers": [
+      "Objects stay in motion",
+      "Every action has a reaction",
+      "Force equals mass times acceleration (F=ma)",
+      "Gravity is constant"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s3_266",
+    "sub": "matter",
+    "question": "What is the difference between a chemical and physical property?",
+    "answers": [
+      "No difference",
+      "Chemical is about appearance",
+      "Physical can be observed without changing substance; chemical involves reactions",
+      "Physical involves burning"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s3_267",
+    "sub": "matter",
+    "question": "What is an exothermic reaction?",
+    "answers": [
+      "Absorbs heat",
+      "Releases heat",
+      "No temperature change",
+      "Only occurs in cold"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s3_268",
+    "sub": "matter",
+    "question": "What is an endothermic reaction?",
+    "answers": [
+      "Releases heat",
+      "Produces light",
+      "Absorbs heat",
+      "Creates sound"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s3_269",
+    "sub": "matter",
+    "question": "What is Ohm's law?",
+    "answers": [
+      "Force = mass x acceleration",
+      "Energy = mass x speed of light squared",
+      "Voltage = current x resistance",
+      "Power = work / time"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s3_270",
+    "sub": "matter",
+    "question": "What is the electromagnetic spectrum?",
+    "answers": [
+      "Only visible light",
+      "The range of all types of electromagnetic radiation",
+      "Radio waves only",
+      "Only X-rays and gamma rays"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s3_271",
+    "sub": "matter",
+    "question": "What is the difference between speed and velocity?",
+    "answers": [
+      "Velocity includes direction, speed does not",
+      "No difference",
+      "Speed includes direction",
+      "Velocity is always faster"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s3_272",
+    "sub": "matter",
+    "question": "What is a catalyst?",
+    "answers": [
+      "A reactant that is used up",
+      "A product of a reaction",
+      "A substance that speeds up a reaction without being consumed",
+      "A type of enzyme only"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s3_273",
+    "sub": "matter",
+    "question": "What is the difference between series and parallel circuits?",
+    "answers": [
+      "Series has one path; parallel has multiple paths for current",
+      "No difference",
+      "Parallel has one path",
+      "Series is brighter"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s3_274",
+    "sub": "matter",
+    "question": "What is sublimation?",
+    "answers": [
+      "Liquid to gas",
+      "Gas to liquid",
+      "Solid directly to gas",
+      "Solid to liquid"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s3_275",
+    "sub": "matter",
+    "question": "What is centripetal force?",
+    "answers": [
+      "A force directed toward the center of circular motion",
+      "A force pushing outward",
+      "A force of gravity only",
+      "A magnetic force"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s3_276",
+    "sub": "matter",
+    "question": "What is the difference between renewable and nonrenewable energy?",
+    "answers": [
+      "No difference",
+      "Renewable runs out faster",
+      "Nonrenewable is cleaner",
+      "Renewable can be replenished naturally; nonrenewable cannot"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s3_277",
+    "sub": "matter",
+    "question": "What is the difference between AC and DC current?",
+    "answers": [
+      "No difference",
+      "AC alternates direction; DC flows in one direction",
+      "DC alternates",
+      "AC is weaker"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s3_278",
+    "sub": "matter",
+    "question": "What is Archimedes' principle?",
+    "answers": [
+      "An object in fluid is buoyed up by the weight of fluid displaced",
+      "Gravity pulls everything down",
+      "Force equals mass times acceleration",
+      "Energy cannot be created"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s3_279",
+    "sub": "matter",
+    "question": "What is a covalent bond?",
+    "answers": [
+      "Transfer of electrons",
+      "A magnetic connection",
+      "A metallic bond",
+      "Sharing of electrons between atoms"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s3_280",
+    "sub": "matter",
+    "question": "What is an ionic bond?",
+    "answers": [
+      "Sharing electrons",
+      "A physical bond",
+      "A covalent bond",
+      "Transfer of electrons from one atom to another"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s3_281",
+    "sub": "matter",
+    "question": "What is the Boyle's law about?",
+    "answers": [
+      "Temperature and volume",
+      "Speed and distance",
+      "Mass and energy",
+      "Pressure and volume of a gas are inversely related"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s3_282",
+    "sub": "matter",
+    "question": "What is work in physics?",
+    "answers": [
+      "Having a job",
+      "Force applied over a distance",
+      "Any movement",
+      "Energy stored"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s3_283",
+    "sub": "matter",
+    "question": "What is the unit of electrical resistance?",
+    "answers": [
+      "Ampere",
+      "Volt",
+      "Watt",
+      "Ohm"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s3_284",
+    "sub": "matter",
+    "question": "What is Charles' law about?",
+    "answers": [
+      "Volume and temperature of a gas are directly related",
+      "Pressure and volume",
+      "Mass and gravity",
+      "Speed and force"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s3_285",
+    "sub": "matter",
+    "question": "What is mechanical advantage?",
+    "answers": [
+      "Speed of a machine",
+      "The weight of a machine",
+      "The ratio of output force to input force",
+      "How fast a machine works"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s3_286",
+    "sub": "matter",
+    "question": "What is the difference between weight and mass?",
+    "answers": [
+      "They are identical",
+      "Mass is constant everywhere; weight changes with gravity",
+      "Weight is constant",
+      "Mass changes with altitude"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s3_287",
+    "sub": "matter",
+    "question": "What is specific heat capacity?",
+    "answers": [
+      "The energy needed to raise 1 gram of a substance by 1°C",
+      "How hot something can get",
+      "How fast something heats up",
+      "The maximum temperature"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s3_288",
+    "sub": "matter",
+    "question": "What is the unit of energy?",
+    "answers": [
+      "Joule",
+      "Newton",
+      "Watt",
+      "Pascal"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s3_289",
+    "sub": "matter",
+    "question": "What is an oxidation reaction?",
+    "answers": [
+      "Gaining electrons",
+      "Splitting atoms",
+      "Gaining protons",
+      "Losing electrons or combining with oxygen"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s3_290",
+    "sub": "matter",
+    "question": "What is the speed of sound in air approximately?",
+    "answers": [
+      "100 m/s",
+      "500 m/s",
+      "343 m/s",
+      "1000 m/s"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s3_291",
+    "sub": "matter",
+    "question": "What determines the pitch of a sound?",
+    "answers": [
+      "Amplitude",
+      "Frequency",
+      "Volume",
+      "Speed"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s3_292",
+    "sub": "matter",
+    "question": "What is terminal velocity?",
+    "answers": [
+      "Maximum force",
+      "Zero velocity",
+      "The speed of sound",
+      "The constant speed when air resistance equals gravity"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s3_293",
+    "sub": "matter",
+    "question": "What is entropy?",
+    "answers": [
+      "A measure of disorder in a system",
+      "Order in a system",
+      "Energy output",
+      "Heat capacity"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s3_294",
+    "sub": "matter",
+    "question": "What is the difference between transparent, translucent, and opaque?",
+    "answers": [
+      "All the same",
+      "Translucent blocks all light",
+      "Opaque lets all light through",
+      "Transparent lets all light through, translucent some, opaque none"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s3_295",
+    "sub": "matter",
+    "question": "What is resonance?",
+    "answers": [
+      "Sound dying out",
+      "Sound absorbing",
+      "Sound reflecting",
+      "An object vibrating at its natural frequency with increased amplitude"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s3_296",
+    "sub": "matter",
+    "question": "What is the relationship between wavelength and frequency?",
+    "answers": [
+      "Both increase together",
+      "Both decrease together",
+      "They are unrelated",
+      "They are inversely related"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s3_297",
+    "sub": "matter",
+    "question": "What is an alloy?",
+    "answers": [
+      "A pure metal",
+      "A nonmetal compound",
+      "A mixture of metals or a metal with another element",
+      "A type of mineral"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s3_298",
+    "sub": "matter",
+    "question": "What is the unit of power?",
+    "answers": [
+      "Joule",
+      "Newton",
+      "Ohm",
+      "Watt"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s3_299",
+    "sub": "matter",
+    "question": "What is Bernoulli's principle?",
+    "answers": [
+      "Heavy objects fall faster",
+      "All fluids move at the same speed",
+      "Faster-moving fluid has lower pressure",
+      "Pressure increases with speed"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s3_300",
+    "sub": "ecosystems",
+    "question": "What is ecological succession?",
+    "answers": [
+      "Animals migrating",
+      "The gradual replacement of one community by another",
+      "Seasonal changes",
+      "A food chain"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s3_301",
+    "sub": "ecosystems",
+    "question": "What is a pioneer species?",
+    "answers": [
+      "The dominant species",
+      "The first species to colonize a barren environment",
+      "The largest predator",
+      "An invasive species"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s3_302",
+    "sub": "ecosystems",
+    "question": "What is the difference between primary and secondary succession?",
+    "answers": [
+      "No difference",
+      "Primary starts on bare rock; secondary starts where soil exists",
+      "Secondary starts on bare rock",
+      "Primary is faster"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s3_303",
+    "sub": "ecosystems",
+    "question": "What is the 10% rule in energy transfer?",
+    "answers": [
+      "10% of species survive",
+      "10% of food is wasted",
+      "Only about 10% of energy transfers to the next trophic level",
+      "10% of consumers are predators"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s3_304",
+    "sub": "ecosystems",
+    "question": "What is a climax community?",
+    "answers": [
+      "A growing ecosystem",
+      "A new ecosystem",
+      "A disturbed ecosystem",
+      "A stable ecosystem at the end of succession"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s3_305",
+    "sub": "ecosystems",
+    "question": "What is eutrophication?",
+    "answers": [
+      "Water drying up",
+      "Soil erosion into water",
+      "Water freezing",
+      "Excess nutrients causing algae overgrowth and oxygen depletion"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s3_306",
+    "sub": "ecosystems",
+    "question": "What is the difference between abiotic and biotic factors?",
+    "answers": [
+      "No difference",
+      "Abiotic is nonliving; biotic is living",
+      "Biotic is nonliving",
+      "Abiotic is living"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s3_307",
+    "sub": "ecosystems",
+    "question": "What is biomagnification?",
+    "answers": [
+      "Increasing concentration of toxins up the food chain",
+      "Organisms getting bigger",
+      "Populations growing",
+      "Plants getting more energy"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s3_308",
+    "sub": "ecosystems",
+    "question": "What is an indicator species used for?",
+    "answers": [
+      "Attracting tourists",
+      "Assessing the health of an environment",
+      "Controlling pests",
+      "Predicting weather"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s3_309",
+    "sub": "ecosystems",
+    "question": "What is the phosphorus cycle?",
+    "answers": [
+      "Phosphorus in the atmosphere",
+      "Phosphorus only in plants",
+      "Phosphorus only in animals",
+      "Movement of phosphorus through rocks, water, and organisms"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s3_310",
+    "sub": "ecosystems",
+    "question": "What is a biosphere?",
+    "answers": [
+      "A single habitat",
+      "All ecosystems on Earth where life exists",
+      "An ocean ecosystem",
+      "A laboratory"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s3_311",
+    "sub": "ecosystems",
+    "question": "What is the biological magnification of DDT?",
+    "answers": [
+      "DDT concentrates increasingly in organisms higher in the food chain",
+      "DDT decreases in predators",
+      "DDT only affects plants",
+      "DDT breaks down quickly"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s3_312",
+    "sub": "ecosystems",
+    "question": "What is the difference between r-selected and K-selected species?",
+    "answers": [
+      "r-selected have many offspring with less care; K-selected have few with more care",
+      "No difference",
+      "K-selected have more offspring",
+      "r-selected live longer"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s3_313",
+    "sub": "ecosystems",
+    "question": "Why are sea otters considered a keystone species?",
+    "answers": [
+      "They are the largest marine mammal",
+      "They control sea urchin populations that would destroy kelp forests",
+      "They migrate long distances",
+      "They produce the most offspring"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s3_314",
+    "sub": "ecosystems",
+    "question": "What is the role of mycorrhizal fungi in ecosystems?",
+    "answers": [
+      "Decomposing dead animals",
+      "Extending root systems and helping nutrient exchange",
+      "Creating soil from rock",
+      "Pollinating flowers"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s3_315",
+    "sub": "ecosystems",
+    "question": "What is an ecological footprint?",
+    "answers": [
+      "An animal's track",
+      "A habitat map",
+      "The impact of human activity on the environment",
+      "A population count"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s3_316",
+    "sub": "ecosystems",
+    "question": "What is the tragedy of the commons?",
+    "answers": [
+      "Overuse of shared resources leading to depletion",
+      "A common disease",
+      "Public parks being closed",
+      "A natural disaster"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s3_317",
+    "sub": "ecosystems",
+    "question": "What is an endemic species?",
+    "answers": [
+      "A species found only in one specific area",
+      "A species found everywhere",
+      "An invasive species",
+      "An extinct species"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s3_318",
+    "sub": "ecosystems",
+    "question": "How does acid rain affect ecosystems?",
+    "answers": [
+      "It helps plant growth",
+      "It only affects buildings",
+      "It damages forests, acidifies water, and harms organisms",
+      "It has no ecological effect"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s3_319",
+    "sub": "ecosystems",
+    "question": "What is bioremediation?",
+    "answers": [
+      "Using organisms to clean up pollution",
+      "Destroying all organisms",
+      "Creating new ecosystems",
+      "Removing all plants"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s3_320",
+    "sub": "ecosystems",
+    "question": "What is the difference between endangered and threatened species?",
+    "answers": [
+      "No difference",
+      "Endangered have larger populations",
+      "Threatened are closer to extinction",
+      "Endangered are closer to extinction; threatened may become endangered"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s3_321",
+    "sub": "ecosystems",
+    "question": "What is a trophic cascade?",
+    "answers": [
+      "A waterfall in a forest",
+      "A type of succession",
+      "Ecological effects rippling through multiple food chain levels",
+      "An energy increase"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s3_322",
+    "sub": "ecosystems",
+    "question": "What is the importance of genetic diversity?",
+    "answers": [
+      "It doesn't matter",
+      "It reduces population size",
+      "It only affects appearance",
+      "It helps populations adapt to changing conditions"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s3_323",
+    "sub": "ecosystems",
+    "question": "What is an estuary?",
+    "answers": [
+      "A deep ocean zone",
+      "A mountain lake",
+      "Where a river meets the sea with mixed fresh and salt water",
+      "A desert spring"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s3_324",
+    "sub": "ecosystems",
+    "question": "What is the effect of deforestation on the carbon cycle?",
+    "answers": [
+      "Decreases CO2",
+      "Increases atmospheric CO2 since fewer trees absorb it",
+      "No effect",
+      "Creates more oxygen"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s3_325",
+    "sub": "ecosystems",
+    "question": "What is a dead zone in the ocean?",
+    "answers": [
+      "An area with too little oxygen to support most life",
+      "An area with no water",
+      "A frozen region",
+      "A very deep area"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s3_326",
+    "sub": "ecosystems",
+    "question": "What is island biogeography?",
+    "answers": [
+      "How islands form",
+      "Island weather patterns",
+      "How animals swim to islands",
+      "The study of species distribution on islands based on size and isolation"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s3_327",
+    "sub": "ecosystems",
+    "question": "What is a biological corridor?",
+    "answers": [
+      "A path inside a building",
+      "A migration route only",
+      "A river",
+      "A strip of habitat connecting wildlife populations"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s3_328",
+    "sub": "ecosystems",
+    "question": "What is edge effect in ecology?",
+    "answers": [
+      "Animals at the edge of extinction",
+      "Changes in species composition at the boundary of habitats",
+      "Erosion at habitat edges",
+      "Wind effects on habitat borders"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s3_329",
+    "sub": "ecosystems",
+    "question": "What is the difference between habitat and niche?",
+    "answers": [
+      "They are the same",
+      "Niche is where it lives",
+      "Habitat is where an organism lives; niche is its role",
+      "Habitat is its role"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s3_330",
+    "sub": "ecosystems",
+    "question": "What is carbon sequestration?",
+    "answers": [
+      "Releasing carbon",
+      "Capturing and storing atmospheric carbon dioxide",
+      "Burning carbon fuels",
+      "Carbon being destroyed"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s3_331",
+    "sub": "ecosystems",
+    "question": "What is competitive exclusion principle?",
+    "answers": [
+      "Species can share identical niches",
+      "Two species cannot occupy the same niche in the same place",
+      "Competition doesn't exist in nature",
+      "Only predators compete"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s3_332",
+    "sub": "ecosystems",
+    "question": "What are ecosystem services?",
+    "answers": [
+      "Paid environmental services",
+      "Zoos and aquariums",
+      "Government park services",
+      "Benefits nature provides to humans like clean air and water"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s3_333",
+    "sub": "ecosystems",
+    "question": "What is adaptive radiation?",
+    "answers": [
+      "Nuclear radiation in nature",
+      "Light affecting ecosystems",
+      "Animals adapting to radiation",
+      "Diversification of species to fill ecological niches"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s3_334",
+    "sub": "ecosystems",
+    "question": "What is the relationship between wolves and Yellowstone?",
+    "answers": [
+      "Reintroduction of wolves restored ecological balance through trophic cascade",
+      "Wolves destroyed the ecosystem",
+      "Wolves had no effect",
+      "Wolves only affected deer"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s3_335",
+    "sub": "ecosystems",
+    "question": "What is phytoremediation?",
+    "answers": [
+      "Killing plants",
+      "Removing all vegetation",
+      "Adding fertilizer",
+      "Using plants to absorb pollutants from soil or water"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "s3_336",
+    "sub": "ecosystems",
+    "question": "What is population density?",
+    "answers": [
+      "The number of individuals per unit area",
+      "Total population",
+      "The size of individuals",
+      "Population growth rate"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "s3_337",
+    "sub": "ecosystems",
+    "question": "What is the difference between density-dependent and density-independent factors?",
+    "answers": [
+      "No difference",
+      "Density-independent factors need large populations",
+      "Density-dependent factors scale with population; density-independent do not",
+      "Density-dependent factors are always abiotic"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s3_338",
+    "sub": "ecosystems",
+    "question": "What is coevolution?",
+    "answers": [
+      "One species evolving alone",
+      "Evolution stopping",
+      "Two species evolving in response to each other",
+      "Species becoming identical"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "s3_339",
+    "sub": "ecosystems",
+    "question": "What is the greenhouse effect's role in Earth's climate?",
+    "answers": [
+      "Only harmful",
+      "It naturally warms Earth to support life, but excess is harmful",
+      "It has no role",
+      "It only cools Earth"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "s3_340",
+    "sub": "ecosystems",
+    "question": "What is a flagship species?",
+    "answers": [
+      "The most dangerous species",
+      "A charismatic species used to raise conservation awareness",
+      "The oldest species",
+      "The most common species"
+    ],
+    "correctIndex": 1
+  }
+]

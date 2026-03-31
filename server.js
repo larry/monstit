@@ -48,44 +48,37 @@ function cleanupRoom(roomId) {
   rooms.delete(roomId);
 }
 
-// --- Question Bank (server-side so both players get the same question) ---
-const QUESTIONS = [
-  { q: 'What is 7 x 8?', a: ['54', '56', '58', '64'], c: 1 },
-  { q: 'What is 12 + 15?', a: ['25', '26', '27', '28'], c: 2 },
-  { q: 'What is 100 - 37?', a: ['53', '63', '67', '73'], c: 1 },
-  { q: 'What is 9 x 6?', a: ['48', '52', '54', '56'], c: 2 },
-  { q: 'What is 45 + 28?', a: ['63', '73', '83', '68'], c: 1 },
-  { q: 'What is 81 / 9?', a: ['7', '8', '9', '10'], c: 2 },
-  { q: 'What is 13 x 12?', a: ['144', '156', '168', '132'], c: 1 },
-  { q: 'What is the square root of 144?', a: ['10', '11', '12', '14'], c: 2 },
-  { q: 'What planet is closest to the Sun?', a: ['Venus', 'Mercury', 'Mars', 'Earth'], c: 1 },
-  { q: 'What gas do plants absorb?', a: ['Oxygen', 'Nitrogen', 'CO2', 'Hydrogen'], c: 2 },
-  { q: 'How many legs does a spider have?', a: ['6', '8', '10', '12'], c: 1 },
-  { q: 'What is the boiling point of water (C)?', a: ['90', '95', '100', '110'], c: 2 },
-  { q: 'What is the largest planet?', a: ['Saturn', 'Jupiter', 'Neptune', 'Uranus'], c: 1 },
-  { q: 'What is the chemical symbol for gold?', a: ['Go', 'Gd', 'Au', 'Ag'], c: 2 },
-  { q: 'What is the largest continent?', a: ['Africa', 'Asia', 'Europe', 'N. America'], c: 1 },
-  { q: 'What ocean is the largest?', a: ['Atlantic', 'Indian', 'Pacific', 'Arctic'], c: 2 },
-  { q: 'How many colors are in a rainbow?', a: ['5', '6', '7', '8'], c: 2 },
-  { q: 'What shape has 6 sides?', a: ['Pentagon', 'Hexagon', 'Heptagon', 'Octagon'], c: 1 },
-  { q: 'Who painted the Mona Lisa?', a: ['Michelangelo', 'Da Vinci', 'Raphael', 'Donatello'], c: 1 },
-  { q: 'What is the hardest natural substance?', a: ['Gold', 'Iron', 'Diamond', 'Titanium'], c: 2 },
-  { q: 'What is 15% of 200?', a: ['20', '25', '30', '35'], c: 2 },
-  { q: 'What is 3^4?', a: ['64', '81', '27', '108'], c: 1 },
-  { q: 'What mountain is the tallest?', a: ['K2', 'Kangchenjunga', 'Mt. Everest', 'Lhotse'], c: 2 },
-  { q: 'What is the capital of Australia?', a: ['Sydney', 'Melbourne', 'Canberra', 'Perth'], c: 2 },
-  { q: 'How many bones in the adult body?', a: ['186', '196', '206', '216'], c: 2 },
+// --- Question Bank (shared with client — loads from JSON files + math generator) ---
+const { generateMathQuestion } = require('./js/data/questions/math-generator.js');
+
+const scienceQuestions = [
+  ...require('./js/data/questions/science-d1.json'),
+  ...require('./js/data/questions/science-d2.json'),
+  ...require('./js/data/questions/science-d3.json'),
 ];
+const elaQuestions = [
+  ...require('./js/data/questions/ela-d1.json'),
+  ...require('./js/data/questions/ela-d2.json'),
+  ...require('./js/data/questions/ela-d3.json'),
+];
+const staticQuestions = [...scienceQuestions, ...elaQuestions];
 
 function pickQuestion(usedIds) {
-  const available = QUESTIONS.filter((_, i) => !usedIds.has(i));
+  // 1/3 chance of math (generated), 2/3 chance of static (science/ELA)
+  if (Math.random() < 0.33) {
+    const difficulty = Math.floor(Math.random() * 3) + 1;
+    const q = generateMathQuestion(difficulty);
+    return { q: q.question, a: q.answers, c: q.correctIndex };
+  }
+
+  const available = staticQuestions.filter(q => !usedIds.has(q.id));
   if (available.length === 0) {
     usedIds.clear();
     return pickQuestion(usedIds);
   }
-  const idx = QUESTIONS.indexOf(available[Math.floor(Math.random() * available.length)]);
-  usedIds.add(idx);
-  return { index: idx, ...QUESTIONS[idx] };
+  const picked = available[Math.floor(Math.random() * available.length)];
+  usedIds.add(picked.id);
+  return { q: picked.question, a: picked.answers, c: picked.correctIndex };
 }
 
 // --- Battle Logic ---

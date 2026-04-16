@@ -3,7 +3,7 @@ import { getMonsterById } from '../data/monsters.js';
 export function pickAiMonster(levelData) {
   const pool = levelData.monsterPool
     .map(id => getMonsterById(id))
-    .filter(Boolean);
+    .filter(m => m && !m.codeExclusive);
 
   const base = pool[Math.floor(Math.random() * pool.length)];
   const lvl = levelData.aiLevel;

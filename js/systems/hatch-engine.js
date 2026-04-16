@@ -2,8 +2,8 @@ import { MONSTERS, RARITY_WEIGHTS, getMonstersByRarity } from '../data/monsters.
 import { weightedRandom } from '../utils/helpers.js';
 
 export function hatchEgg(element) {
-  // Filter monsters by element type
-  const pool = MONSTERS.filter(m => m.type === element);
+  // Filter monsters by element type, exclude code-exclusive monsters
+  const pool = MONSTERS.filter(m => m.type === element && !m.codeExclusive);
 
   if (pool.length === 0) {
     // Fallback: pick any common monster

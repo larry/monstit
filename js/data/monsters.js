@@ -377,5 +377,5 @@ export function getMonsterById(id) {
 }
 
 export function getMonstersByRarity(rarity) {
-  return MONSTERS.filter(m => m.rarity === rarity);
+  return MONSTERS.filter(m => m.rarity === rarity && !m.codeExclusive);
 }

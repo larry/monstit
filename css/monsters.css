@@ -2506,41 +2506,63 @@
 .monster-hatchling .body {
   width: 42px;
   height: 40px;
-  background: linear-gradient(135deg, #6dbf47, #4a9e2e);
+  background: linear-gradient(135deg, #6dbf47, #4a9e2e, #3d8a22);
   border-radius: 20px 20px 18px 18px;
   left: 18px;
   bottom: 2px;
+  box-shadow: inset 0 -6px 10px rgba(0, 0, 0, 0.15), 0 2px 6px rgba(0, 0, 0, 0.3);
+  animation: hatchling-bounce 1.2s ease-in-out infinite;
+}
+
+@keyframes hatchling-bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-3px); }
 }
 
 .monster-hatchling .eyes {
-  top: 18px;
-  left: 24px;
-  gap: 6px;
+  top: 16px;
+  left: 22px;
+  gap: 8px;
 }
 
 .monster-hatchling .eye {
-  width: 12px;
-  height: 12px;
+  width: 14px;
+  height: 14px;
+  box-shadow: 0 0 4px rgba(255, 255, 255, 0.3);
 }
 
 .monster-hatchling .eye::after {
-  width: 6px;
-  height: 6px;
-  top: 3px;
+  width: 7px;
+  height: 7px;
+  top: 4px;
   left: 4px;
 }
 
 .monster-hatchling .mouth {
   width: 10px;
-  height: 4px;
+  height: 5px;
   background: #2d6b14;
-  border-radius: 0 0 4px 4px;
-  top: 34px;
+  border-radius: 0 0 5px 5px;
+  top: 33px;
   left: 35px;
 }
 
-/* Hatchling tiny arms */
+/* Hatchling eggshell hat */
 .monster-hatchling .body::before {
+  content: '';
+  position: absolute;
+  width: 30px;
+  height: 14px;
+  background: #f5f0e0;
+  border-radius: 15px 15px 0 0;
+  top: -10px;
+  left: 6px;
+  border-bottom: 2px solid #e0d8c0;
+  clip-path: polygon(0% 0%, 0% 80%, 15% 100%, 30% 70%, 50% 100%, 70% 75%, 85% 100%, 100% 80%, 100% 0%);
+}
+
+/* Hatchling tiny arms */
+.monster-hatchling .body::after {
   content: '';
   position: absolute;
   width: 8px;
@@ -2550,217 +2572,242 @@
   top: 18px;
   left: -6px;
   transform: rotate(15deg);
-}
-
-.monster-hatchling .body::after {
-  content: '';
-  position: absolute;
-  width: 8px;
-  height: 12px;
-  background: #5aad36;
-  border-radius: 0 4px 4px 4px;
-  top: 18px;
-  right: -6px;
-  transform: rotate(-15deg);
+  box-shadow: 40px 0 0 0 #5aad36;
 }
 
 /* Hatchling tail */
 .monster-hatchling .tail {
   position: absolute;
   bottom: 6px;
-  right: 8px;
-  width: 14px;
-  height: 8px;
-  background: #5aad36;
-  border-radius: 0 8px 4px 0;
+  right: 6px;
+  width: 16px;
+  height: 10px;
+  background: linear-gradient(90deg, #5aad36, #4a9e2e);
+  border-radius: 0 10px 6px 0;
   transform: rotate(-10deg);
+  animation: hatchling-wag 0.8s ease-in-out infinite alternate;
+}
+
+@keyframes hatchling-wag {
+  0% { transform: rotate(-15deg); }
+  100% { transform: rotate(5deg); }
 }
 
 /* === Stegowl (Dino, Rare) — Plated armored dino with wise eyes === */
 .monster-stegowl .body {
   width: 56px;
   height: 48px;
-  background: linear-gradient(135deg, #5a7a8a, #3d5a6a);
+  background: linear-gradient(135deg, #6a8a9a, #4a6a7a, #3d5a6a);
   border-radius: 28px 28px 24px 24px;
   left: 12px;
+  box-shadow: inset 0 -8px 12px rgba(0, 0, 0, 0.2), 0 3px 8px rgba(0, 0, 0, 0.3);
 }
 
 .monster-stegowl .eyes {
   top: 18px;
-  left: 20px;
-  gap: 10px;
+  left: 18px;
+  gap: 12px;
 }
 
 .monster-stegowl .eye {
-  width: 14px;
-  height: 14px;
-  background: #ffd700;
+  width: 16px;
+  height: 16px;
+  background: radial-gradient(circle at 40% 40%, #ffe44d, #ffd700, #cc9900);
   border-radius: 50%;
+  box-shadow: 0 0 6px rgba(255, 215, 0, 0.4);
 }
 
 .monster-stegowl .eye::after {
   width: 7px;
   height: 7px;
   background: #1a1a2e;
-  top: 4px;
-  left: 4px;
+  top: 5px;
+  left: 5px;
   border-radius: 50%;
 }
 
 .monster-stegowl .mouth {
-  width: 12px;
-  height: 4px;
+  width: 14px;
+  height: 5px;
   background: #2a3a44;
-  border-radius: 0 0 4px 4px;
+  border-radius: 0 0 5px 5px;
   top: 40px;
-  left: 34px;
+  left: 33px;
 }
 
-/* Stegowl back plates */
+/* Stegowl back plates — glowing with color shift */
 .monster-stegowl .body::before {
   content: '';
   position: absolute;
-  width: 44px;
-  height: 14px;
-  background: linear-gradient(to top, #3d5a6a, #7a9aaa);
-  clip-path: polygon(0% 100%, 12% 0%, 24% 100%, 38% 0%, 52% 100%, 66% 0%, 78% 100%, 90% 0%, 100% 100%);
-  top: -12px;
-  left: 5px;
+  width: 48px;
+  height: 18px;
+  background: linear-gradient(to top, #3d5a6a, #8ab4cc, #a0d0e8);
+  clip-path: polygon(0% 100%, 10% 0%, 20% 100%, 33% 0%, 46% 100%, 58% 0%, 70% 100%, 82% 0%, 92% 100%);
+  top: -15px;
+  left: 3px;
+  filter: drop-shadow(0 -2px 3px rgba(120, 180, 220, 0.4));
+  animation: stegowl-plates 2s ease-in-out infinite;
 }
 
-/* Stegowl tail spikes */
+@keyframes stegowl-plates {
+  0%, 100% { filter: drop-shadow(0 -2px 3px rgba(120, 180, 220, 0.3)); }
+  50% { filter: drop-shadow(0 -3px 6px rgba(120, 180, 220, 0.6)); }
+}
+
+/* Stegowl tail with thagomizer spikes */
 .monster-stegowl .tail {
   position: absolute;
-  bottom: 8px;
-  right: 2px;
-  width: 16px;
-  height: 20px;
-  background: #3d5a6a;
-  border-radius: 0 10px 4px 0;
+  bottom: 6px;
+  right: 0px;
+  width: 20px;
+  height: 22px;
+  background: linear-gradient(135deg, #4a6a7a, #3d5a6a);
+  border-radius: 0 12px 6px 0;
 }
 
 .monster-stegowl .tail::before {
   content: '';
   position: absolute;
-  width: 6px;
-  height: 10px;
-  background: #7a9aaa;
+  width: 7px;
+  height: 12px;
+  background: linear-gradient(to top, #5a8a9a, #a0d0e8);
   border-radius: 3px 3px 0 0;
-  top: -8px;
-  left: 5px;
+  top: -10px;
+  left: 4px;
   transform: rotate(15deg);
+  box-shadow: 8px 2px 0 0 #a0d0e8;
 }
 
 /* === Tricerash (Dino, Epic) — Three-horned charger === */
 .monster-tricerash .body {
   width: 58px;
   height: 52px;
-  background: linear-gradient(135deg, #b8860b, #daa520);
+  background: linear-gradient(135deg, #c9960b, #daa520, #e8b830);
   border-radius: 15px 15px 26px 26px;
   left: 11px;
+  box-shadow: inset 0 -8px 14px rgba(0, 0, 0, 0.2), 0 3px 8px rgba(0, 0, 0, 0.35);
+  animation: tricerash-stomp 1.5s ease-in-out infinite;
+}
+
+@keyframes tricerash-stomp {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-2px); }
+  75% { transform: translateX(2px); }
 }
 
 .monster-tricerash .eyes {
   top: 22px;
-  left: 20px;
-  gap: 10px;
+  left: 18px;
+  gap: 12px;
 }
 
 .monster-tricerash .eye {
-  width: 12px;
-  height: 10px;
+  width: 13px;
+  height: 11px;
   background: #fff;
   border-radius: 50%;
+  box-shadow: 0 0 3px rgba(255, 255, 255, 0.3);
 }
 
 .monster-tricerash .eye::after {
-  width: 6px;
-  height: 6px;
-  background: #8b4513;
+  width: 7px;
+  height: 7px;
+  background: radial-gradient(circle, #a0522d, #8b4513);
   top: 2px;
   left: 4px;
   border-radius: 50%;
 }
 
 .monster-tricerash .mouth {
-  width: 18px;
-  height: 5px;
+  width: 20px;
+  height: 6px;
   background: #8b6508;
-  border-radius: 0 0 6px 6px;
+  border-radius: 0 0 8px 8px;
   top: 40px;
-  left: 31px;
+  left: 30px;
 }
 
-/* Tricerash frill/shield */
+/* Tricerash frill/shield — ornate with scalloped edge */
 .monster-tricerash .body::before {
   content: '';
   position: absolute;
-  width: 52px;
-  height: 20px;
-  background: linear-gradient(135deg, #cd9b1d, #eec900);
-  border-radius: 30px 30px 0 0;
-  top: -16px;
-  left: 2px;
+  width: 56px;
+  height: 24px;
+  background: linear-gradient(135deg, #cd9b1d, #eec900, #f0d000);
+  border-radius: 32px 32px 0 0;
+  top: -20px;
+  left: 0px;
   border: 2px solid #b8860b;
   border-bottom: none;
+  box-shadow: 0 -3px 8px rgba(238, 201, 0, 0.25);
 }
 
-/* Tricerash center horn */
+/* Tricerash center horn — taller, sharper */
 .monster-tricerash .body::after {
   content: '';
   position: absolute;
-  width: 6px;
-  height: 18px;
-  background: linear-gradient(to top, #daa520, #f5f5dc);
-  border-radius: 3px 3px 0 0;
-  top: -14px;
+  width: 7px;
+  height: 22px;
+  background: linear-gradient(to top, #daa520, #f5f5dc, #fff);
+  border-radius: 3px 3px 1px 1px;
+  top: -18px;
   left: 25px;
+  filter: drop-shadow(0 -2px 3px rgba(245, 245, 220, 0.4));
 }
 
 /* Tricerash side horns */
 .monster-tricerash .tail {
   position: absolute;
-  top: 16px;
-  left: 12px;
-  width: 56px;
+  top: 14px;
+  left: 10px;
+  width: 60px;
   height: 10px;
 }
 
 .monster-tricerash .tail::before {
   content: '';
   position: absolute;
-  width: 4px;
-  height: 14px;
-  background: linear-gradient(to top, #daa520, #f5f5dc);
+  width: 5px;
+  height: 16px;
+  background: linear-gradient(to top, #daa520, #f5f5dc, #fff);
   border-radius: 2px;
-  top: -8px;
+  top: -10px;
   left: 2px;
-  transform: rotate(-20deg);
+  transform: rotate(-22deg);
+  filter: drop-shadow(0 0 2px rgba(245, 245, 220, 0.3));
 }
 
 .monster-tricerash .tail::after {
   content: '';
   position: absolute;
-  width: 4px;
-  height: 14px;
-  background: linear-gradient(to top, #daa520, #f5f5dc);
+  width: 5px;
+  height: 16px;
+  background: linear-gradient(to top, #daa520, #f5f5dc, #fff);
   border-radius: 2px;
-  top: -8px;
+  top: -10px;
   right: 2px;
-  transform: rotate(20deg);
+  transform: rotate(22deg);
+  filter: drop-shadow(0 0 2px rgba(245, 245, 220, 0.3));
 }
 
 /* === Raptorex (Dino, Legendary) — Fast predator with claws === */
 .monster-raptorex .body {
   width: 50px;
   height: 55px;
-  background: linear-gradient(135deg, #8b2500, #cd3700);
+  background: linear-gradient(135deg, #8b2500, #cd3700, #e04500);
   border-radius: 22px 22px 20px 20px;
   left: 15px;
+  box-shadow: inset 0 -8px 14px rgba(0, 0, 0, 0.25), 0 3px 10px rgba(205, 55, 0, 0.3);
+  animation: raptorex-sway 0.6s ease-in-out infinite alternate;
+}
+
+@keyframes raptorex-sway {
+  0% { transform: translateX(-1px) rotate(-1deg); }
+  100% { transform: translateX(1px) rotate(1deg); }
 }
 
 .monster-raptorex .eyes {
-  top: 14px;
+  top: 12px;
   left: 22px;
   gap: 6px;
 }
@@ -2768,91 +2815,110 @@
 .monster-raptorex .eye {
   width: 14px;
   height: 10px;
-  background: #ffd700;
+  background: linear-gradient(180deg, #ffe44d, #ffd700);
   border-radius: 2px 2px 7px 7px;
+  box-shadow: 0 0 6px rgba(255, 215, 0, 0.5);
 }
 
 .monster-raptorex .eye::after {
-  width: 6px;
-  height: 7px;
+  width: 4px;
+  height: 8px;
   background: #1a1a2e;
   top: 1px;
-  left: 4px;
+  left: 5px;
   border-radius: 1px;
 }
 
 .monster-raptorex .mouth {
-  width: 16px;
-  height: 5px;
-  border-bottom: 3px solid #5a1000;
-  top: 34px;
-  left: 32px;
+  width: 18px;
+  height: 6px;
+  background: #3a0800;
+  border-radius: 0 0 4px 4px;
+  top: 32px;
+  left: 31px;
 }
 
-/* Raptorex fangs */
+/* Raptorex fangs — more visible teeth */
 .monster-raptorex .mouth::before,
 .monster-raptorex .mouth::after {
   content: '';
   position: absolute;
   width: 3px;
-  height: 5px;
-  background: #f5f5dc;
-  top: 2px;
+  height: 6px;
+  background: #fff;
+  top: -1px;
 }
 
-.monster-raptorex .mouth::before { left: 2px; border-radius: 0 0 2px 2px; }
-.monster-raptorex .mouth::after { right: 2px; border-radius: 0 0 2px 2px; }
+.monster-raptorex .mouth::before { left: 3px; border-radius: 0 0 2px 2px; }
+.monster-raptorex .mouth::after { right: 3px; border-radius: 0 0 2px 2px; }
 
-/* Raptorex feathered crest */
+/* Raptorex feathered crest — bigger, fiercer */
 .monster-raptorex .body::before {
   content: '';
   position: absolute;
-  width: 30px;
-  height: 14px;
-  background: linear-gradient(to top, #cd3700, #ff6347);
-  clip-path: polygon(0% 100%, 20% 0%, 40% 70%, 60% 0%, 80% 70%, 100% 0%);
-  top: -12px;
-  left: 10px;
+  width: 34px;
+  height: 18px;
+  background: linear-gradient(to top, #cd3700, #ff4500, #ff6347);
+  clip-path: polygon(0% 100%, 15% 0%, 30% 60%, 50% 0%, 70% 60%, 85% 0%, 100% 100%);
+  top: -16px;
+  left: 8px;
+  filter: drop-shadow(0 -2px 4px rgba(255, 69, 0, 0.4));
 }
 
-/* Raptorex claws */
+/* Raptorex claws — sharper */
 .monster-raptorex .body::after {
   content: '';
   position: absolute;
-  width: 6px;
-  height: 8px;
-  background: #f5f5dc;
+  width: 7px;
+  height: 10px;
+  background: #fff;
   clip-path: polygon(50% 100%, 0% 0%, 100% 0%);
-  bottom: -6px;
-  left: 12px;
-  box-shadow: 10px 0 0 0 #f5f5dc, 20px 0 0 0 #f5f5dc;
+  bottom: -8px;
+  left: 10px;
+  box-shadow: 12px 0 0 0 #fff, 24px 0 0 0 #fff;
+  filter: drop-shadow(0 2px 2px rgba(0, 0, 0, 0.3));
 }
 
-/* Raptorex speed lines aura */
+/* Raptorex speed lines aura — animated */
 .monster-raptorex .tail {
   position: absolute;
   width: 76px;
   height: 76px;
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(205, 55, 0, 0.2) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(255, 69, 0, 0.25) 0%, rgba(205, 55, 0, 0.1) 40%, transparent 70%);
   top: 2px;
   left: 2px;
+  animation: raptorex-aura 1.2s ease-in-out infinite;
+}
+
+@keyframes raptorex-aura {
+  0%, 100% { opacity: 0.6; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.08); }
 }
 
 /* === Rexomega (Dino, Incredible) — The king of dinosaurs === */
 .monster-rexomega .body {
   width: 62px;
   height: 62px;
-  background: linear-gradient(135deg, #2e0854, #5b1a8a, #7b2fbe);
+  background: linear-gradient(135deg, #2e0854, #5b1a8a, #7b2fbe, #9b4ace);
   border-radius: 18px 18px 26px 26px;
   left: 9px;
-  box-shadow: inset 0 0 15px rgba(180, 100, 255, 0.3);
+  box-shadow:
+    inset 0 0 15px rgba(180, 100, 255, 0.3),
+    0 0 12px rgba(123, 47, 190, 0.4),
+    0 4px 10px rgba(0, 0, 0, 0.4);
+  animation: rexomega-breathe 2s ease-in-out infinite;
+}
+
+@keyframes rexomega-breathe {
+  0%, 100% { box-shadow: inset 0 0 15px rgba(180, 100, 255, 0.3), 0 0 12px rgba(123, 47, 190, 0.4), 0 4px 10px rgba(0, 0, 0, 0.4); }
+  50% { box-shadow: inset 0 0 20px rgba(180, 100, 255, 0.5), 0 0 20px rgba(123, 47, 190, 0.6), 0 4px 14px rgba(0, 0, 0, 0.5); }
 }
 
 .monster-rexomega .eyes {
   top: 18px;
-  left: 16px;
-  gap: 10px;
+  left: 14px;
+  gap: 12px;
 }
 
 .monster-rexomega .eye {
@@ -2860,73 +2926,89 @@
   height: 12px;
   background: #fff;
   border-radius: 50%;
+  box-shadow: 0 0 8px rgba(255, 48, 48, 0.5);
 }
 
 .monster-rexomega .eye::after {
   width: 8px;
   height: 8px;
-  background: radial-gradient(circle, #ff3030, #8b0000);
+  background: radial-gradient(circle, #ff4444, #ff3030, #8b0000);
   top: 2px;
   left: 4px;
   border-radius: 50%;
+  box-shadow: 0 0 4px #ff3030;
+  animation: rexomega-eyes 2.5s ease-in-out infinite;
+}
+
+@keyframes rexomega-eyes {
+  0%, 100% { box-shadow: 0 0 4px #ff3030; }
+  50% { box-shadow: 0 0 10px #ff3030, 0 0 16px rgba(255, 0, 0, 0.3); }
 }
 
 .monster-rexomega .mouth {
-  width: 28px;
-  height: 10px;
+  width: 30px;
+  height: 12px;
   background: #0a0014;
   border-radius: 0 0 10px 10px;
   top: 42px;
-  left: 26px;
+  left: 25px;
+  box-shadow: inset 0 -3px 6px rgba(123, 47, 190, 0.3);
 }
 
-/* Rexomega jagged teeth */
+/* Rexomega jagged teeth — top and bottom */
 .monster-rexomega .mouth::before {
   content: '';
   position: absolute;
   top: 0;
   left: 2px;
-  width: 24px;
-  height: 5px;
+  width: 26px;
+  height: 6px;
   background: repeating-linear-gradient(90deg, #fff 0px, #fff 2px, transparent 2px, transparent 5px);
   clip-path: polygon(0% 0%, 8% 100%, 16% 0%, 24% 100%, 33% 0%, 41% 100%, 50% 0%, 58% 100%, 66% 0%, 75% 100%, 83% 0%, 91% 100%, 100% 0%);
 }
 
-/* Rexomega massive horns */
+/* Rexomega massive horns — glowing tips */
 .monster-rexomega .body::before {
   content: '';
   position: absolute;
-  width: 8px;
-  height: 24px;
-  background: linear-gradient(to top, #5b1a8a, #222);
-  border-radius: 4px 4px 0 0;
-  top: -20px;
-  left: 8px;
+  width: 9px;
+  height: 28px;
+  background: linear-gradient(to top, #5b1a8a, #333, #fff);
+  border-radius: 4px 4px 1px 1px;
+  top: -24px;
+  left: 7px;
   transform: rotate(-18deg);
+  filter: drop-shadow(0 -3px 4px rgba(180, 100, 255, 0.4));
 }
 
 .monster-rexomega .body::after {
   content: '';
   position: absolute;
-  width: 8px;
-  height: 24px;
-  background: linear-gradient(to top, #5b1a8a, #222);
-  border-radius: 4px 4px 0 0;
-  top: -20px;
-  right: 8px;
+  width: 9px;
+  height: 28px;
+  background: linear-gradient(to top, #5b1a8a, #333, #fff);
+  border-radius: 4px 4px 1px 1px;
+  top: -24px;
+  right: 7px;
   transform: rotate(18deg);
+  filter: drop-shadow(0 -3px 4px rgba(180, 100, 255, 0.4));
 }
 
-/* Rexomega primeval aura */
+/* Rexomega primeval aura — double layered */
 .monster-rexomega .tail {
   position: absolute;
-  width: 82px;
-  height: 82px;
+  width: 86px;
+  height: 86px;
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(123, 47, 190, 0.3) 0%, rgba(180, 100, 255, 0.1) 50%, transparent 70%);
-  top: -1px;
-  left: -1px;
-  animation: primeval-pulse 1.8s ease-in-out infinite;
+  background: radial-gradient(circle, rgba(155, 74, 206, 0.35) 0%, rgba(180, 100, 255, 0.15) 40%, transparent 70%);
+  top: -3px;
+  left: -3px;
+  animation: rexomega-aura 1.8s ease-in-out infinite;
+}
+
+@keyframes rexomega-aura {
+  0%, 100% { opacity: 0.5; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.1); }
 }
 
 @keyframes primeval-pulse {
@@ -2938,43 +3020,59 @@
 .monster-boss-primeval .body {
   width: 68px;
   height: 62px;
-  background: linear-gradient(135deg, #3a0066, #6b1a9e, #8b3abe);
+  background: linear-gradient(135deg, #3a0066, #6b1a9e, #8b3abe, #9b4ace);
   border-radius: 14px 14px 28px 28px;
   left: 6px;
-  box-shadow: inset 0 -10px 20px rgba(200, 120, 255, 0.2);
-  border: 2px solid #9b4ace;
+  box-shadow:
+    inset 0 -10px 20px rgba(200, 120, 255, 0.2),
+    0 0 16px rgba(155, 74, 206, 0.5),
+    0 4px 12px rgba(0, 0, 0, 0.5);
+  border: 2px solid #b060e0;
+  animation: boss-primeval-pulse 2s ease-in-out infinite;
+}
+
+@keyframes boss-primeval-pulse {
+  0%, 100% { box-shadow: inset 0 -10px 20px rgba(200, 120, 255, 0.2), 0 0 16px rgba(155, 74, 206, 0.5), 0 4px 12px rgba(0, 0, 0, 0.5); }
+  50% { box-shadow: inset 0 -10px 20px rgba(200, 120, 255, 0.4), 0 0 28px rgba(155, 74, 206, 0.7), 0 4px 16px rgba(0, 0, 0, 0.6); }
 }
 
 .monster-boss-primeval .eyes {
   top: 22px;
-  left: 14px;
-  gap: 14px;
+  left: 12px;
+  gap: 16px;
 }
 
 .monster-boss-primeval .eye {
-  width: 16px;
-  height: 12px;
+  width: 18px;
+  height: 14px;
   background: #ff4400;
   border-radius: 3px;
-  box-shadow: 0 0 6px rgba(255, 68, 0, 0.5);
+  box-shadow: 0 0 10px rgba(255, 68, 0, 0.7);
+  animation: boss-eye-flicker 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes boss-eye-flicker {
+  0% { box-shadow: 0 0 8px rgba(255, 68, 0, 0.5); }
+  100% { box-shadow: 0 0 14px rgba(255, 68, 0, 0.9), 0 0 20px rgba(255, 0, 0, 0.3); }
 }
 
 .monster-boss-primeval .eye::after {
-  width: 8px;
-  height: 8px;
-  background: #ffd700;
-  top: 2px;
-  left: 4px;
+  width: 9px;
+  height: 9px;
+  background: radial-gradient(circle, #fff, #ffd700);
+  top: 3px;
+  left: 5px;
   border-radius: 2px;
 }
 
 .monster-boss-primeval .mouth {
-  width: 30px;
-  height: 10px;
+  width: 32px;
+  height: 12px;
   background: #0a0014;
-  border-radius: 0 0 8px 8px;
+  border-radius: 0 0 10px 10px;
   top: 44px;
-  left: 25px;
+  left: 24px;
+  box-shadow: inset 0 -4px 8px rgba(155, 74, 206, 0.3);
 }
 
 /* Rex Primeval jagged teeth */
@@ -2983,46 +3081,53 @@
   position: absolute;
   top: 0;
   left: 2px;
-  width: 26px;
-  height: 5px;
+  width: 28px;
+  height: 6px;
   background: repeating-linear-gradient(90deg, #fff 0px, #fff 2px, transparent 2px, transparent 5px);
   clip-path: polygon(0% 0%, 5% 100%, 10% 0%, 15% 100%, 20% 0%, 25% 100%, 30% 0%, 35% 100%, 40% 0%, 45% 100%, 50% 0%, 55% 100%, 60% 0%, 65% 100%, 70% 0%, 75% 100%, 80% 0%, 85% 100%, 90% 0%, 95% 100%, 100% 0%);
 }
 
-/* Rex Primeval crown */
+/* Rex Primeval crown — grander with gems */
 .monster-boss-primeval .body::before {
   content: '';
   position: absolute;
-  width: 58px;
-  height: 22px;
-  background: linear-gradient(to top, #8b3abe, #ffd700);
-  clip-path: polygon(0% 100%, 10% 30%, 20% 100%, 35% 0%, 50% 100%, 65% 0%, 80% 100%, 90% 30%, 100% 100%);
-  top: -20px;
-  left: 3px;
+  width: 62px;
+  height: 26px;
+  background: linear-gradient(to top, #8b3abe, #daa520, #ffd700);
+  clip-path: polygon(0% 100%, 8% 40%, 16% 100%, 30% 0%, 44% 100%, 50% 60%, 56% 100%, 70% 0%, 84% 100%, 92% 40%, 100% 100%);
+  top: -24px;
+  left: 1px;
+  filter: drop-shadow(0 -3px 6px rgba(255, 215, 0, 0.4));
 }
 
-/* Rex Primeval jewel */
+/* Rex Primeval jewel — pulsing */
 .monster-boss-primeval .body::after {
   content: '';
   position: absolute;
-  width: 12px;
-  height: 12px;
-  background: radial-gradient(circle, #ff00ff, #8b008b);
+  width: 14px;
+  height: 14px;
+  background: radial-gradient(circle, #ff66ff, #ff00ff, #8b008b);
   border-radius: 50%;
-  top: 6px;
-  left: 26px;
-  box-shadow: 0 0 10px #ff00ff, 0 0 20px rgba(255, 0, 255, 0.3);
+  top: 5px;
+  left: 25px;
+  box-shadow: 0 0 10px #ff00ff, 0 0 24px rgba(255, 0, 255, 0.4);
+  animation: boss-jewel 1.3s ease-in-out infinite;
 }
 
-/* Rex Primeval primeval aura */
+@keyframes boss-jewel {
+  0%, 100% { box-shadow: 0 0 10px #ff00ff, 0 0 24px rgba(255, 0, 255, 0.4); transform: scale(1); }
+  50% { box-shadow: 0 0 16px #ff00ff, 0 0 36px rgba(255, 0, 255, 0.6); transform: scale(1.15); }
+}
+
+/* Rex Primeval primeval aura — massive */
 .monster-boss-primeval .tail {
   position: absolute;
-  width: 82px;
-  height: 82px;
+  width: 90px;
+  height: 90px;
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(139, 58, 190, 0.3) 0%, rgba(255, 0, 255, 0.08) 50%, transparent 70%);
-  top: -1px;
-  left: -1px;
+  background: radial-gradient(circle, rgba(155, 74, 206, 0.35) 0%, rgba(255, 0, 255, 0.12) 40%, transparent 70%);
+  top: -5px;
+  left: -5px;
   animation: primeval-pulse 1.5s ease-in-out infinite;
 }
 

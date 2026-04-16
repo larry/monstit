@@ -321,6 +321,113 @@
   100% { transform: translateY(-100px) scale(2); opacity: 0; }
 }
 
+/* --- Primeval: Jungle --- */
+.battle-field--primeval {
+  background: linear-gradient(180deg, #0a1a08 0%, #152e10 30%, #1e3b16 60%, #2a1a08 100%);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.world-decor--primeval {
+  /* Misty jungle floor */
+  border-bottom: 5px solid #1a1206;
+  background:
+    /* Ground fog */
+    linear-gradient(0deg, rgba(100, 180, 80, 0.08) 0%, transparent 20%),
+    /* Canopy shadow from top */
+    linear-gradient(180deg, rgba(0, 0, 0, 0.35) 0%, transparent 25%);
+}
+
+/* Left jungle tree — tall trunk with bushy canopy */
+.world-decor--primeval::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 4px;
+  width: 14px;
+  height: 100%;
+  background:
+    /* Canopy leaves (top blob) */
+    radial-gradient(ellipse 32px 40px at 7px 12px, #1a5c10 0%, #1a5c10 55%, transparent 56%),
+    radial-gradient(ellipse 24px 28px at 20px 22px, #237a16 0%, #237a16 55%, transparent 56%),
+    radial-gradient(ellipse 28px 32px at -4px 26px, #1e6e12 0%, #1e6e12 55%, transparent 56%),
+    /* Hanging vines */
+    linear-gradient(180deg, transparent 10%, #2a8a1e 10%, #2a8a1e 11%, transparent 11%,
+      transparent 24%, #1e7a14 24%, #1e7a14 25%, transparent 25%),
+    /* Trunk */
+    linear-gradient(90deg, #3a2410 0%, #5a3820 40%, #4a2e18 100%);
+  border-radius: 4px 4px 0 0;
+}
+
+/* Right jungle tree — different shape */
+.world-decor--primeval::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 6px;
+  width: 12px;
+  height: 90%;
+  background:
+    /* Canopy */
+    radial-gradient(ellipse 26px 34px at 6px 8px, #1e6e12 0%, #1e6e12 55%, transparent 56%),
+    radial-gradient(ellipse 22px 26px at 16px 16px, #2a8a1e 0%, #2a8a1e 55%, transparent 56%),
+    /* Ferns hanging */
+    linear-gradient(180deg, transparent 14%, #237a16 14%, #237a16 15%, transparent 15%,
+      transparent 30%, #2a8a1e 30%, #2a8a1e 31%, transparent 31%),
+    /* Trunk */
+    linear-gradient(90deg, #4a2e18 0%, #5a3820 50%, #3a2410 100%);
+  border-radius: 4px 4px 0 0;
+}
+
+/* Fireflies / spores floating in the jungle */
+@keyframes jungle-firefly {
+  0% { transform: translate(0, 0); opacity: 0; }
+  20% { opacity: 0.8; }
+  50% { opacity: 0.4; }
+  80% { opacity: 0.7; }
+  100% { transform: translate(30px, -40px); opacity: 0; }
+}
+
+@keyframes jungle-firefly2 {
+  0% { transform: translate(0, 0); opacity: 0; }
+  30% { opacity: 0.6; }
+  60% { opacity: 0.9; }
+  100% { transform: translate(-20px, -50px); opacity: 0; }
+}
+
+/* Fireflies via box-shadows on the field */
+.battle-field--primeval {
+  position: relative;
+}
+
+.battle-field--primeval::before {
+  content: '';
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: #a0ff60;
+  box-shadow: 0 0 6px 2px rgba(160, 255, 96, 0.6);
+  bottom: 30%;
+  left: 25%;
+  animation: jungle-firefly 5s ease-in-out infinite;
+  z-index: 0;
+}
+
+.battle-field--primeval::after {
+  content: '';
+  position: absolute;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background: #c0ff80;
+  box-shadow: 0 0 5px 2px rgba(192, 255, 128, 0.5);
+  bottom: 50%;
+  right: 30%;
+  animation: jungle-firefly2 6.5s ease-in-out 2s infinite;
+  z-index: 0;
+}
+
 /* === Quiz Panel === */
 .battle-actions {
   min-height: 200px;

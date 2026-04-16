@@ -348,6 +348,89 @@ function scheduleBattle(startTime) {
   return loopDur;
 }
 
+function schedulePrimeval(startTime) {
+  const c = getCtx();
+  const dest = getTrackDest();
+  const bpm = 72;
+  const beat = 60 / bpm;
+  const totalBeats = 32;
+  const loopDur = totalBeats * beat;
+
+  // Majestic Jurassic-inspired melody — Bb major, sweeping and grand
+  // Phrase 1: The wonder theme (rising, awe-inspiring)
+  const melody1 = [
+    58, -1, 65, 65, 67, -1, 70, -1,   // Bb . F F G . Bb .
+    70, 69, 67, -1, 65, -1, -1, -1,    // Bb A G . F . . .
+  ];
+  // Phrase 2: The grandeur repeat (higher, triumphant)
+  const melody2 = [
+    70, -1, 72, 74, 77, -1, 74, -1,   // Bb . C D F . D .
+    74, 72, 70, -1, 67, -1, 65, -1,    // D C Bb . G . F .
+  ];
+  const melody = [...melody1, ...melody2];
+  melody.forEach((note, i) => {
+    if (note < 0) return;
+    // Use a warm horn-like triangle + sine layering
+    createOsc('triangle', noteFreq(note), 0.11, startTime + i * beat, beat * 0.85, dest);
+    createOsc('sine', noteFreq(note), 0.06, startTime + i * beat + 0.01, beat * 0.7, dest);
+  });
+
+  // Counter-melody — higher register twinkling, like strings
+  const counter = [
+    -1, -1, -1, -1, 77, 79, 77, -1,
+    -1, -1, 74, -1, -1, -1, -1, -1,
+    -1, -1, -1, -1, 82, 81, 79, -1,
+    77, -1, -1, -1, 74, -1, -1, -1,
+  ];
+  counter.forEach((note, i) => {
+    if (note < 0) return;
+    createOsc('sine', noteFreq(note), 0.05, startTime + i * beat, beat * 0.6, dest);
+  });
+
+  // Deep, rumbling bass — like distant thunder / giant footsteps
+  const bass = [
+    46, -1, -1, 46, -1, -1, 46, -1,
+    44, -1, -1, 44, -1, -1, 43, -1,
+    46, -1, -1, 46, -1, -1, 48, -1,
+    46, -1, -1, 44, -1, -1, 43, -1,
+  ];
+  bass.forEach((note, i) => {
+    if (note < 0) return;
+    createOsc('sine', noteFreq(note), 0.14, startTime + i * beat, beat * 1.2, dest);
+    // Sub-bass octave for rumble
+    createOsc('sine', noteFreq(note - 12), 0.08, startTime + i * beat, beat * 1.0, dest);
+  });
+
+  // Grand orchestral pads — warm, sweeping chords
+  const chords = [
+    { notes: [58, 62, 65, 70], start: 0, dur: 4 },   // Bb major
+    { notes: [58, 62, 65, 69], start: 4, dur: 4 },   // Bb with A (passing)
+    { notes: [55, 60, 63, 67], start: 8, dur: 4 },   // Eb major
+    { notes: [53, 58, 62, 65], start: 12, dur: 4 },  // F major (dominant)
+    { notes: [58, 62, 65, 70], start: 16, dur: 4 },  // Bb major
+    { notes: [60, 63, 67, 72], start: 20, dur: 4 },  // Cm (relative minor, drama)
+    { notes: [55, 60, 63, 67], start: 24, dur: 4 },  // Eb major
+    { notes: [53, 58, 62, 65], start: 28, dur: 4 },  // F major (resolve)
+  ];
+  chords.forEach(ch => {
+    ch.notes.forEach(n => {
+      createPad(noteFreq(n), 0.035, startTime + ch.start * beat, ch.dur * beat, dest);
+      // Octave shimmer for grandeur
+      createPad(noteFreq(n + 12), 0.012, startTime + ch.start * beat + 0.15, ch.dur * beat - 0.15, dest);
+    });
+  });
+
+  // Timpani-like rhythmic hits on key moments
+  const timpani = [0, -1, -1, -1, 4, -1, -1, -1, 8, -1, -1, -1, 12, -1, 14, -1,
+                   16, -1, -1, -1, 20, -1, -1, -1, 24, -1, -1, -1, 28, -1, 30, -1];
+  timpani.forEach((hit, i) => {
+    if (hit < 0) return;
+    createOsc('sine', noteFreq(34), 0.08, startTime + i * beat, beat * 0.2, dest);
+  });
+
+  return loopDur;
+}
+
 // ============= TRACK MAP =============
 
 const TRACKS = {
@@ -357,6 +440,7 @@ const TRACKS = {
   cloud: scheduleCloud,
   sand: scheduleSand,
   fire: scheduleFire,
+  primeval: schedulePrimeval,
   battle: scheduleBattle,
 };
 

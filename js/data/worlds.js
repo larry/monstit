@@ -81,14 +81,17 @@ export const WORLDS = [
     icon: '\u{1F996}',
     color: '#9b4ace',
     bgGradient: 'linear-gradient(135deg, #2e0854, #1a0033)',
-    description: 'A prehistoric land where dinosaurs still roam.',
+    description: 'A prehistoric land where dinosaurs still roam. Survive the age of giants!',
     event: true,
     levels: [
-      { level: 1, name: 'Fossil Fields',    aiLevel: 10, accuracy: 0.50, difficulty: 1, monsterPool: ['hatchling'],               gems: 12, xp: 25 },
-      { level: 2, name: 'Tar Pits',          aiLevel: 13, accuracy: 0.55, difficulty: 2, monsterPool: ['hatchling', 'stegowl'],   gems: 16, xp: 35 },
-      { level: 3, name: 'Raptor Valley',     aiLevel: 16, accuracy: 0.60, difficulty: 2, monsterPool: ['stegowl', 'tricerash'],   gems: 22, xp: 45 },
-      { level: 4, name: 'Volcano Nest',      aiLevel: 19, accuracy: 0.70, difficulty: 3, monsterPool: ['tricerash', 'raptorex'],  gems: 30, xp: 60 },
-      { level: 5, name: 'Rex Primeval',      aiLevel: 24, accuracy: 0.85, difficulty: 3, monsterPool: ['raptorex'],               gems: 80, xp: 150, boss: true, bossName: 'Rex Primeval', bossMonster: 'raptorex', bossCssClass: 'monster-boss-primeval', bossHpMult: 1.8, bossAtkMult: 1.5 },
+      { level: 1, name: 'Fossil Fields',      aiLevel: 10, accuracy: 0.50, difficulty: 1, monsterPool: ['hatchling'],                          gems: 12, xp: 25 },
+      { level: 2, name: 'Tar Pits',            aiLevel: 13, accuracy: 0.55, difficulty: 2, monsterPool: ['hatchling', 'stegowl'],               gems: 16, xp: 35 },
+      { level: 3, name: 'Raptor Valley',       aiLevel: 16, accuracy: 0.60, difficulty: 2, monsterPool: ['stegowl', 'tricerash'],               gems: 22, xp: 45 },
+      { level: 4, name: 'Amber Jungle',        aiLevel: 18, accuracy: 0.65, difficulty: 2, monsterPool: ['hatchling', 'tricerash', 'stegowl'],  gems: 26, xp: 55 },
+      { level: 5, name: 'Volcano Nest',        aiLevel: 20, accuracy: 0.70, difficulty: 3, monsterPool: ['tricerash', 'raptorex'],              gems: 32, xp: 65 },
+      { level: 6, name: 'Bone Graveyard',      aiLevel: 22, accuracy: 0.75, difficulty: 3, monsterPool: ['raptorex', 'tricerash'],              gems: 40, xp: 80 },
+      { level: 7, name: 'Meteor Crater',       aiLevel: 25, accuracy: 0.80, difficulty: 3, monsterPool: ['raptorex', 'rexomega'],               gems: 55, xp: 110 },
+      { level: 8, name: 'Rex Primeval',        aiLevel: 28, accuracy: 0.88, difficulty: 3, monsterPool: ['rexomega'],                           gems: 120, xp: 250, boss: true, bossName: 'Rex Primeval', bossMonster: 'rexomega', bossCssClass: 'monster-boss-primeval', bossHpMult: 2.0, bossAtkMult: 1.6 },
     ]
   }
 ];

@@ -62,7 +62,8 @@ function renderWorldMap() {
     const card = document.createElement('div');
     card.className = 'world-card';
     if (!unlocked) card.classList.add('world-locked');
-    if (progress >= 5) card.classList.add('world-complete');
+    const totalLevels = world.levels.length;
+    if (progress >= totalLevels) card.classList.add('world-complete');
 
     card.style.borderColor = unlocked ? world.color : '#333';
 
@@ -70,9 +71,9 @@ function renderWorldMap() {
       <div class="world-icon">${world.icon}</div>
       <div class="world-info">
         <div class="world-name" style="color: ${unlocked ? world.color : 'var(--text-secondary)'}">${world.name}</div>
-        <div class="world-progress-text">${unlocked ? (progress >= 5 ? 'Complete!' : `${progress}/5`) : 'Locked'}</div>
+        <div class="world-progress-text">${unlocked ? (progress >= totalLevels ? 'Complete!' : `${progress}/${totalLevels}`) : 'Locked'}</div>
         <div class="world-progress-bar">
-          <div class="world-progress-fill" style="width: ${(progress / 5) * 100}%; background: ${world.color}"></div>
+          <div class="world-progress-fill" style="width: ${(progress / totalLevels) * 100}%; background: ${world.color}"></div>
         </div>
       </div>
     `;

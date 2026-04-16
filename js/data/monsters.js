@@ -283,6 +283,76 @@ export const MONSTERS = [
     baseDefense: 21,
     description: 'An ancient sphinx who speaks in riddles. Those who fail her test are turned to sand.',
     cssClass: 'monster-sphinxara'
+  },
+
+  // ── Dinosaur monsters (Season 2: Primeval Attack) ──
+  {
+    id: 'hatchling',
+    name: 'Hatchling',
+    type: 'dino',
+    rarity: 'common',
+    baseHp: 85,
+    baseAttack: 13,
+    baseDefense: 10,
+    description: 'A tiny raptor just out of its egg. Fast, curious, and bitey.',
+    cssClass: 'monster-hatchling'
+  },
+  {
+    id: 'stegowl',
+    name: 'Stegowl',
+    type: 'dino',
+    rarity: 'rare',
+    baseHp: 110,
+    baseAttack: 14,
+    baseDefense: 18,
+    description: 'A plated beast with wise owl-like eyes and armored back fins.',
+    cssClass: 'monster-stegowl'
+  },
+  {
+    id: 'tricerash',
+    name: 'Tricerash',
+    type: 'dino',
+    rarity: 'epic',
+    baseHp: 130,
+    baseAttack: 19,
+    baseDefense: 20,
+    description: 'A three-horned charger that crashes through anything in its path.',
+    cssClass: 'monster-tricerash'
+  },
+  {
+    id: 'raptorex',
+    name: 'Raptorex',
+    type: 'dino',
+    rarity: 'legendary',
+    baseHp: 150,
+    baseAttack: 24,
+    baseDefense: 16,
+    description: 'A lightning-fast predator with razor claws and cunning intelligence.',
+    cssClass: 'monster-raptorex'
+  },
+  {
+    id: 'rexomega',
+    name: 'Rexomega',
+    type: 'dino',
+    rarity: 'incredible',
+    baseHp: 180,
+    baseAttack: 28,
+    baseDefense: 20,
+    description: 'The undisputed king of all dinosaurs. Its roar shakes the primeval world.',
+    cssClass: 'monster-rexomega'
+  },
+  // ── Code-exclusive monsters ──
+  {
+    id: 'omnistrike',
+    name: 'Omnistrike',
+    type: 'cloud',
+    rarity: 'incredible',
+    baseHp: 999,
+    baseAttack: 999,
+    baseDefense: 999,
+    description: 'A godlike entity that destroys anything in a single blow. Only the chosen may wield it.',
+    cssClass: 'monster-omnistrike',
+    codeExclusive: true
   }
 ];
 

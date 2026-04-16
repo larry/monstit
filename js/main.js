@@ -8,6 +8,8 @@ import * as battleSelectScreen from './screens/battle-select.js';
 import * as battleScreen from './screens/battle.js';
 import * as pvpScreen from './screens/pvp.js';
 import * as pvpBattleScreen from './screens/pvp-battle.js';
+import * as codesScreen from './screens/codes.js';
+import * as eventsScreen from './screens/events.js';
 import * as minigamesScreen from './screens/minigames.js';
 import * as ctfScreen from './screens/ctf.js';
 import * as towerDefenseScreen from './screens/tower-defense.js';
@@ -22,6 +24,8 @@ const screens = {
   shop: { el: null, module: shopScreen },
   challenges: { el: null, module: challengesScreen },
   'battle-pass': { el: null, module: battlePassScreen },
+  codes: { el: null, module: codesScreen },
+  events: { el: null, module: eventsScreen },
   'battle-select': { el: null, module: battleSelectScreen },
   battle: { el: null, module: battleScreen },
   pvp: { el: null, module: pvpScreen },
@@ -41,6 +45,8 @@ const SCREEN_MUSIC = {
   shop: 'menu',
   challenges: 'menu',
   'battle-pass': 'menu',
+  codes: 'menu',
+  events: 'menu',
   'battle-select': 'menu',
   battle: 'battle',
   pvp: 'menu',
@@ -122,6 +128,8 @@ async function init() {
   shopScreen.init(navigateTo);
   challengesScreen.init(navigateTo);
   battlePassScreen.init(navigateTo);
+  codesScreen.init(navigateTo);
+  eventsScreen.init(navigateTo);
   battleSelectScreen.init(navigateTo, startBattle);
   battleScreen.init(navigateTo);
   pvpScreen.init(navigateTo, startPvpBattle);

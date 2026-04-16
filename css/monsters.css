@@ -2498,6 +2498,637 @@
   50% { opacity: 1; transform: scale(1.08); }
 }
 
+/* ============================================================
+   DINOSAUR MONSTERS — Season 2: Time Warp
+   ============================================================ */
+
+/* === Hatchling (Dino, Common) — Tiny baby raptor === */
+.monster-hatchling .body {
+  width: 42px;
+  height: 40px;
+  background: linear-gradient(135deg, #6dbf47, #4a9e2e);
+  border-radius: 20px 20px 18px 18px;
+  left: 18px;
+  bottom: 2px;
+}
+
+.monster-hatchling .eyes {
+  top: 18px;
+  left: 24px;
+  gap: 6px;
+}
+
+.monster-hatchling .eye {
+  width: 12px;
+  height: 12px;
+}
+
+.monster-hatchling .eye::after {
+  width: 6px;
+  height: 6px;
+  top: 3px;
+  left: 4px;
+}
+
+.monster-hatchling .mouth {
+  width: 10px;
+  height: 4px;
+  background: #2d6b14;
+  border-radius: 0 0 4px 4px;
+  top: 34px;
+  left: 35px;
+}
+
+/* Hatchling tiny arms */
+.monster-hatchling .body::before {
+  content: '';
+  position: absolute;
+  width: 8px;
+  height: 12px;
+  background: #5aad36;
+  border-radius: 4px 0 4px 4px;
+  top: 18px;
+  left: -6px;
+  transform: rotate(15deg);
+}
+
+.monster-hatchling .body::after {
+  content: '';
+  position: absolute;
+  width: 8px;
+  height: 12px;
+  background: #5aad36;
+  border-radius: 0 4px 4px 4px;
+  top: 18px;
+  right: -6px;
+  transform: rotate(-15deg);
+}
+
+/* Hatchling tail */
+.monster-hatchling .tail {
+  position: absolute;
+  bottom: 6px;
+  right: 8px;
+  width: 14px;
+  height: 8px;
+  background: #5aad36;
+  border-radius: 0 8px 4px 0;
+  transform: rotate(-10deg);
+}
+
+/* === Stegowl (Dino, Rare) — Plated armored dino with wise eyes === */
+.monster-stegowl .body {
+  width: 56px;
+  height: 48px;
+  background: linear-gradient(135deg, #5a7a8a, #3d5a6a);
+  border-radius: 28px 28px 24px 24px;
+  left: 12px;
+}
+
+.monster-stegowl .eyes {
+  top: 18px;
+  left: 20px;
+  gap: 10px;
+}
+
+.monster-stegowl .eye {
+  width: 14px;
+  height: 14px;
+  background: #ffd700;
+  border-radius: 50%;
+}
+
+.monster-stegowl .eye::after {
+  width: 7px;
+  height: 7px;
+  background: #1a1a2e;
+  top: 4px;
+  left: 4px;
+  border-radius: 50%;
+}
+
+.monster-stegowl .mouth {
+  width: 12px;
+  height: 4px;
+  background: #2a3a44;
+  border-radius: 0 0 4px 4px;
+  top: 40px;
+  left: 34px;
+}
+
+/* Stegowl back plates */
+.monster-stegowl .body::before {
+  content: '';
+  position: absolute;
+  width: 44px;
+  height: 14px;
+  background: linear-gradient(to top, #3d5a6a, #7a9aaa);
+  clip-path: polygon(0% 100%, 12% 0%, 24% 100%, 38% 0%, 52% 100%, 66% 0%, 78% 100%, 90% 0%, 100% 100%);
+  top: -12px;
+  left: 5px;
+}
+
+/* Stegowl tail spikes */
+.monster-stegowl .tail {
+  position: absolute;
+  bottom: 8px;
+  right: 2px;
+  width: 16px;
+  height: 20px;
+  background: #3d5a6a;
+  border-radius: 0 10px 4px 0;
+}
+
+.monster-stegowl .tail::before {
+  content: '';
+  position: absolute;
+  width: 6px;
+  height: 10px;
+  background: #7a9aaa;
+  border-radius: 3px 3px 0 0;
+  top: -8px;
+  left: 5px;
+  transform: rotate(15deg);
+}
+
+/* === Tricerash (Dino, Epic) — Three-horned charger === */
+.monster-tricerash .body {
+  width: 58px;
+  height: 52px;
+  background: linear-gradient(135deg, #b8860b, #daa520);
+  border-radius: 15px 15px 26px 26px;
+  left: 11px;
+}
+
+.monster-tricerash .eyes {
+  top: 22px;
+  left: 20px;
+  gap: 10px;
+}
+
+.monster-tricerash .eye {
+  width: 12px;
+  height: 10px;
+  background: #fff;
+  border-radius: 50%;
+}
+
+.monster-tricerash .eye::after {
+  width: 6px;
+  height: 6px;
+  background: #8b4513;
+  top: 2px;
+  left: 4px;
+  border-radius: 50%;
+}
+
+.monster-tricerash .mouth {
+  width: 18px;
+  height: 5px;
+  background: #8b6508;
+  border-radius: 0 0 6px 6px;
+  top: 40px;
+  left: 31px;
+}
+
+/* Tricerash frill/shield */
+.monster-tricerash .body::before {
+  content: '';
+  position: absolute;
+  width: 52px;
+  height: 20px;
+  background: linear-gradient(135deg, #cd9b1d, #eec900);
+  border-radius: 30px 30px 0 0;
+  top: -16px;
+  left: 2px;
+  border: 2px solid #b8860b;
+  border-bottom: none;
+}
+
+/* Tricerash center horn */
+.monster-tricerash .body::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  height: 18px;
+  background: linear-gradient(to top, #daa520, #f5f5dc);
+  border-radius: 3px 3px 0 0;
+  top: -14px;
+  left: 25px;
+}
+
+/* Tricerash side horns */
+.monster-tricerash .tail {
+  position: absolute;
+  top: 16px;
+  left: 12px;
+  width: 56px;
+  height: 10px;
+}
+
+.monster-tricerash .tail::before {
+  content: '';
+  position: absolute;
+  width: 4px;
+  height: 14px;
+  background: linear-gradient(to top, #daa520, #f5f5dc);
+  border-radius: 2px;
+  top: -8px;
+  left: 2px;
+  transform: rotate(-20deg);
+}
+
+.monster-tricerash .tail::after {
+  content: '';
+  position: absolute;
+  width: 4px;
+  height: 14px;
+  background: linear-gradient(to top, #daa520, #f5f5dc);
+  border-radius: 2px;
+  top: -8px;
+  right: 2px;
+  transform: rotate(20deg);
+}
+
+/* === Raptorex (Dino, Legendary) — Fast predator with claws === */
+.monster-raptorex .body {
+  width: 50px;
+  height: 55px;
+  background: linear-gradient(135deg, #8b2500, #cd3700);
+  border-radius: 22px 22px 20px 20px;
+  left: 15px;
+}
+
+.monster-raptorex .eyes {
+  top: 14px;
+  left: 22px;
+  gap: 6px;
+}
+
+.monster-raptorex .eye {
+  width: 14px;
+  height: 10px;
+  background: #ffd700;
+  border-radius: 2px 2px 7px 7px;
+}
+
+.monster-raptorex .eye::after {
+  width: 6px;
+  height: 7px;
+  background: #1a1a2e;
+  top: 1px;
+  left: 4px;
+  border-radius: 1px;
+}
+
+.monster-raptorex .mouth {
+  width: 16px;
+  height: 5px;
+  border-bottom: 3px solid #5a1000;
+  top: 34px;
+  left: 32px;
+}
+
+/* Raptorex fangs */
+.monster-raptorex .mouth::before,
+.monster-raptorex .mouth::after {
+  content: '';
+  position: absolute;
+  width: 3px;
+  height: 5px;
+  background: #f5f5dc;
+  top: 2px;
+}
+
+.monster-raptorex .mouth::before { left: 2px; border-radius: 0 0 2px 2px; }
+.monster-raptorex .mouth::after { right: 2px; border-radius: 0 0 2px 2px; }
+
+/* Raptorex feathered crest */
+.monster-raptorex .body::before {
+  content: '';
+  position: absolute;
+  width: 30px;
+  height: 14px;
+  background: linear-gradient(to top, #cd3700, #ff6347);
+  clip-path: polygon(0% 100%, 20% 0%, 40% 70%, 60% 0%, 80% 70%, 100% 0%);
+  top: -12px;
+  left: 10px;
+}
+
+/* Raptorex claws */
+.monster-raptorex .body::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  height: 8px;
+  background: #f5f5dc;
+  clip-path: polygon(50% 100%, 0% 0%, 100% 0%);
+  bottom: -6px;
+  left: 12px;
+  box-shadow: 10px 0 0 0 #f5f5dc, 20px 0 0 0 #f5f5dc;
+}
+
+/* Raptorex speed lines aura */
+.monster-raptorex .tail {
+  position: absolute;
+  width: 76px;
+  height: 76px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(205, 55, 0, 0.2) 0%, transparent 70%);
+  top: 2px;
+  left: 2px;
+}
+
+/* === Rexomega (Dino, Incredible) — The king of dinosaurs === */
+.monster-rexomega .body {
+  width: 62px;
+  height: 62px;
+  background: linear-gradient(135deg, #2e0854, #5b1a8a, #7b2fbe);
+  border-radius: 18px 18px 26px 26px;
+  left: 9px;
+  box-shadow: inset 0 0 15px rgba(180, 100, 255, 0.3);
+}
+
+.monster-rexomega .eyes {
+  top: 18px;
+  left: 16px;
+  gap: 10px;
+}
+
+.monster-rexomega .eye {
+  width: 16px;
+  height: 12px;
+  background: #fff;
+  border-radius: 50%;
+}
+
+.monster-rexomega .eye::after {
+  width: 8px;
+  height: 8px;
+  background: radial-gradient(circle, #ff3030, #8b0000);
+  top: 2px;
+  left: 4px;
+  border-radius: 50%;
+}
+
+.monster-rexomega .mouth {
+  width: 28px;
+  height: 10px;
+  background: #0a0014;
+  border-radius: 0 0 10px 10px;
+  top: 42px;
+  left: 26px;
+}
+
+/* Rexomega jagged teeth */
+.monster-rexomega .mouth::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 2px;
+  width: 24px;
+  height: 5px;
+  background: repeating-linear-gradient(90deg, #fff 0px, #fff 2px, transparent 2px, transparent 5px);
+  clip-path: polygon(0% 0%, 8% 100%, 16% 0%, 24% 100%, 33% 0%, 41% 100%, 50% 0%, 58% 100%, 66% 0%, 75% 100%, 83% 0%, 91% 100%, 100% 0%);
+}
+
+/* Rexomega massive horns */
+.monster-rexomega .body::before {
+  content: '';
+  position: absolute;
+  width: 8px;
+  height: 24px;
+  background: linear-gradient(to top, #5b1a8a, #222);
+  border-radius: 4px 4px 0 0;
+  top: -20px;
+  left: 8px;
+  transform: rotate(-18deg);
+}
+
+.monster-rexomega .body::after {
+  content: '';
+  position: absolute;
+  width: 8px;
+  height: 24px;
+  background: linear-gradient(to top, #5b1a8a, #222);
+  border-radius: 4px 4px 0 0;
+  top: -20px;
+  right: 8px;
+  transform: rotate(18deg);
+}
+
+/* Rexomega primeval aura */
+.monster-rexomega .tail {
+  position: absolute;
+  width: 82px;
+  height: 82px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(123, 47, 190, 0.3) 0%, rgba(180, 100, 255, 0.1) 50%, transparent 70%);
+  top: -1px;
+  left: -1px;
+  animation: primeval-pulse 1.8s ease-in-out infinite;
+}
+
+@keyframes primeval-pulse {
+  0%, 100% { opacity: 0.5; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.06); }
+}
+
+/* === Rex Primeval (Dino Boss) — Giant armored T-Rex with crown === */
+.monster-boss-primeval .body {
+  width: 68px;
+  height: 62px;
+  background: linear-gradient(135deg, #3a0066, #6b1a9e, #8b3abe);
+  border-radius: 14px 14px 28px 28px;
+  left: 6px;
+  box-shadow: inset 0 -10px 20px rgba(200, 120, 255, 0.2);
+  border: 2px solid #9b4ace;
+}
+
+.monster-boss-primeval .eyes {
+  top: 22px;
+  left: 14px;
+  gap: 14px;
+}
+
+.monster-boss-primeval .eye {
+  width: 16px;
+  height: 12px;
+  background: #ff4400;
+  border-radius: 3px;
+  box-shadow: 0 0 6px rgba(255, 68, 0, 0.5);
+}
+
+.monster-boss-primeval .eye::after {
+  width: 8px;
+  height: 8px;
+  background: #ffd700;
+  top: 2px;
+  left: 4px;
+  border-radius: 2px;
+}
+
+.monster-boss-primeval .mouth {
+  width: 30px;
+  height: 10px;
+  background: #0a0014;
+  border-radius: 0 0 8px 8px;
+  top: 44px;
+  left: 25px;
+}
+
+/* Rex Primeval jagged teeth */
+.monster-boss-primeval .mouth::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 2px;
+  width: 26px;
+  height: 5px;
+  background: repeating-linear-gradient(90deg, #fff 0px, #fff 2px, transparent 2px, transparent 5px);
+  clip-path: polygon(0% 0%, 5% 100%, 10% 0%, 15% 100%, 20% 0%, 25% 100%, 30% 0%, 35% 100%, 40% 0%, 45% 100%, 50% 0%, 55% 100%, 60% 0%, 65% 100%, 70% 0%, 75% 100%, 80% 0%, 85% 100%, 90% 0%, 95% 100%, 100% 0%);
+}
+
+/* Rex Primeval crown */
+.monster-boss-primeval .body::before {
+  content: '';
+  position: absolute;
+  width: 58px;
+  height: 22px;
+  background: linear-gradient(to top, #8b3abe, #ffd700);
+  clip-path: polygon(0% 100%, 10% 30%, 20% 100%, 35% 0%, 50% 100%, 65% 0%, 80% 100%, 90% 30%, 100% 100%);
+  top: -20px;
+  left: 3px;
+}
+
+/* Rex Primeval jewel */
+.monster-boss-primeval .body::after {
+  content: '';
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  background: radial-gradient(circle, #ff00ff, #8b008b);
+  border-radius: 50%;
+  top: 6px;
+  left: 26px;
+  box-shadow: 0 0 10px #ff00ff, 0 0 20px rgba(255, 0, 255, 0.3);
+}
+
+/* Rex Primeval primeval aura */
+.monster-boss-primeval .tail {
+  position: absolute;
+  width: 82px;
+  height: 82px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(139, 58, 190, 0.3) 0%, rgba(255, 0, 255, 0.08) 50%, transparent 70%);
+  top: -1px;
+  left: -1px;
+  animation: primeval-pulse 1.5s ease-in-out infinite;
+}
+
+/* ============================================================
+   CODE-EXCLUSIVE MONSTERS
+   ============================================================ */
+
+/* === Omnistrike (Cloud, Incredible, One-Shot) — Godlike destroyer === */
+.monster-omnistrike .body {
+  width: 60px;
+  height: 62px;
+  background: linear-gradient(135deg, #000, #1a0030, #3a0060);
+  border-radius: 20px 20px 26px 26px;
+  left: 10px;
+  box-shadow:
+    inset 0 0 20px rgba(255, 255, 255, 0.1),
+    0 0 12px rgba(255, 0, 100, 0.4),
+    0 0 24px rgba(100, 0, 255, 0.2);
+}
+
+.monster-omnistrike .eyes {
+  top: 16px;
+  left: 16px;
+  gap: 10px;
+}
+
+.monster-omnistrike .eye {
+  width: 16px;
+  height: 14px;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 8px #fff, 0 0 16px rgba(255, 0, 100, 0.6);
+}
+
+.monster-omnistrike .eye::after {
+  width: 8px;
+  height: 8px;
+  background: radial-gradient(circle, #fff, #ff0064, #6400ff);
+  top: 3px;
+  left: 4px;
+  border-radius: 50%;
+  box-shadow: 0 0 4px #ff0064;
+}
+
+.monster-omnistrike .mouth {
+  width: 16px;
+  height: 5px;
+  border-bottom: 2px solid rgba(255, 0, 100, 0.6);
+  border-radius: 0 0 8px 8px;
+  top: 40px;
+  left: 32px;
+}
+
+/* Omnistrike crown of destruction */
+.monster-omnistrike .body::before {
+  content: '';
+  position: absolute;
+  width: 54px;
+  height: 22px;
+  background: linear-gradient(to top, #3a0060, #ff0064, #ffd700);
+  clip-path: polygon(0% 100%, 8% 0%, 20% 70%, 35% 0%, 50% 60%, 65% 0%, 80% 70%, 92% 0%, 100% 100%);
+  top: -20px;
+  left: 2px;
+  filter: drop-shadow(0 0 6px #ff0064);
+}
+
+/* Omnistrike core jewel */
+.monster-omnistrike .body::after {
+  content: '';
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  background: radial-gradient(circle, #fff, #ff0064, #6400ff);
+  border-radius: 50%;
+  top: 6px;
+  left: 22px;
+  box-shadow: 0 0 10px #ff0064, 0 0 20px rgba(100, 0, 255, 0.5), 0 0 30px rgba(255, 0, 100, 0.3);
+  animation: omnistrike-core 1.2s ease-in-out infinite;
+}
+
+/* Omnistrike devastating aura */
+.monster-omnistrike .tail {
+  position: absolute;
+  width: 84px;
+  height: 84px;
+  border-radius: 50%;
+  background: radial-gradient(circle,
+    rgba(255, 0, 100, 0.25) 0%,
+    rgba(100, 0, 255, 0.15) 30%,
+    rgba(255, 215, 0, 0.05) 60%,
+    transparent 70%);
+  top: -2px;
+  left: -2px;
+  animation: omnistrike-pulse 1.5s ease-in-out infinite;
+}
+
+@keyframes omnistrike-core {
+  0%, 100% { box-shadow: 0 0 10px #ff0064, 0 0 20px rgba(100, 0, 255, 0.5); transform: scale(1); }
+  50% { box-shadow: 0 0 16px #ff0064, 0 0 32px rgba(100, 0, 255, 0.7), 0 0 48px rgba(255, 0, 100, 0.3); transform: scale(1.15); }
+}
+
+@keyframes omnistrike-pulse {
+  0%, 100% { opacity: 0.5; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.1); }
+}
+
 /* === Skin Effects === */
 .skin-silver .body {
   filter: saturate(0.1) brightness(1.6);

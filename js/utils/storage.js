@@ -12,7 +12,8 @@ const DEFAULT_STATE = {
     water: 0,
     cloud: 0,
     sand: 0,
-    fire: 0
+    fire: 0,
+    dino: 0
   },
   monsters: [],
   activeMonsterIndex: -1,
@@ -33,12 +34,14 @@ const DEFAULT_STATE = {
     progress: {},
     claimed: []
   },
+  redeemedCodes: [],
   worldProgress: {
     earth: 0,
     water: 0,
     cloud: 0,
     sand: 0,
-    fire: 0
+    fire: 0,
+    primeval: 0
   }
 };
 

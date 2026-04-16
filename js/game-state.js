@@ -1,6 +1,7 @@
 import { loadGame, saveGame } from './utils/storage.js';
 import { getMonsterById } from './data/monsters.js';
 import { getDailyChallenges } from './data/challenges.js';
+import { getCode } from './data/codes.js';
 
 class GameState {
   constructor() {
@@ -44,7 +45,7 @@ class GameState {
 
   get totalElementalEggs() {
     const e = this.data.elementalEggs;
-    return e.earth + e.water + e.cloud + e.sand + e.fire;
+    return e.earth + e.water + e.cloud + e.sand + e.fire + (e.dino || 0);
   }
 
   getElementalEggCount(element) {
@@ -265,6 +266,8 @@ class GameState {
   }
 
   isWorldUnlocked(worldId) {
+    // Event worlds are always unlocked
+    if (worldId === 'primeval') return true;
     const order = ['earth', 'water', 'cloud', 'sand', 'fire'];
     const idx = order.indexOf(worldId);
     if (idx === 0) return true;
@@ -408,6 +411,46 @@ class GameState {
     this.addGems(gems);
     this.save();
     return true;
+  }
+
+  // --- Code Redemption ---
+  isCodeRedeemed(code) {
+    return (this.data.redeemedCodes || []).includes(code.toUpperCase());
+  }
+
+  redeemCode(code) {
+    const upper = code.toUpperCase();
+    if (this.isCodeRedeemed(upper)) return { success: false, reason: 'already' };
+
+    const codeData = getCode(upper);
+    if (!codeData) return { success: false, reason: 'invalid' };
+
+    // Apply all rewards
+    const rewardSummary = [];
+    for (const reward of codeData.rewards) {
+      if (reward.type === 'monster') {
+        this.addMonster(reward.monsterId);
+        const monster = getMonsterById(reward.monsterId);
+        rewardSummary.push(`${monster.name} (monster)`);
+      } else if (reward.type === 'gems') {
+        this.addGems(reward.amount);
+        rewardSummary.push(`${reward.amount} gems`);
+      } else if (reward.type === 'eggs') {
+        this.addElementalEgg(reward.element, reward.amount);
+        rewardSummary.push(`${reward.amount} ${reward.element} egg(s)`);
+      } else if (reward.type === 'item') {
+        for (let i = 0; i < reward.amount; i++) {
+          this.addItem(reward.itemId);
+        }
+        rewardSummary.push(`${reward.amount}x ${reward.itemId}`);
+      }
+    }
+
+    if (!this.data.redeemedCodes) this.data.redeemedCodes = [];
+    this.data.redeemedCodes.push(upper);
+    this.save();
+
+    return { success: true, description: codeData.description, rewards: rewardSummary };
   }
 }
 

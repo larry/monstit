@@ -22,7 +22,7 @@
     <section id="screen-menu" class="screen active">
       <div class="menu-container">
         <h1 class="game-title">M<span class="eyeball-o">O</span>nstit</h1>
-        <p class="season-label">Season 1</p>
+        <p class="season-label">Season 2</p>
         <div class="player-info">
           <span class="player-level">Lv. <span id="menu-player-level">1</span></span>
           <div class="player-xp-bar">
@@ -40,6 +40,8 @@
           <button class="btn btn-minigames" data-screen="minigames">Minigames</button>
           <button class="btn btn-battle" data-screen="battle-select">Battle!</button>
           <button class="btn btn-pvp" data-screen="pvp">PvP Online</button>
+          <button class="btn btn-events" data-screen="events">Events</button>
+          <button class="btn btn-codes" data-screen="codes">Redeem Code</button>
         </nav>
       </div>
     </section>
@@ -246,6 +248,42 @@
             <button class="btn btn-primary" id="btn-pvp-result-back">Continue</button>
           </div>
         </div>
+      </div>
+    </section>
+
+    <!-- Codes Screen -->
+    <section id="screen-codes" class="screen">
+      <div class="codes-container">
+        <h2 class="codes-title">Redeem Code</h2>
+        <p class="codes-subtitle">Enter a code to claim your reward!</p>
+        <div class="code-input-row">
+          <input type="text" id="code-input" class="code-input" placeholder="ENTER CODE" maxlength="20" autocomplete="off" spellcheck="false">
+          <button class="btn btn-primary" id="btn-redeem">Redeem</button>
+        </div>
+        <div class="code-result" id="code-result" hidden></div>
+        <div class="code-reward-display" id="code-reward-display" hidden></div>
+        <button class="btn btn-back" data-screen="menu">Back</button>
+      </div>
+    </section>
+
+    <!-- Events Screen -->
+    <section id="screen-events" class="screen">
+      <div class="events-container">
+        <h2 class="events-title">Events</h2>
+        <p class="events-subtitle">Limited-time adventures!</p>
+        <div class="events-list" id="events-list">
+          <div class="event-card event-active" id="event-primeval">
+            <div class="event-banner" style="background: linear-gradient(135deg, #2e0854, #5b1a8a)">
+              <span class="event-icon">&#x1F996;</span>
+              <div class="event-info">
+                <h3 class="event-name">Time Warp</h3>
+                <p class="event-desc">Travel to prehistoric times! Battle dinosaurs across 5 levels and hatch ancient creatures.</p>
+                <span class="event-badge">Season 2</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="btn btn-back" data-screen="menu">Back</button>
       </div>
     </section>
 

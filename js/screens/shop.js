@@ -74,6 +74,7 @@ function renderInventory() {
     { label: '\u2601\uFE0F Cloud Eggs', count: gameState.getElementalEggCount('cloud') },
     { label: '\u{1F3DC}\uFE0F Sand Eggs', count: gameState.getElementalEggCount('sand') },
     { label: '\u{1F525} Fire Eggs', count: gameState.getElementalEggCount('fire') },
+    { label: '\u{1F996} Dino Eggs', count: gameState.getElementalEggCount('dino') },
     { label: 'Potions', count: gameState.getItemCount('potion') },
     { label: 'Power Boosts', count: gameState.getItemCount('power-boost') },
     { label: 'Shield Charms', count: gameState.getItemCount('shield-charm') },

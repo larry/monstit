@@ -1,10 +1,18 @@
 /* === Menu Screen === */
+#screen-menu {
+  justify-content: flex-start;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
 .menu-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 20px;
   width: 100%;
+  padding-bottom: 40px;
+  flex-shrink: 0;
 }
 
 .player-info {
@@ -27,9 +35,9 @@
 .menu-buttons {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 8px;
   width: 100%;
-  max-width: 300px;
+  max-width: 280px;
 }
 
 /* === Hatch Screen === */

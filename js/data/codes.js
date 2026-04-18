@@ -2,12 +2,6 @@
 // reward types: 'monster', 'gems', 'eggs', 'item'
 
 export const CODES = {
-  'ONESHOT': {
-    description: 'Unlocks the legendary Omnistrike monster!',
-    rewards: [
-      { type: 'monster', monsterId: 'omnistrike' }
-    ]
-  },
   'GEMS500': {
     description: '500 free gems!',
     rewards: [

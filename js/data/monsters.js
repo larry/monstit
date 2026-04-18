@@ -400,18 +400,6 @@ export const MONSTERS = [
   },
   // ── Code-exclusive monsters ──
   {
-    id: 'omnistrike',
-    name: 'Omnistrike',
-    type: 'cloud',
-    rarity: 'incredible',
-    baseHp: 999,
-    baseAttack: 999,
-    baseDefense: 999,
-    description: 'A godlike entity that destroys anything in a single blow. Only the chosen may wield it.',
-    cssClass: 'monster-omnistrike',
-    codeExclusive: true
-  },
-  {
     id: 'voidwyrm',
     name: 'Voidwyrm',
     type: 'dragon',

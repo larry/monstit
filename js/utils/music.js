@@ -431,6 +431,87 @@ function schedulePrimeval(startTime) {
   return loopDur;
 }
 
+function scheduleDragon(startTime) {
+  const c = getCtx();
+  const dest = getTrackDest();
+  const bpm = 68;
+  const beat = 60 / bpm;
+  const totalBeats = 32;
+  const loopDur = totalBeats * beat;
+
+  // Soaring heroic theme — D minor (mythic / dragon-flight flavor)
+  // Phrase 1: ascent up the mountain
+  const melody1 = [
+    62, -1, 65, 67, 69, -1, 72, -1,   // D . F G A . D .
+    74, 72, 69, -1, 67, -1, 65, -1,    // E D A . G . F .
+  ];
+  // Phrase 2: triumphant peak
+  const melody2 = [
+    69, -1, 72, 74, 77, -1, 74, -1,   // A . D E G . E .
+    74, 72, 69, -1, 65, -1, 62, -1,    // E D A . F . D .
+  ];
+  const melody = [...melody1, ...melody2];
+  melody.forEach((note, i) => {
+    if (note < 0) return;
+    // Brass-like horn: triangle + sawtooth layer for edge
+    createOsc('triangle', noteFreq(note), 0.11, startTime + i * beat, beat * 0.85, dest);
+    createOsc('sawtooth', noteFreq(note), 0.04, startTime + i * beat + 0.015, beat * 0.65, dest);
+  });
+
+  // Counter-melody — flute-like, evokes wind over peaks
+  const counter = [
+    -1, -1, -1, -1, 81, 79, 77, -1,
+    -1, -1, 81, -1, 77, -1, -1, -1,
+    -1, -1, -1, -1, 84, 82, 81, -1,
+    79, -1, 77, -1, 74, -1, -1, -1,
+  ];
+  counter.forEach((note, i) => {
+    if (note < 0) return;
+    createOsc('sine', noteFreq(note), 0.05, startTime + i * beat, beat * 0.6, dest);
+  });
+
+  // Deep dragon-breath bass — slow and menacing
+  const bass = [
+    38, -1, -1, 38, -1, -1, 38, -1,
+    36, -1, -1, 36, -1, -1, 37, -1,
+    38, -1, -1, 38, -1, -1, 41, -1,
+    38, -1, -1, 36, -1, -1, 37, -1,
+  ];
+  bass.forEach((note, i) => {
+    if (note < 0) return;
+    createOsc('sine', noteFreq(note), 0.15, startTime + i * beat, beat * 1.3, dest);
+    createOsc('sine', noteFreq(note - 12), 0.09, startTime + i * beat, beat * 1.1, dest);
+  });
+
+  // Orchestral pads — heroic minor progression
+  const chords = [
+    { notes: [50, 53, 57, 62], start: 0, dur: 4 },   // Dm
+    { notes: [48, 52, 55, 60], start: 4, dur: 4 },   // C
+    { notes: [53, 57, 60, 65], start: 8, dur: 4 },   // F
+    { notes: [49, 53, 57, 62], start: 12, dur: 4 },  // Dm/C#
+    { notes: [50, 53, 57, 62], start: 16, dur: 4 },  // Dm
+    { notes: [55, 58, 62, 67], start: 20, dur: 4 },  // Gm (tension)
+    { notes: [53, 57, 60, 65], start: 24, dur: 4 },  // F
+    { notes: [50, 53, 57, 62], start: 28, dur: 4 },  // Dm (resolve)
+  ];
+  chords.forEach(ch => {
+    ch.notes.forEach(n => {
+      createPad(noteFreq(n), 0.035, startTime + ch.start * beat, ch.dur * beat, dest);
+      createPad(noteFreq(n + 12), 0.012, startTime + ch.start * beat + 0.15, ch.dur * beat - 0.15, dest);
+    });
+  });
+
+  // Timpani + cymbal-like hits on the grand beats
+  const timpani = [0, -1, -1, -1, 4, -1, -1, -1, 8, -1, -1, -1, 12, -1, 15, -1,
+                   16, -1, -1, -1, 20, -1, -1, -1, 24, -1, -1, -1, 28, -1, 31, -1];
+  timpani.forEach((hit, i) => {
+    if (hit < 0) return;
+    createOsc('sine', noteFreq(33), 0.09, startTime + i * beat, beat * 0.25, dest);
+  });
+
+  return loopDur;
+}
+
 // ============= TRACK MAP =============
 
 const TRACKS = {
@@ -441,6 +522,7 @@ const TRACKS = {
   sand: scheduleSand,
   fire: scheduleFire,
   primeval: schedulePrimeval,
+  dragon: scheduleDragon,
   battle: scheduleBattle,
 };
 

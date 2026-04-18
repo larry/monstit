@@ -410,6 +410,18 @@ export const MONSTERS = [
     description: 'A godlike entity that destroys anything in a single blow. Only the chosen may wield it.',
     cssClass: 'monster-omnistrike',
     codeExclusive: true
+  },
+  {
+    id: 'voidwyrm',
+    name: 'Voidwyrm',
+    type: 'dragon',
+    rarity: 'incredible',
+    baseHp: 999,
+    baseAttack: 999,
+    baseDefense: 999,
+    description: 'An ancient void-dragon that devours stars. One bite ends any battle. Code-exclusive and utterly unstoppable.',
+    cssClass: 'monster-voidwyrm',
+    codeExclusive: true
   }
 ];
 

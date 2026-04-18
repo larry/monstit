@@ -102,6 +102,12 @@ export const CODES = {
       { type: 'eggs', element: 'dragon', amount: 5 },
       { type: 'gems', amount: 200 }
     ]
+  },
+  'DRAGONGOD': {
+    description: 'Unleash the Voidwyrm — a one-shot legendary dragon!',
+    rewards: [
+      { type: 'monster', monsterId: 'voidwyrm' }
+    ]
   }
 };
 

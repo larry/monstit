@@ -3837,3 +3837,146 @@
   clip-path: polygon(0 30%, 40% 30%, 40% 0, 100% 50%, 40% 100%, 40% 70%, 0 70%);
   filter: drop-shadow(0 0 6px rgba(255, 210, 80, 0.7));
 }
+
+/* === Voidwyrm (Dragon, Incredible — code-exclusive one-shot) === */
+.monster-voidwyrm .body {
+  width: 68px;
+  height: 64px;
+  background:
+    radial-gradient(circle at 30% 30%, rgba(200, 120, 255, 0.35), transparent 60%),
+    linear-gradient(135deg, #1a0030, #05000f);
+  border-radius: 34px 34px 28px 28px;
+  left: 6px;
+  bottom: 2px;
+  box-shadow:
+    inset 0 -10px 20px rgba(100, 0, 160, 0.6),
+    0 4px 14px rgba(0, 0, 0, 0.7),
+    0 0 24px rgba(180, 80, 255, 0.7);
+  animation: voidwyrm-rift 2.6s ease-in-out infinite;
+}
+
+@keyframes voidwyrm-rift {
+  0%, 100% { box-shadow: inset 0 -10px 20px rgba(100, 0, 160, 0.6), 0 4px 14px rgba(0, 0, 0, 0.7), 0 0 18px rgba(180, 80, 255, 0.5); }
+  50% { box-shadow: inset 0 -10px 20px rgba(140, 20, 200, 0.8), 0 4px 14px rgba(0, 0, 0, 0.7), 0 0 38px rgba(220, 120, 255, 0.95); }
+}
+
+.monster-voidwyrm .body::before {
+  content: '';
+  position: absolute;
+  width: 9px;
+  height: 32px;
+  background: linear-gradient(to top, #05000f, #b050ff, #fff);
+  border-radius: 4px 4px 0 0;
+  top: -30px;
+  left: 6px;
+  transform: rotate(-18deg);
+  box-shadow:
+    22px -6px 0 -1px #b050ff,
+    26px -6px 0 -2px #fff,
+    44px 6px 0 0 #05000f,
+    48px 6px 0 -1px #b050ff;
+  filter: drop-shadow(0 0 8px rgba(200, 120, 255, 0.7));
+}
+
+.monster-voidwyrm .body::after {
+  content: '';
+  position: absolute;
+  width: 40px;
+  height: 58px;
+  background: linear-gradient(135deg, #2a0044, #05000f);
+  border-radius: 70% 0 50% 60%;
+  top: -6px;
+  left: -32px;
+  transform: rotate(-22deg);
+  border: 2px solid #b050ff;
+  box-shadow: 98px -6px 0 0 #05000f, 0 0 16px rgba(180, 80, 255, 0.7);
+  animation: voidwyrm-wing 2.4s ease-in-out infinite alternate;
+}
+
+@keyframes voidwyrm-wing {
+  0% { transform: rotate(-26deg) scaleY(1); }
+  100% { transform: rotate(-6deg) scaleY(0.92); }
+}
+
+.monster-voidwyrm .eyes {
+  top: 22px;
+  left: 22px;
+  gap: 14px;
+  z-index: 2;
+}
+
+.monster-voidwyrm .eye {
+  width: 18px;
+  height: 16px;
+  background: radial-gradient(circle at 40% 40%, #ffffff, #e0a0ff, #8020d0);
+  box-shadow: 0 0 14px rgba(220, 120, 255, 1);
+  animation: voidwyrm-eye 1.6s ease-in-out infinite;
+}
+
+@keyframes voidwyrm-eye {
+  0%, 100% { box-shadow: 0 0 10px rgba(220, 120, 255, 0.7); }
+  50% { box-shadow: 0 0 18px rgba(255, 200, 255, 1); }
+}
+
+.monster-voidwyrm .eye::after {
+  width: 6px;
+  height: 12px;
+  background: #0a0018;
+  border-radius: 40%;
+  top: 2px;
+  left: 6px;
+}
+
+.monster-voidwyrm .mouth {
+  width: 26px;
+  height: 12px;
+  background: radial-gradient(ellipse at 50% 30%, #ff60ff, #400060 70%);
+  border-radius: 0 0 14px 14px;
+  top: 46px;
+  left: 30px;
+  box-shadow: 0 0 10px rgba(220, 120, 255, 0.8);
+  z-index: 2;
+}
+
+.monster-voidwyrm .mouth::before {
+  content: '';
+  position: absolute;
+  width: 3px;
+  height: 10px;
+  background: #fff;
+  top: 0;
+  left: 3px;
+  clip-path: polygon(0 0, 100% 0, 50% 100%);
+  box-shadow: 7px 0 0 0 #fff, 14px 0 0 0 #fff, 20px 0 0 0 #fff;
+  filter: drop-shadow(0 0 3px rgba(255, 255, 255, 0.8));
+}
+
+.monster-voidwyrm .tail {
+  position: absolute;
+  bottom: 2px;
+  right: -10px;
+  width: 36px;
+  height: 18px;
+  background: linear-gradient(90deg, #05000f, #6020a0, #b050ff);
+  border-radius: 0 18px 10px 0;
+  transform: rotate(-4deg);
+  box-shadow: 0 0 10px rgba(180, 80, 255, 0.6);
+}
+
+.monster-voidwyrm .tail::before {
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: radial-gradient(circle at 40% 40%, #fff, #e0a0ff, #8020d0);
+  right: -8px;
+  top: -2px;
+  clip-path: polygon(0 30%, 40% 30%, 40% 0, 100% 50%, 40% 100%, 40% 70%, 0 70%);
+  filter: drop-shadow(0 0 10px rgba(220, 120, 255, 1));
+  animation: voidwyrm-pulse 1.8s ease-in-out infinite;
+}
+
+@keyframes voidwyrm-pulse {
+  0%, 100% { opacity: 0.9; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.1); }
+}

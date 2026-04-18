@@ -267,7 +267,7 @@ class GameState {
 
   isWorldUnlocked(worldId) {
     // Event worlds are always unlocked
-    if (worldId === 'primeval') return true;
+    if (worldId === 'primeval' || worldId === 'dragon') return true;
     const order = ['earth', 'water', 'cloud', 'sand', 'fire'];
     const idx = order.indexOf(worldId);
     if (idx === 0) return true;

@@ -21,6 +21,7 @@
   --type-cloud: #b8c0ff;
   --type-sand: #e0a458;
   --type-dino: #9b4ace;
+  --type-dragon: #1fb874;
 
   /* Rarity colors */
   --rarity-common: #a0a0b0;
@@ -215,6 +216,7 @@ h1, h2, h3 {
 .type-cloud { background: var(--type-cloud); color: #1a1a2e; }
 .type-sand { background: var(--type-sand); color: #1a1a2e; }
 .type-dino { background: var(--type-dino); }
+.type-dragon { background: var(--type-dragon); }
 
 .rarity-badge {
   font-weight: 700;

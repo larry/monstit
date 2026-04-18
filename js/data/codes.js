@@ -95,6 +95,13 @@ export const CODES = {
       { type: 'eggs', element: 'dino', amount: 5 },
       { type: 'gems', amount: 200 }
     ]
+  },
+  'DRAGONHOARD': {
+    description: 'A treasure trove of Dragon eggs from the Peak!',
+    rewards: [
+      { type: 'eggs', element: 'dragon', amount: 5 },
+      { type: 'gems', amount: 200 }
+    ]
   }
 };
 

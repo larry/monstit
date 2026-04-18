@@ -54,6 +54,15 @@ export const SHOP_ITEMS = [
     eggType: 'dino'
   },
   {
+    id: 'dragon-egg',
+    name: 'Dragon Egg',
+    cost: 20,
+    description: 'Hatches a legendary Dragon-type monster!',
+    icon: '\u{1F409}',
+    type: 'egg',
+    eggType: 'dragon'
+  },
+  {
     id: 'potion',
     name: 'Potion',
     cost: 8,

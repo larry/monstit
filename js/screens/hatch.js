@@ -10,7 +10,8 @@ const EGG_TYPES = [
   { id: 'cloud', name: 'Cloud', icon: '\u2601\uFE0F', topColor: '#b8c0ff', bottomColor: '#8a92d0' },
   { id: 'sand', name: 'Sand', icon: '\u{1F3DC}\uFE0F', topColor: '#e0a458', bottomColor: '#c4893a' },
   { id: 'fire', name: 'Fire', icon: '\u{1F525}', topColor: '#ff6b35', bottomColor: '#d4421e' },
-  { id: 'dino', name: 'Dino', icon: '\u{1F996}', topColor: '#9b4ace', bottomColor: '#6b1a8a' }
+  { id: 'dino', name: 'Dino', icon: '\u{1F996}', topColor: '#9b4ace', bottomColor: '#6b1a8a' },
+  { id: 'dragon', name: 'Dragon', icon: '\u{1F409}', topColor: '#1fb874', bottomColor: '#0a5a3c' }
 ];
 
 export function init(nav) {

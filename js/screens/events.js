@@ -8,6 +8,10 @@ export function init(nav) {
   document.getElementById('event-primeval').addEventListener('click', () => {
     navigateTo('battle-select');
   });
+
+  document.getElementById('event-dragon').addEventListener('click', () => {
+    navigateTo('battle-select');
+  });
 }
 
 export function enter() {}

@@ -13,7 +13,8 @@ const DEFAULT_STATE = {
     cloud: 0,
     sand: 0,
     fire: 0,
-    dino: 0
+    dino: 0,
+    dragon: 0
   },
   monsters: [],
   activeMonsterIndex: -1,
@@ -41,7 +42,8 @@ const DEFAULT_STATE = {
     cloud: 0,
     sand: 0,
     fire: 0,
-    primeval: 0
+    primeval: 0,
+    dragon: 0
   }
 };
 

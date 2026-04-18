@@ -93,6 +93,26 @@ export const WORLDS = [
       { level: 7, name: 'Meteor Crater',       aiLevel: 25, accuracy: 0.80, difficulty: 3, monsterPool: ['raptorex', 'rexomega'],               gems: 55, xp: 110 },
       { level: 8, name: 'Rex Primeval',        aiLevel: 28, accuracy: 0.88, difficulty: 3, monsterPool: ['rexomega'],                           gems: 120, xp: 250, boss: true, bossName: 'Rex Primeval', bossMonster: 'rexomega', bossCssClass: 'monster-boss-primeval', bossHpMult: 2.0, bossAtkMult: 1.6 },
     ]
+  },
+  // ── Season 3: Dragon's Peak ──
+  {
+    id: 'dragon',
+    name: "Dragon's Peak",
+    icon: '\u{1F409}',
+    color: '#1fb874',
+    bgGradient: 'linear-gradient(135deg, #0a3d2e, #051a14)',
+    description: 'Climb the mist-shrouded peak where ancient dragons hoard their gold. Only the bravest reach the summit.',
+    event: true,
+    levels: [
+      { level: 1, name: 'Foothill Nests',      aiLevel: 11, accuracy: 0.50, difficulty: 1, monsterPool: ['drakelet'],                           gems: 14, xp: 28 },
+      { level: 2, name: 'Mossy Ridge',          aiLevel: 14, accuracy: 0.55, difficulty: 2, monsterPool: ['drakelet', 'frostwyrm'],              gems: 18, xp: 38 },
+      { level: 3, name: 'Frozen Pass',          aiLevel: 17, accuracy: 0.60, difficulty: 2, monsterPool: ['frostwyrm', 'drakelet'],              gems: 24, xp: 48 },
+      { level: 4, name: 'Venom Hollows',        aiLevel: 19, accuracy: 0.65, difficulty: 2, monsterPool: ['frostwyrm', 'venomscale'],            gems: 28, xp: 58 },
+      { level: 5, name: 'Scaled Gauntlet',      aiLevel: 21, accuracy: 0.70, difficulty: 3, monsterPool: ['venomscale', 'frostwyrm'],            gems: 34, xp: 70 },
+      { level: 6, name: 'Thunder Crags',        aiLevel: 23, accuracy: 0.75, difficulty: 3, monsterPool: ['venomscale', 'stormwing'],            gems: 44, xp: 85 },
+      { level: 7, name: 'Cloudspire Aerie',     aiLevel: 26, accuracy: 0.80, difficulty: 3, monsterPool: ['stormwing', 'venomscale'],            gems: 60, xp: 120 },
+      { level: 8, name: 'Apex Summit',          aiLevel: 30, accuracy: 0.88, difficulty: 3, monsterPool: ['apexdracos'],                         gems: 140, xp: 280, boss: true, bossName: 'Apexdracos', bossMonster: 'apexdracos', bossCssClass: 'monster-boss-dragon', bossHpMult: 2.0, bossAtkMult: 1.6 },
+    ]
   }
 ];
 

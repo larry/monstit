@@ -341,6 +341,63 @@ export const MONSTERS = [
     description: 'The undisputed king of all dinosaurs. Its roar shakes the primeval world.',
     cssClass: 'monster-rexomega'
   },
+
+  // ── Dragon monsters (Season 3: Dragon's Peak) ──
+  {
+    id: 'drakelet',
+    name: 'Drakelet',
+    type: 'dragon',
+    rarity: 'common',
+    baseHp: 90,
+    baseAttack: 14,
+    baseDefense: 11,
+    description: 'A tiny hatchling dragon with stubby wings and more sparkle than sense.',
+    cssClass: 'monster-drakelet'
+  },
+  {
+    id: 'frostwyrm',
+    name: 'Frostwyrm',
+    type: 'dragon',
+    rarity: 'rare',
+    baseHp: 120,
+    baseAttack: 16,
+    baseDefense: 18,
+    description: 'A serpentine dragon that breathes a freezing mist. Its scales shimmer like glacier ice.',
+    cssClass: 'monster-frostwyrm'
+  },
+  {
+    id: 'venomscale',
+    name: 'Venomscale',
+    type: 'dragon',
+    rarity: 'epic',
+    baseHp: 135,
+    baseAttack: 22,
+    baseDefense: 17,
+    description: 'A jade wyvern whose fangs drip a corrosive poison. It stalks the valley shadows.',
+    cssClass: 'monster-venomscale'
+  },
+  {
+    id: 'stormwing',
+    name: 'Stormwing',
+    type: 'dragon',
+    rarity: 'legendary',
+    baseHp: 155,
+    baseAttack: 26,
+    baseDefense: 17,
+    description: 'Lightning crackles along its wings. A single beat shatters the sky into thunder.',
+    cssClass: 'monster-stormwing'
+  },
+  {
+    id: 'apexdracos',
+    name: 'Apexdracos',
+    type: 'dragon',
+    rarity: 'incredible',
+    baseHp: 190,
+    baseAttack: 30,
+    baseDefense: 22,
+    description: 'The ancient lord of Dragon\'s Peak. Gold-plated and older than the mountains themselves.',
+    cssClass: 'monster-apexdracos'
+  },
   // ── Code-exclusive monsters ──
   {
     id: 'omnistrike',

@@ -45,7 +45,7 @@ class GameState {
 
   get totalElementalEggs() {
     const e = this.data.elementalEggs;
-    return e.earth + e.water + e.cloud + e.sand + e.fire + (e.dino || 0);
+    return e.earth + e.water + e.cloud + e.sand + e.fire + (e.dino || 0) + (e.dragon || 0);
   }
 
   getElementalEggCount(element) {

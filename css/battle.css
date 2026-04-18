@@ -428,6 +428,94 @@
   z-index: 0;
 }
 
+/* --- Dragon's Peak: misty mountain summit --- */
+.battle-field--dragon {
+  position: relative;
+  background: linear-gradient(180deg, #1a2540 0%, #2a3a5c 25%, #3a5078 50%, #1a3520 80%, #0a2010 100%);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.world-decor--dragon {
+  border-bottom: 5px solid #0a1a10;
+  background:
+    /* Ground mist */
+    linear-gradient(0deg, rgba(200, 220, 255, 0.12) 0%, transparent 25%),
+    /* Sky haze */
+    linear-gradient(180deg, rgba(220, 230, 255, 0.15) 0%, transparent 22%);
+}
+
+/* Left jagged peak */
+.world-decor--dragon::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 38%;
+  height: 100%;
+  background:
+    linear-gradient(135deg, transparent 0%, transparent 55%, #3a5068 55%, #2a3a4e 72%, #1a2638 100%);
+  clip-path: polygon(0 100%, 0 45%, 12% 28%, 28% 38%, 42% 20%, 58% 34%, 72% 22%, 100% 40%, 100% 100%);
+}
+
+/* Right jagged peak — taller, with gold glint */
+.world-decor--dragon::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 42%;
+  height: 100%;
+  background:
+    radial-gradient(circle 4px at 70% 42%, #ffd166 0%, #ffd166 45%, transparent 46%),
+    radial-gradient(circle 3px at 55% 56%, #ffd166 0%, #ffd166 45%, transparent 46%),
+    linear-gradient(225deg, transparent 0%, transparent 55%, #3a5068 55%, #2a3a4e 72%, #1a2638 100%);
+  clip-path: polygon(100% 100%, 100% 35%, 85% 18%, 68% 30%, 52% 14%, 36% 28%, 22% 16%, 0 38%, 0 100%);
+}
+
+/* Floating embers / dragon sparks */
+@keyframes dragon-ember {
+  0% { transform: translate(0, 0) scale(1); opacity: 0; }
+  20% { opacity: 0.9; }
+  60% { opacity: 0.7; }
+  100% { transform: translate(-20px, -90px) scale(0.4); opacity: 0; }
+}
+
+@keyframes dragon-ember2 {
+  0% { transform: translate(0, 0) scale(1); opacity: 0; }
+  30% { opacity: 0.8; }
+  70% { opacity: 0.5; }
+  100% { transform: translate(25px, -70px) scale(0.5); opacity: 0; }
+}
+
+.battle-field--dragon::before {
+  content: '';
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: #ffb347;
+  box-shadow: 0 0 8px 3px rgba(255, 150, 50, 0.7);
+  bottom: 20%;
+  left: 30%;
+  animation: dragon-ember 4.5s ease-in-out infinite;
+  z-index: 0;
+}
+
+.battle-field--dragon::after {
+  content: '';
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: #ffd166;
+  box-shadow: 0 0 7px 2px rgba(255, 200, 80, 0.6);
+  bottom: 40%;
+  right: 28%;
+  animation: dragon-ember2 5.5s ease-in-out 1.5s infinite;
+  z-index: 0;
+}
+
 /* === Quiz Panel === */
 .battle-actions {
   min-height: 200px;

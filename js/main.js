@@ -14,6 +14,7 @@ import * as minigamesScreen from './screens/minigames.js';
 import * as ctfScreen from './screens/ctf.js';
 import * as towerDefenseScreen from './screens/tower-defense.js';
 import * as tradingScreen from './screens/trading.js';
+import * as monsterLabScreen from './screens/monster-lab.js';
 import { playTrack, stopTrack, getMusicEnabled, setMusicEnabled } from './utils/music.js';
 import { QuestionBank } from './data/questions.js';
 
@@ -34,6 +35,7 @@ const screens = {
   ctf: { el: null, module: ctfScreen },
   'tower-defense': { el: null, module: towerDefenseScreen },
   trading: { el: null, module: tradingScreen },
+  'monster-lab': { el: null, module: monsterLabScreen },
   result: { el: null, module: null }
 };
 
@@ -55,6 +57,7 @@ const SCREEN_MUSIC = {
   ctf: 'battle',
   'tower-defense': 'battle',
   trading: 'menu',
+  'monster-lab': 'menu',
   result: null // keeps whatever was playing
 };
 
@@ -138,6 +141,7 @@ async function init() {
   ctfScreen.init(navigateTo);
   towerDefenseScreen.init(navigateTo);
   tradingScreen.init(navigateTo);
+  monsterLabScreen.init(navigateTo);
 
   // Wire up all data-screen buttons
   document.querySelectorAll('[data-screen]').forEach(btn => {

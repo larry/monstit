@@ -43,7 +43,7 @@ function renderCollection() {
       card.classList.add('active-monster');
     }
 
-    const sprite = createMonsterSprite(base.cssClass);
+    const sprite = createMonsterSprite(base);
     sprite.classList.add('card-sprite');
     sprite.style.width = '60px';
     sprite.style.height = '60px';
@@ -100,7 +100,7 @@ function openModal(monsterIndex) {
   // Sprite
   const spriteContainer = $('#modal-sprite');
   spriteContainer.innerHTML = '';
-  const sprite = createMonsterSprite(base.cssClass);
+  const sprite = createMonsterSprite(base);
   if (owned.activeSkin && owned.activeSkin !== 'default') {
     sprite.classList.add(`skin-${owned.activeSkin}`);
   }
@@ -157,7 +157,7 @@ function renderSkins(monsterIndex) {
     previewWrap.style.justifyContent = 'center';
     previewWrap.style.overflow = 'visible';
 
-    const preview = createMonsterSprite(base.cssClass);
+    const preview = createMonsterSprite(base);
     preview.style.transform = 'scale(0.8)';
     preview.style.transformOrigin = 'center center';
     if (skin.id !== 'default') {

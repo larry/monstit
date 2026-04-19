@@ -3135,6 +3135,115 @@
    CODE-EXCLUSIVE MONSTERS
    ============================================================ */
 
+/* === Custom lab-built monsters (color-swappable via CSS vars) === */
+.monster-custom {
+  --custom-body: #7a4dff;
+  --custom-eye: #ffd84c;
+}
+
+.monster-custom .body {
+  width: 54px;
+  height: 50px;
+  background:
+    radial-gradient(circle at 30% 30%, rgba(255,255,255,0.18), transparent 60%),
+    linear-gradient(135deg, var(--custom-body), color-mix(in srgb, var(--custom-body) 60%, #000));
+  border-radius: 28px 28px 22px 22px;
+  left: 13px;
+  bottom: 2px;
+  box-shadow: inset 0 -8px 12px rgba(0, 0, 0, 0.25), 0 3px 8px rgba(0, 0, 0, 0.4);
+  animation: custom-bob 1.6s ease-in-out infinite;
+}
+
+@keyframes custom-bob {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-3px); }
+}
+
+.monster-custom .body::before {
+  content: '';
+  position: absolute;
+  width: 14px;
+  height: 16px;
+  background: color-mix(in srgb, var(--custom-body) 70%, #000);
+  border-radius: 50% 10% 50% 50%;
+  top: 6px;
+  left: -10px;
+  transform: rotate(-20deg);
+  box-shadow: 60px 0 0 0 color-mix(in srgb, var(--custom-body) 70%, #000);
+  animation: custom-flap 1s ease-in-out infinite alternate;
+}
+
+@keyframes custom-flap {
+  0% { transform: rotate(-22deg); }
+  100% { transform: rotate(-6deg); }
+}
+
+.monster-custom .body::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  height: 12px;
+  background: color-mix(in srgb, var(--custom-body) 40%, #fff);
+  border-radius: 3px 3px 1px 1px;
+  top: -10px;
+  left: 14px;
+  transform: rotate(-12deg);
+  box-shadow: 20px 2px 0 -1px color-mix(in srgb, var(--custom-body) 40%, #fff);
+}
+
+.monster-custom .eyes {
+  top: 18px;
+  left: 20px;
+  gap: 10px;
+}
+
+.monster-custom .eye {
+  width: 14px;
+  height: 14px;
+  background: radial-gradient(circle at 40% 40%, #fff, var(--custom-eye));
+  box-shadow: 0 0 5px color-mix(in srgb, var(--custom-eye) 80%, transparent);
+}
+
+.monster-custom .eye::after {
+  width: 6px;
+  height: 6px;
+  background: #1a1a2e;
+  top: 4px;
+  left: 4px;
+}
+
+.monster-custom .mouth {
+  width: 12px;
+  height: 5px;
+  background: color-mix(in srgb, var(--custom-body) 30%, #000);
+  border-radius: 0 0 6px 6px;
+  top: 36px;
+  left: 34px;
+}
+
+.monster-custom .tail {
+  position: absolute;
+  bottom: 2px;
+  right: -2px;
+  width: 22px;
+  height: 12px;
+  background: linear-gradient(90deg, color-mix(in srgb, var(--custom-body) 60%, #000), var(--custom-body));
+  border-radius: 0 12px 8px 0;
+  transform: rotate(-6deg);
+}
+
+.monster-custom .tail::before {
+  content: '';
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: var(--custom-eye);
+  border-radius: 50%;
+  right: -3px;
+  top: 1px;
+  box-shadow: 0 0 5px color-mix(in srgb, var(--custom-eye) 70%, transparent);
+}
+
 /* === Skin Effects === */
 .skin-silver .body {
   filter: saturate(0.1) brightness(1.6);

@@ -55,7 +55,7 @@ function renderSetup() {
   $('#pvp-p-level').textContent = `Lv.${myMonster.level}`;
   const pSlot = $('#pvp-p-sprite');
   pSlot.innerHTML = '';
-  const pSprite = createMonsterSprite(myMonster.cssClass);
+  const pSprite = createMonsterSprite(myMonster);
   const pvpOwned = gameState.activeMonster;
   if (pvpOwned && pvpOwned.activeSkin && pvpOwned.activeSkin !== 'default') {
     pSprite.classList.add(`skin-${pvpOwned.activeSkin}`);
@@ -67,7 +67,7 @@ function renderSetup() {
   $('#pvp-o-level').textContent = `Lv.${oppMonster.level}`;
   const oSlot = $('#pvp-o-sprite');
   oSlot.innerHTML = '';
-  oSlot.appendChild(createMonsterSprite(oppMonster.cssClass));
+  oSlot.appendChild(createMonsterSprite(oppMonster));
 
   updateHp(myMonster.currentHp, myMonster.hp, oppMonster.currentHp, oppMonster.hp);
   $('#pvp-timer').textContent = '';

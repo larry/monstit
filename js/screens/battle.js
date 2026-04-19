@@ -69,7 +69,7 @@ function renderBattleSetup() {
   $('#player-level').textContent = `Lv.${battleState.player.level}`;
   const playerSlot = $('#player-sprite');
   playerSlot.innerHTML = '';
-  const playerSprite = createMonsterSprite(battleState.player.cssClass);
+  const playerSprite = createMonsterSprite(battleState.player);
   const activeOwned = gameState.activeMonster;
   if (activeOwned && activeOwned.activeSkin && activeOwned.activeSkin !== 'default') {
     playerSprite.classList.add(`skin-${activeOwned.activeSkin}`);
@@ -82,7 +82,7 @@ function renderBattleSetup() {
   $('#opponent-level').textContent = currentLevelData.boss ? 'BOSS' : `Lv.${battleState.opponent.level}`;
   const opponentSlot = $('#opponent-sprite');
   opponentSlot.innerHTML = '';
-  const opponentSprite = createMonsterSprite(battleState.opponent.cssClass);
+  const opponentSprite = createMonsterSprite(battleState.opponent);
   if (currentLevelData.boss) {
     opponentSlot.classList.add('boss-slot');
     opponentSprite.classList.add('boss-monster');

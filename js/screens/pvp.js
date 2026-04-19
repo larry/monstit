@@ -152,7 +152,7 @@ function renderMonsterSelect() {
     card.className = 'monster-card';
     if (index === gameState.activeMonsterIndex) card.classList.add('active-monster');
 
-    const sprite = createMonsterSprite(base.cssClass);
+    const sprite = createMonsterSprite(base);
     sprite.style.transform = 'scale(0.65)';
     sprite.style.width = '60px';
     sprite.style.height = '60px';

@@ -1,13 +1,43 @@
 import { loadGame, saveGame } from './utils/storage.js';
-import { getMonsterById } from './data/monsters.js';
+import { getMonsterById, registerCustomMonster } from './data/monsters.js';
 import { getDailyChallenges } from './data/challenges.js';
 import { getCode } from './data/codes.js';
 
 class GameState {
   constructor() {
     this.data = loadGame();
+    this.registerCustomMonsters();
     this.cleanInvalidMonsters();
     this.handleFirstVisit();
+  }
+
+  registerCustomMonsters() {
+    for (const def of this.data.customMonsters || []) {
+      registerCustomMonster(def);
+    }
+  }
+
+  createCustomMonster({ name, type, baseHp, baseAttack, baseDefense, bodyColor, eyeColor }) {
+    const id = `custom-${Date.now()}-${Math.floor(Math.random() * 1000)}`;
+    const def = {
+      id,
+      name,
+      type,
+      rarity: 'custom',
+      baseHp,
+      baseAttack,
+      baseDefense,
+      description: 'A one-of-a-kind monster forged in the Monster Lab.',
+      cssClass: 'monster-custom',
+      bodyColor,
+      eyeColor,
+      custom: true,
+      codeExclusive: true
+    };
+    this.data.customMonsters.push(def);
+    registerCustomMonster(def);
+    this.save();
+    return def;
   }
 
   cleanInvalidMonsters() {

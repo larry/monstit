@@ -29,6 +29,7 @@
   --rarity-epic: #c44cff;
   --rarity-legendary: #ffd60a;
   --rarity-incredible: #ff3030;
+  --rarity-custom: #39d98a;
 
   /* UI */
   --radius: 12px;
@@ -229,6 +230,7 @@ h1, h2, h3 {
 .rarity-epic { color: var(--rarity-epic); text-shadow: 0 0 8px var(--rarity-epic); }
 .rarity-legendary { color: var(--rarity-legendary); text-shadow: 0 0 10px var(--rarity-legendary); }
 .rarity-incredible { color: var(--rarity-incredible); text-shadow: 0 0 14px var(--rarity-incredible), 0 0 28px var(--rarity-incredible); }
+.rarity-custom { color: var(--rarity-custom); text-shadow: 0 0 8px var(--rarity-custom); }
 
 /* === Icons === */
 .gem-icon::before {

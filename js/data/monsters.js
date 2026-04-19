@@ -429,8 +429,18 @@ export const RARE_EGG_WEIGHTS = {
   incredible: 10
 };
 
+const CUSTOM_MONSTERS = new Map();
+
+export function registerCustomMonster(def) {
+  CUSTOM_MONSTERS.set(def.id, def);
+}
+
+export function unregisterCustomMonster(id) {
+  CUSTOM_MONSTERS.delete(id);
+}
+
 export function getMonsterById(id) {
-  return MONSTERS.find(m => m.id === id);
+  return MONSTERS.find(m => m.id === id) || CUSTOM_MONSTERS.get(id);
 }
 
 export function getMonstersByRarity(rarity) {

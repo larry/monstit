@@ -37,8 +37,10 @@ export function wait(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
 
-export function createMonsterSprite(cssClass) {
+export function createMonsterSprite(cssClassOrBase) {
   const el = document.createElement('div');
+  const isObj = typeof cssClassOrBase === 'object' && cssClassOrBase !== null;
+  const cssClass = isObj ? cssClassOrBase.cssClass : cssClassOrBase;
   el.className = `monster ${cssClass}`;
   el.innerHTML = `
     <div class="body"></div>
@@ -46,5 +48,11 @@ export function createMonsterSprite(cssClass) {
     <div class="mouth"></div>
     <div class="tail"></div>
   `;
+  if (isObj && cssClassOrBase.bodyColor) {
+    el.style.setProperty('--custom-body', cssClassOrBase.bodyColor);
+  }
+  if (isObj && cssClassOrBase.eyeColor) {
+    el.style.setProperty('--custom-eye', cssClassOrBase.eyeColor);
+  }
   return el;
 }

@@ -42,7 +42,7 @@ function renderWorldMap() {
 
   const preview = document.createElement('div');
   preview.className = 'active-monster-mini';
-  const sprite = createMonsterSprite(base.cssClass);
+  const sprite = createMonsterSprite(base);
   sprite.style.transform = 'scale(0.8)';
   if (active.activeSkin && active.activeSkin !== 'default') {
     sprite.classList.add(`skin-${active.activeSkin}`);

@@ -36,6 +36,7 @@ const DEFAULT_STATE = {
     claimed: []
   },
   redeemedCodes: [],
+  customMonsters: [],
   worldProgress: {
     earth: 0,
     water: 0,
